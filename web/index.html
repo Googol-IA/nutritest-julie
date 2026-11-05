@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NutriTest de Julie · FP Superior de Dietética</title>
+  <meta name="description" content="Tests de estudio para el FP Superior de Dietética, hechos para Julie y sus compañeras.">
+  <meta name="theme-color" content="#2f9e5b" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14201a" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="iconos/icono.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="iconos/icono-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="NutriTest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+  <header class="barra" id="barra">
+    <button class="barra-volver" id="volver" type="button" aria-label="Volver" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+    </button>
+    <div class="barra-titulo" id="barra-titulo">
+      <span class="marca">NutriTest <em>de Julie</em></span>
+      <span class="sub">FP Superior de Dietética</span>
+    </div>
+    <button class="barra-perfil" id="barra-perfil" type="button" aria-label="Cambiar de perfil" hidden></button>
+  </header>
+  <main id="principal" tabindex="-1"></main>
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

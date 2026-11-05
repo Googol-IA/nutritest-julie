@@ -1,0 +1,127 @@
+{
+  "libros": [
+    {
+      "id": "organizacion-gestion",
+      "numero": 1,
+      "nombre": "Organización y gestión de la unidad de área",
+      "corto": "Organización",
+      "prefijo": "og",
+      "icono": "📋",
+      "color": "#6b6fd6",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "alimentacion-equilibrada",
+      "numero": 2,
+      "nombre": "Alimentación equilibrada",
+      "corto": "Alim. equilibrada",
+      "prefijo": "ae",
+      "icono": "🥗",
+      "color": "#3a9d4f",
+      "estado": "activo",
+      "temas": [
+        {
+          "id": "t00",
+          "numero": 0,
+          "titulo": "Ejemplo (se borrará)",
+          "archivo": "tema-00.json",
+          "preguntas": 4
+        }
+      ]
+    },
+    {
+      "id": "dietoterapia",
+      "numero": 3,
+      "nombre": "Dietoterapia",
+      "corto": "Dietoterapia",
+      "prefijo": "dt",
+      "icono": "🩺",
+      "color": "#d9573a",
+      "estado": "activo",
+      "temas": [
+        {
+          "id": "t00",
+          "numero": 0,
+          "titulo": "Ejemplo (se borrará)",
+          "archivo": "tema-00.json",
+          "preguntas": 4
+        }
+      ]
+    },
+    {
+      "id": "control-alimentario",
+      "numero": 4,
+      "nombre": "Control alimentario",
+      "corto": "Control alimentario",
+      "prefijo": "ca",
+      "icono": "🔬",
+      "color": "#1f8a9e",
+      "estado": "activo",
+      "temas": [
+        {
+          "id": "t00",
+          "numero": 0,
+          "titulo": "Ejemplo (se borrará)",
+          "archivo": "tema-00.json",
+          "preguntas": 4
+        }
+      ]
+    },
+    {
+      "id": "microbiologia-higiene",
+      "numero": 5,
+      "nombre": "Microbiología e higiene alimentaria",
+      "corto": "Microbiología",
+      "prefijo": "mh",
+      "icono": "🦠",
+      "color": "#8a5cc2",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "educacion-sanitaria",
+      "numero": 6,
+      "nombre": "Educación sanitaria",
+      "corto": "Educación sanitaria",
+      "prefijo": "es",
+      "icono": "🍎",
+      "color": "#d94a6a",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "fisiopatologia",
+      "numero": 7,
+      "nombre": "Fisiopatología aplicada a la dietética",
+      "corto": "Fisiopatología",
+      "prefijo": "fp",
+      "icono": "🫀",
+      "color": "#c2410c",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "ret",
+      "numero": 8,
+      "nombre": "Relaciones en el entorno de trabajo (RET)",
+      "corto": "RET",
+      "prefijo": "re",
+      "icono": "🤝",
+      "color": "#b8860b",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "fol",
+      "numero": 9,
+      "nombre": "Formación y orientación laboral (2627)",
+      "corto": "FOL",
+      "prefijo": "fo",
+      "icono": "💼",
+      "color": "#4a7aa8",
+      "estado": "proximamente",
+      "temas": []
+    }
+  ]
+}

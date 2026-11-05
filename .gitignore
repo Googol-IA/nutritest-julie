@@ -1,0 +1,5 @@
+# Los PDF de los libros NO se publican (derechos de autor; el repositorio es público)
+*.pdf
+Temario/
+__pycache__/
+.claude/

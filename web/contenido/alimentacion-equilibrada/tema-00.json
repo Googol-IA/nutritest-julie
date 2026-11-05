@@ -1,0 +1,40 @@
+{
+  "libro": "alimentacion-equilibrada",
+  "tema": "t00",
+  "titulo": "Ejemplo (se borrará)",
+  "fuente": "Preguntas de ejemplo para probar la web",
+  "preguntas": [
+    {
+      "id": "ae-t00-001",
+      "pregunta": "¿Cuántas kilocalorías aporta aproximadamente 1 gramo de grasa?",
+      "opciones": ["4 kcal", "7 kcal", "9 kcal", "12 kcal"],
+      "correcta": 2,
+      "explicacion": "Las grasas aportan unas 9 kcal/g, frente a las 4 kcal/g de hidratos de carbono y proteínas y las 7 kcal/g del alcohol.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t00-002",
+      "pregunta": "¿Cuál de estas vitaminas es liposoluble?",
+      "opciones": ["Vitamina C", "Vitamina D", "Vitamina B12", "Vitamina B1"],
+      "correcta": 1,
+      "explicacion": "Las vitaminas liposolubles son A, D, E y K. La C y las del grupo B son hidrosolubles.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t00-003",
+      "pregunta": "¿Cuántos aminoácidos se consideran esenciales en el adulto?",
+      "opciones": ["9", "5", "12", "20"],
+      "correcta": 0,
+      "explicacion": "Son 9: histidina, isoleucina, leucina, lisina, metionina, fenilalanina, treonina, triptófano y valina. El organismo no puede sintetizarlos.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t00-004",
+      "pregunta": "Según el «Plato para comer saludable» de Harvard, ¿qué proporción del plato deberían ocupar verduras y frutas?",
+      "opciones": ["Una cuarta parte", "Una tercera parte", "Tres cuartas partes", "La mitad"],
+      "correcta": 3,
+      "explicacion": "La mitad del plato son verduras y frutas, un cuarto cereales integrales y el otro cuarto proteína saludable.",
+      "dificultad": 1
+    }
+  ]
+}
