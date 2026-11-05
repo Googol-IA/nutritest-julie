@@ -41,11 +41,32 @@
       "estado": "activo",
       "temas": [
         {
-          "id": "t00",
-          "numero": 0,
-          "titulo": "Ejemplo (se borrará)",
-          "archivo": "tema-00.json",
-          "preguntas": 4
+          "id": "t01",
+          "numero": 1,
+          "titulo": "Fundamentos de dietoterapia y dietas hospitalarias",
+          "archivo": "tema-01.json",
+          "preguntas": 54
+        },
+        {
+          "id": "t02",
+          "numero": 2,
+          "titulo": "Dieta y salud: enfoque actual",
+          "archivo": "tema-02.json",
+          "preguntas": 32
+        },
+        {
+          "id": "t03",
+          "numero": 3,
+          "titulo": "Interacciones fármacos-nutrientes",
+          "archivo": "tema-03.json",
+          "preguntas": 51
+        },
+        {
+          "id": "t04",
+          "numero": 4,
+          "titulo": "Alergias e intolerancias alimentarias",
+          "archivo": "tema-04.json",
+          "preguntas": 54
         }
       ]
     },

@@ -1,0 +1,440 @@
+{
+  "libro": "dietoterapia",
+  "tema": "t04",
+  "titulo": "Alergias e intolerancias alimentarias",
+  "fuente": "tema 4 dieto diapo.pdf",
+  "preguntas": [
+    {
+      "id": "dt-t04-001",
+      "pregunta": "¿Qué diferencia fundamental hay entre alergia e intolerancia alimentaria?",
+      "opciones": ["La alergia es una reacción del sistema inmunitario; la intolerancia es un fallo digestivo o metabólico sin implicación inmunitaria", "La intolerancia es inmunitaria y la alergia no", "Son lo mismo con distinto nombre", "La alergia solo produce síntomas digestivos"],
+      "correcta": 0,
+      "explicacion": "Alergia: reacción inmunitaria (habitualmente IgE) frente a una proteína del alimento. Intolerancia: fallo digestivo o metabólico, como el déficit de lactasa.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-002",
+      "pregunta": "¿Cuál de estas características corresponde a la ALERGIA alimentaria?",
+      "opciones": ["Suele depender de la dosis ingerida", "Puede desencadenarse con trazas y los síntomas suelen ser rápidos", "Produce sobre todo gases y distensión", "No implica al sistema inmune"],
+      "correcta": 1,
+      "explicacion": "En la alergia bastan trazas y los síntomas son rápidos (cutáneos, respiratorios, digestivos, posible anafilaxia). La intolerancia depende de la dosis y es más lenta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-003",
+      "pregunta": "¿Cuál de estos es un ejemplo de intolerancia alimentaria?",
+      "opciones": ["Alergia al cacahuete", "Alergia al marisco", "Intolerancia a la lactosa", "Alergia al huevo"],
+      "correcta": 2,
+      "explicacion": "Intolerancias: lactosa o sorbitol. Alergias: cacahuete, huevo o marisco.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-004",
+      "pregunta": "¿Qué síntomas son más típicos de la intolerancia alimentaria?",
+      "opciones": ["Anafilaxia", "Urticaria inmediata", "Broncoespasmo", "Síntomas digestivos: gases, distensión y diarrea"],
+      "correcta": 3,
+      "explicacion": "La intolerancia produce sobre todo síntomas digestivos, de aparición más lenta y gradual.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-005",
+      "pregunta": "En la clasificación de las reacciones adversas a alimentos, las intolerancias son reacciones…",
+      "opciones": ["No tóxicas y no mediadas inmunológicamente", "Tóxicas", "No tóxicas mediadas por IgE", "Mediadas por linfocitos T"],
+      "correcta": 0,
+      "explicacion": "Reacciones adversas → tóxicas o no tóxicas. Las no tóxicas pueden ser inmunológicas (alergias, IgE o no IgE) o no inmunológicas (intolerancias: farmacológicas, enzimáticas o indeterminadas).",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-006",
+      "pregunta": "¿Qué caracteriza a la inmunidad adaptativa frente a la innata?",
+      "opciones": ["Es inespecífica y sin memoria", "Es específica, tiene memoria inmunológica y la forman linfocitos B y T", "Actúa en minutos", "La forman neutrófilos y macrófagos"],
+      "correcta": 1,
+      "explicacion": "Innata: rápida, no específica, sin memoria (neutrófilos, macrófagos, NK). Adaptativa: específica, con memoria (linfocitos B y T), más lenta en la primera respuesta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-007",
+      "pregunta": "En la alergia mediada por IgE, ¿qué células liberan histamina al reexponerse al alérgeno?",
+      "opciones": ["Neutrófilos", "Linfocitos T CD4+", "Mastocitos y basófilos", "Eritrocitos"],
+      "correcta": 2,
+      "explicacion": "La parte adaptativa produce IgE específica; en la reexposición, mastocitos y basófilos (inmunidad innata) liberan histamina.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-008",
+      "pregunta": "¿Qué ocurre en la fase de sensibilización de una alergia?",
+      "opciones": ["Aparecen síntomas graves", "Se libera histamina", "Se produce anafilaxia", "Se produce IgE específica que se une a los mastocitos, todavía sin síntomas"],
+      "correcta": 3,
+      "explicacion": "Célula dendrítica → linfocito T CD4+ → Th2 (IL-4, IL-13) → linfocito B/plasmocito produce IgE → la IgE se fija al mastocito. Aún no hay síntomas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-009",
+      "pregunta": "¿Qué interleucinas liberan los linfocitos Th2 para dirigir la respuesta alérgica?",
+      "opciones": ["IL-4 e IL-13", "IL-1 e IL-6", "IL-2 e interferón", "IL-10 e IL-12"],
+      "correcta": 0,
+      "explicacion": "Los linfocitos Th2 liberan IL-4 e IL-13, que orientan a los linfocitos B a producir IgE.",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t04-010",
+      "pregunta": "¿Qué mediadores libera el mastocito activado en una reacción alérgica?",
+      "opciones": ["Insulina y glucagón", "Histamina, leucotrienos y prostaglandinas", "IgE e IgG", "Adrenalina y cortisol"],
+      "correcta": 1,
+      "explicacion": "Producen vasodilatación, picor, moco y broncoconstricción, con síntomas en minutos.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-011",
+      "pregunta": "¿Qué reglamento obliga a declarar los 14 alérgenos en la etiqueta y a informar de ellos en hostelería?",
+      "opciones": ["Reglamento (CE) 178/2002", "Reglamento (CE) 1924/2006", "Reglamento (UE) 1169/2011", "Reglamento (UE) 2017/625"],
+      "correcta": 2,
+      "explicacion": "El Reglamento (UE) 1169/2011 obliga a señalar los 14 alérgenos en la etiqueta e informar al consumidor en hostelería.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-012",
+      "pregunta": "Una reacción alérgica que aparece en los primeros 60 minutos se denomina…",
+      "opciones": ["Subaguda", "Con tiempo de latencia", "Crónica", "Aguda"],
+      "correcta": 3,
+      "explicacion": "Aguda: 0-1 h. Subaguda: 1-6 h. Con tiempo de latencia: más de 24 h.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-013",
+      "pregunta": "¿Qué es la anafilaxia?",
+      "opciones": ["Una reacción sistémica potencialmente mortal", "Una intolerancia leve", "Un síntoma exclusivamente cutáneo", "Una prueba diagnóstica"],
+      "correcta": 0,
+      "explicacion": "La anafilaxia afecta a piel, respiración, aparato digestivo y corazón (shock). Es una urgencia vital.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-014",
+      "pregunta": "¿Cuál es el tratamiento de urgencia de la anafilaxia?",
+      "opciones": ["Antihistamínico oral y esperar", "Adrenalina intramuscular y acudir rápidamente a urgencias", "Beber mucha agua", "Tomar un antiácido"],
+      "correcta": 1,
+      "explicacion": "La anafilaxia (por cacahuete, frutos de cáscara, marisco…) se trata con adrenalina intramuscular y traslado urgente.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-015",
+      "pregunta": "¿Qué ejemplo se da de anafilaxia inducida por alimento + ejercicio?",
+      "opciones": ["Leche y lactosa", "Huevo y ovoalbúmina", "Trigo (ω-5 gliadina)", "Pescado y parvalbúmina"],
+      "correcta": 2,
+      "explicacion": "La combinación de un alimento con el ejercicio, como el trigo (ω-5 gliadina), puede desencadenar anafilaxia.",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t04-016",
+      "pregunta": "¿Cuál es el alérgeno alimentario más frecuente, sobre todo en niños?",
+      "opciones": ["El cacahuete", "El pescado", "El trigo", "Las proteínas de la leche de vaca (APLV)"],
+      "correcta": 3,
+      "explicacion": "La alergia a proteínas de leche de vaca es la más común en lactantes: afecta a un 5 %.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-017",
+      "pregunta": "¿Qué proteínas de la leche de vaca son alergénicas?",
+      "opciones": ["La caseína y las proteínas del suero (α-lactoalbúmina y β-lactoglobulina)", "Solo la lactosa", "La ovoalbúmina", "El gluten"],
+      "correcta": 0,
+      "explicacion": "Caseína, α-lactoalbúmina (termolábil) y β-lactoglobulina (termoestable). La lactosa es un azúcar, no una proteína.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-018",
+      "pregunta": "¿Cuál de estas proteínas de la leche es termoestable (resiste el calor)?",
+      "opciones": ["α-lactoalbúmina", "β-lactoglobulina", "Lactosa", "Lisozima"],
+      "correcta": 1,
+      "explicacion": "La β-lactoglobulina es termoestable; la α-lactoalbúmina es termolábil.",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t04-019",
+      "pregunta": "En un niño con APLV, ¿por qué NO se deben usar leches de cabra u oveja?",
+      "opciones": ["Porque tienen más lactosa", "Porque son más caras", "Porque sus proteínas son similares a las de la vaca (reactividad cruzada)", "Porque no tienen calcio"],
+      "correcta": 2,
+      "explicacion": "Las proteínas de la leche de cabra y oveja se parecen mucho a las de vaca y producen reactividad cruzada.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-020",
+      "pregunta": "¿Qué fórmulas se recomiendan en la APLV cuando no hay lactancia materna?",
+      "opciones": ["Leche de cabra", "Leche sin lactosa", "Leche de vaca diluida", "Fórmulas extensamente hidrolizadas, elementales (aminoácidos) o de soja"],
+      "correcta": 3,
+      "explicacion": "Se usan fórmulas sin proteína vacuna intacta: extensamente hidrolizadas (mejor de caseína), elementales con aminoácidos o de soja.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-021",
+      "pregunta": "¿Cuál de estos alimentos debe evitar una persona con APLV por contener leche oculta?",
+      "opciones": ["Salsa bechamel y embutidos comerciales", "Arroz blanco", "Fruta fresca", "Aceite de oliva"],
+      "correcta": 0,
+      "explicacion": "Hay que evitar bechamel, chocolate con leche, salchichas Frankfurt, embutidos comerciales, pan con leche, salsas, purés comerciales…",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-022",
+      "pregunta": "Un lactante con APLV que reacciona a la leche materna. ¿Qué se recomienda?",
+      "opciones": ["Retirar la lactancia materna", "Suprimir el alimento problema (leche) en la dieta de la madre", "Dar leche de cabra", "Añadir leche de vaca a la dieta"],
+      "correcta": 1,
+      "explicacion": "La leche materna es lo recomendable; si el bebé reacciona, la madre debe eliminar el alimento problema de su dieta.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-023",
+      "pregunta": "¿Qué síntomas puede producir la APLV en lactantes?",
+      "opciones": ["Solo fiebre", "Hipertensión", "Reflujo, eccema, llanto persistente, vómitos, diarrea o estreñimiento, urticaria", "Caída del pelo"],
+      "correcta": 2,
+      "explicacion": "Síntomas de APLV: ERGE, eccema, llanto persistente, diarrea/estreñimiento, palidez, vómitos, urticaria y aumento de IgE.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-024",
+      "pregunta": "¿Qué proteínas explican la reactividad cruzada entre polen, látex y frutas?",
+      "opciones": ["Caseínas", "Gliadinas", "Inmunoglobulinas", "Profilinas"],
+      "correcta": 3,
+      "explicacion": "Las profilinas están en frutas, verduras, polen y látex. Suelen ser termolábiles: cocinar puede reducir su alergenicidad.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-025",
+      "pregunta": "¿Por qué una persona alérgica a una fruta cruda puede tolerarla cocinada?",
+      "opciones": ["Porque las profilinas suelen ser termolábiles y la cocción reduce su capacidad alergénica", "Porque al cocinar se elimina el azúcar", "Porque la cocción añade antihistamínicos", "Nunca puede tolerarla"],
+      "correcta": 0,
+      "explicacion": "Las profilinas se desnaturalizan con el calor.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-026",
+      "pregunta": "¿Qué es el síndrome látex-frutas?",
+      "opciones": ["Una intolerancia a la fructosa", "La sensibilización a la profilina del látex en pacientes sensibilizados a frutas tropicales", "Una alergia al polen de gramíneas", "Una intoxicación por pesticidas"],
+      "correcta": 1,
+      "explicacion": "El síndrome látex-frutas relaciona látex y frutas tropicales; el síndrome polen-frutas se asocia a la sensibilización a pólenes de gramíneas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-027",
+      "pregunta": "¿Cuáles son las recomendaciones generales ante una alergia alimentaria?",
+      "opciones": ["Tomar antihistamínicos a diario", "Desensibilizarse comiendo el alimento", "Eliminar el alimento, sustituirlo por otros nutricionalmente similares y leer muy bien las etiquetas", "Eliminar todos los grupos de alimentos"],
+      "correcta": 2,
+      "explicacion": "Las tres recomendaciones: eliminar el alimento responsable, sustituirlo por otros similares y leer bien las etiquetas.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-028",
+      "pregunta": "Si ambos padres son atópicos, ¿qué riesgo aproximado tiene el hijo de desarrollar alergia?",
+      "opciones": ["5 %", "10 %", "20-40 %", "80 %"],
+      "correcta": 3,
+      "explicacion": "Un padre atópico: 20-40 %. Ambos padres atópicos: 80 %.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-029",
+      "pregunta": "¿Cuál de estos NO es un factor de riesgo para desarrollar alergia alimentaria?",
+      "opciones": ["El consumo de agua", "La herencia (atopia)", "La permeabilidad gastrointestinal", "Los factores ambientales"],
+      "correcta": 0,
+      "explicacion": "Factores de riesgo: herencia, exposición al alimento, permeabilidad gastrointestinal, primer trimestre de vida y factores ambientales.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-030",
+      "pregunta": "¿Cuál de estos es un tipo de intolerancia por error innato del metabolismo?",
+      "opciones": ["Déficit de lactasa", "Fenilcetonuria o galactosemia", "Intoxicación escombroide", "Síndrome del restaurante chino"],
+      "correcta": 1,
+      "explicacion": "Errores innatos: fenilcetonuria y galactosemia. El déficit de lactasa es un trastorno gastrointestinal.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-031",
+      "pregunta": "¿Qué es la intoxicación escombroide?",
+      "opciones": ["Una alergia al pescado", "Una intolerancia al gluten", "Una reacción por acumulación de histamina producida por microorganismos contaminantes", "Una reacción al aspartamo"],
+      "correcta": 2,
+      "explicacion": "Se incluye entre las intolerancias por sustancias producidas por microorganismos contaminantes: acumulación de histamina (típica de pescados mal conservados).",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-032",
+      "pregunta": "¿Cuántos tipos de reacciones no inmunológicas causan intolerancia alimentaria según el tema?",
+      "opciones": ["2", "3", "4", "6"],
+      "correcta": 3,
+      "explicacion": "Seis: trastornos gastrointestinales, errores innatos del metabolismo, reacciones psicológicas, agentes farmacológicos, aditivos y sustancias producidas por microorganismos.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-033",
+      "pregunta": "¿Con qué se asocia el glutamato monosódico?",
+      "opciones": ["El síndrome del restaurante chino", "La fenilcetonuria", "El síndrome del queso", "La dermatitis por níquel"],
+      "correcta": 0,
+      "explicacion": "El glutamato monosódico se asocia al llamado síndrome del restaurante chino.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-034",
+      "pregunta": "¿Qué reacción pueden producir los sulfitos en personas sensibles?",
+      "opciones": ["Dermatitis por contacto", "Rubor, habones e incluso shock anafiláctico", "Síndrome del restaurante chino", "Cefaleas por carnes curadas"],
+      "correcta": 1,
+      "explicacion": "Los sulfitos pueden causar rubor, habones y shock anafiláctico.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-035",
+      "pregunta": "¿Con qué se relaciona el aspartamo además de cefaleas y erupciones?",
+      "opciones": ["Con la celiaquía", "Con la galactosemia", "Con la fenilcetonuria (contiene fenilalanina)", "Con la APLV"],
+      "correcta": 2,
+      "explicacion": "El aspartamo puede causar cefaleas y erupciones y debe evitarse en la fenilcetonuria.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-036",
+      "pregunta": "En la intolerancia al níquel, ¿qué recomendación curiosa se da?",
+      "opciones": ["Beber solo agua embotellada con gas", "Evitar el pan", "Comer más chocolate", "Evitar el primer litro de agua del grifo"],
+      "correcta": 3,
+      "explicacion": "El níquel causa dermatitis; se recomienda evitar el primer litro de agua del grifo y alimentos ricos en níquel (mariscos, judías, coles, higos, piña, mijo, chocolate, frutos secos).",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t04-037",
+      "pregunta": "En la intolerancia a hongos, ¿qué alimentos deben evitarse?",
+      "opciones": ["Cerveza, quesos, fruta desecada y vinagre", "Carnes frescas", "Arroz y pasta", "Agua y zumos naturales"],
+      "correcta": 0,
+      "explicacion": "Hay que evitar alimentos fermentados o con mohos: cerveza, quesos, fruta desecada y vinagre.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-038",
+      "pregunta": "¿Cuáles son los 3 pasos del diagnóstico de una alergia alimentaria?",
+      "opciones": ["Biopsia, análisis de sangre y dieta", "Identificar el alimento, comprobar que causa respuesta adversa y verificar la participación inmunológica", "Eliminar todos los alimentos, esperar y reintroducir", "Test de hidrógeno, biopsia y PCR"],
+      "correcta": 1,
+      "explicacion": "Diagnóstico de alergia: 1) identificar el alimento, 2) demostrar que causa respuesta, 3) verificar que interviene el sistema inmune.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-039",
+      "pregunta": "¿Cuál es el orden de los 5 pasos para orientar el diagnóstico de alergia?",
+      "opciones": ["IgE → pruebas cutáneas → historia → examen → dieta", "Examen físico → IgE → historia → dieta → pruebas cutáneas", "Historia clínica → examen físico → dietas de exclusión y provocación → pruebas cutáneas → determinación de IgE", "Pruebas cutáneas → historia → IgE → examen → dieta"],
+      "correcta": 2,
+      "explicacion": "1) Historia clínica, 2) examen físico, 3) dietas de exclusión y provocación, 4) pruebas cutáneas, 5) determinación de IgE.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-040",
+      "pregunta": "¿Cuál de estas pruebas NO está validada ni recomendada para diagnosticar alergias?",
+      "opciones": ["Pruebas cutáneas", "Determinación de IgE", "Provocación oral bajo vigilancia", "Prueba cinesiológica (fuerza del brazo con el alimento en la mano)"],
+      "correcta": 3,
+      "explicacion": "No validadas: sublingual, citotóxica, provocativa-neutralización y cinesiológica.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-041",
+      "pregunta": "En el test de hidrógeno espirado para la intolerancia a la lactosa, ¿cuándo es positivo?",
+      "opciones": ["Si tras 50 g de lactosa el hidrógeno sube más de 20 ppm a las 3-6 h", "Si la glucemia sube más de 20 mg/dl", "Si la biopsia es normal", "Si no hay síntomas"],
+      "correcta": 0,
+      "explicacion": "Se dan 50 g de lactosa: es positivo si el hidrógeno espirado supera 20 ppm a las 3-6 horas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-042",
+      "pregunta": "En el test de tolerancia a la lactosa, ¿qué indica déficit de lactasa?",
+      "opciones": ["Que la glucemia suba más de 50 mg/dl", "Que la glucemia NO suba 20 mg/dl tras 50 g de lactosa y aparezcan síntomas", "Que aumente el hidrógeno", "Que la IgE sea alta"],
+      "correcta": 1,
+      "explicacion": "Si no se digiere la lactosa, no se absorbe glucosa: la glucemia no sube 20 mg/dl y aparecen síntomas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-043",
+      "pregunta": "¿Qué prueba diferencia la hipolactasia primaria de la secundaria?",
+      "opciones": ["El test de hidrógeno espirado", "La biopsia", "La PCR del gen de la lactasa", "Las pruebas cutáneas"],
+      "correcta": 2,
+      "explicacion": "La PCR del gen de la lactasa distingue la hipolactasia primaria (genética) de la secundaria.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-044",
+      "pregunta": "¿Cuál es el diagnóstico más habitual de la intolerancia a la lactosa?",
+      "opciones": ["Biopsia intestinal", "Análisis de IgE", "PCR genética", "La mejoría clínica tras eliminar la lactosa"],
+      "correcta": 3,
+      "explicacion": "En la práctica, el diagnóstico habitual es la mejoría al retirar la lactosa.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-045",
+      "pregunta": "¿Qué se recomienda ACTUALMENTE para prevenir la alergia alimentaria?",
+      "opciones": ["Promover la lactancia materna e introducir huevo bien cocinado y cacahuete en formas adecuadas entre los 4 y 6 meses", "Retrasar la introducción de alimentos alergénicos", "Excluir alérgenos durante el embarazo", "Usar fórmulas de soja para prevenir"],
+      "correcta": 0,
+      "explicacion": "Ya no se recomienda excluir alérgenos en embarazo/lactancia, retrasar alimentos alergénicos ni usar soja para prevenir.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-046",
+      "pregunta": "¿Cuál de estas medidas YA NO se recomienda para prevenir alergias?",
+      "opciones": ["Promover la lactancia materna", "Retrasar la introducción de alimentos alergénicos", "Introducir el huevo bien cocinado entre los 4 y 6 meses", "Identificar precozmente a los niños atópicos"],
+      "correcta": 1,
+      "explicacion": "Retrasar los alimentos alergénicos ya no se recomienda; se aconseja introducirlos pronto, sobre todo en grupos de riesgo.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-047",
+      "pregunta": "¿Cómo se identifican precozmente los niños atópicos?",
+      "opciones": ["Por su peso al nacer", "Por el grupo sanguíneo", "Por la atopia familiar y la IgE en sangre del cordón umbilical", "Por la talla"],
+      "correcta": 2,
+      "explicacion": "La identificación precoz se basa en la atopia familiar y la IgE en la sangre del cordón umbilical.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-048",
+      "pregunta": "¿Qué riesgo tiene la dieta de eliminación que hay que vigilar?",
+      "opciones": ["Que aumente la IgE", "Que provoque anafilaxia", "Ninguno", "Que se pierdan nutrientes; hay que valorar la ingesta, el crecimiento y buscar fuentes alternativas"],
+      "correcta": 3,
+      "explicacion": "Eliminar alimentos puede quitar nutrientes: hay que instruir a la familia, dar sustitutos, leer etiquetas y vigilar crecimiento y nutrición.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-049",
+      "pregunta": "¿Se recomienda el tratamiento farmacológico como base del manejo de la alergia alimentaria?",
+      "opciones": ["No: la base es la dieta de eliminación", "Sí, siempre antihistamínicos diarios", "Sí, corticoides a diario", "Solo en adultos"],
+      "correcta": 0,
+      "explicacion": "No se recomienda el tratamiento con fármacos: la base es suprimir el alimento responsable.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-050",
+      "pregunta": "¿Cómo suele evolucionar una alergia alimentaria diagnosticada antes de los 3 años?",
+      "opciones": ["Siempre empeora", "Suele resolverse con la edad", "Se convierte en intolerancia", "Nunca cambia"],
+      "correcta": 1,
+      "explicacion": "Antes de los 3 años suele resolverse con la edad; con un diagnóstico más tardío suele ser más persistente. Hay que reconsiderar el diagnóstico periódicamente.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-051",
+      "pregunta": "¿En qué condiciones debe hacerse la prueba de provocación oral?",
+      "opciones": ["En casa, sin supervisión", "En la farmacia", "Bajo vigilancia médica, idealmente doble ciego y en medio hospitalario", "Por teléfono"],
+      "correcta": 2,
+      "explicacion": "La provocación oral se hace en hospital, con vigilancia médica e idealmente doble ciego.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t04-052",
+      "pregunta": "¿Cuándo NO se recomienda la prueba de provocación oral?",
+      "opciones": ["En niños mayores de 3 años", "Si la alergia es leve", "Si se diagnosticó antes de los 3 años", "Si hubo una reacción anafiláctica reciente ante un alérgeno bien definido"],
+      "correcta": 3,
+      "explicacion": "Tras una anafilaxia reciente con un alérgeno conocido, los riesgos de la provocación superan a los beneficios.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-053",
+      "pregunta": "¿Qué ejemplo se da de intolerancia por trastorno gastrointestinal?",
+      "opciones": ["Déficit de lactasa", "Fenilcetonuria", "Tartrazina", "Aminas vasoactivas"],
+      "correcta": 0,
+      "explicacion": "Trastornos gastrointestinales: déficit de lactasa, afección de la vesícula y enteropatías.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t04-054",
+      "pregunta": "Respecto a la penicilina en la dieta, ¿qué se indica actualmente?",
+      "opciones": ["Hay que evitar los lácteos y carnes", "Ya no hay que restringir lácteos ni carnes", "Hay que evitar todos los alimentos fermentados", "Hay que eliminar el pan"],
+      "correcta": 1,
+      "explicacion": "Según el tema, ante la sensibilidad a la penicilina ya no hay que restringir lácteos ni carnes.",
+      "dificultad": 3
+    }
+  ]
+}

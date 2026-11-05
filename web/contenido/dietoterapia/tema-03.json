@@ -1,0 +1,416 @@
+{
+  "libro": "dietoterapia",
+  "tema": "t03",
+  "titulo": "Interacciones fármacos-nutrientes",
+  "fuente": "tema 3 dieto diapo.pdf",
+  "preguntas": [
+    {
+      "id": "dt-t03-001",
+      "pregunta": "¿Qué es una interacción farmacológica?",
+      "opciones": ["La modificación del efecto de un fármaco por la presencia simultánea de otro fármaco, alimento, planta medicinal o sustancia activa", "La alergia a un medicamento", "El efecto secundario normal de un fármaco", "La caducidad de un medicamento"],
+      "correcta": 0,
+      "explicacion": "Su impacto clínico puede ser un aumento de la toxicidad o una reducción de la eficacia terapéutica.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-002",
+      "pregunta": "¿Qué diferencia hay entre interacciones farmacocinéticas y farmacodinámicas?",
+      "opciones": ["No hay diferencia", "Las farmacocinéticas alteran absorción, distribución, metabolismo o excreción; las farmacodinámicas afectan al efecto y mecanismo de acción", "Las farmacodinámicas solo afectan a la absorción", "Las farmacocinéticas solo ocurren con alcohol"],
+      "correcta": 1,
+      "explicacion": "Farmacocinéticas: lo que el organismo hace con el fármaco (ADME). Farmacodinámicas: el efecto del fármaco en su lugar de acción.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-003",
+      "pregunta": "¿Por qué las personas mayores son población de alto riesgo de interacciones?",
+      "opciones": ["Por su inmadurez enzimática", "Por el paso transplacentario", "Por su menor aclaramiento y cambios fisiológicos en la distribución", "Porque toman menos medicamentos"],
+      "correcta": 2,
+      "explicacion": "Grupos de riesgo: mayores (menor aclaramiento), polimedicados, niños y lactantes (inmadurez), embarazo y lactancia, e insuficiencia renal o hepática.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-004",
+      "pregunta": "¿Por qué los niños y lactantes son población de riesgo?",
+      "opciones": ["Por el paso a la leche materna", "Por ser polimedicados", "Por tener más albúmina", "Por la inmadurez enzimática hepática y la función renal en desarrollo"],
+      "correcta": 3,
+      "explicacion": "Sus enzimas hepáticas son inmaduras y la función renal aún se está desarrollando, por lo que eliminan peor los fármacos.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-005",
+      "pregunta": "¿Qué es la biodisponibilidad de un fármaco?",
+      "opciones": ["La fracción de la dosis que llega inalterada a la circulación sistémica y la velocidad a la que lo hace", "Su eficacia terapéutica", "Su precio", "El tiempo que tarda en caducar"],
+      "correcta": 0,
+      "explicacion": "Indica cuánto fármaco llega a la sangre y con qué rapidez. Se mide con AUC (exposición), Cmax y Tmax (velocidad).",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-006",
+      "pregunta": "Si un fármaco oral tiene una biodisponibilidad del 50 % y se administran 100 mg, ¿cuánto llega activo a la sangre?",
+      "opciones": ["100 mg", "Unos 50 mg", "Unos 25 mg", "Unos 5 mg"],
+      "correcta": 1,
+      "explicacion": "Con biodisponibilidad del 50 %, de 100 mg llegan al torrente unos 50 mg activos.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-007",
+      "pregunta": "¿Qué vía de administración tiene una biodisponibilidad del 100 %?",
+      "opciones": ["Oral", "Sublingual", "Intravenosa", "Transdérmica"],
+      "correcta": 2,
+      "explicacion": "La vía intravenosa accede directamente al compartimento vascular, con efecto inmediato y sin pérdida de dosis. Es la referencia de la biodisponibilidad absoluta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-008",
+      "pregunta": "¿Qué afirma la «regla clínica» sobre absorción y biodisponibilidad?",
+      "opciones": ["Más rápido siempre es más eficaz", "La absorción rápida garantiza el 100 %", "La biodisponibilidad equivale a eficacia", "La rapidez de absorción no equivale a biodisponibilidad total (AUC)"],
+      "correcta": 3,
+      "explicacion": "Una absorción más rápida no implica más biodisponibilidad total, y más biodisponibilidad tampoco implica directamente más efecto terapéutico.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-009",
+      "pregunta": "¿Qué vías eluden en gran medida el primer paso hepático?",
+      "opciones": ["Sublingual y transdérmica", "Oral", "Oral con alimentos", "Rectal y oral"],
+      "correcta": 0,
+      "explicacion": "La sublingual y la transdérmica drenan directamente a la circulación y evitan en gran parte el metabolismo de primer paso, propio de la vía oral.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-010",
+      "pregunta": "¿Cuál es el orden de las etapas LADME?",
+      "opciones": ["Absorción, Liberación, Metabolismo, Distribución, Excreción", "Liberación, Absorción, Distribución, Metabolismo, Excreción", "Liberación, Distribución, Absorción, Excreción, Metabolismo", "Metabolismo, Absorción, Distribución, Liberación, Excreción"],
+      "correcta": 1,
+      "explicacion": "LADME: Liberación (sale de la forma farmacéutica), Absorción, Distribución, Metabolismo (hígado) y Excreción (riñón y bilis).",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-011",
+      "pregunta": "¿Qué forma de un fármaco atraviesa con más facilidad las membranas celulares lipídicas?",
+      "opciones": ["La ionizada", "La unida a proteínas", "La no ionizada", "Ninguna"],
+      "correcta": 2,
+      "explicacion": "La forma no ionizada no tiene carga, es más lipofílica y atraviesa por difusión pasiva. La ionizada es más hidrofílica y pasa peor.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-012",
+      "pregunta": "Un fármaco ácido débil en un medio ácido (pH bajo)…",
+      "opciones": ["Se ioniza más y se absorbe peor", "No se ve afectado", "Se destruye", "Predomina la forma no ionizada y se absorbe mejor"],
+      "correcta": 3,
+      "explicacion": "Ácido débil en medio ácido → no ionizado → más absorción. En medio básico aumenta la forma ionizada y pasa peor la membrana.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-013",
+      "pregunta": "¿Cómo cambia el pH gástrico con la comida?",
+      "opciones": ["Sube de ≈ 1 en ayunas a 2,5-3,5 con comida", "Baja de 3 a 1", "Pasa a ser alcalino (pH 8)", "No cambia"],
+      "correcta": 0,
+      "explicacion": "El alimento eleva el pH gástrico de ≈ 1 en ayunas a 2,5-3,5. Una base débil puede absorberse mejor; un ácido, peor.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-014",
+      "pregunta": "¿Qué fracción de un fármaco es farmacológicamente activa en la distribución?",
+      "opciones": ["La unida a la albúmina", "La fracción libre", "La almacenada en el tejido graso", "La metabolizada"],
+      "correcta": 1,
+      "explicacion": "La fracción unida a proteínas plasmáticas no puede salir del plasma. Solo la libre es activa, tóxica y eliminable.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-015",
+      "pregunta": "¿Cuál es la principal proteína plasmática en las interacciones de distribución?",
+      "opciones": ["Hemoglobina", "Insulina", "Albúmina", "Ferritina"],
+      "correcta": 2,
+      "explicacion": "La albúmina une fármacos y actúa como reservorio que los va liberando. Sus sitios de unión son saturables.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-016",
+      "pregunta": "En una persona con hipoalbuminemia (p. ej., kwashiorkor), ¿qué ocurre con fármacos como la warfarina o la furosemida?",
+      "opciones": ["Pierden efecto", "Se eliminan más rápido", "No cambia nada", "Tienen efectos exagerados porque hay más fármaco libre"],
+      "correcta": 3,
+      "explicacion": "Con poca albúmina, una mayor proporción del fármaco queda libre y activa, y sus efectos se exageran.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-017",
+      "pregunta": "¿Qué hace el hígado con los fármacos para poder eliminarlos?",
+      "opciones": ["Los transforma en metabolitos más hidrosolubles", "Los vuelve más liposolubles", "Los almacena indefinidamente", "Los une a la albúmina"],
+      "correcta": 0,
+      "explicacion": "El hígado (citocromo P450, sobre todo CYP3A4) convierte los fármacos liposolubles en metabolitos más hidrosolubles que se eliminan por orina, bilis y heces.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-018",
+      "pregunta": "¿Qué enzima del citocromo P450 se cita como la principal en el metabolismo hepático de fármacos?",
+      "opciones": ["CYP2E1", "CYP3A4", "ADH", "ALDH"],
+      "correcta": 1,
+      "explicacion": "El CYP3A4 es el principal; actúa sobre todo en el hígado y también en la pared intestinal.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-019",
+      "pregunta": "¿Cómo se calcula la eliminación renal neta?",
+      "opciones": ["Filtración − secreción + reabsorción", "Solo filtración", "Filtración + secreción − reabsorción", "Reabsorción − filtración"],
+      "correcta": 2,
+      "explicacion": "Eliminación renal neta = filtración glomerular + secreción tubular − reabsorción tubular.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-020",
+      "pregunta": "¿Qué fármacos se reabsorben más en el túbulo renal y se eliminan peor?",
+      "opciones": ["Los hidrosolubles", "Los ionizados", "Los unidos a proteínas", "Los liposolubles"],
+      "correcta": 3,
+      "explicacion": "Los liposolubles atraviesan las membranas del túbulo y vuelven a la sangre. Los hidrosolubles permanecen en el filtrado y se eliminan por la orina.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-021",
+      "pregunta": "¿Qué son los quelatos en las interacciones fármaco-nutriente?",
+      "opciones": ["Complejos poco solubles que forman cationes de la dieta (Ca, Mg, Fe, Al) con fármacos, impidiendo su absorción", "Enzimas hepáticas", "Proteínas transportadoras", "Formas no ionizadas del fármaco"],
+      "correcta": 0,
+      "explicacion": "Calcio, magnesio, hierro o aluminio forman complejos poco solubles que impiden absorber tanto el fármaco como el nutriente.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-022",
+      "pregunta": "¿Cuál de estos fármacos debe tomarse con el estómago VACÍO?",
+      "opciones": ["Ibuprofeno", "Tetraciclina", "Aspirina", "Corticoesteroides"],
+      "correcta": 1,
+      "explicacion": "En ayunas: penicilina, tetraciclina, paracetamol, antihistamínicos, levodopa. Con comidas: aspirina, ibuprofeno, naproxeno, corticoides, lovastatina.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-023",
+      "pregunta": "¿Cuál de estos fármacos se recomienda tomar CON las comidas?",
+      "opciones": ["Penicilina", "Levodopa", "Ibuprofeno", "Paracetamol"],
+      "correcta": 2,
+      "explicacion": "Aspirina, ibuprofeno, naproxeno, corticoesteroides y lovastatina se toman con las comidas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-024",
+      "pregunta": "¿Cuándo deben tomarse los antidiabéticos orales como la glipizida?",
+      "opciones": ["En ayunas, 2 horas antes", "Con la cena", "Al acostarse", "Justo antes de la comida"],
+      "correcta": 3,
+      "explicacion": "Los antidiabéticos orales como la glipizida se toman justo antes de la comida.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-025",
+      "pregunta": "¿Qué efecto tiene el pomelo sobre muchos fármacos?",
+      "opciones": ["Inhibe enzimas CYP (CYP3A4…) de la pared intestinal y potencia la acción y toxicidad de estatinas, antagonistas del calcio, antihistamínicos e inmunosupresores", "Induce enzimas y reduce su eficacia", "No interacciona con fármacos", "Acelera su eliminación renal"],
+      "correcta": 0,
+      "explicacion": "Las furanocumarinas y flavonoides del pomelo inhiben CYP1A2, CYP3A3 y CYP3A4 y aumentan la concentración del fármaco.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-026",
+      "pregunta": "¿Qué sustancias del pomelo son responsables de la inhibición enzimática?",
+      "opciones": ["La vitamina C y el potasio", "Las furanocumarinas y los flavonoides", "La fibra y el azúcar", "La tiramina"],
+      "correcta": 1,
+      "explicacion": "Las furanocumarinas y los flavonoides del pomelo inhiben el citocromo P450.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-027",
+      "pregunta": "Los hidrocarburos aromáticos policíclicos (humo de tabaco, carnes al carbón)…",
+      "opciones": ["Inhiben las enzimas y potencian los fármacos", "No afectan a los fármacos", "Inducen enzimas y reducen la eficacia terapéutica", "Aumentan la albúmina"],
+      "correcta": 2,
+      "explicacion": "La inducción enzimática acelera la biotransformación y reduce el fármaco disponible; por eso algunos fármacos pierden eficacia en fumadores.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-028",
+      "pregunta": "¿Qué es el «síndrome del queso»?",
+      "opciones": ["Una alergia a la leche", "Una intolerancia a la lactosa", "Una intoxicación por Listeria", "Una crisis hipertensiva grave al combinar IMAO con alimentos ricos en tiramina"],
+      "correcta": 3,
+      "explicacion": "Los IMAO (inhibidores de la monoaminooxidasa) con tiramina (quesos curados, vino tinto, ahumados) provocan crisis hipertensivas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-029",
+      "pregunta": "¿Qué ocurre con los fármacos ÁCIDOS si la orina es básica?",
+      "opciones": ["Se eliminan más, porque hay más forma ionizada que no se reabsorbe", "Se reabsorben más", "No cambia su eliminación", "Se acumulan en el hígado"],
+      "correcta": 0,
+      "explicacion": "Fármacos ácidos: se eliminan más con orina básica. Fármacos básicos: se eliminan más con orina ácida. En ambos casos hay más forma ionizada, que se reabsorbe peor.",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t03-030",
+      "pregunta": "¿Cuál de estos alimentos ACIDIFICA la orina?",
+      "opciones": ["Leche", "Carne y pescado", "Frutas (salvo ciruela y arándano)", "Verduras"],
+      "correcta": 1,
+      "explicacion": "Acidifican: carne, pescado, marisco, huevos, quesos, frutos secos (cacahuetes, nueces, avellanas), pan, pasteles, pastas, lentejas y maíz.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-031",
+      "pregunta": "¿Cuál de estos alimentos ALCALINIZA la orina?",
+      "opciones": ["Huevos", "Lentejas", "Almendras y la mayoría de frutas", "Queso"],
+      "correcta": 2,
+      "explicacion": "Alcalinizan: leche, mantequilla, vegetales, almendras, coco, castañas y frutas (salvo ciruela y arándano).",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-032",
+      "pregunta": "¿Qué etapa de la eliminación de fármacos es la más modificable por la dieta?",
+      "opciones": ["La filtración glomerular", "La liberación", "El metabolismo hepático", "La reabsorción tubular, que depende del pH de la orina"],
+      "correcta": 3,
+      "explicacion": "La reabsorción tubular depende del pH urinario, que la dieta puede modificar; es previsible si se conoce el carácter ácido o básico del fármaco y del alimento.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-033",
+      "pregunta": "En una persona con obesidad, ¿qué suele ocurrir con la dosificación de algunos fármacos?",
+      "opciones": ["Pueden necesitarse dosis mayores por mayor volumen de distribución y aclaramiento", "Siempre se necesitan dosis menores", "No cambia nada", "Están contraindicados"],
+      "correcta": 0,
+      "explicacion": "En la obesidad aumentan el tejido adiposo (distribución), el hígado graso, el tamaño renal y el aclaramiento, por lo que pueden requerirse dosis mayores.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-034",
+      "pregunta": "¿A qué fármacos se citan como especialmente sensibles las personas mayores?",
+      "opciones": ["Paracetamol e ibuprofeno", "Digoxina y propranolol", "Penicilina y tetraciclina", "Insulina y metformina"],
+      "correcta": 1,
+      "explicacion": "Los ancianos tienen menos oxidación hepática, menor flujo y función renal, y mayor sensibilidad a la digoxina y el propranolol.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-035",
+      "pregunta": "¿Qué efecto nutricional producen las anfetaminas?",
+      "opciones": ["Aumentan el apetito", "Reducen la absorción de calcio", "Reducen el apetito", "Producen pérdida de vitamina K"],
+      "correcta": 2,
+      "explicacion": "Las anfetaminas reducen la ingesta por falta de apetito. El metotrexato altera olfato y gusto, y los digitálicos producen náuseas.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-036",
+      "pregunta": "¿Qué nutrientes disminuyen los antiácidos con aluminio?",
+      "opciones": ["Vitaminas B y ácido fólico", "Calcio y vitamina D", "Potasio y magnesio", "Fosfatos y vitamina A"],
+      "correcta": 3,
+      "explicacion": "Los antiácidos con aluminio reducen la absorción de fosfatos y vitamina A. Los laxantes reducen calcio y vitamina D.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-037",
+      "pregunta": "¿Qué minerales pueden disminuir con el uso de diuréticos?",
+      "opciones": ["Calcio, potasio y magnesio", "Hierro y zinc", "Yodo y selenio", "Sodio y cloro solamente"],
+      "correcta": 0,
+      "explicacion": "Los diuréticos reducen calcio, potasio y magnesio. Los antibióticos reducen la vitamina K y los anticonvulsivantes, el ácido fólico.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-038",
+      "pregunta": "¿Qué vitamina disminuye con el uso de antibióticos?",
+      "opciones": ["Vitamina C", "Vitamina K", "Vitamina D", "Vitamina A"],
+      "correcta": 1,
+      "explicacion": "Los antibióticos alteran la flora intestinal, que produce parte de la vitamina K.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-039",
+      "pregunta": "Un paciente con anticoagulantes cumarínicos que come mucho brócoli o espárragos (ricos en vitamina K)…",
+      "opciones": ["Tendrá más efecto anticoagulante", "No tendrá cambios", "Tendrá menos efecto anticoagulante", "Sufrirá hiperpotasemia"],
+      "correcta": 2,
+      "explicacion": "La vitamina K contrarresta a los cumarínicos y reduce su efecto. En cambio, el ajo o mucha cebolla potencian la anticoagulación.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-040",
+      "pregunta": "¿Qué riesgo hay al combinar diuréticos ahorradores de potasio con plátanos, naranjas o higos?",
+      "opciones": ["Hipoglucemia", "Pérdida de potasio", "Hemorragia", "Hiperpotasemia"],
+      "correcta": 3,
+      "explicacion": "Los ahorradores de potasio más alimentos ricos en potasio pueden causar hiperpotasemia. Con los eliminadores de potasio, el sodio aumenta su pérdida.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-041",
+      "pregunta": "¿Qué efecto tienen el sodio o el regaliz en un paciente con antihipertensivos?",
+      "opciones": ["Suben la presión arterial y contrarrestan el tratamiento", "Bajan más la presión", "No tienen efecto", "Producen hipoglucemia"],
+      "correcta": 0,
+      "explicacion": "Es una interacción farmacodinámica: el sodio o el regaliz elevan la presión arterial.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-042",
+      "pregunta": "¿Cuál es la ruta principal del metabolismo del alcohol?",
+      "opciones": ["Etanol → acetato → acetaldehído", "Etanol → (ADH) acetaldehído → (ALDH) acetato → acetil-CoA", "Etanol → glucosa", "Etanol → urea"],
+      "correcta": 1,
+      "explicacion": "La ADH convierte el etanol en acetaldehído (tóxico), y la ALDH lo transforma en acetato, que acaba como acetil-CoA. La vía MEOS (CYP2E1) predomina en el consumo crónico.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-043",
+      "pregunta": "¿Cuántas kcal aporta cada gramo de alcohol?",
+      "opciones": ["4 kcal/g", "9 kcal/g", "7 kcal/g", "0 kcal/g"],
+      "correcta": 2,
+      "explicacion": "El alcohol aporta 7 kcal/g de «calorías vacías», sin nutrientes.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-044",
+      "pregunta": "¿Qué es el efecto antabús?",
+      "opciones": ["La resaca normal", "El aumento del apetito con alcohol", "La inducción del CYP2E1", "La reacción al combinar alcohol con disulfiram, que inhibe la ALDH y acumula acetaldehído"],
+      "correcta": 3,
+      "explicacion": "El disulfiram bloquea la ALDH; el acetaldehído acumulado provoca rubor facial, náuseas intensas, taquicardia e hipotensión.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-045",
+      "pregunta": "¿Qué riesgo grave hay al combinar alcohol con insulina o antidiabéticos?",
+      "opciones": ["Hipoglucemia grave", "Hiperglucemia", "Hemorragia digestiva", "Hiperpotasemia"],
+      "correcta": 0,
+      "explicacion": "El alcohol produce hipoglucemia aguda y, con insulina o antidiabéticos, el riesgo de hipoglucemia grave es alto.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-046",
+      "pregunta": "¿Qué riesgo aumenta al combinar alcohol con ibuprofeno?",
+      "opciones": ["Hipoglucemia", "Hemorragia digestiva", "Hiperpotasemia", "Crisis hipertensiva"],
+      "correcta": 1,
+      "explicacion": "Alcohol + ibuprofeno aumenta el riesgo de hemorragia digestiva. Con sedantes (benzodiacepinas) aumenta la depresión del SNC.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-047",
+      "pregunta": "¿Qué vitaminas disminuyen con el consumo de alcohol?",
+      "opciones": ["Vitaminas A y D", "Vitamina K", "Vitaminas del grupo B y ácido fólico", "Vitamina C"],
+      "correcta": 2,
+      "explicacion": "El alcohol reduce las vitaminas del grupo B y el ácido fólico.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-048",
+      "pregunta": "¿Cuál de estos es un efecto metabólico del alcohol?",
+      "opciones": ["Disminuye los triglicéridos", "Mejora la función hepática", "Aumenta la albúmina", "Hígado graso (esteatosis) y aumento de lactato y triglicéridos"],
+      "correcta": 3,
+      "explicacion": "El alcohol causa hipoglucemia aguda, aumento de lactato y triglicéridos, y esteatosis hepática.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t03-049",
+      "pregunta": "¿Qué efecto tiene el magnesio sobre los relajantes neuromusculares?",
+      "opciones": ["Aumenta la relajación", "Anula su efecto", "Produce hipertensión", "No interacciona"],
+      "correcta": 0,
+      "explicacion": "Es una interacción farmacodinámica: el magnesio potencia la relajación neuromuscular.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t03-050",
+      "pregunta": "¿Qué ocurre si un nutriente compite con un fármaco por los sitios de unión de la albúmina?",
+      "opciones": ["Disminuye el fármaco libre", "Aumenta transitoriamente el fármaco libre, desplazando a la sustancia de menor afinidad", "El fármaco se elimina sin actuar", "No ocurre nada porque los sitios no son saturables"],
+      "correcta": 1,
+      "explicacion": "Los sitios de unión son saturables: la competencia desplaza a la sustancia de menor afinidad y aumenta la fracción libre (activa y tóxica).",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t03-051",
+      "pregunta": "En relación con el vaciado gástrico, ¿qué indica el tema sobre la absorción?",
+      "opciones": ["Cuanto más rápido, mejor absorción", "El vaciado no influye", "Cuanto más lento, mejor absorción", "Solo influye en los fármacos intravenosos"],
+      "correcta": 2,
+      "explicacion": "Según el tema, un vaciado gástrico más lento mejora la absorción; también influyen la motilidad y las características del lugar de absorción.",
+      "dificultad": 2
+    }
+  ]
+}

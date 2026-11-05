@@ -1,0 +1,264 @@
+{
+  "libro": "dietoterapia",
+  "tema": "t02",
+  "titulo": "Dieta y salud: enfoque actual",
+  "fuente": "tema 2 dieto diapo.pdf",
+  "preguntas": [
+    {
+      "id": "dt-t02-001",
+      "pregunta": "¿Cuál es el enfoque actual en el estudio de la relación entre dieta y salud?",
+      "opciones": ["Estudiar nutrientes aislados como el colesterol", "Dar más importancia a los alimentos, sus combinaciones y los patrones dietéticos", "Centrarse solo en las calorías", "Estudiar únicamente las vitaminas"],
+      "correcta": 1,
+      "explicacion": "Antes se estudiaban nutrientes aislados; hoy importa más el alimento completo y el patrón dietético, porque cada alimento actúa dentro del conjunto de la dieta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-002",
+      "pregunta": "Según el tema, ¿qué importa más para la salud?",
+      "opciones": ["Centrarse en un único nutriente", "Eliminar toda la grasa", "La calidad global de la alimentación", "Tomar suplementos antioxidantes"],
+      "correcta": 2,
+      "explicacion": "La idea clave es que la calidad global de la alimentación importa más que fijarse en un único nutriente.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-003",
+      "pregunta": "La dieta se considera uno de los principales determinantes de la salud…",
+      "opciones": ["No modificables", "Genéticos", "Ambientales no controlables", "Modificables"],
+      "correcta": 3,
+      "explicacion": "La dieta es uno de los principales determinantes modificables de la salud: podemos cambiarla.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-004",
+      "pregunta": "¿Cuál de estos grupos forma parte de un patrón dietético saludable?",
+      "opciones": ["Verduras, frutas, legumbres, cereales integrales, frutos secos, pescado y grasas insaturadas", "Carnes procesadas y bebidas azucaradas", "Cereales refinados y bollería", "Grasas trans y fritos"],
+      "correcta": 0,
+      "explicacion": "El patrón saludable combina verduras y frutas, legumbres, cereales integrales, frutos secos, pescado y grasas insaturadas, con alimentos poco procesados.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-005",
+      "pregunta": "Respecto a las grasas, ¿cuál es la visión actual?",
+      "opciones": ["Cuanta menos grasa, mejor siempre", "El efecto depende sobre todo del tipo de grasa y del alimento que la aporta", "Todas las grasas tienen el mismo efecto", "Solo importa el colesterol de la dieta"],
+      "correcta": 1,
+      "explicacion": "La visión clásica era «más grasa → más colesterol → más riesgo». Hoy importa más la calidad que la cantidad.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-006",
+      "pregunta": "¿Cuál de estos alimentos es fuente de ácidos grasos monoinsaturados (AGMI)?",
+      "opciones": ["Mantequilla", "Bollería industrial", "Aceite de oliva", "Panceta"],
+      "correcta": 2,
+      "explicacion": "AGMI: aceite de oliva, aguacate y frutos secos. AGPI: pescado, frutos secos y semillas. Omega-3: pescado azul.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-007",
+      "pregunta": "¿Cuál es la principal fuente de omega-3 citada en el tema?",
+      "opciones": ["Aceite de girasol", "Carne roja", "Aguacate", "Pescado azul"],
+      "correcta": 3,
+      "explicacion": "El pescado azul es la principal fuente de omega-3, junto con otras fuentes de AGPI como frutos secos y semillas.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-008",
+      "pregunta": "¿Qué tipo de grasa tiene un efecto cardiovascular claramente desfavorable y debe limitarse?",
+      "opciones": ["Las grasas trans", "Los AGMI", "Los omega-3", "Los AGPI"],
+      "correcta": 0,
+      "explicacion": "Las grasas trans tienen un efecto cardiovascular claramente negativo. También hay que limitar el exceso de saturadas, sobre todo de alimentos de baja calidad.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-009",
+      "pregunta": "Según la OMS, ¿qué porcentaje máximo de la energía deberían aportar las grasas saturadas?",
+      "opciones": ["Menos del 1 %", "Menos del 10 %", "Menos del 20 %", "Menos del 30 %"],
+      "correcta": 1,
+      "explicacion": "La OMS recomienda saturadas < 10 % de la energía y trans < 1 %, sustituyéndolas por grasas insaturadas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t02-010",
+      "pregunta": "Según la OMS, las grasas trans deberían aportar…",
+      "opciones": ["Menos del 10 % de la energía", "Menos del 5 % de la energía", "Menos del 1 % de la energía", "Hasta el 15 % de la energía"],
+      "correcta": 2,
+      "explicacion": "Trans < 1 % de la energía total; saturadas < 10 %.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t02-011",
+      "pregunta": "¿Qué sustitución mejora el perfil cardiovascular?",
+      "opciones": ["Grasas insaturadas por saturadas", "Grasas por azúcares refinados", "Aceite de oliva por mantequilla", "Grasas saturadas por grasas insaturadas"],
+      "correcta": 3,
+      "explicacion": "Sustituir ácidos grasos saturados (AGS) por grasas insaturadas mejora el perfil cardiovascular.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-012",
+      "pregunta": "¿Qué es el índice glucémico (IG)?",
+      "opciones": ["La velocidad con la que un alimento con hidratos de carbono aumenta la glucemia", "La cantidad total de azúcar de un alimento", "El IG multiplicado por la cantidad de HC", "Las calorías por gramo de HC"],
+      "correcta": 0,
+      "explicacion": "El IG mide la velocidad con que un alimento con HC sube la glucemia.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-013",
+      "pregunta": "¿Qué añade la carga glucémica (CG) respecto al índice glucémico?",
+      "opciones": ["El contenido en fibra", "La cantidad de hidratos de carbono consumidos", "Las proteínas del alimento", "La temperatura de cocción"],
+      "correcta": 1,
+      "explicacion": "La carga glucémica considera el IG y además la cantidad de HC que se consumen; por eso es más realista.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t02-014",
+      "pregunta": "¿Cuál de estos hidratos de carbono conviene PRIORIZAR?",
+      "opciones": ["Azúcares libres", "Cereales muy refinados", "Cereales integrales y legumbres", "Productos de elevada carga glucémica"],
+      "correcta": 2,
+      "explicacion": "Hay que priorizar cereales integrales, legumbres, frutas, verduras y alimentos ricos en fibra; y limitar azúcares libres, refinados y alta carga glucémica.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-015",
+      "pregunta": "¿Cuál de estos NO es un beneficio de la fibra según el tema?",
+      "opciones": ["Aumenta la saciedad", "Mejora el control glucémico", "Reduce el colesterol LDL", "Aumenta la absorción de grasas saturadas"],
+      "correcta": 3,
+      "explicacion": "La fibra aumenta la saciedad, mejora el control glucémico, baja el LDL y mejora la salud intestinal.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-016",
+      "pregunta": "¿Qué fuente proteica conviene limitar especialmente?",
+      "opciones": ["Las carnes procesadas", "Las legumbres", "El pescado", "Los frutos secos"],
+      "correcta": 0,
+      "explicacion": "Hay que priorizar legumbres, pescado, huevos, frutos secos y carnes poco procesadas, y limitar sobre todo las carnes procesadas y el exceso de carne roja.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-017",
+      "pregunta": "¿Qué dice la evidencia actual sobre el consumo moderado de huevo en personas sanas?",
+      "opciones": ["Aumenta claramente el riesgo cardiovascular", "No se asocia claramente con mayor riesgo cardiovascular, porque el colesterol dietético influye menos de lo que se pensaba", "Está contraindicado", "Solo puede tomarse la clara"],
+      "correcta": 1,
+      "explicacion": "El colesterol de la dieta influye menos sobre el colesterol sanguíneo de lo que se creía; un consumo moderado de huevo no se asocia claramente con más riesgo.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t02-018",
+      "pregunta": "¿Con qué tipo de cáncer es especialmente sólida la evidencia de relación con las carnes procesadas?",
+      "opciones": ["Cáncer de pulmón", "Cáncer de piel", "Cáncer colorrectal", "Cáncer de tiroides"],
+      "correcta": 2,
+      "explicacion": "La evidencia es especialmente sólida entre carnes procesadas y cáncer colorrectal; también se recomienda moderar la carne roja.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-019",
+      "pregunta": "¿Qué aportan las frutas y verduras como alimentos protectores?",
+      "opciones": ["Grasas saturadas y sodio", "Solo agua", "Proteínas de alto valor biológico", "Fibra, potasio, vitaminas y compuestos bioactivos"],
+      "correcta": 3,
+      "explicacion": "Frutas y verduras aportan fibra, potasio, vitaminas y compuestos bioactivos.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-020",
+      "pregunta": "¿Qué aporta el aceite de oliva virgen extra que lo hace protector?",
+      "opciones": ["AGMI y compuestos fenólicos", "Omega-3 y proteínas", "Fibra y potasio", "Grasas trans"],
+      "correcta": 0,
+      "explicacion": "El AOVE aporta ácidos grasos monoinsaturados y compuestos fenólicos.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-021",
+      "pregunta": "¿Qué combinación hace protectores a los frutos secos?",
+      "opciones": ["Azúcares y sodio", "Grasas insaturadas, fibra y elevada saciedad", "Grasas trans y proteínas", "Almidón y vitamina C"],
+      "correcta": 1,
+      "explicacion": "Los frutos secos aportan grasas insaturadas, fibra y producen elevada saciedad.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-022",
+      "pregunta": "¿Qué aportan los cereales integrales y las legumbres?",
+      "opciones": ["Mayor carga glucémica", "Grasas saturadas", "Fibra, menor carga glucémica y micronutrientes", "Colesterol"],
+      "correcta": 2,
+      "explicacion": "Cereales integrales y legumbres aportan fibra, menor carga glucémica y micronutrientes.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-023",
+      "pregunta": "¿Qué dice el tema sobre la suplementación con antioxidantes aislados?",
+      "opciones": ["Produce los mismos beneficios que una dieta rica en vegetales", "Está recomendada a toda la población", "Sustituye a frutas y verduras", "Ofrece resultados inconsistentes: los beneficios de las dietas ricas en vegetales no se reproducen con suplementos"],
+      "correcta": 3,
+      "explicacion": "Importa el alimento completo: suplementar vitaminas antioxidantes aisladas ha dado resultados inconsistentes.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t02-024",
+      "pregunta": "¿Qué alimentos predominan en el patrón mediterráneo?",
+      "opciones": ["Frutas, verduras, legumbres, cereales integrales, frutos secos, aceite de oliva y pescado", "Carnes rojas y procesadas", "Productos muy procesados", "Azúcares libres y bollería"],
+      "correcta": 0,
+      "explicacion": "La dieta mediterránea se basa en vegetales, legumbres, integrales, frutos secos, aceite de oliva y pescado, con poca carne roja/procesada, azúcar y ultraprocesados.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-025",
+      "pregunta": "¿Cuál de estos alimentos tiene MENOR presencia en el patrón mediterráneo?",
+      "opciones": ["Legumbres", "Carnes rojas y procesadas", "Pescado", "Aceite de oliva"],
+      "correcta": 1,
+      "explicacion": "En el patrón mediterráneo tienen poca presencia las carnes rojas y procesadas, los azúcares libres, los productos muy procesados y las grasas trans.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-026",
+      "pregunta": "¿Cuál de estos es un beneficio asociado al patrón mediterráneo?",
+      "opciones": ["Aumento de la presión arterial", "Peor perfil lipídico", "Menor riesgo cardiovascular y mejor control glucémico", "Aumento del LDL"],
+      "correcta": 2,
+      "explicacion": "Se asocia a menor riesgo cardiovascular, mejor control glucémico, mejor perfil lipídico, menor presión arterial y menos enfermedades crónicas.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-027",
+      "pregunta": "¿Qué organismo respalda el enfoque hacia alimentos mínimamente procesados, variedad y adecuación nutricional?",
+      "opciones": ["La EFSA", "La FAO", "El Codex Alimentarius", "La OMS"],
+      "correcta": 3,
+      "explicacion": "Ese enfoque coincide con las recomendaciones actuales de la Organización Mundial de la Salud (OMS).",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-028",
+      "pregunta": "¿Cuál es la visión clásica sobre las grasas que el tema considera superada?",
+      "opciones": ["Más grasa → más colesterol → más riesgo cardiovascular", "La calidad de la grasa es lo que importa", "Las grasas insaturadas son protectoras", "El aceite de oliva es saludable"],
+      "correcta": 0,
+      "explicacion": "La visión clásica relacionaba de forma lineal grasa, colesterol y riesgo. Hoy se sabe que influye sobre todo el tipo de grasa.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-029",
+      "pregunta": "¿Cuál de estos alimentos aporta proteínas y omega-3?",
+      "opciones": ["Embutido", "Pescado azul", "Pan blanco", "Mantequilla"],
+      "correcta": 1,
+      "explicacion": "El pescado aporta proteínas y omega-3, especialmente el pescado azul.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-030",
+      "pregunta": "¿Qué tipo de hidratos de carbono conviene limitar?",
+      "opciones": ["Legumbres", "Frutas", "Azúcares libres y cereales muy refinados", "Verduras"],
+      "correcta": 2,
+      "explicacion": "No todos los HC tienen el mismo efecto metabólico: hay que limitar azúcares libres, cereales muy refinados y productos de alta carga glucémica.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t02-031",
+      "pregunta": "¿Cuál de estos alimentos es fuente de AGPI según el tema?",
+      "opciones": ["Mantequilla", "Aceite de palma", "Tocino", "Semillas"],
+      "correcta": 3,
+      "explicacion": "Los ácidos grasos poliinsaturados (AGPI) están en el pescado, los frutos secos y las semillas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t02-032",
+      "pregunta": "¿Por qué se dice que «un alimento ejerce sus efectos dentro del conjunto de la dieta»?",
+      "opciones": ["Porque su efecto depende de con qué se combina y del patrón global de alimentación", "Porque un alimento aislado nunca tiene efecto", "Porque solo cuentan los suplementos", "Porque todas las dietas son iguales"],
+      "correcta": 0,
+      "explicacion": "El efecto de un alimento se entiende dentro del patrón dietético completo, no de forma aislada.",
+      "dificultad": 2
+    }
+  ]
+}
