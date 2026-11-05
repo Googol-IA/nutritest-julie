@@ -545,3 +545,49 @@ kbd {
   /* --- Ranking: dos columnas --- */
   .ranking { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 }
+
+/* ---------- Historial de exámenes ---------- */
+.seccion .enlace-suave { text-transform: none; letter-spacing: 0; min-height: 0; padding: 4px 0; }
+.filtros { margin: 10px 0; }
+.filtros .chips { flex-wrap: nowrap; overflow-x: auto; padding: 2px 2px 6px; scrollbar-width: none; }
+.filtros .chips::-webkit-scrollbar { display: none; }
+#hist-contenido .cifras { grid-template-columns: repeat(3, 1fr); }
+.filtros .chip > span { min-height: 44px; padding: 8px 14px; font-size: .95rem; white-space: nowrap; }
+.fila-examen { align-items: flex-start; }
+.fila-icono { font-size: 1.5rem; line-height: 1.3; }
+.fila-examen .fila-valor { align-self: center; font-size: 1.5rem; }
+.fila-texto .fila-libros, .fila-libros { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 0; }
+.fila-libros span, .fila-texto .fila-libros span {
+  font-size: .78rem; font-weight: 800; padding: 2px 9px; border-radius: 99px; color: var(--texto);
+  background: color-mix(in srgb, var(--c) 16%, var(--superficie));
+}
+.fila-libros.centrado { justify-content: center; margin-bottom: 8px; }
+.fila-texto .fila-cifras { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px; font-weight: 800; color: var(--texto-suave); }
+.fila-texto .fila-cifras .bien { color: var(--bien); }
+.fila-texto .fila-cifras .mal { color: var(--mal); }
+a.fila-examen:hover { box-shadow: 0 0 0 2px var(--primario), var(--sombra); }
+
+.grafico { margin: 0 0 16px; }
+.grafico figcaption { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.grafico figcaption span { color: var(--texto-suave); font-size: .85rem; font-weight: 700; }
+.grafico svg { width: 100%; height: auto; display: block; }
+.graf-guia { stroke: var(--borde); stroke-width: 1; }
+.graf-guia.aprobado { stroke: var(--texto-suave); stroke-dasharray: 5 5; opacity: .6; }
+.graf-eje { fill: var(--texto-suave); font-size: 12px; font-weight: 700; text-anchor: end; font-family: var(--fuente); }
+.graf-linea { fill: none; stroke: var(--primario); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+.graf-punto { stroke: var(--superficie); stroke-width: 2; }
+.graf-punto.bien { fill: var(--bien); }
+.graf-punto.mal { fill: var(--mal); }
+
+.revision-lista { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; counter-reset: rev; }
+.revision-lista .rev { border-top: 0; margin: 0; padding: 16px 18px; border-left: 6px solid var(--borde); counter-increment: rev; }
+.revision-lista .rev-pregunta::before { content: counter(rev) ". "; color: var(--texto-suave); }
+.revision-lista .rev.bien { border-left-color: var(--bien); }
+.revision-lista .rev.mal { border-left-color: var(--mal); }
+.resultado-historial .lead { margin-bottom: 4px; }
+
+@media (min-width: 1000px) {
+  main[data-pantalla="historial"] { max-width: 960px; }
+  .lista-examenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .est-extra .lista-examenes { grid-template-columns: 1fr; }
+}

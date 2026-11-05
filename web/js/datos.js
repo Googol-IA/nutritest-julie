@@ -58,14 +58,26 @@ async function vaciarCola() {
     const respuestas = cola.filter(x => x.t === 'r').map(x => x.d);
     const examenes = cola.filter(x => x.t === 'e').map(x => x.d);
     if (respuestas.length) await api('respuestas', { metodo: 'POST', cuerpo: respuestas, prefer: 'return=minimal' });
-    if (examenes.length) await api('examenes', { metodo: 'POST', cuerpo: examenes, prefer: 'return=minimal' });
+    // Los exámenes de uno en uno (pueden llevar o no el campo «detalle»)
+    for (const e of examenes) await insertarExamen(e);
     escribir(COLA, []);
   } catch { /* se reintentará */ }
+}
+// Si la base de datos aún no tiene la columna «detalle», se guarda sin ella
+async function insertarExamen(e) {
+  try {
+    await api('examenes', { metodo: 'POST', cuerpo: e, prefer: 'return=minimal' });
+  } catch (err) {
+    if (!e.detalle || !String(err.message).includes('detalle')) throw err;
+    const { detalle, ...sinDetalle } = e;
+    await api('examenes', { metodo: 'POST', cuerpo: sinDetalle, prefer: 'return=minimal' });
+  }
 }
 async function insertarConCola(tabla, fila, tipo) {
   try {
     await vaciarCola();
-    await api(tabla, { metodo: 'POST', cuerpo: fila, prefer: 'return=minimal' });
+    if (tabla === 'examenes') await insertarExamen(fila);
+    else await api(tabla, { metodo: 'POST', cuerpo: fila, prefer: 'return=minimal' });
   } catch {
     const cola = leer(COLA, []);
     cola.push({ t: tipo, d: fila });
@@ -83,7 +95,9 @@ const remoto = {
   progresoTemas: (id) => api(`progreso_temas?perfil_id=eq.${id}&select=libro,tema,respondidas,aciertos,vistas,dominadas`),
   fallosPendientes: (id) => api(`fallos_pendientes?perfil_id=eq.${id}&select=pregunta_id,libro,tema&limit=5000`),
   diasEstudio: async (id) => (await api(`dias_estudio?perfil_id=eq.${id}&select=dia,respondidas&order=dia.desc&limit=400`)),
-  examenes: (id) => api(`examenes?perfil_id=eq.${id}&select=*&order=fecha.desc&limit=10`),
+  // Lista de tests (sin el detalle, que pesa más); el detalle se pide al abrir uno
+  examenes: (id, limite = 10) => api(`examenes?perfil_id=eq.${id}&select=id,tipo,libros,n_preguntas,aciertos,fallos,blancos,nota,segundos,fecha&order=fecha.desc&limit=${limite}`),
+  examen: async (id, examenId) => (await api(`examenes?perfil_id=eq.${id}&id=eq.${encodeURIComponent(examenId)}&select=*`))[0] || null,
   ranking: () => api('ranking?select=*'),
   // Preguntas ocultas: se guardan también en el dispositivo, por si la tabla aún no existe o no hay red
   async listarOcultas(id) {
@@ -128,7 +142,7 @@ const local = {
     escribir(L.exa, leer(L.exa, []).filter(r => r.perfil_id !== id));
   },
   async guardarRespuesta(r) { escribir(L.resp, [...leer(L.resp, []), { ...r, fecha: new Date().toISOString() }]); },
-  async guardarExamen(e) { escribir(L.exa, [...leer(L.exa, []), { ...e, fecha: new Date().toISOString() }]); },
+  async guardarExamen(e) { escribir(L.exa, [...leer(L.exa, []), { ...e, id: crypto.randomUUID(), fecha: new Date().toISOString() }]); },
   async progresoTemas(id) {
     const grupos = new Map();
     for (const r of leer(L.resp, []).filter(r => r.perfil_id === id)) {
@@ -153,8 +167,11 @@ const local = {
     }
     return [...m].map(([dia, respondidas]) => ({ dia, respondidas })).sort((a, b) => b.dia.localeCompare(a.dia));
   },
-  async examenes(id) {
-    return leer(L.exa, []).filter(e => e.perfil_id === id).reverse().slice(0, 10);
+  async examenes(id, limite = 10) {
+    return leer(L.exa, []).filter(e => e.perfil_id === id).reverse().slice(0, limite);
+  },
+  async examen(id, examenId) {
+    return leer(L.exa, []).find(e => e.perfil_id === id && e.id === examenId) || null;
   },
   async ranking() {
     const hace30 = Date.now() - 30 * 864e5;

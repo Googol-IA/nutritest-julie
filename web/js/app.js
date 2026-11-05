@@ -157,6 +157,7 @@ async function router() {
       case 'resultado': return estado.resultado ? pantallaResultado() : ir('inicio');
       case 'estadisticas': return pantallaEstadisticas();
       case 'ranking': return pantallaRanking();
+      case 'historial': return args[0] ? pantallaExamen(decodeURIComponent(args[0])) : pantallaHistorial();
       default: return pantallaInicio();
     }
   } catch (e) { error(e); }
@@ -609,8 +610,11 @@ function terminar() {
     }));
   }
   datos.guardarExamen({
-    perfil_id: estado.perfil.id, tipo: s.modo, libros: (s.libros || []).join(','), n_preguntas: r.total,
+    perfil_id: estado.perfil.id, tipo: s.modo, n_preguntas: r.total,
+    libros: [...new Set(s.items.map(it => it.p.libro))].join(','),
     aciertos: r.aciertos, fallos: r.fallos, blancos: r.blancos, nota: r.nota, segundos: r.segundos,
+    // Detalle para poder repasar el test más adelante: pregunta y opción elegida (null = en blanco)
+    detalle: s.items.map(it => ({ p: it.p.id, e: it.elegida })),
   });
   estado.resultado = { sesion: s, ...r };
   estado.sesion = null;
@@ -672,7 +676,7 @@ async function pantallaEstadisticas() {
   cargando();
   const libros = await cargarCatalogo();
   const [progreso, dias, examenes] = await Promise.all([
-    datos.progresoTemas(estado.perfil.id), datos.diasEstudio(estado.perfil.id), datos.examenes(estado.perfil.id),
+    datos.progresoTemas(estado.perfil.id), datos.diasEstudio(estado.perfil.id), datos.examenes(estado.perfil.id, 5),
   ]);
   // Preguntas ocultas: el id empieza por el prefijo del libro y el tema (p. ej. "ca-t01-017")
   const refsOcultas = [...estado.ocultas].map(id => {
@@ -743,12 +747,11 @@ async function pantallaEstadisticas() {
     </div>
 
     <div class="est-extra">
-    ${examenes.length ? `<h2 class="seccion">Últimos tests</h2>
-      <ul class="lista-tarjetas" role="list">${examenes.map(e => `
-        <li class="fila"><span aria-hidden="true">${e.tipo === 'simulacro' ? '📝' : e.tipo === 'fallos' ? '🔁' : e.tipo === 'aleatorio' ? '🎲' : '📖'}</span>
-          <span class="fila-texto"><strong>${NOMBRE_MODO[e.tipo] || e.tipo}</strong>
-          <span>${new Date(e.fecha).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })} · ${e.aciertos}/${e.n_preguntas} aciertos</span></span>
-          <span class="fila-valor ${Number(e.nota) >= 5 ? 'bien' : 'mal'}">${Number(e.nota).toLocaleString('es-ES', { maximumFractionDigits: 1 })}</span></li>`).join('')}</ul>` : ''}
+    <h2 class="seccion">Últimos tests ${examenes.length ? '<a class="enlace-suave" href="#/historial">Ver historial completo</a>' : ''}</h2>
+    ${examenes.length
+      ? `<ul class="lista-tarjetas lista-examenes" role="list">${examenes.map(filaExamen).join('')}</ul>
+         <p class="centro"><a class="boton boton-secundario" href="#/historial">📋 Historial de exámenes</a></p>`
+      : '<p class="tarjeta">Cuando termines un test aparecerá aquí, con su nota y el repaso pregunta a pregunta.</p>'}
 
     ${ocultas.length ? `<h2 class="seccion">Preguntas ocultas</h2>
       <details class="revision">
@@ -786,6 +789,153 @@ async function pantallaRanking() {
         </li>`).join('')}
     </ol>
   `, { volver: 'inicio', titulo: 'Ranking' });
+}
+
+// ---------------------------------------------------------------- 9. Historial de exámenes
+const ICONO_MODO = { simulacro: '📝', fallos: '🔁', aleatorio: '🎲', estudio: '📖' };
+const FILTROS_TIPO = [['todos', 'Todos'], ['simulacro', '📝 Simulacros'], ['estudio', '📖 Test del libro'], ['aleatorio', '🎲 Aleatorio'], ['fallos', '🔁 Repaso de fallos']];
+const fechaLarga = (f) => new Date(f).toLocaleString('es-ES', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
+const duracion = (s) => `${Math.floor((s || 0) / 60)}:${String((s || 0) % 60).padStart(2, '0')}`;
+const librosDeExamen = (e) => (e.libros || '').split(',').filter(Boolean).map(id => libroPorId(id)).filter(Boolean);
+const notaTexto = (n) => Number(n).toLocaleString('es-ES', { maximumFractionDigits: 2 });
+estado.filtroHist = { tipo: 'todos', libro: 'todos' };
+
+// "ca-t01-017" → { pregunta_id, libro, tema } usando el prefijo de cada libro
+function refsDeIds(ids, libros) {
+  return ids.map(id => {
+    const [pre, tema] = id.split('-');
+    const l = libros.find(x => x.prefijo === pre);
+    return l ? { pregunta_id: id, libro: l.id, tema } : null;
+  }).filter(Boolean);
+}
+
+function graficoNotas(lista) {
+  const puntos = [...lista].reverse().slice(-30);          // cronológico, últimos 30
+  if (puntos.length < 2) return '';
+  const W = 600, H = 190, iz = 34, de = 14, ar = 14, ab = 22;
+  const x = (i) => iz + (i * (W - iz - de)) / (puntos.length - 1);
+  const y = (n) => ar + ((10 - Math.max(0, Math.min(10, Number(n)))) * (H - ar - ab)) / 10;
+  const linea = puntos.map((e, i) => `${x(i).toFixed(1)},${y(e.nota).toFixed(1)}`).join(' ');
+  const media = puntos.reduce((s, e) => s + Number(e.nota), 0) / puntos.length;
+  return `<figure class="tarjeta grafico">
+    <figcaption><strong>Evolución de la nota</strong><span>${puntos.length} últimos · media ${notaTexto(media)}</span></figcaption>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico de notas: de ${notaTexto(puntos[0].nota)} a ${notaTexto(puntos.at(-1).nota)}, media ${notaTexto(media)}">
+      ${[0, 5, 10].map(n => `<line x1="${iz}" x2="${W - de}" y1="${y(n)}" y2="${y(n)}" class="graf-guia ${n === 5 ? 'aprobado' : ''}"/>
+        <text x="${iz - 8}" y="${y(n) + 4}" class="graf-eje">${n}</text>`).join('')}
+      <polyline points="${linea}" class="graf-linea"/>
+      ${puntos.map((e, i) => `<circle cx="${x(i)}" cy="${y(e.nota)}" r="5" class="graf-punto ${Number(e.nota) >= 5 ? 'bien' : 'mal'}"><title>${fechaLarga(e.fecha)}: ${notaTexto(e.nota)}</title></circle>`).join('')}
+    </svg>
+  </figure>`;
+}
+
+function filaExamen(e) {
+  const libros = librosDeExamen(e);
+  return `<li><a class="fila fila-examen" href="#/historial/${encodeURIComponent(e.id)}">
+    <span class="fila-icono" aria-hidden="true">${ICONO_MODO[e.tipo] || '📖'}</span>
+    <span class="fila-texto">
+      <strong>${NOMBRE_MODO[e.tipo] || e.tipo}</strong>
+      <span>${fechaLarga(e.fecha)}</span>
+      ${libros.length ? `<span class="fila-libros">${libros.map(l => `<span style="--c:${l.color}">${l.icono} ${esc(nombreCorto(l))}</span>`).join('')}</span>` : ''}
+      <span class="fila-cifras"><span class="bien">✓ ${e.aciertos}</span><span class="mal">✕ ${e.fallos}</span>${Number(e.blancos) ? `<span>— ${e.blancos}</span>` : ''}<span>⏱ ${duracion(e.segundos)}</span></span>
+    </span>
+    <span class="fila-valor ${Number(e.nota) >= 5 ? 'bien' : 'mal'}">${notaTexto(e.nota)}</span>
+  </a></li>`;
+}
+
+async function pantallaHistorial() {
+  cargando();
+  const libros = (await cargarCatalogo()).filter(disponible);
+  const todos = await datos.examenes(estado.perfil.id, 1000);
+  const f = estado.filtroHist;
+
+  pintar(`
+    <h1>Historial de exámenes</h1>
+    <p class="lead">Todos tus tests terminados. Toca uno para repasarlo pregunta a pregunta.</p>
+    <div class="filtros" role="group" aria-label="Filtrar por tipo">
+      <div class="chips">${FILTROS_TIPO.map(([v, t]) => `<label class="chip"><input type="radio" name="f-tipo" value="${v}" ${f.tipo === v ? 'checked' : ''}><span>${t}</span></label>`).join('')}</div>
+    </div>
+    <div class="filtros" role="group" aria-label="Filtrar por libro">
+      <div class="chips"><label class="chip"><input type="radio" name="f-libro" value="todos" ${f.libro === 'todos' ? 'checked' : ''}><span>Todos los libros</span></label>
+      ${libros.map(l => `<label class="chip chip-libro" style="--c:${l.color}"><input type="radio" name="f-libro" value="${l.id}" ${f.libro === l.id ? 'checked' : ''}><span>${l.icono} ${esc(nombreCorto(l))}</span></label>`).join('')}</div>
+    </div>
+    <div id="hist-contenido" aria-live="polite"></div>
+  `, { volver: 'estadisticas', titulo: 'Historial' });
+
+  const pintarLista = () => {
+    const lista = todos.filter(e => (f.tipo === 'todos' || e.tipo === f.tipo) && (f.libro === 'todos' || (e.libros || '').split(',').includes(f.libro)));
+    const media = lista.length ? lista.reduce((s, e) => s + Number(e.nota), 0) / lista.length : 0;
+    const mejor = lista.reduce((m, e) => Math.max(m, Number(e.nota)), 0);
+    $('#hist-contenido').innerHTML = !todos.length
+      ? '<section class="vacio"><div class="vacio-icono" aria-hidden="true">📋</div><p>Aún no has terminado ningún test. ¡Cuando acabes uno aparecerá aquí!</p><a class="boton" href="#/inicio">Ir a practicar</a></section>'
+      : !lista.length ? '<p class="tarjeta">No hay tests con estos filtros.</p>'
+      : `<dl class="cifras">
+          <div><dt>Tests</dt><dd>${lista.length}</dd></div>
+          <div><dt>Nota media</dt><dd>${notaTexto(media)}</dd></div>
+          <div class="bien"><dt>Mejor nota</dt><dd>${notaTexto(mejor)}</dd></div>
+        </dl>
+        ${graficoNotas(lista)}
+        <ul class="lista-tarjetas lista-examenes" role="list">${lista.map(filaExamen).join('')}</ul>`;
+  };
+  $$('input[name=f-tipo]').forEach(i => i.onchange = () => { f.tipo = i.value; pintarLista(); });
+  $$('input[name=f-libro]').forEach(i => i.onchange = () => { f.libro = i.value; pintarLista(); });
+  pintarLista();
+}
+
+async function pantallaExamen(examenId) {
+  cargando();
+  const libros = await cargarCatalogo();
+  const e = await datos.examen(estado.perfil.id, examenId);
+  if (!e) return pintar(`<section class="vacio"><div class="vacio-icono" aria-hidden="true">🤷</div><h1>No se encuentra este test</h1>
+    <a class="boton" href="#/historial">Volver al historial</a></section>`, { volver: 'historial', titulo: 'Historial' });
+
+  const detalle = Array.isArray(e.detalle) ? e.detalle : [];
+  const preguntas = detalle.length ? await preguntasPorIds(refsDeIds(detalle.map(d => d.p), libros)) : [];
+  const porId = new Map(preguntas.map(p => [p.id, p]));
+  const items = detalle.map(d => ({ p: porId.get(d.p), elegida: d.e })).filter(it => it.p);
+  const falladas = items.filter(it => it.elegida !== null && !esCorrecta(it)).map(it => it.p);
+  const librosEx = librosDeExamen(e);
+
+  pintar(`
+    <section class="resultado resultado-historial">
+      <p class="lead">${ICONO_MODO[e.tipo] || '📖'} ${NOMBRE_MODO[e.tipo] || e.tipo} · ${fechaLarga(e.fecha)}</p>
+      <h1>${e.tipo === 'simulacro' ? 'Simulacro' : 'Test'} del ${new Date(e.fecha).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' })}</h1>
+      ${librosEx.length ? `<p class="fila-libros centrado">${librosEx.map(l => `<span style="--c:${l.color}">${l.icono} ${esc(nombreCorto(l))}</span>`).join('')}</p>` : ''}
+      <div class="nota ${Number(e.nota) >= 5 ? 'aprobada' : 'suspensa'}" style="--v:${Number(e.nota) * 10}">
+        <span class="nota-num">${notaTexto(e.nota)}</span><span class="nota-de">sobre 10</span>
+      </div>
+      <dl class="cifras">
+        <div class="bien"><dt>Aciertos</dt><dd>${e.aciertos}</dd></div>
+        <div class="mal"><dt>Fallos</dt><dd>${e.fallos}</dd></div>
+        <div><dt>En blanco</dt><dd>${e.blancos ?? 0}</dd></div>
+        <div><dt>Tiempo</dt><dd>${duracion(e.segundos)}</dd></div>
+      </dl>
+    </section>
+    ${items.length ? `<div class="botones-columna">
+        ${falladas.length ? `<button class="boton boton-grande" type="button" id="hist-fallos">Repasar los ${falladas.length} fallos</button>` : ''}
+        <button class="boton boton-secundario boton-grande" type="button" id="hist-repetir">Repetir este test</button>
+      </div>
+      <h2 class="seccion">Pregunta a pregunta</h2>
+      <ol class="revision-lista">
+        ${items.map(it => {
+          const est = it.elegida === null ? 'blanco' : esCorrecta(it) ? 'bien' : 'mal';
+          return `<li class="rev tarjeta ${est}">
+            <p class="rev-pregunta">${esc(it.p.pregunta)}</p>
+            ${est === 'mal' ? `<p class="rev-tuya">✕ Tu respuesta: ${esc(it.p.opciones[it.elegida])}</p>` : ''}
+            ${est === 'blanco' ? '<p class="rev-tuya">— En blanco</p>' : ''}
+            <p class="rev-correcta">✓ ${esc(it.p.opciones[it.p.correcta])}</p>
+            <p class="rev-explicacion">${esc(it.p.explicacion)}</p>
+            ${botonOcultar(it.p)}
+          </li>`;
+        }).join('')}
+      </ol>
+      ${items.length < detalle.length ? `<p class="lead">${detalle.length - items.length} preguntas de este test ya no existen en el temario.</p>` : ''}`
+    : '<p class="tarjeta">Este test se hizo antes de que se guardara el detalle, así que solo están los totales.</p>'}
+  `, { volver: 'historial', titulo: 'Test del historial' });
+
+  eventosOcultar(items.map(it => it.p));
+  const repetir = (lista, modo) => empezar(nuevaSesion(lista, null, modo, { libros: librosEx.map(l => l.id) }));
+  $('#hist-fallos')?.addEventListener('click', () => repetir(falladas, 'fallos'));
+  $('#hist-repetir')?.addEventListener('click', () => repetir(items.map(it => it.p), e.tipo === 'simulacro' ? 'simulacro' : 'estudio'));
 }
 
 // ---------------------------------------------------------------- atajos de teclado (PC)
