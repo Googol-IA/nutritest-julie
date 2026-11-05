@@ -1,6 +1,8 @@
 // Carga del catálogo de libros y de las preguntas de cada tema (archivos JSON).
 let catalogo = null;
+let oficiales = null;   // «libro» virtual con los exámenes oficiales: cada examen es un tema
 const cacheTemas = new Map();
+export const ID_OFICIALES = 'oficiales';
 
 export async function cargarCatalogo() {
   if (catalogo) return catalogo;
@@ -8,13 +10,22 @@ export async function cargarCatalogo() {
   catalogo = (await r.json()).libros
     .map((l, i) => ({ estado: 'activo', numero: i + 1, temas: [], ...l }))
     .sort((a, b) => a.numero - b.numero);
+  try {
+    const ind = await (await fetch('contenido/oficiales/indice.json', { cache: 'no-cache' })).json();
+    oficiales = {
+      id: ID_OFICIALES, nombre: 'Exámenes oficiales', corto: 'Oficiales', icono: '🏛️', color: '#7a5bc4', estado: 'activo',
+      temas: ind.examenes.map((e, i) => ({ ...e, nombre: e.titulo, numero: i + 1 })),
+    };
+  } catch { oficiales = null; }
   return catalogo;
 }
+
+export const libroOficiales = () => oficiales;
 
 // Libro con preguntas disponibles (los "proximamente" no entran en tests ni simulacros)
 export const disponible = (l) => l.estado !== 'proximamente' && l.temas.length > 0;
 export const nombreCorto = (l) => l.corto || l.nombre;
-export const libroPorId = (id) => catalogo.find(l => l.id === id);
+export const libroPorId = (id) => (id === ID_OFICIALES ? oficiales : catalogo.find(l => l.id === id));
 export const temaPorId = (libroId, temaId) => libroPorId(libroId)?.temas.find(t => t.id === temaId);
 export const totalPreguntasLibro = (libro) => libro.temas.reduce((s, t) => s + (t.preguntas || 0), 0);
 

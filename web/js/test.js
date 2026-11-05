@@ -17,12 +17,16 @@ export function barajar(lista) {
  * @param {string} modo         estudio | aleatorio | fallos | simulacro
  */
 export function crearSesion(preguntas, n, modo, extra = {}) {
-  const elegidas = barajar(preguntas).slice(0, n || preguntas.length);
+  // enOrden: los exámenes oficiales se hacen en el orden original
+  const elegidas = (extra.enOrden ? preguntas : barajar(preguntas)).slice(0, n || preguntas.length);
   return {
     modo,
     examen: modo === 'simulacro',
     // Las preguntas con «Todas son correctas», «a y c»… llevan orden_fijo: no se barajan sus opciones
-    items: elegidas.map(p => ({ p, orden: p.orden_fijo ? [0, 1, 2, 3] : barajar([0, 1, 2, 3]), elegida: null })),
+    items: elegidas.map(p => {
+      const pos = p.opciones.map((_, i) => i);   // 2, 3 o 4 opciones
+      return { p, orden: p.orden_fijo ? pos : barajar(pos), elegida: null };
+    }),
     i: 0,
     inicio: Date.now(),
     ...extra,

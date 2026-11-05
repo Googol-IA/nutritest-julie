@@ -606,3 +606,12 @@ a.fila-examen:hover { box-shadow: 0 0 0 2px var(--primario), var(--sombra); }
   background: var(--primario-suave); color: var(--primario-fuerte);
 }
 .formulario > .enlace-suave { align-self: center; }
+
+/* ---------- Exámenes oficiales ---------- */
+.lista-oficiales { list-style: none; padding: 0; margin: 0 0 16px; display: grid; gap: 10px; }
+.oficial { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.oficial-texto { flex: 1 1 200px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.oficial-texto span { color: var(--texto-suave); font-size: .9rem; }
+.oficial-botones { display: flex; gap: 8px; flex-wrap: wrap; }
+.oficial-botones .boton { min-height: 44px; padding-inline: 16px; }
+@media (min-width: 1000px) { .lista-oficiales { grid-template-columns: 1fr 1fr; } }

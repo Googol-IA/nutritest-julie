@@ -1,6 +1,6 @@
 // NutriTest de Julie · navegación y pantallas
 import { datos, MODO_LOCAL, calcularRacha } from './datos.js';
-import { cargarCatalogo, libroPorId, temaPorId, totalPreguntasLibro, cargarLibro, cargarVarios, preguntasPorIds, disponible, nombreCorto } from './contenido.js';
+import { cargarCatalogo, libroPorId, temaPorId, totalPreguntasLibro, cargarLibro, cargarVarios, preguntasPorIds, disponible, nombreCorto, libroOficiales, ID_OFICIALES } from './contenido.js';
 import { crearSesion, puntuar, esCorrecta } from './test.js';
 import { PENALIZACION, MINUTOS_POR_PREGUNTA } from './config.js';
 
@@ -17,7 +17,7 @@ const AVATARES = [
   ['🍇', '#8a55b5'], ['🍑', '#ec8a5e'], ['🥝', '#7aa83a'], ['🍒', '#c2304a'], ['🍉', '#df5b6c'], ['🍍', '#d6a12a'],
   ['🫐', '#4f63b8'], ['🍊', '#ef8a24'], ['🥥', '#8b6a4e'], ['🌽', '#d9a91f'],
 ];
-const NOMBRE_MODO = { estudio: 'Test del libro', aleatorio: 'Aleatorio de todo el FP', fallos: 'Repaso de fallos', simulacro: 'Simulacro de examen' };
+const NOMBRE_MODO = { oficial: 'Examen oficial', estudio: 'Test del libro', aleatorio: 'Aleatorio de todo el FP', fallos: 'Repaso de fallos', simulacro: 'Simulacro de examen' };
 
 // ---------------------------------------------------------------- estado
 const estado = {
@@ -160,6 +160,7 @@ async function router() {
       case 'resultado': return estado.resultado ? pantallaResultado() : ir('inicio');
       case 'estadisticas': return pantallaEstadisticas();
       case 'ranking': return pantallaRanking();
+      case 'oficiales': return pantallaOficiales();
       case 'historial': return args[0] ? pantallaExamen(decodeURIComponent(args[0])) : pantallaHistorial();
       default: return pantallaInicio();
     }
@@ -351,6 +352,7 @@ async function pantallaInicio() {
         <span class="accion-icono" aria-hidden="true">🔁</span><strong>Repasar mis fallos</strong>
         <span>${fallosValidos ? `${fallosValidos} pendientes` : 'Sin fallos pendientes'}</span></button>
       <a class="accion" href="#/config/simulacro"><span class="accion-icono" aria-hidden="true">📝</span><strong>Simulacro de examen</strong><span>Con nota y penalización</span></a>
+      ${libroOficiales() ? `<a class="accion" href="#/oficiales"><span class="accion-icono" aria-hidden="true">🏛️</span><strong>Exámenes oficiales</strong><span>Preguntas reales de pruebas libres</span></a>` : ''}
       <a class="accion" href="#/estadisticas"><span class="accion-icono" aria-hidden="true">📊</span><strong>Estadísticas</strong><span>Tus puntos fuertes y flojos</span></a>
       <a class="accion" href="#/ranking"><span class="accion-icono" aria-hidden="true">🏆</span><strong>Ranking</strong><span>Último mes</span></a>
     </div>
@@ -484,6 +486,58 @@ async function configurar(modo) {
   };
 }
 
+// ---------------------------------------------------------------- 4b. Exámenes oficiales
+async function pantallaOficiales() {
+  cargando();
+  const libros = await cargarCatalogo();
+  const of = libroOficiales();
+  if (!of) return ir('inicio');
+  const progreso = await datos.progresoTemas(estado.perfil.id);
+  const grupos = libros.map(l => ({ l, exs: of.temas.filter(e => e.libro === l.id) })).filter(g => g.exs.length);
+  const total = of.temas.reduce((s, e) => s + e.preguntas, 0);
+  pintar(`
+    <section class="cabecera-modo">
+      <span class="accion-icono" aria-hidden="true">🏛️</span>
+      <h1>Exámenes oficiales</h1>
+      <p>Preguntas reales de las pruebas libres, con la respuesta de la clave del examen. Solo están las que tienen respuesta segura.</p>
+    </section>
+    ${grupos.map(({ l, exs }) => `
+      <h2 class="seccion"><span aria-hidden="true">${l.icono}</span> ${esc(l.nombre)}</h2>
+      <ul class="lista-oficiales" role="list">
+        ${exs.map(e => {
+          const p = progreso.find(x => x.libro === ID_OFICIALES && x.tema === e.id);
+          const vistas = p ? Number(p.vistas) : 0;
+          return `<li class="tarjeta oficial">
+            <div class="oficial-texto">
+              <strong>${esc(e.titulo)}</strong>
+              <span>${e.preguntas} preguntas${vistas ? ` · ${vistas} vistas · ${pct(p.aciertos, p.respondidas)}% acierto` : ''}</span>
+              ${barra(pct(p ? Number(p.dominadas) : 0, e.preguntas), of.color)}
+            </div>
+            <div class="oficial-botones">
+              <button class="boton" type="button" data-oficial="${e.id}" data-modo="oficial">Practicar</button>
+              <button class="boton boton-secundario" type="button" data-oficial="${e.id}" data-modo="simulacro">Simulacro</button>
+            </div>
+          </li>`;
+        }).join('')}
+      </ul>`).join('')}
+    <div class="botones-columna">
+      <button class="boton boton-secundario boton-grande" type="button" id="oficiales-mezcla">🎲 20 al azar de todos los exámenes (${total})</button>
+    </div>
+  `, { volver: 'inicio', titulo: 'Exámenes oficiales' });
+
+  $$('[data-oficial]').forEach(b => b.onclick = async () => {
+    const preguntas = await cargarLibro(ID_OFICIALES, [b.dataset.oficial]);
+    const sim = b.dataset.modo === 'simulacro';
+    const extra = { libros: [ID_OFICIALES], enOrden: true };
+    if (sim) extra.limite = preguntas.length * MINUTOS_POR_PREGUNTA * 60;
+    empezar(nuevaSesion(preguntas, null, sim ? 'simulacro' : 'oficial', extra));
+  });
+  $('#oficiales-mezcla').onclick = async () => {
+    const preguntas = await cargarLibro(ID_OFICIALES);
+    empezar(nuevaSesion(preguntas, 20, 'oficial', { libros: [ID_OFICIALES] }));
+  };
+}
+
 // ---------------------------------------------------------------- 5. Test
 function empezar(sesion) {
   if (!sesion.items.length) return avisar('No quedan preguntas: las has ocultado todas');
@@ -522,7 +576,9 @@ function pantallaPregunta() {
   pintar(`
     ${cabeceraTest(s)}
     <article class="pregunta ${s.examen ? 'pregunta-examen' : 'pregunta-estudio'}" aria-labelledby="enunciado">
-      <p class="pregunta-origen" style="--c:${libro.color}"><span aria-hidden="true">${libro.icono}</span> ${esc(nombreCorto(libro))} · Tema ${tema?.numero ?? ''}</p>
+      <p class="pregunta-origen" style="--c:${libro.color}"><span aria-hidden="true">${libro.icono}</span> ${libro.id === ID_OFICIALES
+        ? `Examen oficial · ${esc(tema?.nombre ?? '')} · pregunta ${it.p.numero}`
+        : `${esc(nombreCorto(libro))} · Tema ${tema?.numero ?? ''}`}</p>
       <h1 id="enunciado" class="enunciado">${esc(it.p.pregunta)}</h1>
       <div class="opciones" role="group" aria-label="Opciones de respuesta">
         ${it.orden.map((o, k) => {
@@ -826,8 +882,8 @@ async function pantallaRanking() {
 }
 
 // ---------------------------------------------------------------- 9. Historial de exámenes
-const ICONO_MODO = { simulacro: '📝', fallos: '🔁', aleatorio: '🎲', estudio: '📖' };
-const FILTROS_TIPO = [['todos', 'Todos'], ['simulacro', '📝 Simulacros'], ['estudio', '📖 Test del libro'], ['aleatorio', '🎲 Aleatorio']];
+const ICONO_MODO = { oficial: '🏛️', simulacro: '📝', fallos: '🔁', aleatorio: '🎲', estudio: '📖' };
+const FILTROS_TIPO = [['todos', 'Todos'], ['simulacro', '📝 Simulacros'], ['estudio', '📖 Test del libro'], ['aleatorio', '🎲 Aleatorio'], ['oficial', '🏛️ Oficiales']];
 const fechaLarga = (f) => new Date(f).toLocaleString('es-ES', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 const duracion = (s) => `${Math.floor((s || 0) / 60)}:${String((s || 0) % 60).padStart(2, '0')}`;
 const librosDeExamen = (e) => (e.libros || '').split(',').filter(Boolean).map(id => libroPorId(id)).filter(Boolean);

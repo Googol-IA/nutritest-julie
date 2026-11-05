@@ -1,0 +1,1163 @@
+{
+  "examen": "madrid-2019",
+  "titulo": "Madrid 2019",
+  "libro": "alimentacion-equilibrada",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-madrid-2019-001",
+      "numero": 1,
+      "pregunta": "En relación con la alimentación colectiva, señala la gama de los productos utilizados en la cocina de \"ensamblaje\":",
+      "opciones": [
+        "1.ª y 2.ª gama.",
+        "2.ª y 3.ª gama.",
+        "3.ª y 4.ª gama.",
+        "4.ª y 5.ª gama."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-002",
+      "numero": 2,
+      "pregunta": "Es un tipo de restauración colectiva:",
+      "opciones": [
+        "La restauración de servicio.",
+        "La restauración de presentación.",
+        "La restauración familiar.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-003",
+      "numero": 3,
+      "pregunta": "La principal característica de la restauración social es que:",
+      "opciones": [
+        "Son restaurantes o casas de comidas en forma de negocio individual.",
+        "Ofrece un servicio alimentario a un colectivo que se halla en un lugar determinado a la hora de comer y no desea desplazarse de ese lugar.",
+        "Es un comedor múltiple en el que se sirven comidas elaboradas en una cocina común.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-004",
+      "numero": 4,
+      "pregunta": "Es una sustancia antinutritiva de proteínas:",
+      "opciones": [
+        "Avidina.",
+        "Ácido ascórbico.",
+        "Taninos.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-005",
+      "numero": 5,
+      "pregunta": "Son sustancias antinutritivas de vitaminas:",
+      "opciones": [
+        "Oxitiamina y piritiamina.",
+        "Ácido fítico y ácido butírico.",
+        "Taninos y saponinas.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-006",
+      "numero": 6,
+      "pregunta": "La presencia de ácido oxálico y oxalatos en los alimentos afecta a:",
+      "opciones": [
+        "La absorción de minerales.",
+        "La absorción de vitaminas.",
+        "Las opciones a y b son correctas.",
+        "Todas las opciones son incorrectas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-007",
+      "numero": 7,
+      "pregunta": "De los siguientes nutrientes, selecciona los que mantienen su valor nutritivo en los alimentos expuestos a la luz:",
+      "opciones": [
+        "Tiamina y fenilalanina.",
+        "Provitamina A (carotenos) y cobalamina.",
+        "Vitamina K y tocoferol.",
+        "Triptófano y lisina."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-008",
+      "numero": 8,
+      "pregunta": "El cocinado:",
+      "opciones": [
+        "Mejora la digestibilidad de las proteínas de los alimentos.",
+        "Produce pérdida de proteínas en los alimentos.",
+        "Puede producir peróxidos y pirólisis si no se aplican las técnicas adecuadamente.",
+        "Las opciones a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-010",
+      "numero": 10,
+      "pregunta": "El ser humano se considera termodinámicamente como un sistema:",
+      "opciones": [
+        "Cerrado de obtención de energía.",
+        "Abierto de obtención de energía.",
+        "Según el tipo de alimentación consumida: altamente energético si se consumen gran cantidad de proteínas animales.",
+        "Según el tipo de alimentación consumida: altamente energético si se consumen gran cantidad de hidratos de carbono."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-011",
+      "numero": 11,
+      "pregunta": "Definimos kilocaloría como:",
+      "opciones": [
+        "La cantidad de calor necesaria para elevar la temperatura de 1 ml de agua destilada de 11,5 a 13,5 °C a presión constante.",
+        "La cantidad de calor necesaria para elevar la temperatura de 1 litro de agua destilada de 11,5 a 13,5 °C a presión constante.",
+        "La cantidad de calor necesaria para elevar la temperatura de 1 litro de agua destilada de 14,5 a 15,5 °C a presión constante.",
+        "La cantidad de calor necesaria para elevar la temperatura de 1 ml de agua destilada de 14,5 a 15,5 °C a presión constante."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-012",
+      "numero": 12,
+      "pregunta": "El valor energético de los lípidos según los \"números de Atwater\" y el cociente respiratorio es:",
+      "opciones": [
+        "7 kcal y 0,7 CO2/O2.",
+        "7 kcal y 0,8 CO2/O2.",
+        "9 kcal y 0,7 CO2/O2.",
+        "9 kcal y 0,8 CO2/O2."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-013",
+      "numero": 13,
+      "pregunta": "La determinación del metabolismo basal se realiza de manera práctica mediante:",
+      "opciones": [
+        "Calorimetría directa.",
+        "Calorimetría indirecta.",
+        "Medición del catabolismo y del anabolismo.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-014",
+      "numero": 14,
+      "pregunta": "El efecto térmico de los alimentos es mayor en:",
+      "opciones": [
+        "Los glúcidos.",
+        "Las proteínas.",
+        "Los lípidos.",
+        "La producción de calor es similar en todos los nutrientes."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-015",
+      "numero": 15,
+      "pregunta": "El metabolismo basal expresa las necesidades energéticas mínimas para el metabolismo normal en:",
+      "opciones": [
+        "Ayunas, en estado de relajación y después de reposo mínimo de 8 horas.",
+        "Ayunas, en estado de relajación y después de reposo mínimo de 6 horas.",
+        "Acostado a última hora del día, en estado de relajación y 2 horas después de ingerir alimento.",
+        "Acostado a última hora del día, en estado de relajación y 4 horas después de ingerir alimento."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-016",
+      "numero": 16,
+      "pregunta": "Señala la correcta respecto a los monosacáridos:",
+      "opciones": [
+        "Pueden ser desdoblados por hidrólisis.",
+        "Están formados por cadenas de hasta 6 carbonos.",
+        "La inulina es el monosacárido menos común en los alimentos.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-017",
+      "numero": 17,
+      "pregunta": "La levulosa es:",
+      "opciones": [
+        "Una aldosa.",
+        "Una cetosa.",
+        "El producto principal de la hidrólisis del almidón.",
+        "Las opciones a y b son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-018",
+      "numero": 18,
+      "pregunta": "En relación con el glucógeno, señala la correcta:",
+      "opciones": [
+        "Es un glúcido de reserva.",
+        "Se almacena principalmente en el músculo.",
+        "Su depósito principal es de unos 100 mg.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-019",
+      "numero": 19,
+      "pregunta": "El ácido graso más abundante en los aceites de semillas es el:",
+      "opciones": [
+        "C20:6; n-3.",
+        "C22:5; n-3.",
+        "C18:2; n-6.",
+        "C16:1; n-9."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-020",
+      "numero": 20,
+      "pregunta": "Son ácidos grasos esenciales:",
+      "opciones": [
+        "El ácido eicosapentaenoico.",
+        "El ácido docosahexaenoico.",
+        "El ácido linoleico.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-021",
+      "numero": 21,
+      "pregunta": "El 7-dehidrocolesterol es importante porque tiene:",
+      "opciones": [
+        "Función energética.",
+        "Papel estructural transformándose en fosfolípidos.",
+        "Papel precursor de la vitamina D.",
+        "Las respuestas a. y b. son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-022",
+      "numero": 22,
+      "pregunta": "El aceite de oliva es rico en:",
+      "opciones": [
+        "Ácido araquidónico.",
+        "Ácido linoleico.",
+        "Ácido linolénico.",
+        "Ácido oleico."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-023",
+      "numero": 23,
+      "pregunta": "Es un aminoácido esencial en la infancia:",
+      "opciones": [
+        "Fenilalanina.",
+        "Histidina.",
+        "Metionina.",
+        "Triptófano."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-024",
+      "numero": 24,
+      "pregunta": "Las huevas del pescado son ricas en proteínas de tipo:",
+      "opciones": [
+        "Fibrosas.",
+        "Globulares.",
+        "Protaminas e histonas.",
+        "Glutelinas y prolaminas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-025",
+      "numero": 25,
+      "pregunta": "La orizenina es una proteína presente en:",
+      "opciones": [
+        "El trigo.",
+        "El arroz.",
+        "La cebada.",
+        "El centeno."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-026",
+      "numero": 26,
+      "pregunta": "La proporción de nitrógeno absorbido y que es retenido por el organismo para ser utilizado como elemento de crecimiento o de mantenimiento, es conocido como:",
+      "opciones": [
+        "Valor biológico.",
+        "Digestibilidad.",
+        "Utilización neta proteica.",
+        "Relación de eficacia proteica."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-027",
+      "numero": 27,
+      "pregunta": "El aminoácido limitante en las legumbres es:",
+      "opciones": [
+        "La lisina.",
+        "La valina.",
+        "El triptófano.",
+        "La metionina."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-028",
+      "numero": 28,
+      "pregunta": "El valor biológico de las proteínas de la soja ronda el:",
+      "opciones": [
+        "20%.",
+        "40%.",
+        "60%.",
+        "130%."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-029",
+      "numero": 29,
+      "pregunta": "Son fuentes importantes de aporte de flúor:",
+      "opciones": [
+        "El té, el agua potable y el pescado marino.",
+        "Los pescados de río, las lentejas y el hígado de cordero.",
+        "Las naranjas, la sal yodada y las hortalizas.",
+        "El café, las legumbres y la espina de los pescados azules."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-030",
+      "numero": 30,
+      "pregunta": "El selenio se relaciona con:",
+      "opciones": [
+        "La vitamina E como agente antineoplásico natural.",
+        "Poder desintoxicante de peróxidos.",
+        "Poder desintoxicante de radicales libres.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-031",
+      "numero": 31,
+      "pregunta": "En cuanto a las necesidades de agua en el ser humano, señale la correcta:",
+      "opciones": [
+        "Los lactantes tienen necesidades proporcionalmente 2-3 veces superiores al adulto.",
+        "Las necesidades mínimas se sitúan en torno a 2 ml por Kcal alimentaria.",
+        "Las necesidades de líquido extracelular en el adulto rondan el 32 % del peso corporal.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-032",
+      "numero": 32,
+      "pregunta": "El sodio es:",
+      "opciones": [
+        "El principal anión del medio extracelular.",
+        "El principal catión del medio extracelular.",
+        "El principal anión del medio intracelular.",
+        "El principal catión del medio intracelular."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-033",
+      "numero": 33,
+      "pregunta": "Señale la incorrecta respecto a las situaciones en las que está aumentada la necesidad de potasio:",
+      "opciones": [
+        "Diarrea y vómitos.",
+        "Temperaturas altas y transpiración exagerada.",
+        "Crecimiento (durante el periodo de crecimiento).",
+        "Las opciones b. y c. son incorrectas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-034",
+      "numero": 34,
+      "pregunta": "Es función de la riboflavina:",
+      "opciones": [
+        "El transporte de triptófano.",
+        "La maduración de los eritrocitos.",
+        "La protección de las mucosas.",
+        "Formar parte de coenzimas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-035",
+      "numero": 35,
+      "pregunta": "El tocoferol tiene como función:",
+      "opciones": [
+        "Actuar como hormona.",
+        "Prevenir anomalías fetales durante la gestación.",
+        "Actuar como antioxidante.",
+        "Formar parte de la coenzima A."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-036",
+      "numero": 36,
+      "pregunta": "Son vitaminas hidrosolubles:",
+      "opciones": [
+        "Filoquinona y Biotina.",
+        "Ergocalciferol y Retinol.",
+        "Piridoxina y Ácido fólico.",
+        "Tocoferol y Riboflavina."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-037",
+      "numero": 37,
+      "pregunta": "La leche evaporada se diferencia de la leche condensada en que:",
+      "opciones": [
+        "A la evaporada se le ha añadido el 50% de su peso en forma de azúcar.",
+        "A la condensada se le ha reducido su volumen al 50% por ebullición.",
+        "A la condensada se le ha añadido el 50% de su peso en forma de azúcar.",
+        "No hay diferencias nutricionales entre una leche y la otra."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-038",
+      "numero": 38,
+      "pregunta": "De los siguientes, ¿cuál no contienen lactosa o lo contiene en cantidades muy bajas?",
+      "opciones": [
+        "Queso maduro.",
+        "Yogur.",
+        "Kéfir.",
+        "Queso fresco."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-039",
+      "numero": 39,
+      "pregunta": "Según la clasificación comercial, la carne con tejido conectivo y grasa visible, se denomina:",
+      "opciones": [
+        "Extra.",
+        "De 1.ª.",
+        "De 2.ª.",
+        "De 3.ª."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-040",
+      "numero": 40,
+      "pregunta": "Son despojos blancos:",
+      "opciones": [
+        "Sesos.",
+        "Riñones.",
+        "Cabeza.",
+        "Lengua."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-041",
+      "numero": 41,
+      "pregunta": "Las langostas son:",
+      "opciones": [
+        "Moluscos.",
+        "Crustáceos.",
+        "Cefalópodos.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-042",
+      "numero": 42,
+      "pregunta": "La yema de huevo contiene de media:",
+      "opciones": [
+        "1800 mg de colesterol.",
+        "1500 mg de colesterol.",
+        "1300 mg de colesterol.",
+        "1100 mg de colesterol."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-043",
+      "numero": 43,
+      "pregunta": "La proteína principal de la clara del huevo es:",
+      "opciones": [
+        "Ovomucoide.",
+        "Ovomucina.",
+        "Ovotransferrina o conalbúmina.",
+        "Ovoalbúmina."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-044",
+      "numero": 44,
+      "pregunta": "Señala la correcta en relación a la capa aleurona de los cereales:",
+      "opciones": [
+        "Contiene proteínas de alto valor biológico.",
+        "Contiene los lípidos presentes en los cereales.",
+        "Contiene gran cantidad de almidón.",
+        "Es la cubierta o envoltura más externa."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-045",
+      "numero": 45,
+      "pregunta": "El agua donde se ha hervido el arroz es rico en:",
+      "opciones": [
+        "Hemicelulosas.",
+        "Ligninas.",
+        "Carrageninas.",
+        "Amilopectinas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-046",
+      "numero": 46,
+      "pregunta": "La tapioca es:",
+      "opciones": [
+        "La fécula extraída de la batata.",
+        "La fécula extraída de la patata.",
+        "La fécula extraída del boniato.",
+        "La fécula extraída de la mandioca."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-047",
+      "numero": 47,
+      "pregunta": "El contenido medio lipídico de la castaña está en torno al:",
+      "opciones": [
+        "0,5-1%.",
+        "2-2,5%.",
+        "4,5- 5%.",
+        "7-7,5%."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-048",
+      "numero": 48,
+      "pregunta": "Debido a la clorofila, las verduras son ricas en:",
+      "opciones": [
+        "Magnesio.",
+        "Sodio.",
+        "Cinc.",
+        "Selenio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-049",
+      "numero": 49,
+      "pregunta": "Las setas comestibles frescas tienen una composición nutritiva semejante a:",
+      "opciones": [
+        "Las patatas, pero con más agua.",
+        "Las frutas, pero con más hidratos de carbono.",
+        "Las verduras, pero con más proteínas.",
+        "Ninguna de las opciones anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-050",
+      "numero": 50,
+      "pregunta": "El grado de acidez de un aceite viene determinado por:",
+      "opciones": [
+        "La cantidad de ácidos grasos insaturados.",
+        "La cantidad de ácidos grasos saturados.",
+        "La cantidad de ácidos grasos libres.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-051",
+      "numero": 51,
+      "pregunta": "La variedad comercial denominada \"aceite puro de oliva\" consiste en:",
+      "opciones": [
+        "Aceite virgen y aceite refinado de oliva en el que se han usado disolventes orgánicos para su extracción.",
+        "Aceite virgen de oliva en el que se han usado disolventes orgánicos para su extracción.",
+        "Aceite refinado de oliva en el que no se han usado disolventes orgánicos para su extracción.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-052",
+      "numero": 52,
+      "pregunta": "Los shortenings son:",
+      "opciones": [
+        "Grasas de origen vegetal ricas en ácido linoleico.",
+        "Grasas de origen animal ricas en grasa saturada y colesterol.",
+        "Grasas mixtas de origen animal y vegetal.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-053",
+      "numero": 53,
+      "pregunta": "La teobromina es un alcaloide presente en:",
+      "opciones": [
+        "Las hortalizas.",
+        "Los frutos secos.",
+        "Los licores.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-054",
+      "numero": 54,
+      "pregunta": "La inulina actúa en el organismo humano como:",
+      "opciones": [
+        "Prebiótico.",
+        "Probiótico.",
+        "Alimento nutricéutico.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-055",
+      "numero": 55,
+      "pregunta": "Las hemicelulosas están formadas por la unión de:",
+      "opciones": [
+        "Xilosas.",
+        "Galactosas.",
+        "Ácidos glucurónicos.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-056",
+      "numero": 56,
+      "pregunta": "Acerca de los ácidos grasos de la serie ω3, señala lo correcto:",
+      "opciones": [
+        "Tiene como precursor al ácido linoleico.",
+        "Su primer doble enlace se encuentra entre el carbono 3 y 4 contado desde el grupo metilo.",
+        "Están contenidos en la esfingosina.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-057",
+      "numero": 57,
+      "pregunta": "Las lipoproteínas de baja densidad:",
+      "opciones": [
+        "Transportan el colesterol desde las arterias hasta el hígado.",
+        "Niveles bajos se asocian a arterioesclerosis.",
+        "Algunos lo llaman el \"colesterol bueno\".",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-058",
+      "numero": 58,
+      "pregunta": "En cuanto al aminoácido limitante, señala la correcta:",
+      "opciones": [
+        "Es el aminoácido que no es esencial.",
+        "Es el aminoácido que no está presente en una proteína.",
+        "Es el aminoácido más deficiente de una proteína vegetal.",
+        "Es el aminoácido esencial más deficiente de una proteína."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-059",
+      "numero": 59,
+      "pregunta": "La colecistoquinina estimula principalmente:",
+      "opciones": [
+        "La secreción de jugo pancreático.",
+        "La secreción de pepsinógeno.",
+        "La bomba de protones.",
+        "La secreción de jugo intestinal."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-060",
+      "numero": 60,
+      "pregunta": "Señale lo correcto respecto a la secreción ácida:",
+      "opciones": [
+        "La gastrina reduce la secreción ácida del estómago.",
+        "La secretina activa la secreción ácida del estómago.",
+        "La gastrina y la secretina son hormonas formadas en la hipófisis para regular la digestión.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-061",
+      "numero": 61,
+      "pregunta": "En relación a la secreción intestinal, señala la correcta:",
+      "opciones": [
+        "La maltasa se segrega en cantidad doble que la sacarasa.",
+        "La maltasa se segrega en cantidad cuádruple que la lactasa.",
+        "Las opciones a. y b. son correctas.",
+        "Ninguna de las opciones anteriores es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-062",
+      "numero": 62,
+      "pregunta": "La absorción del magnesio en el intestino se realiza mediante:",
+      "opciones": [
+        "Difusión simple.",
+        "Difusión facilitada.",
+        "Transporte activo.",
+        "Las opciones b. y c. son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-063",
+      "numero": 63,
+      "pregunta": "Las proteínas se absorben en el intestino en forma de:",
+      "opciones": [
+        "Aminoácidos.",
+        "Dipéptidos.",
+        "Tripéptidos.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-064",
+      "numero": 64,
+      "pregunta": "La esteatorrea hace referencia a:",
+      "opciones": [
+        "Heces con presencia lipídica superior a lo normal.",
+        "Aumento de la absorción de los grupos éster en el intestino delgado.",
+        "Eliminación de grupos éster de los ácidos grasos por el ataque del ácido clorhídrico.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-065",
+      "numero": 65,
+      "pregunta": "Son cuerpos cetónicos:",
+      "opciones": [
+        "Urea y creatinina.",
+        "Ácido betahidroxibutírico.",
+        "Las opciones a. y b. son correctas.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-066",
+      "numero": 66,
+      "pregunta": "En general, en los ácidos grasos de los triacilgliceroles, encontramos el carbono en:",
+      "opciones": [
+        "Su máximo estado de reducción, lo que implica que su oxidación generará, en proporción, mayor cantidad de energía que la glucosa.",
+        "Su máximo estado de oxidación, lo que implica que su reducción generará, en proporción, mayor cantidad de energía que la glucosa.",
+        "Su mínimo estado de reducción, lo que implica que su oxidación generará, en proporción, mayor cantidad de energía que la glucosa.",
+        "Su mínimo estado de oxidación, lo que implica que su reducción generará, en proporción, mayor cantidad de energía que la glucosa."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-067",
+      "numero": 67,
+      "pregunta": "En el metabolismo de los hidratos de carbono, la principal vía de obtención de energía es:",
+      "opciones": [
+        "La vía de las pentosas.",
+        "La vía de las hexosas.",
+        "La vía del ácido láctico.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-068",
+      "numero": 68,
+      "pregunta": "Los individuos de referencia usados para elaborar las tablas de ingestas diarias recomendadas (IDR) de energía y nutrientes de un país representan a:",
+      "opciones": [
+        "Las personas sanas del país con características de peso y altura reales de esa población.",
+        "Las personas con relaciones altura-peso deseables para esa población.",
+        "Las personas con peso ideal para esa población.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-069",
+      "numero": 69,
+      "pregunta": "La subdivisión en grupos de edad de las tablas de IDR responde a:",
+      "opciones": [
+        "Criterios científicos.",
+        "Criterios fisiológicos.",
+        "Criterios estadísticos.",
+        "Las opciones a. y b. son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-070",
+      "numero": 70,
+      "pregunta": "Son grupos específicos de las tablas de IDR:",
+      "opciones": [
+        "La gestación y la lactancia.",
+        "La menopausia y la adolescencia.",
+        "El adulto joven y el anciano.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-071",
+      "numero": 71,
+      "pregunta": "En cuanto a las necesidades nutricionales durante la gestación, señala la correcta:",
+      "opciones": [
+        "Aumentan las necesidades energéticas principalmente durante la concepción y formación de las diferentes estructuras fetales iniciales.",
+        "Aumentan las necesidades de hierro y se recomienda suplementar con 10 mg/día.",
+        "Aumentan las necesidades de hierro, pero no se recomiendan suplementos sistemáticos.",
+        "Las opciones b y c son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-072",
+      "numero": 72,
+      "pregunta": "El balance nitrogenado durante el embarazo es:",
+      "opciones": [
+        "Negativo.",
+        "Positivo.",
+        "Tiene un valor de 0.",
+        "Depende del desarrollo fetal."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-073",
+      "numero": 73,
+      "pregunta": "Las necesidades energéticas durante la menopausia están relacionadas con que:",
+      "opciones": [
+        "A partir de los 40 años las necesidades aumentan un 5% por década.",
+        "A partir de los 40 años las necesidades disminuyen un 6% por década.",
+        "A partir de los 40 años las necesidades aumentan un 1% por década.",
+        "A partir de los 40 años las necesidades disminuyen un 1% por década."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-074",
+      "numero": 74,
+      "pregunta": "La disminución de ácido gástrico en el anciano puede disminuir la absorción de:",
+      "opciones": [
+        "Vitamina C.",
+        "Vitamina E.",
+        "Vitamina B12.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-075",
+      "numero": 75,
+      "pregunta": "La talla del lactante aumenta de media durante su primer año de vida entre:",
+      "opciones": [
+        "5 y 7 cm.",
+        "10 y 12 cm.",
+        "24 y 26 cm.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-076",
+      "numero": 76,
+      "pregunta": "Las necesidades hídricas del lactante rondan, en condiciones externas neutras:",
+      "opciones": [
+        "50 ml/kg de peso y día.",
+        "75 ml/kg de peso y día.",
+        "100 ml/kg de peso y día.",
+        "150 ml/kg de peso y día."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-077",
+      "numero": 77,
+      "pregunta": "La recomendación sobre aporte diario de leche en los escolares es de:",
+      "opciones": [
+        "200 - 450 ml.",
+        "300 - 550 ml.",
+        "600 - 850 ml.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2019-080",
+      "numero": 80,
+      "pregunta": "El método de evaluación de consumo alimentario mediante inventario se utiliza:",
+      "opciones": [
+        "A nivel de las empresas de suministro alimentario.",
+        "A nivel familiar.",
+        "A nivel institucional.",
+        "A nivel individual."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}
