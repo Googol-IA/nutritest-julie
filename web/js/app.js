@@ -825,7 +825,7 @@ async function pantallaRanking() {
 
 // ---------------------------------------------------------------- 9. Historial de exámenes
 const ICONO_MODO = { simulacro: '📝', fallos: '🔁', aleatorio: '🎲', estudio: '📖' };
-const FILTROS_TIPO = [['todos', 'Todos'], ['simulacro', '📝 Simulacros'], ['estudio', '📖 Test del libro'], ['aleatorio', '🎲 Aleatorio'], ['fallos', '🔁 Repaso de fallos']];
+const FILTROS_TIPO = [['todos', 'Todos'], ['simulacro', '📝 Simulacros'], ['estudio', '📖 Test del libro'], ['aleatorio', '🎲 Aleatorio']];
 const fechaLarga = (f) => new Date(f).toLocaleString('es-ES', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' });
 const duracion = (s) => `${Math.floor((s || 0) / 60)}:${String((s || 0) % 60).padStart(2, '0')}`;
 const librosDeExamen = (e) => (e.libros || '').split(',').filter(Boolean).map(id => libroPorId(id)).filter(Boolean);

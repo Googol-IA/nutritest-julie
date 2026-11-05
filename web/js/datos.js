@@ -45,13 +45,24 @@ async function api(ruta, { metodo = 'GET', cuerpo, prefer } = {}) {
   const r = await fetch(`${SUPABASE_URL}/rest/v1/${ruta}`, {
     method: metodo, headers: cabeceras, body: cuerpo ? JSON.stringify(cuerpo) : undefined,
   });
-  if (!r.ok) throw new Error(`Supabase ${r.status}: ${await r.text()}`);
-  return r.status === 204 ? null : r.json();
+  const texto = await r.text();
+  if (!r.ok) throw new Error(`Supabase ${r.status}: ${texto}`);
+  // Con «return=minimal» Supabase responde 201 sin cuerpo: eso es un éxito, no un error
+  return texto ? JSON.parse(texto) : null;
 }
 
-// Cola para respuestas guardadas sin conexión
-const COLA = 'nutritest.cola';
-async function vaciarCola() {
+// Cola para respuestas guardadas sin conexión.
+// La cola antigua («nutritest.cola») se llenaba por error con respuestas que ya estaban
+// guardadas y las reenviaba una y otra vez: se descarta y se usa una nueva.
+const COLA = 'nutritest.cola2';
+try { localStorage.removeItem('nutritest.cola'); } catch { /* bloqueado */ }
+let vaciando = null;
+function vaciarCola() {
+  // Una sola a la vez, para no enviar la misma cola dos veces
+  if (!vaciando) vaciando = enviarCola().finally(() => { vaciando = null; });
+  return vaciando;
+}
+async function enviarCola() {
   const cola = leer(COLA, []);
   if (!cola.length) return;
   try {
@@ -60,7 +71,8 @@ async function vaciarCola() {
     if (respuestas.length) await api('respuestas', { metodo: 'POST', cuerpo: respuestas, prefer: 'return=minimal' });
     // Los exámenes de uno en uno (pueden llevar o no el campo «detalle»)
     for (const e of examenes) await insertarExamen(e);
-    escribir(COLA, []);
+    // Solo se quita lo enviado (pudo entrar algo nuevo mientras tanto)
+    escribir(COLA, leer(COLA, []).slice(cola.length));
   } catch { /* se reintentará */ }
 }
 // Si la base de datos aún no tiene la columna «detalle», se guarda sin ella
@@ -97,7 +109,8 @@ const remoto = {
   fallosPendientes: (id) => api(`fallos_pendientes?perfil_id=eq.${id}&select=pregunta_id,libro,tema&limit=5000`),
   diasEstudio: async (id) => (await api(`dias_estudio?perfil_id=eq.${id}&select=dia,respondidas&order=dia.desc&limit=400`)),
   // Lista de tests (sin el detalle, que pesa más); el detalle se pide al abrir uno
-  examenes: (id, limite = 10) => api(`examenes?perfil_id=eq.${id}&select=id,tipo,libros,n_preguntas,aciertos,fallos,blancos,nota,segundos,fecha&order=fecha.desc&limit=${limite}`),
+  // Los repasos de fallos no cuentan como test en el historial
+  examenes: (id, limite = 10) => api(`examenes?perfil_id=eq.${id}&tipo=neq.fallos&select=id,tipo,libros,n_preguntas,aciertos,fallos,blancos,nota,segundos,fecha&order=fecha.desc&limit=${limite}`),
   examen: async (id, examenId) => (await api(`examenes?perfil_id=eq.${id}&id=eq.${encodeURIComponent(examenId)}&select=*`))[0] || null,
   ranking: () => api('ranking?select=*'),
   // Preguntas ocultas: se guardan también en el dispositivo, por si la tabla aún no existe o no hay red
@@ -174,7 +187,7 @@ const local = {
     return [...m].map(([dia, respondidas]) => ({ dia, respondidas })).sort((a, b) => b.dia.localeCompare(a.dia));
   },
   async examenes(id, limite = 10) {
-    return leer(L.exa, []).filter(e => e.perfil_id === id).reverse().slice(0, limite);
+    return leer(L.exa, []).filter(e => e.perfil_id === id && e.tipo !== 'fallos').reverse().slice(0, limite);
   },
   async examen(id, examenId) {
     return leer(L.exa, []).find(e => e.perfil_id === id && e.id === examenId) || null;
