@@ -1,19 +1,8 @@
 {
   "libros": [
     {
-      "id": "organizacion-gestion",
-      "numero": 1,
-      "nombre": "Organización y gestión de la unidad de área",
-      "corto": "Organización",
-      "prefijo": "og",
-      "icono": "📋",
-      "color": "#6b6fd6",
-      "estado": "proximamente",
-      "temas": []
-    },
-    {
       "id": "alimentacion-equilibrada",
-      "numero": 2,
+      "numero": 1,
       "nombre": "Alimentación equilibrada",
       "corto": "Alim. equilibrada",
       "prefijo": "ae",
@@ -53,7 +42,7 @@
     },
     {
       "id": "dietoterapia",
-      "numero": 3,
+      "numero": 2,
       "nombre": "Dietoterapia",
       "corto": "Dietoterapia",
       "prefijo": "dt",
@@ -93,7 +82,7 @@
     },
     {
       "id": "control-alimentario",
-      "numero": 4,
+      "numero": 3,
       "nombre": "Control alimentario",
       "corto": "Control alimentario",
       "prefijo": "ca",
@@ -139,6 +128,17 @@
       ]
     },
     {
+      "id": "fol",
+      "numero": 4,
+      "nombre": "Formación y orientación laboral",
+      "corto": "FOL",
+      "prefijo": "fo",
+      "icono": "💼",
+      "color": "#4a7aa8",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
       "id": "microbiologia-higiene",
       "numero": 5,
       "nombre": "Microbiología e higiene alimentaria",
@@ -150,19 +150,8 @@
       "temas": []
     },
     {
-      "id": "educacion-sanitaria",
-      "numero": 6,
-      "nombre": "Educación sanitaria",
-      "corto": "Educación sanitaria",
-      "prefijo": "es",
-      "icono": "🍎",
-      "color": "#d94a6a",
-      "estado": "proximamente",
-      "temas": []
-    },
-    {
       "id": "fisiopatologia",
-      "numero": 7,
+      "numero": 6,
       "nombre": "Fisiopatología aplicada a la dietética",
       "corto": "Fisiopatología",
       "prefijo": "fp",
@@ -172,24 +161,35 @@
       "temas": []
     },
     {
-      "id": "ret",
+      "id": "organizacion-gestion",
+      "numero": 7,
+      "nombre": "Organización y gestión de la unidad de área",
+      "corto": "Organización",
+      "prefijo": "og",
+      "icono": "📋",
+      "color": "#6b6fd6",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "educacion-sanitaria",
       "numero": 8,
+      "nombre": "Educación sanitaria",
+      "corto": "Educación sanitaria",
+      "prefijo": "es",
+      "icono": "🍎",
+      "color": "#d94a6a",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "ret",
+      "numero": 9,
       "nombre": "Relaciones en el entorno de trabajo (RET)",
       "corto": "RET",
       "prefijo": "re",
       "icono": "🤝",
       "color": "#b8860b",
-      "estado": "proximamente",
-      "temas": []
-    },
-    {
-      "id": "fol",
-      "numero": 9,
-      "nombre": "Formación y orientación laboral",
-      "corto": "FOL",
-      "prefijo": "fo",
-      "icono": "💼",
-      "color": "#4a7aa8",
       "estado": "proximamente",
       "temas": []
     }
