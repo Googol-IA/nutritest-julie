@@ -444,3 +444,104 @@ main {
   .chips-libros { flex-direction: row; }
   .chips-libros .chip > span { width: auto; }
 }
+
+/* =====================================================================
+   ESCRITORIO (≥ 1000 px). Nada de esto afecta al móvil.
+   ===================================================================== */
+.barra-nav, .barra-nombre, .solo-pc { display: none; }
+kbd {
+  font: inherit; font-size: .8em; font-weight: 800; padding: 1px 7px; border-radius: 6px;
+  background: var(--superficie); box-shadow: inset 0 -2px 0 var(--borde), 0 0 0 1px var(--borde);
+}
+
+@media (min-width: 1000px) {
+  /* --- Barra superior con navegación --- */
+  .barra { padding-inline: max(24px, calc((100vw - 1180px) / 2)); gap: 14px; }
+  .con-perfil .barra-nav { display: flex; gap: 4px; }
+  .barra-nav a {
+    padding: 10px 16px; border-radius: 999px; font-weight: 800; text-decoration: none; color: var(--texto-suave);
+  }
+  .barra-nav a:hover { background: var(--fondo-2); color: var(--texto); }
+  .barra-nav a[aria-current="page"] { background: var(--primario-suave); color: var(--primario-fuerte); }
+  .con-perfil .barra-nombre { display: block; font-weight: 800; margin-left: 8px; }
+  .solo-pc { display: block; }
+
+  main { padding-bottom: 64px; }
+  main[data-pantalla="inicio"], main[data-pantalla="estadisticas"] { max-width: 1180px; }
+  main[data-pantalla="test"], main[data-pantalla="libro"], main[data-pantalla="ranking"],
+  main[data-pantalla="resultado"] { max-width: 960px; }
+
+  /* Los botones de abajo dejan de estar fijos en la pantalla */
+  .pie-fijo { position: static; background: none; padding: 0; margin-top: 24px; }
+  .pie-fijo > * { margin-inline: 0; }
+  .pie-fijo .boton-grande { width: auto; min-width: 280px; }
+  .aviso { bottom: 32px; }
+
+  /* --- Inicio: dos columnas --- */
+  .inicio {
+    display: grid; grid-template-columns: 360px minmax(0, 1fr); column-gap: 40px; align-items: start;
+    grid-template-areas: "saludo libros" "practica libros";
+  }
+  .inicio-saludo { grid-area: saludo; }
+  .inicio-libros { grid-area: libros; }
+  .inicio-practica { grid-area: practica; }
+  .inicio-libros .seccion:first-child { margin-top: 8px; }
+  .inicio .acciones { grid-template-columns: 1fr 1fr; }
+  .inicio .accion-destacada { grid-column: span 2; }
+  .inicio .accion { min-height: 112px; }
+
+  .libros { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .libros li:not(.li-proximo) .libro {
+    flex-direction: column; align-items: flex-start; height: 100%; padding: 22px;
+    border-left: 0; border-top: 6px solid var(--c);
+  }
+  .libros li:not(.li-proximo) .libro:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgb(30 50 35 / .12); }
+  .libros li:not(.li-proximo) .libro-texto { width: 100%; }
+  .libros li:not(.li-proximo) .libro-texto strong { font-size: 1.15rem; }
+  .libros .flecha { display: none; }
+  .libros .li-proximo .libro-proximo { height: 100%; }
+
+  /* --- Pregunta: opciones a la izquierda, explicación y "Siguiente" a la derecha --- */
+  .pregunta-estudio {
+    display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); column-gap: 28px; align-items: start;
+  }
+  .pregunta-estudio > .pregunta-origen, .pregunta-estudio > .enunciado { grid-column: 1 / -1; justify-self: start; }
+  .pregunta-estudio > .opciones { grid-column: 1; grid-row: 3 / span 4; }
+  .pregunta-estudio > .explicacion, .pregunta-estudio > .boton-ocultar,
+  .pregunta-estudio > .atajos, .pregunta-estudio > .pie-test { grid-column: 2; }
+  .pregunta-estudio > .explicacion { margin-top: 0; }
+  .pregunta-estudio > .boton-ocultar { justify-self: start; margin-top: 12px; }
+  .pregunta-estudio > .pie-test { margin-top: 16px; }
+  .pie-test { justify-content: flex-start; }
+  .pie-test .boton { flex: 0 1 auto; min-width: 200px; }
+  .pie-test .pista { flex: 0 1 auto; }
+  .atajos { color: var(--texto-suave); font-size: .9rem; font-weight: 600; margin: 0; padding: 14px 16px; border-radius: var(--radio-s); background: var(--fondo-2); }
+  .pregunta-examen .atajos { margin-top: 16px; }
+  .opcion:hover:not(:disabled) { border-color: var(--primario); }
+  .pie-examen { grid-template-columns: 64px 280px 64px; justify-content: center; max-width: none; }
+
+  /* --- Libro: temas en dos columnas --- */
+  .temas { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .temas .tema { margin-bottom: 0; }
+  .tema:hover { box-shadow: 0 0 0 2px var(--primario), var(--sombra); }
+
+  /* --- Resultado --- */
+  .botones-columna { flex-direction: row; justify-content: center; }
+  .botones-columna .boton-grande { width: auto; min-width: 260px; }
+
+  /* --- Estadísticas: dos columnas --- */
+  .estadisticas {
+    display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 40px; align-items: start;
+    grid-template-areas: "resumen libros" "extra libros";
+  }
+  .est-resumen { grid-area: resumen; }
+  .est-libros { grid-area: libros; }
+  .est-extra { grid-area: extra; }
+  .est-libros > .seccion:first-child { margin-top: 8px; }
+  .cifras-grandes { grid-template-columns: repeat(4, 1fr); }
+  .calendario { gap: 5px; }
+  .calendario .dia { width: 24px; height: 24px; border-radius: 6px; }
+
+  /* --- Ranking: dos columnas --- */
+  .ranking { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+}

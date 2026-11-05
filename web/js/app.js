@@ -87,6 +87,13 @@ function pintar(html, { volver = null, titulo = null } = {}) {
     bPerfil.style.setProperty('--c', estado.perfil.color);
     bPerfil.setAttribute('aria-label', `Perfil de ${estado.perfil.nombre}. Cambiar de perfil`);
   } else bPerfil.hidden = true;
+  // Barra de escritorio (solo visible en pantallas anchas)
+  document.body.classList.toggle('con-perfil', !!estado.perfil);
+  $('#barra-nombre').textContent = estado.perfil?.nombre || '';
+  $$('#barra-nav a').forEach(a => {
+    if (a.dataset.nav === principal.dataset.pantalla) a.setAttribute('aria-current', 'page');
+    else a.removeAttribute('aria-current');
+  });
   document.title = titulo ? `${titulo} · NutriTest de Julie` : 'NutriTest de Julie · FP Superior de Dietética';
   window.scrollTo(0, 0);
   const h1 = $('h1', principal);
@@ -129,6 +136,7 @@ function ir(ruta) { if (location.hash === `#/${ruta}`) router(); else location.h
 async function router() {
   clearInterval(estado.temporizador);
   const [ruta, ...args] = location.hash.replace(/^#\/?/, '').split('/');
+  principal.dataset.pantalla = ruta || 'inicio';   // para los estilos de escritorio
   try {
     await cargarCatalogo();
     if (!estado.perfil && !['perfiles', 'nuevo'].includes(ruta)) {
@@ -261,7 +269,8 @@ async function pantallaInicio() {
   const hayPreguntas = libros.some(disponible);
 
   pintar(`
-    <section class="saludo">
+    <div class="inicio">
+    <section class="saludo inicio-saludo">
       <h1>¡Hola, ${esc(estado.perfil.nombre)}! <span aria-hidden="true">👋</span></h1>
       <div class="racha ${racha ? 'activa' : ''}">
         <span class="racha-fuego" aria-hidden="true">🔥</span>
@@ -272,11 +281,12 @@ async function pantallaInicio() {
       </div>
     </section>
 
+    <div class="inicio-libros">
     <h2 class="seccion">Tus libros</h2>
     <ul class="libros" role="list">
       ${libros.map(l => {
         if (l.estado === 'proximamente') {
-          return `<li><div class="libro libro-proximo" style="--c:${l.color}" aria-disabled="true">
+          return `<li class="li-proximo"><div class="libro libro-proximo" style="--c:${l.color}" aria-disabled="true">
             <span class="libro-icono" aria-hidden="true">${l.icono}</span>
             <span class="libro-texto"><strong>${esc(l.nombre)}</strong><span class="etiqueta">Próximamente</span></span>
           </div></li>`;
@@ -295,7 +305,9 @@ async function pantallaInicio() {
         </a></li>`;
       }).join('')}
     </ul>
+    </div>
 
+    <div class="inicio-practica">
     <h2 class="seccion">Practica</h2>
     <div class="acciones">
       <a class="accion accion-destacada" href="#/config/aleatorio" ${hayPreguntas ? '' : 'aria-disabled="true"'}>
@@ -306,6 +318,8 @@ async function pantallaInicio() {
       <a class="accion" href="#/config/simulacro"><span class="accion-icono" aria-hidden="true">📝</span><strong>Simulacro de examen</strong><span>Con nota y penalización</span></a>
       <a class="accion" href="#/estadisticas"><span class="accion-icono" aria-hidden="true">📊</span><strong>Estadísticas</strong><span>Tus puntos fuertes y flojos</span></a>
       <a class="accion" href="#/ranking"><span class="accion-icono" aria-hidden="true">🏆</span><strong>Ranking</strong><span>Último mes</span></a>
+    </div>
+    </div>
     </div>
   `, { titulo: 'Inicio' });
 
@@ -472,7 +486,7 @@ function pantallaPregunta() {
 
   pintar(`
     ${cabeceraTest(s)}
-    <article class="pregunta" aria-labelledby="enunciado">
+    <article class="pregunta ${s.examen ? 'pregunta-examen' : 'pregunta-estudio'}" aria-labelledby="enunciado">
       <p class="pregunta-origen" style="--c:${libro.color}"><span aria-hidden="true">${libro.icono}</span> ${esc(nombreCorto(libro))} · Tema ${tema?.numero ?? ''}</p>
       <h1 id="enunciado" class="enunciado">${esc(it.p.pregunta)}</h1>
       <div class="opciones" role="group" aria-label="Opciones de respuesta">
@@ -495,12 +509,14 @@ function pantallaPregunta() {
           <p>${esc(it.p.explicacion)}</p>
         </div>
         ${botonOcultar(it.p)}` : ''}
-    </article>
-    ${s.examen ? navegacionExamen(s) : `
+      ${!mostrarSolucion ? `<p class="atajos solo-pc">Atajos: <kbd>1</kbd>–<kbd>4</kbd> o <kbd>A</kbd>–<kbd>D</kbd> para responder${s.examen ? ' · <kbd>←</kbd> <kbd>→</kbd> para moverte' : ' · <kbd>Intro</kbd> siguiente'} · <kbd>Esc</kbd> salir</p>` : ''}
+      ${s.examen ? '' : `
       <div class="pie-fijo pie-test">
         <button class="boton-texto" type="button" id="salir">Salir</button>
         ${respondida ? `<button class="boton boton-grande" type="button" id="siguiente">${s.i + 1 < s.items.length ? 'Siguiente' : 'Ver resultado'}</button>` : '<span class="pista">Toca una respuesta</span>'}
       </div>`}
+    </article>
+    ${s.examen ? navegacionExamen(s) : ''}
   `, { volver: salirTest, titulo: `Pregunta ${s.i + 1}` });
 
   // Después de responder, llevar el foco a la explicación / siguiente
@@ -688,6 +704,8 @@ async function pantallaEstadisticas() {
     .sort((a, b) => a.v - b.v).slice(0, 3);
 
   pintar(`
+    <div class="estadisticas">
+    <div class="est-resumen">
     <h1>Tus estadísticas</h1>
     <dl class="cifras cifras-grandes">
       <div><dt>Respondidas</dt><dd>${respondidas}</dd></div>
@@ -707,7 +725,9 @@ async function pantallaEstadisticas() {
           <span class="fila-texto"><strong>Tema ${t.numero}: ${esc(t.titulo)}</strong><span>${esc(l.nombre)}</span></span>
           <span class="fila-valor mal">${f.v}%</span></a></li>`;
       }).join('')}</ul>` : ''}
+    </div>
 
+    <div class="est-libros">
     <h2 class="seccion">Por libro y tema</h2>
     ${libros.filter(disponible).map(l => `
       <section class="tarjeta stats-libro" style="--c:${l.color}">
@@ -720,7 +740,9 @@ async function pantallaEstadisticas() {
             <span class="stats-sub">${p ? `${p.dominadas}/${t.preguntas} dominadas · ${p.respondidas} respuestas` : 'Sin empezar'}</span></li>`;
         }).join('')}</ul>
       </section>`).join('') || '<p class="tarjeta">Aún no hay temas cargados.</p>'}
+    </div>
 
+    <div class="est-extra">
     ${examenes.length ? `<h2 class="seccion">Últimos tests</h2>
       <ul class="lista-tarjetas" role="list">${examenes.map(e => `
         <li class="fila"><span aria-hidden="true">${e.tipo === 'simulacro' ? '📝' : e.tipo === 'fallos' ? '🔁' : e.tipo === 'aleatorio' ? '🎲' : '📖'}</span>
@@ -737,6 +759,8 @@ async function pantallaEstadisticas() {
           ${botonOcultar(p)}
         </li>`).join('')}</ol>
       </details>` : ''}
+    </div>
+    </div>
   `, { volver: 'inicio', titulo: 'Estadísticas' });
   eventosOcultar(ocultas);
 }
@@ -763,6 +787,30 @@ async function pantallaRanking() {
     </ol>
   `, { volver: 'inicio', titulo: 'Ranking' });
 }
+
+// ---------------------------------------------------------------- atajos de teclado (PC)
+document.addEventListener('keydown', (ev) => {
+  const s = estado.sesion;
+  if (!s || !location.hash.startsWith('#/test')) return;
+  if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
+  if (ev.target.closest?.('input, textarea, select, summary, [contenteditable]')) return;
+  const tecla = ev.key.toLowerCase();
+  const n = '1234'.indexOf(tecla) >= 0 ? '1234'.indexOf(tecla) : 'abcd'.indexOf(tecla);
+  if (n >= 0) {
+    const b = $$('.opcion')[n];
+    if (b && !b.disabled) { ev.preventDefault(); b.click(); }
+  } else if (tecla === 'enter' && !s.examen) {
+    // Si el foco ya está en un botón o enlace, Intro lo pulsa de forma normal
+    if (ev.target.closest?.('button, a')) return;
+    const sig = $('#siguiente');
+    if (sig) { ev.preventDefault(); sig.click(); }
+  } else if (tecla === 'escape') {
+    ev.preventDefault(); salirTest();
+  } else if (s.examen && (tecla === 'arrowleft' || tecla === 'arrowright')) {
+    const b = $(tecla === 'arrowleft' ? '#anterior' : '#posterior');
+    if (b && !b.disabled) { ev.preventDefault(); b.click(); }
+  }
+});
 
 // ---------------------------------------------------------------- arranque
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
