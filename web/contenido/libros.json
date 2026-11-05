@@ -60,11 +60,39 @@
       "estado": "activo",
       "temas": [
         {
-          "id": "t00",
-          "numero": 0,
-          "titulo": "Ejemplo (se borrará)",
-          "archivo": "tema-00.json",
-          "preguntas": 4
+          "id": "t01",
+          "numero": 1,
+          "titulo": "Introducción al control alimentario",
+          "archivo": "tema-01.json",
+          "preguntas": 65
+        },
+        {
+          "id": "t02",
+          "numero": 2,
+          "titulo": "Contaminación abiótica de los alimentos",
+          "archivo": "tema-02.json",
+          "preguntas": 55
+        },
+        {
+          "id": "t03",
+          "numero": 3,
+          "titulo": "Contaminación biótica y microbiana",
+          "archivo": "tema-03.json",
+          "preguntas": 40
+        },
+        {
+          "id": "t04",
+          "numero": 4,
+          "titulo": "Alteraciones físico-químicas de los alimentos",
+          "archivo": "tema-04.json",
+          "preguntas": 56
+        },
+        {
+          "id": "t05",
+          "numero": 5,
+          "titulo": "Conservación e higienización de los alimentos",
+          "archivo": "tema-05.json",
+          "preguntas": 53
         }
       ]
     },
@@ -115,7 +143,7 @@
     {
       "id": "fol",
       "numero": 9,
-      "nombre": "Formación y orientación laboral (2627)",
+      "nombre": "Formación y orientación laboral",
       "corto": "FOL",
       "prefijo": "fo",
       "icono": "💼",
