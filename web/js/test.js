@@ -21,7 +21,8 @@ export function crearSesion(preguntas, n, modo, extra = {}) {
   return {
     modo,
     examen: modo === 'simulacro',
-    items: elegidas.map(p => ({ p, orden: barajar([0, 1, 2, 3]), elegida: null })),
+    // Las preguntas con «Todas son correctas», «a y c»… llevan orden_fijo: no se barajan sus opciones
+    items: elegidas.map(p => ({ p, orden: p.orden_fijo ? [0, 1, 2, 3] : barajar([0, 1, 2, 3]), elegida: null })),
     i: 0,
     inicio: Date.now(),
     ...extra,

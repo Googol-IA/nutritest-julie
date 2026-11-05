@@ -4,12 +4,14 @@ Uso:  python scripts/validar_preguntas.py
 Sale con código 1 si encuentra errores (así no se publica nada roto).
 """
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
 
 CONTENIDO = Path(__file__).resolve().parent.parent / "web" / "contenido"
-PROHIBIDAS = ("todas las anteriores", "ninguna de las anteriores", "todas son correctas", "a y b son correctas")
+# Opciones que dependen de la posición: solo se permiten con "orden_fijo": true
+PROHIBIDAS = r"^\s*(todas|ninguna|ambas)\b.*\b(anteriores|opciones|respuestas|correct|ciert|verdader|fals)|\b[abcd] y (la )?[abcd] (son|es)\b"
 
 
 def main() -> int:
@@ -51,8 +53,8 @@ def main() -> int:
                     errores.append(f"{ref}: debe tener 4 opciones (tiene {len(ops)})")
                 if len({o.strip().lower() for o in ops}) != len(ops):
                     errores.append(f"{ref}: opciones repetidas")
-                if any(any(x in o.lower() for x in PROHIBIDAS) for o in ops):
-                    errores.append(f"{ref}: no usar 'todas/ninguna de las anteriores' (las opciones se barajan)")
+                if not p.get("orden_fijo") and any(re.search(PROHIBIDAS, o, re.I) for o in ops):
+                    errores.append(f"{ref}: usa 'todas/ninguna/a y c' pero le falta \"orden_fijo\": true (las opciones se barajarían)")
                 if p.get("correcta") not in (0, 1, 2, 3):
                     errores.append(f"{ref}: 'correcta' debe ser 0, 1, 2 o 3")
                 else:

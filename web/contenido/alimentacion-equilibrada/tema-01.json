@@ -6,400 +6,656 @@
   "preguntas": [
     {
       "id": "ae-t01-001",
-      "pregunta": "¿Qué es un nutriente?",
-      "opciones": ["Una sustancia que el organismo necesita para obtener energía, mantener sus estructuras y regular procesos, y que no puede sintetizar en cantidad suficiente", "Cualquier alimento que se come", "Solo las vitaminas y minerales", "Una sustancia que el cuerpo fabrica sin necesidad de dieta"],
+      "pregunta": "Los nutrientes son sustancias que:",
+      "opciones": [
+        "El organismo necesita para obtener energía, mantener sus estructuras y regular procesos, y que no puede sintetizar en cantidad suficiente.",
+        "El organismo sintetiza en cantidad suficiente, por lo que su aporte en la dieta es opcional.",
+        "Aportan energía en todos los casos.",
+        "Proceden exclusivamente de alimentos de origen animal."
+      ],
       "correcta": 0,
       "explicacion": "Los nutrientes no se sintetizan en cantidad suficiente, por eso deben obtenerse de la dieta. Son vitales para el crecimiento, la reparación de tejidos y el mantenimiento de la salud.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-002",
-      "pregunta": "¿Cuál es la principal fuente de energía entre los macronutrientes?",
-      "opciones": ["Proteínas", "Carbohidratos", "Vitaminas", "Minerales"],
-      "correcta": 1,
+      "pregunta": "Señala la opción CORRECTA respecto a las funciones de los macronutrientes:",
+      "opciones": [
+        "Los carbohidratos son la principal fuente de energía.",
+        "Los lípidos son la principal fuente de energía y no intervienen en la absorción de vitaminas.",
+        "Las proteínas tienen una función principalmente energética.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0,
       "explicacion": "Carbohidratos: principal fuente de energía. Lípidos: salud celular, hormonas y absorción de vitaminas liposolubles. Proteínas: construcción y reparación de tejidos, enzimas y hormonas.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t01-003",
-      "pregunta": "¿Qué macronutriente es fundamental para la absorción de las vitaminas liposolubles?",
-      "opciones": ["Las proteínas", "Los carbohidratos", "Los lípidos", "El agua"],
+      "pregunta": "Es fundamental para la absorción de las vitaminas liposolubles:",
+      "opciones": [
+        "Las proteínas.",
+        "Los carbohidratos.",
+        "Los lípidos.",
+        "La fibra."
+      ],
       "correcta": 2,
       "explicacion": "Los lípidos intervienen en la salud celular, la producción de hormonas y la absorción de vitaminas liposolubles (A, D, E, K).",
       "dificultad": 1
     },
     {
       "id": "ae-t01-004",
-      "pregunta": "¿Cuál es la principal función de las proteínas?",
-      "opciones": ["Ser la principal fuente de energía", "Absorber vitaminas liposolubles", "Aportar minerales", "Construir y reparar tejidos y producir enzimas y hormonas"],
+      "pregunta": "Señala la opción FALSA respecto a los macronutrientes:",
+      "opciones": [
+        "Los carbohidratos son la principal fuente de energía.",
+        "Los lípidos intervienen en la producción de hormonas y en la absorción de vitaminas liposolubles.",
+        "Las proteínas construyen y reparan tejidos y forman enzimas y hormonas.",
+        "Las proteínas son la principal fuente de energía del organismo."
+      ],
       "correcta": 3,
-      "explicacion": "Las proteínas tienen función principalmente estructural y reguladora: tejidos, enzimas y hormonas.",
+      "explicacion": "Es falsa la última: la principal fuente de energía son los carbohidratos. Las proteínas tienen función estructural y reguladora (tejidos, enzimas y hormonas).",
       "dificultad": 1
     },
     {
       "id": "ae-t01-005",
-      "pregunta": "¿Qué diferencia a las vitaminas de los minerales?",
-      "opciones": ["Las vitaminas son compuestos orgánicos y los minerales, inorgánicos", "Las vitaminas aportan mucha energía", "Los minerales son orgánicos", "No hay diferencia"],
+      "pregunta": "Respecto a las vitaminas y los minerales, es cierto que:",
+      "opciones": [
+        "Las vitaminas son compuestos orgánicos y los minerales, inorgánicos.",
+        "Ambos aportan 4 kcal/g.",
+        "Los minerales son compuestos orgánicos.",
+        "Las vitaminas son macronutrientes."
+      ],
       "correcta": 0,
       "explicacion": "Ambos son micronutrientes: las vitaminas son compuestos orgánicos y los minerales, inorgánicos. Ninguno aporta energía.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-006",
-      "pregunta": "Según los números de Atwater, ¿cuántas kcal aporta 1 g de lípidos?",
-      "opciones": ["4 kcal", "9 kcal", "7 kcal", "0 kcal"],
+      "pregunta": "Según los números de Atwater, 1 g de lípidos aporta:",
+      "opciones": [
+        "4 kcal.",
+        "9 kcal.",
+        "7 kcal.",
+        "5 kcal."
+      ],
       "correcta": 1,
       "explicacion": "Números de Atwater: hidratos de carbono 4 kcal/g, proteínas 4 kcal/g, lípidos 9 kcal/g y alcohol 7 kcal/g.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-007",
-      "pregunta": "¿Cuántas kcal aporta 1 g de proteínas?",
-      "opciones": ["9 kcal", "7 kcal", "4 kcal", "2 kcal"],
-      "correcta": 2,
-      "explicacion": "Las proteínas aportan 4 kcal/g, igual que los hidratos de carbono.",
+      "pregunta": "Según los números de Atwater, es FALSO que:",
+      "opciones": [
+        "Los hidratos de carbono aportan 4 kcal/g.",
+        "Las proteínas aportan 4 kcal/g.",
+        "El alcohol aporta 7 kcal/g.",
+        "Los lípidos aportan 7 kcal/g."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso que los lípidos aporten 7 kcal/g: aportan 9 kcal/g. Hidratos de carbono y proteínas, 4 kcal/g; alcohol, 7 kcal/g.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-008",
-      "pregunta": "¿Qué nutrientes NO aportan energía?",
-      "opciones": ["Los lípidos", "Los hidratos de carbono", "Las proteínas", "Las vitaminas y los minerales"],
+      "pregunta": "No aportan energía:",
+      "opciones": [
+        "Los lípidos",
+        "Los hidratos de carbono",
+        "Las proteínas",
+        "Las vitaminas y los minerales"
+      ],
       "correcta": 3,
       "explicacion": "Las vitaminas y los minerales no aportan kcal: su función es reguladora.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-009",
-      "pregunta": "Un alimento tiene 10 g de hidratos de carbono, 5 g de proteínas y 2 g de grasa. ¿Cuántas kcal aporta?",
-      "opciones": ["78 kcal", "68 kcal", "51 kcal", "85 kcal"],
+      "pregunta": "Un alimento contiene 10 g de hidratos de carbono, 5 g de proteínas y 2 g de grasa. Su aporte energético es de:",
+      "opciones": [
+        "78 kcal",
+        "68 kcal",
+        "51 kcal",
+        "85 kcal"
+      ],
       "correcta": 0,
       "explicacion": "(10 × 4) + (5 × 4) + (2 × 9) = 40 + 20 + 18 = 78 kcal.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-010",
-      "pregunta": "¿Qué es el anabolismo?",
-      "opciones": ["Un proceso oxidante que libera energía", "Un proceso reductor y endergónico que construye moléculas complejas consumiendo ATP", "La digestión de los alimentos", "La eliminación de desechos"],
+      "pregunta": "El anabolismo es un proceso:",
+      "opciones": [
+        "Oxidante y exergónico que libera ATP.",
+        "Reductor y endergónico que construye moléculas complejas consumiendo ATP.",
+        "Oxidante y endergónico que degrada moléculas complejas.",
+        "Reductor y exergónico que libera ATP."
+      ],
       "correcta": 1,
       "explicacion": "El anabolismo construye (de sustancias simples a complejas), consume ATP y es reductor y endergónico. Ejemplos: glucogénesis, gluconeogénesis.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-011",
-      "pregunta": "¿Qué caracteriza al catabolismo?",
-      "opciones": ["Es reductor y consume ATP", "Construye proteínas", "Es oxidante y exergónico: degrada sustancias complejas y libera energía (ATP)", "No produce energía"],
-      "correcta": 2,
+      "pregunta": "Señala la opción CORRECTA respecto al catabolismo:",
+      "opciones": [
+        "Es reductor y consume ATP.",
+        "Es oxidante y exergónico: degrada sustancias complejas y libera ATP.",
+        "Es reductor y endergónico.",
+        "Construye sustancias complejas a partir de sustancias simples."
+      ],
+      "correcta": 1,
       "explicacion": "El catabolismo son reacciones degradativas, oxidantes y exergónicas que liberan ATP. Ejemplos: glucólisis, glucogenólisis.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-012",
-      "pregunta": "¿Cuál de estas es una ruta ANABÓLICA?",
-      "opciones": ["Glucólisis", "Glucogenólisis", "Beta-oxidación", "Gluconeogénesis"],
+      "pregunta": "Son rutas anabólicas:",
+      "opciones": [
+        "Glucogénesis.",
+        "Glucogenólisis.",
+        "Gluconeogénesis.",
+        "a y c son correctas."
+      ],
       "correcta": 3,
-      "explicacion": "Gluconeogénesis y glucogénesis son anabólicas (fabrican glucosa o glucógeno). Glucólisis y glucogenólisis son catabólicas.",
-      "dificultad": 2
+      "explicacion": "Glucogénesis y gluconeogénesis son anabólicas (fabrican glucógeno o glucosa). La glucogenólisis y la glucólisis son catabólicas.",
+      "dificultad": 2,
+      "orden_fijo": true
     },
     {
       "id": "ae-t01-013",
-      "pregunta": "¿Cuál de estas es una ruta CATABÓLICA?",
-      "opciones": ["Glucólisis", "Glucogénesis", "Gluconeogénesis", "Síntesis de proteínas"],
+      "pregunta": "Es una ruta catabólica:",
+      "opciones": [
+        "Glucólisis.",
+        "Glucogénesis.",
+        "Gluconeogénesis.",
+        "Ninguna es correcta."
+      ],
       "correcta": 0,
       "explicacion": "La glucólisis degrada la glucosa liberando energía: es catabólica.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t01-014",
-      "pregunta": "En una reacción de oxidación, ¿qué ocurre con el átomo?",
-      "opciones": ["Gana un electrón", "Pierde un electrón", "Gana un protón", "No cambia"],
+      "pregunta": "En una reacción de oxidación, el átomo:",
+      "opciones": [
+        "Gana electrones.",
+        "Pierde electrones.",
+        "Gana protones.",
+        "Pierde protones."
+      ],
       "correcta": 1,
       "explicacion": "Oxidación: el átomo pierde electrones (catabolismo). Reducción: el átomo gana electrones (anabolismo).",
       "dificultad": 2
     },
     {
       "id": "ae-t01-015",
-      "pregunta": "¿Cómo se define la kilocaloría?",
-      "opciones": ["La energía para acelerar 1 g a 1 cm/s", "La energía para subir 1 °C un gramo de agua", "La energía para subir la temperatura de 1 litro de agua de 14,5 °C a 15,5 °C", "La energía para hervir 1 litro de agua"],
+      "pregunta": "La kilocaloría es la energía necesaria para:",
+      "opciones": [
+        "Acelerar 1 g a 1 cm/s.",
+        "Elevar 1 °C la temperatura de 1 g de agua.",
+        "Elevar la temperatura de 1 litro de agua de 14,5 °C a 15,5 °C.",
+        "Elevar la temperatura de 1 litro de agua de 4 °C a 5 °C."
+      ],
       "correcta": 2,
       "explicacion": "1 kcal (= 1 Caloría = 1000 calorías) eleva 1 °C (de 14,5 a 15,5 °C) la temperatura de 1 litro de agua.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-016",
-      "pregunta": "¿Cuántas calorías (con minúscula) equivalen a 1 kcal?",
-      "opciones": ["10", "100", "4,18", "1000"],
+      "pregunta": "Respecto a las unidades de energía, señala la opción CORRECTA:",
+      "opciones": [
+        "1 kcal = 1 Caloría (con mayúscula).",
+        "1 kcal = 1000 calorías.",
+        "1 kcal = 4,18 kJ.",
+        "Todas son correctas."
+      ],
       "correcta": 3,
-      "explicacion": "1 kcal = 1 Caloría (con mayúscula) = 1000 calorías.",
-      "dificultad": 1
+      "explicacion": "Las tres afirmaciones son ciertas: 1 kcal = 1 Caloría = 1000 calorías, y 1 kcal = 4,18 kJ (1 kJ = 0,24 kcal).",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t01-017",
-      "pregunta": "¿Cuál es la unidad de energía del Sistema Internacional?",
-      "opciones": ["El julio (J)", "La kilocaloría", "La caloría", "El vatio"],
+      "pregunta": "La unidad de energía del Sistema Internacional es:",
+      "opciones": [
+        "El julio (J)",
+        "La kilocaloría",
+        "La caloría",
+        "El vatio"
+      ],
       "correcta": 0,
       "explicacion": "El julio es la unidad del SI: energía necesaria para acelerar 1 g a 1 cm/s (según el tema).",
       "dificultad": 1
     },
     {
       "id": "ae-t01-018",
-      "pregunta": "¿Cuál es la equivalencia correcta entre kcal y kJ?",
-      "opciones": ["1 kcal = 0,24 kJ", "1 kcal = 4,18 kJ", "1 kJ = 4,18 kcal", "1 kcal = 1000 kJ"],
+      "pregunta": "La equivalencia correcta entre kcal y kJ es:",
+      "opciones": [
+        "1 kcal = 0,24 kJ",
+        "1 kcal = 4,18 kJ",
+        "1 kJ = 4,18 kcal",
+        "1 kcal = 1000 kJ"
+      ],
       "correcta": 1,
       "explicacion": "1 kcal = 4,18 kJ y 1 kJ = 0,24 kcal.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-019",
-      "pregunta": "¿A cuántas kcal equivalen 3700 kJ?",
-      "opciones": ["15 466 kcal", "370 kcal", "888 kcal", "1540 kcal"],
+      "pregunta": "3700 kJ equivalen a:",
+      "opciones": [
+        "15 466 kcal",
+        "370 kcal",
+        "888 kcal",
+        "1540 kcal"
+      ],
       "correcta": 2,
       "explicacion": "3700 kJ × 0,24 = 888 kcal.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-020",
-      "pregunta": "¿A cuántas kcal equivalen 300 kJ?",
-      "opciones": ["1254 kcal", "30 kcal", "124 kcal", "72 kcal"],
+      "pregunta": "300 kJ equivalen a:",
+      "opciones": [
+        "1254 kcal",
+        "30 kcal",
+        "124 kcal",
+        "72 kcal"
+      ],
       "correcta": 3,
       "explicacion": "300 kJ × 0,24 = 72 kcal.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-021",
-      "pregunta": "¿A cuántos kJ equivalen 500 kcal?",
-      "opciones": ["2090 kJ", "120 kJ", "500 kJ", "5000 kJ"],
+      "pregunta": "500 kcal equivalen a:",
+      "opciones": [
+        "2090 kJ",
+        "120 kJ",
+        "500 kJ",
+        "5000 kJ"
+      ],
       "correcta": 0,
       "explicacion": "500 kcal × 4,18 = 2090 kJ.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-022",
-      "pregunta": "¿Cuál de estos factores influye en el gasto energético BASAL?",
-      "opciones": ["La actividad física", "La composición corporal (masa grasa frente a masa magra)", "La efecto térmico de los alimentos", "La temperatura ambiental"],
+      "pregunta": "Es un factor basal del gasto energético:",
+      "opciones": [
+        "La actividad física.",
+        "La composición corporal (masa grasa frente a masa magra).",
+        "El efecto térmico de los alimentos.",
+        "La temperatura ambiental."
+      ],
       "correcta": 1,
       "explicacion": "Factores basales: tamaño (peso y altura), composición corporal, sexo, edad y crecimiento. No basales: estado fisiológico, temperatura, sueño, actividad física y ETA.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-023",
-      "pregunta": "¿Cuál de estos es un factor NO basal del gasto energético?",
-      "opciones": ["La edad", "El sexo", "La actividad física", "El tamaño corporal"],
+      "pregunta": "Señala la opción FALSA respecto a los factores que influyen en el gasto energético:",
+      "opciones": [
+        "La edad y el sexo son factores basales.",
+        "El tamaño corporal es un factor basal.",
+        "La actividad física es un factor basal.",
+        "El embarazo y la lactancia son factores no basales."
+      ],
       "correcta": 2,
-      "explicacion": "La actividad física, el estado fisiológico (embarazo, lactancia, enfermedad), la temperatura ambiental, el sueño y el ETA son factores no basales.",
+      "explicacion": "Es falso que la actividad física sea basal: es un factor NO basal, junto con el estado fisiológico (embarazo, lactancia, enfermedad), la temperatura, el sueño y el ETA.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-024",
-      "pregunta": "¿Qué porcentaje del gasto energético total supone, aproximadamente, el efecto térmico de los alimentos (ETA o TID)?",
-      "opciones": ["50 %", "30 %", "1 %", "10 %"],
+      "pregunta": "El efecto térmico de los alimentos (ETA o TID) supone aproximadamente:",
+      "opciones": [
+        "El 50 % del gasto energético total.",
+        "El 30 % del gasto energético total.",
+        "El 1 % del gasto energético total.",
+        "El 10 % del gasto energético total."
+      ],
       "correcta": 3,
       "explicacion": "El ETA supone en conjunto alrededor del 10 % del gasto: proteínas 20-30 %, hidratos de carbono 5-10 % y grasas 0-5 % de su energía.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-025",
-      "pregunta": "¿Qué macronutriente tiene MAYOR efecto térmico (gasta más energía al digerirlo)?",
-      "opciones": ["Las proteínas (20-30 %)", "Los hidratos de carbono (5-10 %)", "Las grasas (0-5 %)", "Todos igual"],
+      "pregunta": "El macronutriente con mayor efecto térmico es:",
+      "opciones": [
+        "Las proteínas.",
+        "Los hidratos de carbono.",
+        "Las grasas.",
+        "Todos tienen el mismo efecto térmico."
+      ],
       "correcta": 0,
       "explicacion": "Las proteínas tienen el mayor efecto térmico (20-30 % de su energía), seguidas de los hidratos de carbono (5-10 %) y las grasas (0-5 %).",
       "dificultad": 2
     },
     {
       "id": "ae-t01-026",
-      "pregunta": "¿Qué condiciones requiere la medición del gasto metabólico BASAL (GMB)?",
-      "opciones": ["Por la tarde, tras comer", "Por la mañana, en ayunas de 12 h, tras 8 h de descanso y a 20 °C", "Durante el ejercicio", "Por la noche, dormido"],
+      "pregunta": "La medición del gasto metabólico basal (GMB) se realiza:",
+      "opciones": [
+        "Por la tarde, después de comer.",
+        "Por la mañana, en ayunas de 12 h, tras 8 h de descanso y a 20 °C.",
+        "Por la mañana, en ayunas de 8 h, tras 12 h de descanso y a 25 °C.",
+        "Por la mañana, sin necesidad de ayuno, tras 8 h de descanso y a 20 °C."
+      ],
       "correcta": 1,
-      "explicacion": "El GMB se mide por la mañana, en ayunas (12 h), tras 8 h de descanso y a 20 °C. Ejemplo de fórmula: Harris-Benedict.",
+      "explicacion": "El GMB se mide por la mañana, en ayunas (12 h), tras 8 h de descanso y a 20 °C. «Sin necesidad de ayuno» corresponde al GMR, no al GMB.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-027",
-      "pregunta": "¿Qué diferencia al gasto metabólico en reposo (GMR) del basal (GMB)?",
-      "opciones": ["El GMR se mide durante el ejercicio", "El GMR se mide a 30 °C", "El GMR no exige estar en ayunas", "No hay diferencia"],
+      "pregunta": "La diferencia entre el gasto metabólico en reposo (GMR) y el basal (GMB) es que el GMR:",
+      "opciones": [
+        "Se mide durante el ejercicio.",
+        "Se mide a 30 °C.",
+        "No exige estar en ayunas.",
+        "Exige 12 h de descanso previo."
+      ],
       "correcta": 2,
       "explicacion": "El GMR se mide por la mañana, tras 8 h de descanso y a 20 °C, pero sin el requisito de ayuno. Ejemplo de fórmula: FAO-OMS.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-028",
-      "pregunta": "¿Cómo se calcula el gasto energético total (GET) a partir del GMR?",
-      "opciones": ["GET = GMR + ETA", "GET = GMR / FA", "GET = GMR × 10", "GET = GMR × FA"],
+      "pregunta": "Si partimos del GMR, el gasto energético total (GET) se calcula como:",
+      "opciones": [
+        "GET = GMR + ETA.",
+        "GET = GMR / FA.",
+        "GET = GMR × FA + ETA.",
+        "GET = GMR × FA."
+      ],
       "correcta": 3,
-      "explicacion": "Con el GMR: GET = GMR × FA. Con el GMB: GET = GMB × FA + ETA (o GMB + GT + ETA).",
+      "explicacion": "Con el GMR: GET = GMR × FA. Solo cuando se parte del GMB hay que sumar el ETA: GET = GMB × FA + ETA.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-029",
-      "pregunta": "Si partimos del GMB, ¿qué fórmula del GET es correcta?",
-      "opciones": ["GET = GMB × FA + ETA", "GET = GMB × FA", "GET = GMB − ETA", "GET = GMB / FA + ETA"],
-      "correcta": 0,
-      "explicacion": "Con el GMB hay que sumar el efecto térmico de los alimentos: GET = GMB × FA + ETA.",
-      "dificultad": 1
+      "pregunta": "Respecto al cálculo del gasto energético total (GET), señala la opción CORRECTA:",
+      "opciones": [
+        "Partiendo del GMB: GET = GMB × FA + ETA.",
+        "Partiendo del GMR: GET = GMR × FA.",
+        "Partiendo del GMB también se puede calcular como GMB + GT + ETA.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. Con el GMB hay que sumar el ETA (GMB × FA + ETA, o GMB + GT + ETA); con el GMR basta con multiplicar por el FA.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t01-030",
-      "pregunta": "¿Cuál es la fórmula de Harris-Benedict para la MUJER (P = kg, A = cm, E = años)?",
-      "opciones": ["66 + 13,7P + 5A − 6,8E", "655 + 9,6P + 1,8A − 4,7E", "10P + 6,25A − 5E − 161", "13,5P + 487"],
+      "pregunta": "La fórmula de Harris-Benedict para la mujer es (P = kg, A = cm, E = años):",
+      "opciones": [
+        "66 + 13,7P + 5A − 6,8E",
+        "655 + 9,6P + 1,8A − 4,7E",
+        "10P + 6,25A − 5E − 161",
+        "13,5P + 487"
+      ],
       "correcta": 1,
       "explicacion": "Harris-Benedict mujer: 655 + 9,6P + 1,8A − 4,7E. Hombre: 66 + 13,7P + 5A − 6,8E.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-031",
-      "pregunta": "¿Cuál es la fórmula de Harris-Benedict para el HOMBRE?",
-      "opciones": ["655 + 9,6P + 1,8A − 4,7E", "10P + 6,25A − 5E + 5", "66 + 13,7P + 5A − 6,8E", "1 kcal × kg × h"],
+      "pregunta": "La fórmula de Harris-Benedict para el hombre es (P = kg, A = cm, E = años):",
+      "opciones": [
+        "655 + 9,6P + 1,8A − 4,7E",
+        "10P + 6,25A − 5E + 5",
+        "66 + 13,7P + 5A − 6,8E",
+        "1 kcal × kg × h"
+      ],
       "correcta": 2,
       "explicacion": "Harris-Benedict hombre: 66 + (13,7 × peso) + (5 × altura en cm) − (6,8 × edad).",
       "dificultad": 2
     },
     {
       "id": "ae-t01-032",
-      "pregunta": "Con Harris-Benedict, ¿cuál es el GMB de un hombre de 82 años, 71 kg y 1,72 m?",
-      "opciones": ["1445,5 kcal", "1978,1 kcal", "2240,5 kcal", "1341,1 kcal"],
+      "pregunta": "Según Harris-Benedict, el GMB de un hombre de 82 años, 71 kg y 1,72 m es de:",
+      "opciones": [
+        "1445,5 kcal",
+        "1978,1 kcal",
+        "2240,5 kcal",
+        "1341,1 kcal"
+      ],
       "correcta": 3,
       "explicacion": "66 + (13,7 × 71) + (5 × 172) − (6,8 × 82) = 66 + 972,7 + 860 − 557,6 = 1341,1 kcal.",
       "dificultad": 3
     },
     {
       "id": "ae-t01-033",
-      "pregunta": "¿Cuál es la fórmula de Mifflin-St Jeor para la MUJER?",
-      "opciones": ["10P + 6,25A − 5E − 161", "10P + 6,25A − 5E + 5", "655 + 9,6P + 1,8A − 4,7E", "0,95 kcal × kg × h"],
+      "pregunta": "La fórmula de Mifflin-St Jeor para la mujer es:",
+      "opciones": [
+        "10P + 6,25A − 5E − 161",
+        "10P + 6,25A − 5E + 5",
+        "655 + 9,6P + 1,8A − 4,7E",
+        "0,95 kcal × kg × h"
+      ],
       "correcta": 0,
       "explicacion": "Mifflin-St Jeor: mujer = 10P + 6,25A − 5E − 161; hombre = 10P + 6,25A − 5E + 5.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-034",
-      "pregunta": "Con Mifflin-St Jeor, ¿cuál es el GMB de una mujer de 30 años, 60 kg y 165 cm?",
-      "opciones": ["1387 kcal", "1320,25 kcal", "1486,25 kcal", "1200 kcal"],
+      "pregunta": "Según Mifflin-St Jeor, el GMB de una mujer de 30 años, 60 kg y 165 cm es de:",
+      "opciones": [
+        "1387 kcal",
+        "1320,25 kcal",
+        "1486,25 kcal",
+        "1200 kcal"
+      ],
       "correcta": 1,
       "explicacion": "(10 × 60) + (6,25 × 165) − (5 × 30) − 161 = 600 + 1031,25 − 150 − 161 = 1320,25 kcal.",
       "dificultad": 3
     },
     {
       "id": "ae-t01-035",
-      "pregunta": "¿En qué se basa la fórmula de Grande-Covián y Keys para el GMB?",
-      "opciones": ["En el peso total y la edad", "En la altura", "En la masa magra: 1,3 kcal × kg de masa magra × 24 h", "En la superficie corporal"],
+      "pregunta": "La fórmula de Grande-Covián y Keys calcula el GMB a partir de:",
+      "opciones": [
+        "El peso total y la edad.",
+        "La masa grasa.",
+        "La masa magra.",
+        "La superficie corporal."
+      ],
       "correcta": 2,
       "explicacion": "Grande-Covián y Keys: GMB = 1,3 kcal × kg de masa magra × 24 h.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-036",
-      "pregunta": "Según la versión abreviada (personas de estatura y peso normal), ¿cuál es el GMB de una mujer de 60 kg?",
-      "opciones": ["1440 kcal", "1560 kcal", "1300 kcal", "1368 kcal"],
+      "pregunta": "Según la versión abreviada (personas de estatura y peso normales), el GMB de una mujer de 60 kg es de:",
+      "opciones": [
+        "1440 kcal",
+        "1560 kcal",
+        "1300 kcal",
+        "1368 kcal"
+      ],
       "correcta": 3,
       "explicacion": "Mujer: 0,95 kcal × kg × h → 0,95 × 60 × 24 = 1368 kcal. Hombre: 1 kcal × kg × h.",
       "dificultad": 3
     },
     {
       "id": "ae-t01-037",
-      "pregunta": "Según la FAO-OMS, el GMR de un hombre de más de 60 años y 71 kg es (13,5 × 71) + 487. ¿Cuánto da?",
-      "opciones": ["1445,5 kcal", "1341,1 kcal", "958,5 kcal", "1600 kcal"],
+      "pregunta": "Según la FAO-OMS [(13,5 × peso) + 487], el GMR de un hombre mayor de 60 años que pesa 71 kg es de:",
+      "opciones": [
+        "1445,5 kcal",
+        "1341,1 kcal",
+        "958,5 kcal",
+        "1600 kcal"
+      ],
       "correcta": 0,
       "explicacion": "13,5 × 71 = 958,5; 958,5 + 487 = 1445,5 kcal.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-038",
-      "pregunta": "Si el GMR es 1445,5 kcal y el FA es 1,55, ¿cuál es el GET?",
-      "opciones": ["1978,12 kcal", "2240,52 kcal", "1600 kcal", "2500 kcal"],
+      "pregunta": "Si el GMR es de 1445,5 kcal y el FA es 1,55, el GET es de:",
+      "opciones": [
+        "1978,12 kcal",
+        "2240,52 kcal",
+        "1600 kcal",
+        "2500 kcal"
+      ],
       "correcta": 1,
       "explicacion": "GET = GMR × FA = 1445,5 × 1,55 = 2240,52 kcal.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-039",
-      "pregunta": "Con un GMB de 1341,1 kcal, FA = 1,375 y ETA del 10 % del GMB, ¿cuál es el GET?",
-      "opciones": ["1475,2 kcal", "1844 kcal", "1978,12 kcal", "2240,5 kcal"],
+      "pregunta": "Con un GMB de 1341,1 kcal, un FA de 1,375 y un ETA del 10 % del GMB, el GET es de:",
+      "opciones": [
+        "1475,2 kcal",
+        "1844 kcal",
+        "1978,12 kcal",
+        "2240,5 kcal"
+      ],
       "correcta": 2,
       "explicacion": "GET = 1341,1 × 1,375 + 134,11 = 1844,01 + 134,11 = 1978,12 kcal.",
       "dificultad": 3
     },
     {
       "id": "ae-t01-040",
-      "pregunta": "En la tabla de actividades, ¿qué factor multiplicador tiene el descanso (dormir, estar tumbado)?",
-      "opciones": ["1,5", "2,5", "5,0", "1,0"],
+      "pregunta": "En la tabla de actividades, el factor multiplicador del descanso (dormir, estar tumbado) es:",
+      "opciones": [
+        "1,5",
+        "2,5",
+        "5,0",
+        "1,0"
+      ],
       "correcta": 3,
       "explicacion": "Descanso 1,0; muy ligera 1,5; ligera 2,5; moderada 5,0; alta 7,0.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-041",
-      "pregunta": "Estudiar, conducir o trabajar con el ordenador se considera actividad…",
-      "opciones": ["Muy ligera (1,5)", "Ligera (2,5)", "Moderada (5,0)", "Alta (7,0)"],
+      "pregunta": "Estudiar, conducir o trabajar con el ordenador se considera una actividad:",
+      "opciones": [
+        "Muy ligera (1,5)",
+        "Ligera (2,5)",
+        "Moderada (5,0)",
+        "Alta (7,0)"
+      ],
       "correcta": 0,
       "explicacion": "Las actividades sentadas (estudiar, conducir, ordenador, comer, cocinar) son muy ligeras, con factor 1,5.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-042",
-      "pregunta": "Andar a 5-6 km/h, montar en bici o la natación moderada son actividades…",
-      "opciones": ["Ligeras (2,5)", "Moderadas (5,0)", "Muy ligeras (1,5)", "Altas (7,0)"],
+      "pregunta": "Andar a 5-6 km/h, montar en bici o nadar a ritmo moderado son actividades:",
+      "opciones": [
+        "Ligeras (2,5)",
+        "Moderadas (5,0)",
+        "Muy ligeras (1,5)",
+        "Altas (7,0)"
+      ],
       "correcta": 1,
       "explicacion": "Moderadas (5,0): andar a 5-6 km/h, tareas pesadas del hogar, bici, tenis, baile, natación moderada, jardinero…",
       "dificultad": 1
     },
     {
       "id": "ae-t01-043",
-      "pregunta": "Una persona pasa 8 h en descanso (1,0), 13 h en actividad muy ligera (1,5), 2 h en ligera (2,5) y 1 h en moderada (5,0). ¿Cuál es su FA?",
-      "opciones": ["1,25", "2,00", "1,56", "1,80"],
+      "pregunta": "Una persona pasa 8 h en descanso (1,0), 13 h en actividad muy ligera (1,5), 2 h en ligera (2,5) y 1 h en moderada (5,0). Su factor de actividad (FA) es:",
+      "opciones": [
+        "1,25",
+        "2,00",
+        "1,56",
+        "1,80"
+      ],
       "correcta": 2,
       "explicacion": "FA = (8 + 19,5 + 5 + 5) / 24 = 37,5 / 24 ≈ 1,56.",
       "dificultad": 3
     },
     {
       "id": "ae-t01-044",
-      "pregunta": "¿Qué mide la calorimetría directa?",
-      "opciones": ["El consumo de O2 y la producción de CO2", "La ingesta de alimentos", "El agua doblemente marcada", "El calor que desprende el cuerpo dentro de una cámara aislada"],
-      "correcta": 3,
-      "explicacion": "La calorimetría directa mide el calor desprendido en una cámara aislada. La indirecta calcula el calor a partir del O2 consumido y el CO2 producido.",
-      "dificultad": 1
+      "pregunta": "Respecto a la calorimetría, señala la opción CORRECTA:",
+      "opciones": [
+        "La directa mide el consumo de O2 y la producción de CO2.",
+        "La indirecta mide el calor desprendido dentro de una cámara aislada.",
+        "La directa mide el calor que desprende el cuerpo dentro de una cámara aislada.",
+        "a y b son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "La calorimetría directa mide el calor desprendido en una cámara aislada. La indirecta lo estima a partir del O2 consumido y el CO2 producido.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t01-045",
-      "pregunta": "¿Qué mide la calorimetría indirecta?",
-      "opciones": ["El consumo de O2 y la producción de CO2 para estimar el calor", "La temperatura corporal", "El gasto cardíaco", "El peso corporal"],
+      "pregunta": "La calorimetría indirecta estima el gasto energético a partir de:",
+      "opciones": [
+        "El O2 consumido y el CO2 producido.",
+        "La temperatura corporal.",
+        "El gasto cardíaco en 24 h.",
+        "El agua doblemente marcada."
+      ],
       "correcta": 0,
-      "explicacion": "La calorimetría indirecta estima el gasto energético a partir del intercambio de gases (O2 consumido y CO2 producido).",
+      "explicacion": "La calorimetría indirecta usa el intercambio de gases (O2 consumido y CO2 producido). El gasto cardíaco y el agua doblemente marcada son métodos no calorimétricos.",
       "dificultad": 1
     },
     {
       "id": "ae-t01-046",
-      "pregunta": "¿Cuál es el cociente respiratorio (CO2/O2) de los hidratos de carbono?",
-      "opciones": ["0,7", "1", "0,8", "1,5"],
+      "pregunta": "El cociente respiratorio (CO2/O2) de los hidratos de carbono es:",
+      "opciones": [
+        "0,7",
+        "1",
+        "0,8",
+        "1,5"
+      ],
       "correcta": 1,
       "explicacion": "Cociente respiratorio: hidratos de carbono = 1, proteínas = 0,8 y lípidos = 0,7.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-047",
-      "pregunta": "¿Qué nutriente tiene un cociente respiratorio de 0,7?",
-      "opciones": ["Hidratos de carbono", "Proteínas", "Lípidos", "Alcohol"],
-      "correcta": 2,
-      "explicacion": "Los lípidos tienen CR = 0,7: necesitan más O2 por cada CO2 producido.",
+      "pregunta": "Respecto al cociente respiratorio (CO2/O2), es FALSO que:",
+      "opciones": [
+        "El de los hidratos de carbono es 1.",
+        "El de las proteínas es 0,8.",
+        "El de los lípidos es 0,7.",
+        "Cuanto más bajo es, menos O2 se necesita por cada CO2 producido."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: un cociente más bajo (lípidos, 0,7) significa que se necesita MÁS O2 por cada CO2 producido. HC = 1; proteínas = 0,8; lípidos = 0,7.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-048",
-      "pregunta": "¿Cuál de estos es un método NO calorimétrico para medir el gasto energético?",
-      "opciones": ["La cámara aislada", "El cociente respiratorio", "El coeficiente calórico del O2", "El agua doblemente marcada"],
+      "pregunta": "Es un método NO calorimétrico para medir el gasto energético:",
+      "opciones": [
+        "La cámara aislada",
+        "El cociente respiratorio",
+        "El coeficiente calórico del O2",
+        "El agua doblemente marcada"
+      ],
       "correcta": 3,
       "explicacion": "Métodos no calorimétricos: gasto cardíaco en 24 h y agua doblemente marcada. También se puede estimar evaluando la ingesta y la actividad física.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-049",
-      "pregunta": "¿Qué es el coeficiente calórico del O2?",
-      "opciones": ["La energía que se desprende en la combustión de nutrientes con 1 litro de O2", "La relación CO2/O2", "Las kcal por gramo de nutriente", "El O2 que consume el cerebro"],
+      "pregunta": "El coeficiente calórico del O2 es:",
+      "opciones": [
+        "La energía que se desprende en la combustión de nutrientes con 1 litro de O2",
+        "La relación CO2/O2",
+        "Las kcal por gramo de nutriente",
+        "El O2 que consume el cerebro"
+      ],
       "correcta": 0,
       "explicacion": "El coeficiente calórico del O2 es la energía liberada al quemar nutrientes con 1 litro de oxígeno.",
       "dificultad": 2
     },
     {
       "id": "ae-t01-050",
-      "pregunta": "¿Qué método de gasto energético usa como ejemplo la ecuación de Harris-Benedict?",
-      "opciones": ["El GMR", "El GMB", "El GET", "La calorimetría directa"],
+      "pregunta": "La ecuación de Harris-Benedict es un ejemplo de fórmula para calcular:",
+      "opciones": [
+        "El GMR.",
+        "El GMB.",
+        "El GET.",
+        "El ETA."
+      ],
       "correcta": 1,
       "explicacion": "Harris-Benedict es ejemplo de ecuación para el GMB; las de FAO-OMS calculan el GMR.",
       "dificultad": 1

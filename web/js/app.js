@@ -10,6 +10,8 @@ const principal = $('#principal');
 const esc = (t) => String(t ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
 const LETRAS = ['A', 'B', 'C', 'D'];
+// En los repasos, las opciones de orden fijo llevan su letra (si no, «a y c son correctas» no se entiende)
+const textoOpcion = (p, i) => (p.orden_fijo ? `${LETRAS[i].toLowerCase()}) ` : '') + p.opciones[i];
 const AVATARES = [
   ['🍎', '#e0524a'], ['🥑', '#5f9a3a'], ['🥕', '#e8822e'], ['🍓', '#d9435e'], ['🍋', '#d9b02a'], ['🥦', '#3f8f4f'],
   ['🍇', '#8a55b5'], ['🍑', '#ec8a5e'], ['🥝', '#7aa83a'], ['🍒', '#c2304a'], ['🍉', '#df5b6c'], ['🍍', '#d6a12a'],
@@ -687,9 +689,9 @@ function pantallaResultado() {
           const est = it.elegida === null ? 'blanco' : esCorrecta(it) ? 'bien' : 'mal';
           return `<li class="rev ${est}">
             <p class="rev-pregunta">${esc(it.p.pregunta)}</p>
-            ${est !== 'bien' && it.elegida !== null ? `<p class="rev-tuya">✕ Tu respuesta: ${esc(it.p.opciones[it.elegida])}</p>` : ''}
+            ${est !== 'bien' && it.elegida !== null ? `<p class="rev-tuya">✕ Tu respuesta: ${esc(textoOpcion(it.p, it.elegida))}</p>` : ''}
             ${est === 'blanco' ? '<p class="rev-tuya">— En blanco</p>' : ''}
-            <p class="rev-correcta">✓ ${esc(it.p.opciones[it.p.correcta])}</p>
+            <p class="rev-correcta">✓ ${esc(textoOpcion(it.p, it.p.correcta))}</p>
             <p class="rev-explicacion">${esc(it.p.explicacion)}</p>
             ${botonOcultar(it.p)}
           </li>`;
@@ -952,9 +954,9 @@ async function pantallaExamen(examenId) {
           const est = it.elegida === null ? 'blanco' : esCorrecta(it) ? 'bien' : 'mal';
           return `<li class="rev tarjeta ${est}">
             <p class="rev-pregunta">${esc(it.p.pregunta)}</p>
-            ${est === 'mal' ? `<p class="rev-tuya">✕ Tu respuesta: ${esc(it.p.opciones[it.elegida])}</p>` : ''}
+            ${est === 'mal' ? `<p class="rev-tuya">✕ Tu respuesta: ${esc(textoOpcion(it.p, it.elegida))}</p>` : ''}
             ${est === 'blanco' ? '<p class="rev-tuya">— En blanco</p>' : ''}
-            <p class="rev-correcta">✓ ${esc(it.p.opciones[it.p.correcta])}</p>
+            <p class="rev-correcta">✓ ${esc(textoOpcion(it.p, it.p.correcta))}</p>
             <p class="rev-explicacion">${esc(it.p.explicacion)}</p>
             ${botonOcultar(it.p)}
           </li>`;
