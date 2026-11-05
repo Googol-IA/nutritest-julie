@@ -34,10 +34,12 @@ export function calcularRacha(dias) {
 async function api(ruta, { metodo = 'GET', cuerpo, prefer } = {}) {
   const cabeceras = {
     apikey: SUPABASE_KEY,
-    Authorization: `Bearer ${SUPABASE_KEY}`,
     'Accept-Profile': ESQUEMA,
     'Content-Profile': ESQUEMA,
   };
+  // Clave antigua «anon» (JWT, empieza por eyJ): va también en Authorization.
+  // Clave nueva «publishable» (sb_publishable_…): solo en apikey.
+  if (SUPABASE_KEY.startsWith('eyJ')) cabeceras.Authorization = `Bearer ${SUPABASE_KEY}`;
   if (cuerpo) cabeceras['Content-Type'] = 'application/json';
   if (prefer) cabeceras.Prefer = prefer;
   const r = await fetch(`${SUPABASE_URL}/rest/v1/${ruta}`, {

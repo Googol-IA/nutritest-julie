@@ -2,8 +2,8 @@
 // Si SUPABASE_URL está vacío, la web funciona en "modo local": guarda el progreso
 // solo en este navegador (útil para probar). Con Supabase, se comparte entre dispositivos.
 
-export const SUPABASE_URL = '';      // p. ej. 'https://xxxxxxxx.supabase.co'
-export const SUPABASE_KEY = '';      // clave anon / publishable (es pública, no pasa nada)
+export const SUPABASE_URL = 'https://aekyogcjrwbdzvrfcmaf.supabase.co';
+export const SUPABASE_KEY = 'sb_publishable_SBV6bx7Ru3O-WgPA_2zmIQ_XI7UPeMz'; // clave publishable (pública)
 export const ESQUEMA = 'dietetica';
 
 // Simulacro: cuánto resta cada fallo. 1/3 = "3 fallos restan 1 acierto".
