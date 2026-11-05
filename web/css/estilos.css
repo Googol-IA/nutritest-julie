@@ -325,6 +325,13 @@ main {
 .explicacion.bien { background: var(--bien-fondo); border-color: var(--bien); }
 .explicacion.mal { background: var(--mal-fondo); border-color: var(--mal); }
 
+.boton-ocultar {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; min-height: 44px; padding: 8px 14px;
+  border: 2px solid var(--borde); border-radius: 999px; background: transparent; cursor: pointer;
+  color: var(--texto-suave); font-weight: 800; font-size: .9rem; text-align: left;
+}
+.boton-ocultar.activo { border-color: var(--aviso); color: var(--texto); background: color-mix(in srgb, var(--aviso) 12%, transparent); }
+.rev .boton-ocultar { margin-top: 8px; }
 .mapa { margin-top: 22px; background: var(--superficie); border-radius: var(--radio); box-shadow: var(--sombra); }
 .mapa summary { padding: 14px 18px; font-weight: 800; cursor: pointer; min-height: 48px; }
 .mapa-rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); gap: 8px; padding: 0 14px 16px; }

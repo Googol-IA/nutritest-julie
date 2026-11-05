@@ -85,7 +85,26 @@ const remoto = {
   diasEstudio: async (id) => (await api(`dias_estudio?perfil_id=eq.${id}&select=dia,respondidas&order=dia.desc&limit=400`)),
   examenes: (id) => api(`examenes?perfil_id=eq.${id}&select=*&order=fecha.desc&limit=10`),
   ranking: () => api('ranking?select=*'),
+  // Preguntas ocultas: se guardan también en el dispositivo, por si la tabla aún no existe o no hay red
+  async listarOcultas(id) {
+    try {
+      const filas = await api(`ocultas?perfil_id=eq.${id}&select=pregunta_id&limit=10000`);
+      const ids = filas.map(f => f.pregunta_id);
+      escribir(claveOcultas(id), ids);
+      return ids;
+    } catch { return leer(claveOcultas(id), []); }
+  },
+  async ocultar(id, preguntaId) {
+    local.ocultar(id, preguntaId);
+    try { await api('ocultas', { metodo: 'POST', cuerpo: { perfil_id: id, pregunta_id: preguntaId }, prefer: 'resolution=ignore-duplicates,return=minimal' }); } catch {}
+  },
+  async mostrar(id, preguntaId) {
+    local.mostrar(id, preguntaId);
+    try { await api(`ocultas?perfil_id=eq.${id}&pregunta_id=eq.${encodeURIComponent(preguntaId)}`, { metodo: 'DELETE' }); } catch {}
+  },
 };
+
+const claveOcultas = (id) => `nutritest.ocultas.${id}`;
 
 // ---------------------------------------------------------------- modo local
 const L = { perfiles: 'nutritest.perfiles', resp: 'nutritest.respuestas', exa: 'nutritest.examenes' };
@@ -146,6 +165,13 @@ const local = {
       return { perfil_id: p.id, nombre: p.nombre, avatar: p.avatar, color: p.color,
         respondidas: mias.length, aciertos: mias.filter(r => r.acertada).length, racha: calcularRacha(dias) };
     }));
+  },
+  async listarOcultas(id) { return leer(claveOcultas(id), []); },
+  async ocultar(id, preguntaId) {
+    const ids = new Set(leer(claveOcultas(id), [])); ids.add(preguntaId); escribir(claveOcultas(id), [...ids]);
+  },
+  async mostrar(id, preguntaId) {
+    escribir(claveOcultas(id), leer(claveOcultas(id), []).filter(x => x !== preguntaId));
   },
 };
 

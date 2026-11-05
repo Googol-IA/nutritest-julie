@@ -18,7 +18,7 @@ Web publicada: https://googol-ia.github.io/nutritest-julie/ (repo `Googol-IA/nut
 Las preguntas se generan **solo con los PDF que llevan «diapo» en el nombre** (el resto se ignora).
 
 ## Puesta en marcha de Supabase (una vez)
-1. Supabase → **SQL Editor** → pegar `supabase/01_esquema.sql` → *Run*.
+1. Supabase → **SQL Editor** → pegar `supabase/01_esquema.sql` → *Run*. Después, igual con `supabase/02_ocultas.sql` (función «No volver a mostrar esta pregunta»).
 2. **Settings → API → Exposed schemas** → añadir `dietetica` → *Save*.
 3. Copiar la *Project URL* y la clave *anon / publishable* en `web/js/config.js`.
 

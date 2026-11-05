@@ -23,7 +23,43 @@ const estado = {
   sesion: null,
   resultado: null,
   temporizador: null,
+  ocultas: new Set(),      // ids de preguntas que este perfil no quiere volver a ver
+  ocultasDe: null,
 };
+
+// Crea una sesión sin las preguntas ocultas por el perfil
+function nuevaSesion(preguntas, ...resto) {
+  return crearSesion(preguntas.filter(p => !estado.ocultas.has(p.id)), ...resto);
+}
+
+async function alternarOculta(pregunta) {
+  const id = pregunta.id;
+  if (estado.ocultas.has(id)) {
+    estado.ocultas.delete(id);
+    await datos.mostrar(estado.perfil.id, id);
+    avisar('La pregunta volverá a salir');
+  } else {
+    estado.ocultas.add(id);
+    await datos.ocultar(estado.perfil.id, id);
+    avisar('No volverá a salir');
+  }
+}
+
+const botonOcultar = (p) => {
+  const oculta = estado.ocultas.has(p.id);
+  return `<button class="boton-ocultar ${oculta ? 'activo' : ''}" type="button" data-ocultar="${esc(p.id)}" aria-pressed="${oculta}">
+    ${oculta ? '↩️ Oculta · volver a mostrar' : '🚫 No volver a mostrar esta pregunta'}</button>`;
+};
+
+function eventosOcultar(preguntas) {
+  $$('[data-ocultar]').forEach(b => b.onclick = async () => {
+    const p = preguntas.find(x => x.id === b.dataset.ocultar);
+    await alternarOculta(p);
+    b.outerHTML = botonOcultar(p);
+    eventosOcultar(preguntas);
+    $(`[data-ocultar="${CSS.escape(p.id)}"]`)?.focus();
+  });
+}
 const CLAVE_PERFIL = 'nutritest.perfilActual';
 function recordarPerfil(id) { try { id ? localStorage.setItem(CLAVE_PERFIL, id) : localStorage.removeItem(CLAVE_PERFIL); } catch {} }
 function perfilRecordado() { try { return localStorage.getItem(CLAVE_PERFIL); } catch { return null; } }
@@ -99,6 +135,10 @@ async function router() {
       const id = perfilRecordado();
       if (id) estado.perfil = (await datos.listarPerfiles()).find(p => p.id === id) || null;
       if (!estado.perfil) return ir('perfiles');
+    }
+    if (estado.perfil && estado.ocultasDe !== estado.perfil.id) {
+      estado.ocultas = new Set(await datos.listarOcultas(estado.perfil.id));
+      estado.ocultasDe = estado.perfil.id;
     }
     switch (ruta) {
       case 'perfiles': return pantallaPerfiles(args[0] === 'gestionar');
@@ -217,7 +257,7 @@ async function pantallaInicio() {
   const racha = calcularRacha(dias.map(d => d.dia));
   const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Madrid' }).format(new Date());
   const hoyRespondidas = dias.find(d => d.dia === hoy)?.respondidas || 0;
-  const fallosValidos = fallos.filter(f => temaPorId(f.libro, f.tema)).length;
+  const fallosValidos = fallos.filter(f => temaPorId(f.libro, f.tema) && !estado.ocultas.has(f.pregunta_id)).length;
   const hayPreguntas = libros.some(disponible);
 
   pintar(`
@@ -272,7 +312,7 @@ async function pantallaInicio() {
   $('#btn-fallos').onclick = async () => {
     const preguntas = await preguntasPorIds(fallos);
     if (!preguntas.length) return avisar('No hay fallos pendientes');
-    empezar(crearSesion(preguntas, 20, 'fallos', { libros: [...new Set(preguntas.map(p => p.libro))] }));
+    empezar(nuevaSesion(preguntas, 20, 'fallos', { libros: [...new Set(preguntas.map(p => p.libro))] }));
   };
 }
 
@@ -330,7 +370,7 @@ async function pantallaLibro(libroId) {
     const f = new FormData(ev.target);
     const temas = f.getAll('tema');
     const preguntas = await cargarLibro(libroId, temas);
-    empezar(crearSesion(preguntas, Number(f.get('cantidad')) || null, 'estudio', { libros: [libroId] }));
+    empezar(nuevaSesion(preguntas, Number(f.get('cantidad')) || null, 'estudio', { libros: [libroId] }));
   };
 }
 
@@ -391,12 +431,13 @@ async function configurar(modo) {
     const n = Number(f.get('cantidad'));
     const extra = { libros: ids };
     if (sim && f.get('tiempo')) extra.limite = Math.min(n, preguntas.length) * MINUTOS_POR_PREGUNTA * 60;
-    empezar(crearSesion(preguntas, n, modo, extra));
+    empezar(nuevaSesion(preguntas, n, modo, extra));
   };
 }
 
 // ---------------------------------------------------------------- 5. Test
 function empezar(sesion) {
+  if (!sesion.items.length) return avisar('No quedan preguntas: las has ocultado todas');
   estado.sesion = sesion;
   estado.resultado = null;
   ir('test');
@@ -452,7 +493,8 @@ function pantallaPregunta() {
           <strong>${esCorrecta(it) ? '¡Correcto! 🎉' : 'No es correcta'}</strong>
           ${!esCorrecta(it) ? `<p class="explicacion-correcta">La respuesta correcta es la <b>${LETRAS[it.orden.indexOf(it.p.correcta)]}</b>.</p>` : ''}
           <p>${esc(it.p.explicacion)}</p>
-        </div>` : ''}
+        </div>
+        ${botonOcultar(it.p)}` : ''}
     </article>
     ${s.examen ? navegacionExamen(s) : `
       <div class="pie-fijo pie-test">
@@ -467,6 +509,7 @@ function pantallaPregunta() {
   $$('.opcion').forEach(b => b.onclick = () => responder(Number(b.dataset.o)));
   $('#siguiente')?.addEventListener('click', siguiente);
   $('#salir')?.addEventListener('click', salirTest);
+  eventosOcultar([it.p]);
   if (s.examen) eventosExamen(s);
   if (s.limite) iniciarReloj(s);
 }
@@ -596,14 +639,16 @@ function pantallaResultado() {
             ${est === 'blanco' ? '<p class="rev-tuya">— En blanco</p>' : ''}
             <p class="rev-correcta">✓ ${esc(it.p.opciones[it.p.correcta])}</p>
             <p class="rev-explicacion">${esc(it.p.explicacion)}</p>
+            ${botonOcultar(it.p)}
           </li>`;
         }).join('')}
       </ol>
     </details>
   `, { volver: 'inicio', titulo: 'Resultado' });
 
+  eventosOcultar(s.items.map(it => it.p));
   if (r.nota >= 5) lanzarConfeti();
-  $('#repasar')?.addEventListener('click', () => empezar(crearSesion(falladas.map(it => it.p), null, 'fallos', { libros: s.libros })));
+  $('#repasar')?.addEventListener('click', () => empezar(nuevaSesion(falladas.map(it => it.p), null, 'fallos', { libros: s.libros })));
 }
 
 // ---------------------------------------------------------------- 7. Estadísticas
@@ -613,6 +658,13 @@ async function pantallaEstadisticas() {
   const [progreso, dias, examenes] = await Promise.all([
     datos.progresoTemas(estado.perfil.id), datos.diasEstudio(estado.perfil.id), datos.examenes(estado.perfil.id),
   ]);
+  // Preguntas ocultas: el id empieza por el prefijo del libro y el tema (p. ej. "ca-t01-017")
+  const refsOcultas = [...estado.ocultas].map(id => {
+    const [pre, tema] = id.split('-');
+    const l = libros.find(x => x.prefijo === pre);
+    return l ? { pregunta_id: id, libro: l.id, tema } : null;
+  }).filter(Boolean);
+  const ocultas = await preguntasPorIds(refsOcultas);
   const respondidas = progreso.reduce((s, p) => s + Number(p.respondidas), 0);
   const aciertos = progreso.reduce((s, p) => s + Number(p.aciertos), 0);
   const racha = calcularRacha(dias.map(d => d.dia));
@@ -675,7 +727,18 @@ async function pantallaEstadisticas() {
           <span class="fila-texto"><strong>${NOMBRE_MODO[e.tipo] || e.tipo}</strong>
           <span>${new Date(e.fecha).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' })} · ${e.aciertos}/${e.n_preguntas} aciertos</span></span>
           <span class="fila-valor ${Number(e.nota) >= 5 ? 'bien' : 'mal'}">${Number(e.nota).toLocaleString('es-ES', { maximumFractionDigits: 1 })}</span></li>`).join('')}</ul>` : ''}
+
+    ${ocultas.length ? `<h2 class="seccion">Preguntas ocultas</h2>
+      <details class="revision">
+        <summary>${ocultas.length} ${ocultas.length === 1 ? 'pregunta oculta' : 'preguntas ocultas'} (no salen en los tests)</summary>
+        <ol>${ocultas.map(p => `<li class="rev">
+          <p class="rev-pregunta">${esc(p.pregunta)}</p>
+          <p class="rev-explicacion">${esc(nombreCorto(libroPorId(p.libro)))} · Tema ${temaPorId(p.libro, p.tema)?.numero ?? ''}</p>
+          ${botonOcultar(p)}
+        </li>`).join('')}</ol>
+      </details>` : ''}
   `, { volver: 'inicio', titulo: 'Estadísticas' });
+  eventosOcultar(ocultas);
 }
 
 // ---------------------------------------------------------------- 8. Ranking
