@@ -766,6 +766,14 @@ async function pantallaRanking() {
 
 // ---------------------------------------------------------------- arranque
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
-  navigator.serviceWorker.register('sw.js').catch(() => {});
+  // updateViaCache 'none': comprueba siempre si hay un sw.js nuevo
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(() => {});
+  // Cuando se instala una versión nueva, recargar (salvo en mitad de un test)
+  let recargando = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (recargando || estado.sesion) return;
+    recargando = true;
+    location.reload();
+  });
 }
 router();
