@@ -5,12 +5,17 @@ Web estática (GitHub Pages) + progreso en Supabase (esquema `dietetica`).
 
 ## Estado
 
+Web publicada: https://googol-ia.github.io/nutritest-julie/ (repo `Googol-IA/nutritest-julie`).
+
 | Fase | Estado |
 |---|---|
-| 1. Proyecto + SQL de Supabase | ✅ Hecho — **falta ejecutar el SQL en Supabase** |
-| 2. Web completa (con 12 preguntas de ejemplo) | ✅ Hecho y probado en modo local |
-| 3. GitHub + publicación automática | ⏳ Pendiente |
-| 4. Preguntas de los temas reales | ⏳ Pendiente (falta la ruta de los PDF) |
+| 1. Proyecto + SQL de Supabase | ✅ Hecho — **falta ejecutar el SQL en Supabase** (mientras, modo local) |
+| 2. Web completa | ✅ Hecho y probado |
+| 3. GitHub + publicación automática | ✅ Hecho |
+| 4. Preguntas | ✅ Control alimentario T1-T5, Dietoterapia T1-T4, Alimentación equilibrada T1-T4 (652 preguntas) |
+
+**Temario:** `G:\.shortcut-targets-by-id\1WDnZhOePi0y49cmZM1vf0ron75TTGUYh\Apuntes FP dietética\<Libro>\`.
+Las preguntas se generan **solo con los PDF que llevan «diapo» en el nombre** (el resto se ignora).
 
 ## Puesta en marcha de Supabase (una vez)
 1. Supabase → **SQL Editor** → pegar `supabase/01_esquema.sql` → *Run*.

@@ -22,11 +22,32 @@
       "estado": "activo",
       "temas": [
         {
-          "id": "t00",
-          "numero": 0,
-          "titulo": "Ejemplo (se borrará)",
-          "archivo": "tema-00.json",
-          "preguntas": 4
+          "id": "t01",
+          "numero": 1,
+          "titulo": "Energía y requerimientos energéticos",
+          "archivo": "tema-01.json",
+          "preguntas": 50
+        },
+        {
+          "id": "t02",
+          "numero": 2,
+          "titulo": "Carbohidratos",
+          "archivo": "tema-02.json",
+          "preguntas": 45
+        },
+        {
+          "id": "t03",
+          "numero": 3,
+          "titulo": "Los lípidos (las grasas)",
+          "archivo": "tema-03.json",
+          "preguntas": 50
+        },
+        {
+          "id": "t04",
+          "numero": 4,
+          "titulo": "Las proteínas",
+          "archivo": "tema-04.json",
+          "preguntas": 47
         }
       ]
     },
