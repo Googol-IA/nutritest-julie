@@ -6,376 +6,614 @@
   "preguntas": [
     {
       "id": "ae-t04-001",
-      "pregunta": "¿Qué elemento químico distingue a las proteínas de hidratos de carbono y lípidos?",
-      "opciones": ["El nitrógeno", "El carbono", "El oxígeno", "El hidrógeno"],
+      "pregunta": "El elemento químico que distingue a las proteínas de los hidratos de carbono y los lípidos es:",
+      "opciones": [
+        "El nitrógeno",
+        "El carbono",
+        "El oxígeno",
+        "El hidrógeno"
+      ],
       "correcta": 0,
       "explicacion": "Las proteínas contienen C, H, O y además nitrógeno (N), que supone el 16 % de su peso.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-002",
-      "pregunta": "¿Qué porcentaje de nitrógeno contienen las proteínas?",
-      "opciones": ["6,25 %", "16 %", "25 %", "50 %"],
+      "pregunta": "Respecto al nitrógeno de las proteínas, señala la opción CORRECTA:",
+      "opciones": [
+        "Supone el 6,25 % del peso de las proteínas.",
+        "1 g de proteína contiene 0,16 g de N.",
+        "1 g de N equivale a 16 g de proteína.",
+        "Todas son correctas."
+      ],
       "correcta": 1,
-      "explicacion": "Las proteínas tienen un 16 % de N: 1 g de proteína = 0,16 g de N, y 1 g de N = 6,25 g de proteína.",
-      "dificultad": 1
+      "explicacion": "Solo es cierta la b. Las proteínas tienen un 16 % de N: 1 g de proteína = 0,16 g de N y 1 g de N = 6,25 g de proteína.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t04-003",
-      "pregunta": "¿Cuántos gramos de proteína corresponden a 1 g de nitrógeno?",
-      "opciones": ["0,16 g", "4 g", "6,25 g", "16 g"],
+      "pregunta": "1 g de nitrógeno equivale a:",
+      "opciones": [
+        "0,16 g de proteína.",
+        "4 g de proteína.",
+        "6,25 g de proteína.",
+        "16 g de proteína."
+      ],
       "correcta": 2,
       "explicacion": "Factor de conversión: 1 g de N equivale a 6,25 g de proteína (100 / 16).",
       "dificultad": 1
     },
     {
       "id": "ae-t04-004",
-      "pregunta": "¿Cómo se llama el enlace que une los aminoácidos?",
-      "opciones": ["Glucosídico", "Éster", "Fosfodiéster", "Peptídico"],
+      "pregunta": "Los aminoácidos se unen mediante un enlace:",
+      "opciones": [
+        "Glucosídico",
+        "Éster",
+        "Fosfodiéster",
+        "Peptídico"
+      ],
       "correcta": 3,
       "explicacion": "El enlace peptídico une el grupo carboxilo de un aminoácido con el grupo amino del siguiente.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-005",
-      "pregunta": "¿Qué dos grupos funcionales tiene todo aminoácido?",
-      "opciones": ["Un grupo amino y un grupo carboxilo", "Un grupo hidroxilo y un grupo cetona", "Un grupo fosfato y un grupo metilo", "Un grupo aldehído y un grupo amino"],
+      "pregunta": "Todo aminoácido tiene:",
+      "opciones": [
+        "Un grupo amino y un grupo carboxilo.",
+        "Un grupo hidroxilo y un grupo cetona.",
+        "Un grupo amino y un grupo aldehído.",
+        "Un grupo carboxilo y un grupo fosfato."
+      ],
       "correcta": 0,
       "explicacion": "Los aminoácidos tienen un grupo amino (-NH2) y un grupo carboxilo (-COOH). Por eso son anfóteros.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-006",
-      "pregunta": "¿A partir de cuántos aminoácidos se habla de proteína?",
-      "opciones": ["Más de 10", "Más de 100", "Más de 1000", "Más de 2"],
+      "pregunta": "Se habla de proteína a partir de:",
+      "opciones": [
+        "Más de 10 aminoácidos.",
+        "Más de 100 aminoácidos.",
+        "Más de 1000 aminoácidos.",
+        "Más de 50 aminoácidos."
+      ],
       "correcta": 1,
       "explicacion": "Péptido: pocos aminoácidos. Polipéptido: 10-100 aminoácidos. Proteína: más de 100.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-007",
-      "pregunta": "¿Cuántas kcal aporta 1 g de proteínas?",
-      "opciones": ["9 kcal", "7 kcal", "4 kcal", "0 kcal"],
+      "pregunta": "1 g de proteínas aporta:",
+      "opciones": [
+        "9 kcal",
+        "7 kcal",
+        "4 kcal",
+        "0 kcal"
+      ],
       "correcta": 2,
       "explicacion": "Las proteínas aportan 4 kcal/g, aunque su función principal no es energética.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-008",
-      "pregunta": "¿Cuál de estas NO es una función de las proteínas citada en el tema?",
-      "opciones": ["Plástica o estructural", "Enzimática o catalizadora", "Amortiguadora", "Formar parte de las vitaminas liposolubles"],
+      "pregunta": "NO es una función de las proteínas citada en el tema:",
+      "opciones": [
+        "Plástica o estructural",
+        "Enzimática o catalizadora",
+        "Amortiguadora",
+        "Formar parte de las vitaminas liposolubles"
+      ],
       "correcta": 3,
       "explicacion": "Funciones: plástica/estructural, enzimática/catalizadora, amortiguadora (anfóteras) y energética.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-009",
-      "pregunta": "¿Por qué las proteínas tienen función amortiguadora (de pH)?",
-      "opciones": ["Porque son anfóteras: pueden comportarse como ácido o como base", "Porque aportan 4 kcal/g", "Porque contienen azufre", "Porque se almacenan en el hígado"],
+      "pregunta": "Las proteínas tienen función amortiguadora (de pH) porque:",
+      "opciones": [
+        "Son anfóteras: pueden comportarse como ácido o como base.",
+        "Aportan 4 kcal/g.",
+        "Contienen azufre.",
+        "Se almacenan en el hígado."
+      ],
       "correcta": 0,
       "explicacion": "Al tener grupos amino y carboxilo, las proteínas son anfóteras y amortiguan cambios de pH.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-010",
-      "pregunta": "¿Cuántos aminoácidos esenciales hay en el adulto según el tema?",
-      "opciones": ["8", "9", "11", "20"],
+      "pregunta": "Según el tema, el número de aminoácidos esenciales en el adulto es:",
+      "opciones": [
+        "8",
+        "9",
+        "11",
+        "20"
+      ],
       "correcta": 1,
       "explicacion": "Esenciales: histidina, isoleucina, metionina, fenilalanina, leucina, lisina, treonina, triptófano y valina (regla «HIM FLLT TV»).",
       "dificultad": 1
     },
     {
       "id": "ae-t04-011",
-      "pregunta": "¿Cuál de estos aminoácidos es ESENCIAL?",
-      "opciones": ["Alanina", "Serina", "Leucina", "Glicina"],
-      "correcta": 2,
-      "explicacion": "La leucina es esencial. Alanina, serina, aspártico, asparagina y glutámico son no esenciales.",
-      "dificultad": 1
+      "pregunta": "Son aminoácidos ESENCIALES:",
+      "opciones": [
+        "Leucina.",
+        "Alanina.",
+        "Lisina.",
+        "a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Leucina y lisina son esenciales (HIM FLLT TV). La alanina es no esencial, igual que la serina, el aspártico, la asparagina y el glutámico.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t04-012",
-      "pregunta": "¿Cuál de estos aminoácidos es SEMIESENCIAL según el tema?",
-      "opciones": ["Lisina", "Valina", "Triptófano", "Arginina"],
+      "pregunta": "Según el tema, es un aminoácido SEMIESENCIAL:",
+      "opciones": [
+        "Lisina",
+        "Valina",
+        "Triptófano",
+        "Arginina"
+      ],
       "correcta": 3,
       "explicacion": "Semiesenciales: arginina, glutamina, cisteína, tirosina, glicina y prolina.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-013",
-      "pregunta": "¿Cuál de estos aminoácidos es NO esencial?",
-      "opciones": ["Ácido glutámico", "Histidina", "Metionina", "Treonina"],
-      "correcta": 0,
-      "explicacion": "No esenciales: alanina, ácido aspártico, asparagina, ácido glutámico y serina.",
+      "pregunta": "Respecto a la clasificación de los aminoácidos, es FALSO que:",
+      "opciones": [
+        "El ácido glutámico es no esencial.",
+        "La arginina es semiesencial.",
+        "La histidina es esencial.",
+        "La serina es esencial."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la serina es no esencial (con alanina, aspártico, asparagina y glutámico). Semiesenciales: arginina, glutamina, cisteína, tirosina, glicina y prolina.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-014",
-      "pregunta": "¿Qué regla mnemotécnica recoge los aminoácidos esenciales?",
-      "opciones": ["ABCDE", "HIM FLLT TV", "MUST", "LADME"],
+      "pregunta": "La regla mnemotécnica de los aminoácidos esenciales es:",
+      "opciones": [
+        "ABCDE",
+        "HIM FLLT TV",
+        "MUST",
+        "LADME"
+      ],
       "correcta": 1,
       "explicacion": "HIM FLLT TV: Histidina, Isoleucina, Metionina, Fenilalanina, Leucina, Lisina, Treonina, Triptófano, Valina.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-015",
-      "pregunta": "¿Qué es un aminoácido limitante?",
-      "opciones": ["El aminoácido más abundante de un alimento", "Un aminoácido tóxico", "Un aminoácido esencial deficitario en un alimento, que limita su calidad proteica (p. ej., lisina en cereales)", "Un aminoácido no esencial"],
+      "pregunta": "Un aminoácido limitante es:",
+      "opciones": [
+        "El aminoácido más abundante de un alimento.",
+        "Un aminoácido no esencial que el organismo no puede sintetizar.",
+        "Un aminoácido esencial deficitario en un alimento, que limita su calidad proteica.",
+        "Un aminoácido semiesencial que limita la digestibilidad."
+      ],
       "correcta": 2,
       "explicacion": "Los aminoácidos limitantes son deficitarios en algunos alimentos vegetales: por ejemplo, la lisina en los cereales.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-016",
-      "pregunta": "¿Cuál es el aminoácido limitante típico de los cereales?",
-      "opciones": ["Metionina", "Triptófano", "Leucina", "Lisina"],
+      "pregunta": "El aminoácido limitante típico de los cereales es:",
+      "opciones": [
+        "Metionina",
+        "Triptófano",
+        "Leucina",
+        "Lisina"
+      ],
       "correcta": 3,
       "explicacion": "Los cereales son deficitarios en lisina; por eso se combinan con legumbres.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-017",
-      "pregunta": "En la regla «Feliz, Tranquilo y Hambriento», ¿qué aminoácido se relaciona con el sueño?",
-      "opciones": ["Triptófano", "Fenilalanina", "Histidina", "Lisina"],
+      "pregunta": "En la regla «Feliz, Tranquilo y Hambriento», el aminoácido relacionado con el sueño es:",
+      "opciones": [
+        "Triptófano",
+        "Fenilalanina",
+        "Histidina",
+        "Lisina"
+      ],
       "correcta": 0,
       "explicacion": "Feliz (fenilalanina) → ánimo; Tranquilo (triptófano) → sueño; Hambriento (histidina) → apetito.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-018",
-      "pregunta": "Según las reglas mnemotécnicas del tema, ¿qué aminoácido se asocia a la síntesis de proteínas y la reparación muscular?",
-      "opciones": ["Metionina", "Leucina", "Treonina", "Histidina"],
+      "pregunta": "Según las reglas mnemotécnicas del tema, el aminoácido asociado a la síntesis de proteínas y la reparación muscular es:",
+      "opciones": [
+        "Metionina",
+        "Leucina",
+        "Treonina",
+        "Histidina"
+      ],
       "correcta": 1,
       "explicacion": "«Lidera» → leucina: síntesis de proteínas y reparación muscular.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-019",
-      "pregunta": "Según las reglas mnemotécnicas, ¿qué aminoácido se relaciona con el metabolismo de las grasas y la salud hepática?",
-      "opciones": ["Valina", "Lisina", "Metionina", "Isoleucina"],
+      "pregunta": "Según las reglas mnemotécnicas, el aminoácido relacionado con el metabolismo de las grasas y la salud hepática es:",
+      "opciones": [
+        "Valina",
+        "Lisina",
+        "Metionina",
+        "Isoleucina"
+      ],
       "correcta": 2,
       "explicacion": "«Mejor» → metionina: metabolismo de grasas y salud hepática.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-020",
-      "pregunta": "¿Qué efectos perjudiciales se asocian a un exceso de proteínas?",
-      "opciones": ["Anemia e hipotiroidismo", "Caries y diabetes", "Hipotensión", "Deshidratación y descalcificación ósea"],
+      "pregunta": "Se asocian a un exceso de proteínas:",
+      "opciones": [
+        "Anemia e hipotiroidismo.",
+        "Caries y diabetes.",
+        "Hipotensión y bradicardia.",
+        "Deshidratación y descalcificación ósea."
+      ],
       "correcta": 3,
       "explicacion": "El tema cita deshidratación y descalcificación ósea como efectos del exceso proteico.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-021",
-      "pregunta": "¿Cuál es la necesidad de proteínas de un adulto (> 18 años) en función del peso?",
-      "opciones": ["0,83 g/kg de peso/día", "1,85 g/kg/día", "2,5 g/kg/día", "0,3 g/kg/día"],
+      "pregunta": "La necesidad de proteínas de un adulto (> 18 años) es de:",
+      "opciones": [
+        "0,83 g/kg de peso/día.",
+        "1,85 g/kg de peso/día.",
+        "0,9 g/kg de peso/día.",
+        "1,5 g/kg de peso/día."
+      ],
       "correcta": 0,
       "explicacion": "En el adulto la necesidad es de 0,83 g de proteína por kg de peso al día.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-022",
-      "pregunta": "¿Cuántos gramos de proteína al día necesita aproximadamente un adulto de 70 kg?",
-      "opciones": ["30 g", "58 g", "130 g", "175 g"],
+      "pregunta": "Un adulto de 70 kg necesita aproximadamente:",
+      "opciones": [
+        "30 g de proteína al día.",
+        "58 g de proteína al día.",
+        "130 g de proteína al día.",
+        "175 g de proteína al día."
+      ],
       "correcta": 1,
       "explicacion": "70 kg × 0,83 g/kg = 58,1 g/día.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-023",
-      "pregunta": "¿Cómo evolucionan las necesidades de proteína en g/kg/día en niños hasta los 16 años?",
-      "opciones": ["Aumentan", "Se mantienen", "Disminuyen paulatinamente (aunque los g/día totales aumentan)", "Son siempre 0,83 g/kg"],
+      "pregunta": "En los niños hasta los 16 años, las necesidades de proteína expresadas en g/kg/día:",
+      "opciones": [
+        "Aumentan con la edad.",
+        "Se mantienen constantes.",
+        "Disminuyen paulatinamente, aunque los g/día totales aumentan.",
+        "Son siempre de 0,83 g/kg."
+      ],
       "correcta": 2,
       "explicacion": "En g/día aumentan con la edad, pero por kg de peso disminuyen: de 1,85 g/kg en lactantes (13 g/día) a 0,9 g/kg (45-50 g/día) en mayores de 10 años.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-024",
-      "pregunta": "¿Qué mide la digestibilidad (D) de una proteína?",
-      "opciones": ["El nitrógeno retenido respecto al absorbido", "La ganancia de peso por gramo de proteína", "El nitrógeno retenido respecto al ingerido", "La proporción de nitrógeno ingerido que se absorbe"],
+      "pregunta": "La digestibilidad (D) de una proteína mide:",
+      "opciones": [
+        "El nitrógeno retenido respecto al absorbido.",
+        "La ganancia de peso por gramo de proteína.",
+        "El nitrógeno retenido respecto al ingerido.",
+        "La proporción de nitrógeno ingerido que se absorbe."
+      ],
       "correcta": 3,
       "explicacion": "D = (N absorbido / N ingerido) × 100.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-025",
-      "pregunta": "¿Qué mide el valor biológico (VB)?",
-      "opciones": ["El nitrógeno retenido respecto al absorbido", "El nitrógeno absorbido respecto al ingerido", "La ganancia de peso", "El nitrógeno eliminado por orina"],
+      "pregunta": "Respecto a los índices de calidad proteica, señala la opción CORRECTA:",
+      "opciones": [
+        "VB = (N retenido / N absorbido) × 100.",
+        "D = (N retenido / N ingerido) × 100.",
+        "UNP = (N absorbido / N ingerido) × 100.",
+        "REP = proteína ingerida / ganancia de peso."
+      ],
       "correcta": 0,
-      "explicacion": "VB = (N retenido / N absorbido) × 100: indica cuánto del nitrógeno absorbido se retiene para ser utilizado.",
+      "explicacion": "VB = NR/NA × 100. D = NA/NI × 100. UNP = NR/NI × 100 (= VB × D / 100). REP = ganancia de peso / proteína ingerida.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-026",
-      "pregunta": "¿Cómo se calcula la utilización neta proteica (UNP)?",
-      "opciones": ["UNP = VB + D", "UNP = (N retenido / N ingerido) × 100 = (VB × D) / 100", "UNP = N absorbido / N retenido", "UNP = ganancia de peso / proteína ingerida"],
+      "pregunta": "La utilización neta proteica (UNP) se calcula como:",
+      "opciones": [
+        "UNP = VB + D.",
+        "UNP = (N retenido / N ingerido) × 100 = (VB × D) / 100.",
+        "UNP = (N absorbido / N retenido) × 100.",
+        "UNP = (N retenido / N absorbido) × 100."
+      ],
       "correcta": 1,
       "explicacion": "La UNP es el nitrógeno que realmente se utiliza: NR/NI × 100, que equivale a VB × D / 100.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-027",
-      "pregunta": "¿Qué mide la relación de eficacia proteica (REP)?",
-      "opciones": ["El nitrógeno retenido", "La digestibilidad", "La ganancia de peso (g) por gramo de proteína ingerida", "Las kcal de la proteína"],
+      "pregunta": "La relación de eficacia proteica (REP) mide:",
+      "opciones": [
+        "El nitrógeno retenido",
+        "La digestibilidad",
+        "La ganancia de peso (g) por gramo de proteína ingerida",
+        "Las kcal de la proteína"
+      ],
       "correcta": 2,
       "explicacion": "REP = ganancia de peso (g) / proteínas ingeridas (g).",
       "dificultad": 1
     },
     {
       "id": "ae-t04-028",
-      "pregunta": "¿Qué valor indica una calidad proteica óptima en VB, D o UNP?",
-      "opciones": ["0", "50", "6,25", "100"],
+      "pregunta": "Una calidad proteica óptima en VB, D o UNP corresponde a un valor de:",
+      "opciones": [
+        "0",
+        "50",
+        "6,25",
+        "100"
+      ],
       "correcta": 3,
       "explicacion": "Estos índices se expresan en porcentaje; el valor óptimo de calidad es 100.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-029",
-      "pregunta": "Pili ingiere 52,5 g de proteína al día. ¿Cuánto nitrógeno ingiere (NI)?",
-      "opciones": ["8,4 g", "5,25 g", "16 g", "328 g"],
+      "pregunta": "Pili ingiere 52,5 g de proteína al día. El nitrógeno que ingiere (NI) es de:",
+      "opciones": [
+        "8,4 g",
+        "5,25 g",
+        "16 g",
+        "328 g"
+      ],
       "correcta": 0,
       "explicacion": "52,5 × 0,16 = 8,4 g de N (o 52,5 / 6,25 = 8,4).",
       "dificultad": 2
     },
     {
       "id": "ae-t04-030",
-      "pregunta": "Pili ingiere 8,4 g de N; excreta 1,2 g de N en heces con 0,7 g de pérdidas endógenas fecales. ¿Cuánto N absorbe (NA)?",
-      "opciones": ["7,2 g", "7,9 g", "9,1 g", "6,5 g"],
+      "pregunta": "Pili ingiere 8,4 g de N y excreta 1,2 g de N en heces, con 0,7 g de pérdidas endógenas fecales. El N absorbido (NA) es de:",
+      "opciones": [
+        "7,2 g",
+        "7,9 g",
+        "9,1 g",
+        "6,5 g"
+      ],
       "correcta": 1,
       "explicacion": "NA = NI − (N fecal − endógeno fecal) = 8,4 − (1,2 − 0,7) = 8,4 − 0,5 = 7,9 g.",
       "dificultad": 3
     },
     {
       "id": "ae-t04-031",
-      "pregunta": "Siguiendo con Pili (NA = 7,9 g), excreta 4,2 g de N en orina con 1,1 g de pérdidas endógenas urinarias. ¿Cuánto N retiene (NR)?",
-      "opciones": ["3,7 g", "6,8 g", "4,8 g", "5,3 g"],
+      "pregunta": "Siguiendo con Pili (NA = 7,9 g), excreta 4,2 g de N en orina, con 1,1 g de pérdidas endógenas urinarias. El N retenido (NR) es de:",
+      "opciones": [
+        "3,7 g",
+        "6,8 g",
+        "4,8 g",
+        "5,3 g"
+      ],
       "correcta": 2,
       "explicacion": "NR = NA − (N urinario − endógeno urinario) = 7,9 − (4,2 − 1,1) = 7,9 − 3,1 = 4,8 g.",
       "dificultad": 3
     },
     {
       "id": "ae-t04-032",
-      "pregunta": "Con NI = 8,4 g y NA = 7,9 g, ¿cuál es la digestibilidad?",
-      "opciones": ["60,76 %", "57,14 %", "106 %", "94,05 %"],
+      "pregunta": "Con NI = 8,4 g y NA = 7,9 g, la digestibilidad es:",
+      "opciones": [
+        "60,76 %",
+        "57,14 %",
+        "106 %",
+        "94,05 %"
+      ],
       "correcta": 3,
       "explicacion": "D = 7,9 / 8,4 × 100 = 94,05 %.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-033",
-      "pregunta": "Con NA = 7,9 g y NR = 4,8 g, ¿cuál es el valor biológico?",
-      "opciones": ["60,76 %", "94,05 %", "57,14 %", "164 %"],
+      "pregunta": "Con NA = 7,9 g y NR = 4,8 g, el valor biológico es:",
+      "opciones": [
+        "60,76 %",
+        "94,05 %",
+        "57,14 %",
+        "164 %"
+      ],
       "correcta": 0,
       "explicacion": "VB = 4,8 / 7,9 × 100 = 60,76 %.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-034",
-      "pregunta": "Si VB = 60,76 y D = 94,05, ¿cuál es la UNP?",
-      "opciones": ["154,81", "57,14", "33,29", "94,05"],
+      "pregunta": "Si VB = 60,76 y D = 94,05, la UNP es:",
+      "opciones": [
+        "154,81",
+        "57,14",
+        "33,29",
+        "94,05"
+      ],
       "correcta": 1,
       "explicacion": "UNP = VB × D / 100 = 60,76 × 94,05 / 100 = 57,14 (también 4,8 / 8,4 × 100).",
       "dificultad": 2
     },
     {
       "id": "ae-t04-035",
-      "pregunta": "Pili gana 150 g en 21 días tomando 52,5 g de proteína al día. ¿Cuál es su REP?",
-      "opciones": ["2,86", "7,14", "0,136", "1,36"],
+      "pregunta": "Pili gana 150 g en 21 días tomando 52,5 g de proteína al día. Su REP es:",
+      "opciones": [
+        "2,86",
+        "7,14",
+        "0,136",
+        "1,36"
+      ],
       "correcta": 2,
       "explicacion": "Proteína total = 52,5 × 21 = 1102,5 g. REP = 150 / 1102,5 = 0,136.",
       "dificultad": 3
     },
     {
       "id": "ae-t04-036",
-      "pregunta": "¿Qué fórmula general se usa para el nitrógeno retenido?",
-      "opciones": ["NR = NI + NE", "NR = NA × 6,25", "NR = NI / NE", "NR = NI − NE (nitrógeno eliminado corregido por las pérdidas endógenas)"],
+      "pregunta": "La fórmula general del nitrógeno retenido es:",
+      "opciones": [
+        "NR = NI + NE",
+        "NR = NA × 6,25",
+        "NR = NI / NE",
+        "NR = NI − NE (nitrógeno eliminado corregido por las pérdidas endógenas)"
+      ],
       "correcta": 3,
       "explicacion": "NR = NI − [(orina − endógeno orina) + (sudor − endógeno sudor) + (heces − endógeno heces)].",
       "dificultad": 2
     },
     {
       "id": "ae-t04-037",
-      "pregunta": "¿Qué enzima gástrica digiere las proteínas?",
-      "opciones": ["La pepsina (activada a partir de pepsinógeno por el ácido clorhídrico)", "La α-amilasa", "La lipasa gástrica", "La lactasa"],
+      "pregunta": "La enzima gástrica que digiere las proteínas es:",
+      "opciones": [
+        "La pepsina, activada a partir del pepsinógeno por el ácido clorhídrico.",
+        "La tripsina, activada a partir del tripsinógeno por el ácido clorhídrico.",
+        "La α-amilasa.",
+        "La lipasa gástrica."
+      ],
       "correcta": 0,
       "explicacion": "La pepsina hidroliza enlaces peptídicos formando péptidos y aminoácidos.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-038",
-      "pregunta": "¿Qué enzima del intestino delgado activa el tripsinógeno en tripsina?",
-      "opciones": ["Pepsina", "Enterocinasa", "Carboxipeptidasa", "Lactasa"],
+      "pregunta": "La enzima del intestino delgado que activa el tripsinógeno en tripsina es:",
+      "opciones": [
+        "Pepsina",
+        "Enterocinasa",
+        "Carboxipeptidasa",
+        "Lactasa"
+      ],
       "correcta": 1,
       "explicacion": "La enterocinasa del borde en cepillo activa el tripsinógeno en tripsina.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-039",
-      "pregunta": "¿Qué enzima pancreática hidroliza los enlaces peptídicos del extremo carboxílico liberando aminoácidos?",
-      "opciones": ["Tripsina", "Quimotripsina", "Carboxipeptidasa", "Aminopeptidasa"],
-      "correcta": 2,
-      "explicacion": "La carboxipeptidasa actúa en el extremo carboxilo terminal. Tripsina y quimotripsina rompen enlaces internos; la aminopeptidasa, el extremo amino.",
+      "pregunta": "Respecto a las proteasas, es FALSO que:",
+      "opciones": [
+        "La carboxipeptidasa actúa en el extremo carboxilo terminal.",
+        "La aminopeptidasa actúa en el extremo amino terminal.",
+        "Tripsina y quimotripsina rompen enlaces peptídicos internos.",
+        "La quimotripsina es una enzima de origen gástrico."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la quimotripsina es pancreática y actúa en el duodeno, igual que la tripsina, la carboxipeptidasa y la elastasa.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-040",
-      "pregunta": "¿Qué enzima del intestino delgado hidroliza la lactosa?",
-      "opciones": ["Maltasa", "Sacarasa", "Isomaltasa", "Lactasa"],
+      "pregunta": "La enzima del intestino delgado que hidroliza la lactosa es:",
+      "opciones": [
+        "Maltasa",
+        "Sacarasa",
+        "Isomaltasa",
+        "Lactasa"
+      ],
       "correcta": 3,
       "explicacion": "La lactasa rompe la lactosa en glucosa y galactosa; su déficit causa intolerancia a la lactosa.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-041",
-      "pregunta": "¿Qué enzima salival inicia la digestión del almidón?",
-      "opciones": ["α-amilasa", "Pepsina", "Lipasa gástrica", "Tripsina"],
+      "pregunta": "La enzima salival que inicia la digestión del almidón es:",
+      "opciones": [
+        "α-amilasa",
+        "Pepsina",
+        "Lipasa gástrica",
+        "Tripsina"
+      ],
       "correcta": 0,
       "explicacion": "La α-amilasa salival hidroliza el almidón en dextrinas y maltosa.",
       "dificultad": 1
     },
     {
       "id": "ae-t04-042",
-      "pregunta": "¿En qué se transforma la sacarosa por acción de la sacarasa?",
-      "opciones": ["Glucosa y galactosa", "Glucosa y fructosa", "Dos glucosas", "Maltosa"],
-      "correcta": 1,
-      "explicacion": "Sacarasa: sacarosa → glucosa + fructosa. Maltasa: maltosa → glucosa. Lactasa: lactosa → glucosa + galactosa.",
-      "dificultad": 1
+      "pregunta": "Respecto a las disacaridasas, señala la opción CORRECTA:",
+      "opciones": [
+        "La sacarasa transforma la sacarosa en glucosa y galactosa.",
+        "La lactasa transforma la lactosa en glucosa y fructosa.",
+        "La maltasa transforma la maltosa en glucosa.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Es cierta la c. Sacarasa: sacarosa → glucosa + fructosa. Lactasa: lactosa → glucosa + galactosa. Maltasa: maltosa → glucosa.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t04-043",
-      "pregunta": "La quimotripsina es una enzima de origen…",
-      "opciones": ["Salival", "Gástrico", "Pancreático (actúa en el duodeno)", "Hepático"],
+      "pregunta": "La quimotripsina es una enzima de origen:",
+      "opciones": [
+        "Salival.",
+        "Gástrico.",
+        "Pancreático (actúa en el duodeno).",
+        "Hepático."
+      ],
       "correcta": 2,
       "explicacion": "Tripsina, quimotripsina, carboxipeptidasa y elastasa son proteasas pancreáticas activadas en el duodeno.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-044",
-      "pregunta": "¿Qué necesita la lipasa pancreática para hidrolizar la grasa?",
-      "opciones": ["Ácido clorhídrico", "Pepsina", "Lactasa", "Sales biliares"],
+      "pregunta": "Para hidrolizar la grasa, la lipasa pancreática necesita:",
+      "opciones": [
+        "Ácido clorhídrico",
+        "Pepsina",
+        "Lactasa",
+        "Sales biliares"
+      ],
       "correcta": 3,
       "explicacion": "La lipasa pancreática actúa en presencia de sales biliares y forma monoglicéridos y ácidos grasos que se incorporan a micelas.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-045",
-      "pregunta": "Un lactante necesita aproximadamente…",
-      "opciones": ["13 g de proteína/día o 1,85 g/kg de peso", "45-50 g/día", "0,83 g/kg", "100 g/día"],
+      "pregunta": "Respecto a las necesidades proteicas en la infancia, es cierto que:",
+      "opciones": [
+        "Un lactante necesita unos 13 g de proteína al día (1,85 g/kg de peso).",
+        "Un lactante necesita unos 45-50 g de proteína al día.",
+        "Un lactante necesita 0,83 g/kg de peso, igual que el adulto.",
+        "Los mayores de 10 años necesitan 1,85 g/kg de peso."
+      ],
       "correcta": 0,
-      "explicacion": "Lactantes: unos 13 g/día (1,85 g/kg). Mayores de 10 años: 45-50 g/día (0,9 g/kg).",
+      "explicacion": "Lactantes: unos 13 g/día (1,85 g/kg). Mayores de 10 años: 45-50 g/día (0,9 g/kg). Adultos: 0,83 g/kg.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-046",
-      "pregunta": "¿Qué enzima pancreática digiere la elastina (proteína fibrosa)?",
-      "opciones": ["Tripsina", "Elastasa", "Ribonucleasa", "Lipasa"],
+      "pregunta": "La enzima pancreática que digiere la elastina (proteína fibrosa) es:",
+      "opciones": [
+        "Tripsina",
+        "Elastasa",
+        "Ribonucleasa",
+        "Lipasa"
+      ],
       "correcta": 1,
       "explicacion": "La elastasa hidroliza la elastina formando péptidos y aminoácidos.",
       "dificultad": 2
     },
     {
       "id": "ae-t04-047",
-      "pregunta": "¿Qué es un polipéptido?",
-      "opciones": ["Una cadena de 2 aminoácidos", "Una cadena de más de 1000 aminoácidos", "Una cadena de 10 a 100 aminoácidos", "Un aminoácido libre"],
+      "pregunta": "Un polipéptido es:",
+      "opciones": [
+        "Una cadena de 2 aminoácidos",
+        "Una cadena de más de 1000 aminoácidos",
+        "Una cadena de 10 a 100 aminoácidos",
+        "Un aminoácido libre"
+      ],
       "correcta": 2,
       "explicacion": "Polipéptido: 10-100 aminoácidos. Proteína: más de 100.",
       "dificultad": 1

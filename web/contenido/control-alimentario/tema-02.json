@@ -6,440 +6,719 @@
   "preguntas": [
     {
       "id": "ca-t02-001",
-      "pregunta": "¿De qué depende la toxicidad de una sustancia?",
-      "opciones": ["De la dosis suministrada o absorbida y de su efecto acumulativo", "Solo de su color y olor", "Únicamente de si es natural o artificial", "Solo de la edad del consumidor"],
+      "pregunta": "La toxicidad de una sustancia depende de:",
+      "opciones": [
+        "La dosis suministrada o absorbida y su efecto acumulativo.",
+        "Solo de su color y olor.",
+        "Únicamente de si es natural o artificial.",
+        "Solo de la vía de administración."
+      ],
       "correcta": 0,
       "explicacion": "La toxicidad es función de la dosis suministrada o absorbida y del efecto acumulativo de la sustancia.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-002",
-      "pregunta": "¿Qué es el Límite Máximo de Residuos (LMR)?",
-      "opciones": ["La dosis que mata al 50 % de los animales", "La concentración máxima de una sustancia legalmente permitida en un alimento", "La cantidad que puede ingerirse a diario sin riesgo", "El tiempo que debe pasar tras administrar un fármaco"],
+      "pregunta": "El Límite Máximo de Residuos (LMR) es:",
+      "opciones": [
+        "La dosis que mata al 50 % de los animales",
+        "La concentración máxima de una sustancia legalmente permitida en un alimento",
+        "La cantidad que puede ingerirse a diario sin riesgo",
+        "El tiempo que debe pasar tras administrar un fármaco"
+      ],
       "correcta": 1,
       "explicacion": "El LMR es la concentración máxima legalmente permitida de una sustancia (residuo) en un alimento.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-003",
-      "pregunta": "El intervalo mínimo entre la última administración de una sustancia (p. ej., un medicamento veterinario) y la obtención del producto destinado al consumo se llama…",
-      "opciones": ["Ingesta diaria admisible", "Dosis letal 50", "Periodo de espera o plazo de seguridad", "NOAEL"],
+      "pregunta": "El intervalo mínimo entre la última administración de una sustancia (p. ej., un medicamento veterinario) y la obtención del producto destinado al consumo se denomina:",
+      "opciones": [
+        "Ingesta diaria admisible",
+        "Dosis letal 50",
+        "Periodo de espera o plazo de seguridad",
+        "NOAEL"
+      ],
       "correcta": 2,
       "explicacion": "El periodo de espera o plazo de seguridad garantiza que, al obtener el alimento, los residuos estén por debajo del LMR.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-004",
-      "pregunta": "¿Qué es la IDA (Ingesta Diaria Admisible)?",
-      "opciones": ["La dosis más baja que produce efectos adversos", "La concentración máxima permitida en el alimento", "La dosis que produce efectos en el 50 % de la especie", "La cantidad de sustancia (mg/kg de peso corporal) que puede ingerirse a diario toda la vida sin riesgo"],
+      "pregunta": "La IDA (Ingesta Diaria Admisible) es:",
+      "opciones": [
+        "La dosis más baja que produce efectos adversos",
+        "La concentración máxima permitida en el alimento",
+        "La dosis que produce efectos en el 50 % de la especie",
+        "La cantidad de sustancia (mg/kg de peso corporal) que puede ingerirse a diario toda la vida sin riesgo"
+      ],
       "correcta": 3,
       "explicacion": "La IDA se expresa en mg de sustancia por kg de peso corporal y es la cantidad que puede ingerirse diariamente durante toda la vida sin riesgo apreciable.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-005",
-      "pregunta": "¿Qué significa NOAEL?",
-      "opciones": ["La dosis más elevada sin efectos adversos observados", "La dosis más baja con efectos adversos", "La dosis que mata al 50 % de los animales", "La dosis segura para la exposición humana"],
-      "correcta": 0,
-      "explicacion": "NOAEL: dosis más elevada sin efectos adversos. LOAEL: dosis más baja con efectos adversos. DNEL: dosis segura para la exposición humana.",
-      "dificultad": 2
+      "pregunta": "Respecto a los parámetros toxicológicos, señala la opción CORRECTA:",
+      "opciones": [
+        "NOAEL: dosis más baja con efectos adversos observados.",
+        "LOAEL: dosis más elevada sin efectos adversos observados.",
+        "DL50: dosis que produce la muerte del 50 % de la especie estudiada.",
+        "Todas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Solo es cierta la c. Las definiciones de NOAEL y LOAEL están cambiadas: NOAEL = dosis más elevada SIN efectos adversos; LOAEL = dosis más baja CON efectos adversos.",
+      "dificultad": 2,
+      "orden_fijo": true
     },
     {
       "id": "ca-t02-006",
-      "pregunta": "¿Qué es el LOAEL?",
-      "opciones": ["La dosis más elevada sin efectos adversos", "La dosis más baja con efectos adversos observados", "La dosis que produce efectos en el 50 % de la especie", "El límite máximo de residuos"],
+      "pregunta": "El LOAEL es:",
+      "opciones": [
+        "La dosis más elevada sin efectos adversos",
+        "La dosis más baja con efectos adversos observados",
+        "La dosis que produce efectos en el 50 % de la especie",
+        "El límite máximo de residuos"
+      ],
       "correcta": 1,
       "explicacion": "El LOAEL es la dosis más baja a la que ya se observan efectos adversos. Entre el NOAEL y el LOAEL existe un margen.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-007",
-      "pregunta": "¿Qué indica la DL50?",
-      "opciones": ["La dosis que produce efectos en el 50 % de la especie", "La dosis segura para humanos", "La dosis que produce la muerte del 50 % de la especie estudiada", "El 50 % del LMR"],
+      "pregunta": "La DL50 indica:",
+      "opciones": [
+        "La dosis que produce efectos en el 50 % de la especie",
+        "La dosis segura para humanos",
+        "La dosis que produce la muerte del 50 % de la especie estudiada",
+        "El 50 % del LMR"
+      ],
       "correcta": 2,
       "explicacion": "DL50: dosis que produce la muerte del 50 % de la especie. DE50: dosis que produce un efecto en el 50 % de la especie.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-008",
-      "pregunta": "¿Cómo se calcula la IDA a partir del NOAEL?",
-      "opciones": ["IDA = NOAEL × 100", "IDA = NOAEL / 10", "IDA = LOAEL / 2", "IDA = NOAEL / 100"],
+      "pregunta": "La IDA se calcula a partir del NOAEL como:",
+      "opciones": [
+        "IDA = NOAEL × 100.",
+        "IDA = NOAEL / 10.",
+        "IDA = LOAEL / 100.",
+        "IDA = NOAEL / 100."
+      ],
       "correcta": 3,
       "explicacion": "Se divide el NOAEL entre un factor de seguridad de 100 (10 por la variabilidad entre especies × 10 por la variabilidad dentro de la especie humana).",
       "dificultad": 2
     },
     {
       "id": "ca-t02-009",
-      "pregunta": "El factor de seguridad de 100 que se usa para calcular la IDA se explica porque…",
-      "opciones": ["Se aplica 10 por la variabilidad entre especies y 10 por la variabilidad dentro de la especie", "Se estudian 100 animales", "Es el porcentaje de animales que deben sobrevivir", "Corresponde a 100 días de estudio"],
+      "pregunta": "El factor de seguridad de 100 que se usa para calcular la IDA se explica porque:",
+      "opciones": [
+        "Se aplica 10 por la variabilidad entre especies y 10 por la variabilidad dentro de la especie",
+        "Se estudian 100 animales",
+        "Es el porcentaje de animales que deben sobrevivir",
+        "Corresponde a 100 días de estudio"
+      ],
       "correcta": 0,
       "explicacion": "Factor 10 interespecies (del animal de laboratorio al ser humano) × factor 10 intraespecie (diferencias entre personas) = 100.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-010",
-      "pregunta": "Una intoxicación por ingestión de un producto con mucho contaminante, de absorción rápida y con manifestaciones a corto plazo, es una intoxicación…",
-      "opciones": ["Crónica", "Aguda", "Metabólica", "Epidemiológica"],
+      "pregunta": "Una intoxicación por ingestión de un producto con mucho contaminante, de absorción rápida y con manifestaciones a corto plazo, es una intoxicación:",
+      "opciones": [
+        "Crónica",
+        "Aguda",
+        "Metabólica",
+        "Epidemiológica"
+      ],
       "correcta": 1,
       "explicacion": "Aguda: duración corta, absorción rápida y manifestaciones rápidas. Crónica: exposición larga con acumulación (eliminación < absorción) y efectos lentos.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-011",
-      "pregunta": "¿Qué caracteriza a la intoxicación crónica?",
-      "opciones": ["Dosis única muy alta", "Manifestaciones en pocas horas", "Exposición prolongada en la dieta, con acumulación porque la eliminación es menor que la absorción", "Solo ocurre en animales de laboratorio"],
-      "correcta": 2,
-      "explicacion": "En la crónica el tóxico entra con la dieta durante mucho tiempo; se acumula porque se elimina menos de lo que se absorbe, y los efectos aparecen lentamente.",
+      "pregunta": "Respecto a la intoxicación crónica, es FALSO que:",
+      "opciones": [
+        "Se debe a una exposición prolongada en la dieta.",
+        "El tóxico se acumula porque la eliminación es menor que la absorción.",
+        "Sus efectos aparecen lentamente.",
+        "Se debe a una dosis única muy alta con manifestaciones en pocas horas."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: dosis alta, absorción rápida y manifestaciones rápidas describen la intoxicación AGUDA.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-012",
-      "pregunta": "En un estudio de toxicidad aguda, ¿cuál es la duración máxima?",
-      "opciones": ["El 10 % de la vida de la especie", "Varias generaciones", "6 meses", "15 días"],
+      "pregunta": "En un estudio de toxicidad aguda, la duración máxima es de:",
+      "opciones": [
+        "El 10 % de la vida de la especie",
+        "Varias generaciones",
+        "6 meses",
+        "15 días"
+      ],
       "correcta": 3,
       "explicacion": "La toxicidad aguda se estudia con dosis únicas, máximo 15 días, en 3 especies animales (1 no roedora) y determina DE50/DL50/NOAEL.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-013",
-      "pregunta": "¿Qué estudio de toxicidad dura aproximadamente el 10 % de la vida de la especie, con dosis repetidas en 2 especies, para determinar el NOAEL?",
-      "opciones": ["Corto plazo", "Agudo", "Largo plazo", "Metabólico"],
+      "pregunta": "El estudio de toxicidad que dura aproximadamente el 10 % de la vida de la especie, con dosis repetidas en 2 especies, para determinar el NOAEL, es el de:",
+      "opciones": [
+        "Corto plazo",
+        "Agudo",
+        "Largo plazo",
+        "Metabólico"
+      ],
       "correcta": 0,
       "explicacion": "El estudio a corto plazo usa dosis repetidas durante el 10 % de la vida de la especie en 2 especies animales y determina el NOAEL.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-014",
-      "pregunta": "¿Qué se busca en los estudios de toxicidad a largo plazo?",
-      "opciones": ["La DL50", "Efectos crónicos y tardíos, como la mutagénesis", "La distribución del tóxico en la población", "Solo el sabor del alimento"],
+      "pregunta": "Los estudios de toxicidad a largo plazo buscan:",
+      "opciones": [
+        "La DL50",
+        "Efectos crónicos y tardíos, como la mutagénesis",
+        "La distribución del tóxico en la población",
+        "Solo el sabor del alimento"
+      ],
       "correcta": 1,
       "explicacion": "Se hacen con dosis repetidas durante la mayor parte de la vida de la especie y varias generaciones, para detectar efectos crónicos, tardíos y mutagénicos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-015",
-      "pregunta": "¿Qué estudios de toxicidad se realizan en humanos y son observacionales?",
-      "opciones": ["Los estudios metabólicos", "Los de toxicidad aguda", "Los estudios epidemiológicos", "Los de largo plazo"],
+      "pregunta": "Respecto a los estudios de toxicidad, señala la opción CORRECTA:",
+      "opciones": [
+        "Los epidemiológicos se realizan en animales de laboratorio.",
+        "Los metabólicos usan dosis únicas muy elevadas.",
+        "Los de toxicidad aguda duran como máximo 15 días.",
+        "Todas son correctas."
+      ],
       "correcta": 2,
-      "explicacion": "Los estudios epidemiológicos son observacionales en humanos y estudian la distribución del tóxico, los factores de riesgo y la mortalidad.",
-      "dificultad": 1
+      "explicacion": "Solo es cierta la c. Los epidemiológicos son observacionales en humanos y los metabólicos usan compuestos marcados radiactivamente.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t02-016",
-      "pregunta": "En los estudios de toxicidad metabólica, ¿qué se administra?",
-      "opciones": ["Dosis únicas muy elevadas", "Placebos", "Alimentos sin tratar", "Compuestos marcados con elementos radiactivos"],
+      "pregunta": "En los estudios de toxicidad metabólica se administran:",
+      "opciones": [
+        "Dosis únicas muy elevadas",
+        "Placebos",
+        "Alimentos sin tratar",
+        "Compuestos marcados con elementos radiactivos"
+      ],
       "correcta": 3,
       "explicacion": "Se usan compuestos marcados radiactivamente para seguir cómo los metaboliza el organismo (por ejemplo, en ratas).",
       "dificultad": 2
     },
     {
       "id": "ca-t02-017",
-      "pregunta": "¿Por qué está prohibido el uso de antibióticos como promotores del crecimiento en animales?",
-      "opciones": ["Por el riesgo de resistencias antimicrobianas, reacciones alérgicas e interacción con fármacos", "Porque cambian el color de la carne", "Porque reducen el peso del animal", "Porque no tienen ningún efecto"],
+      "pregunta": "El uso de antibióticos como promotores del crecimiento en animales está prohibido por:",
+      "opciones": [
+        "Por el riesgo de resistencias antimicrobianas, reacciones alérgicas e interacción con fármacos",
+        "Porque cambian el color de la carne",
+        "Porque reducen el peso del animal",
+        "Porque no tienen ningún efecto"
+      ],
       "correcta": 0,
       "explicacion": "Los antibióticos solo se permiten con fines terapéuticos o profilácticos. Sus residuos pueden causar resistencias antimicrobianas, alergias e interacciones.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-018",
-      "pregunta": "¿Qué sustancias son el clenbuterol y el salbutamol?",
-      "opciones": ["Tireostáticos", "β-agonistas", "Tranquilizantes", "Organoclorados"],
+      "pregunta": "El clenbuterol y el salbutamol son:",
+      "opciones": [
+        "Tireostáticos",
+        "β-agonistas",
+        "Tranquilizantes",
+        "Organoclorados"
+      ],
       "correcta": 1,
       "explicacion": "Son β-agonistas: terapéuticos como broncodilatadores o relajantes uterinos, pero usados ilegalmente como anabolizantes para engordar (más síntesis proteica y lipólisis).",
       "dificultad": 2
     },
     {
       "id": "ca-t02-019",
-      "pregunta": "¿Qué síntomas puede provocar en humanos el consumo de carne con residuos de clenbuterol?",
-      "opciones": ["Resistencias antibióticas", "Saturnismo", "Temblores, cefalea y taquicardia", "Caída del pelo"],
+      "pregunta": "El consumo de carne con residuos de clenbuterol puede provocar en humanos:",
+      "opciones": [
+        "Resistencias antibióticas",
+        "Saturnismo",
+        "Temblores, cefalea y taquicardia",
+        "Caída del pelo"
+      ],
       "correcta": 2,
       "explicacion": "Los residuos de β-agonistas como el clenbuterol pueden intoxicar al consumidor con temblores, cefalea y taquicardia.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-020",
-      "pregunta": "¿Cuál es la situación legal de los tireostáticos (antitiroideos) en producción animal?",
-      "opciones": ["Se permiten como terapéuticos", "Se permiten como promotores del crecimiento", "Solo se permiten en aves", "Su empleo está totalmente prohibido"],
+      "pregunta": "Respecto a las sustancias en producción animal, es FALSO que:",
+      "opciones": [
+        "Los antibióticos solo se permiten con fines terapéuticos o profilácticos.",
+        "El clenbuterol se ha usado ilegalmente como anabolizante.",
+        "Los tranquilizantes se han usado ilegalmente para reducir el estrés y mejorar el rendimiento.",
+        "Los tireostáticos se permiten como promotores del crecimiento."
+      ],
       "correcta": 3,
-      "explicacion": "Los tireostáticos están totalmente prohibidos: tienen un efecto «anabolizante» (sin serlo), elevada toxicidad y riesgo para el consumidor.",
+      "explicacion": "Es falso: el empleo de tireostáticos está totalmente prohibido por su elevada toxicidad y su riesgo para el consumidor.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-021",
-      "pregunta": "¿Con qué fin se usan de forma ilegal los tranquilizantes en animales de abasto?",
-      "opciones": ["Mejorar el rendimiento productivo por sedación o reducción del estrés", "Curar infecciones", "Inducir el parto", "Proteger los cultivos"],
+      "pregunta": "Los tranquilizantes se usan de forma ilegal en animales de abasto para:",
+      "opciones": [
+        "Mejorar el rendimiento productivo por sedación o reducción del estrés",
+        "Curar infecciones",
+        "Inducir el parto",
+        "Proteger los cultivos"
+      ],
       "correcta": 0,
       "explicacion": "Su uso terapéutico es en cirugía o diagnóstico; el uso prohibido busca sedar o reducir el estrés para mejorar el rendimiento. En el consumidor tienen efectos farmacológicos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-022",
-      "pregunta": "¿Cuál es el orden de toxicidad de los plaguicidas, de mayor a menor?",
-      "opciones": ["Organofosforados > organoclorados > piretroides", "Organoclorados > organofosforados > otros (carbamatos, piretroides)", "Piretroides > carbamatos > organoclorados", "Todos tienen la misma toxicidad"],
+      "pregunta": "El orden de toxicidad de los plaguicidas, de mayor a menor, es:",
+      "opciones": [
+        "Organofosforados > organoclorados > piretroides",
+        "Organoclorados > organofosforados > otros (carbamatos, piretroides)",
+        "Piretroides > carbamatos > organoclorados",
+        "Todos tienen la misma toxicidad"
+      ],
       "correcta": 1,
       "explicacion": "Organoclorados > organofosforados > otros (carbamatos o piretroides, que apenas afectan a mamíferos).",
       "dificultad": 2
     },
     {
       "id": "ca-t02-023",
-      "pregunta": "¿Qué plaguicidas resisten la degradación, se acumulan en los tejidos grasos y están prohibidos (como el DDT o el lindano)?",
-      "opciones": ["Organofosforados", "Rodenticidas", "Organoclorados", "Fungicidas"],
+      "pregunta": "Los plaguicidas que resisten la degradación, se acumulan en los tejidos grasos y están prohibidos (como el DDT o el lindano) son los:",
+      "opciones": [
+        "Organofosforados",
+        "Rodenticidas",
+        "Organoclorados",
+        "Fungicidas"
+      ],
       "correcta": 2,
       "explicacion": "Los organoclorados (DDT, lindano) afectan a la transmisión nerviosa, persisten en el ambiente y se acumulan en la grasa. Están prohibidos.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-024",
-      "pregunta": "¿Cuál es el mecanismo de acción tóxica de los plaguicidas organofosforados?",
-      "opciones": ["Son anticoagulantes", "Producen dioxinas", "Se acumulan en el hígado sin efecto", "Inhiben las acetilcolinesterasas"],
+      "pregunta": "El mecanismo de acción tóxica de los plaguicidas organofosforados es:",
+      "opciones": [
+        "Son anticoagulantes",
+        "Producen dioxinas",
+        "Se acumulan en el hígado sin efecto",
+        "Inhiben las acetilcolinesterasas"
+      ],
       "correcta": 3,
       "explicacion": "Los organofosforados inhiben la acetilcolinesterasa, enzima clave en la transmisión nerviosa.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-025",
-      "pregunta": "Los rodenticidas actúan principalmente como…",
-      "opciones": ["Anticoagulantes, con bajo riesgo de intoxicación humana", "Inhibidores de la acetilcolinesterasa", "Disruptores endocrinos", "Organomercuriales muy tóxicos"],
+      "pregunta": "Los rodenticidas actúan principalmente como:",
+      "opciones": [
+        "Anticoagulantes, con bajo riesgo de intoxicación humana",
+        "Inhibidores de la acetilcolinesterasa",
+        "Disruptores endocrinos",
+        "Organomercuriales muy tóxicos"
+      ],
       "correcta": 0,
       "explicacion": "Los rodenticidas son principalmente anticoagulantes y tienen bajo riesgo de intoxicación para las personas.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-026",
-      "pregunta": "¿Qué herbicida se cita en el tema como posible carcinógeno?",
-      "opciones": ["El lindano", "El glifosato", "El DDT", "El benzopireno"],
+      "pregunta": "El herbicida que el tema cita como posible carcinógeno es:",
+      "opciones": [
+        "El lindano",
+        "El glifosato",
+        "El DDT",
+        "El benzopireno"
+      ],
       "correcta": 1,
       "explicacion": "Algunos herbicidas generan tóxicos persistentes cancerígenos como las dioxinas; el glifosato se considera posible carcinógeno.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-027",
-      "pregunta": "Los fungicidas organomercuriales, muy tóxicos, se han sustituido por…",
-      "opciones": ["Organoclorados", "Piretroides", "Carbamatos", "Anticoagulantes"],
+      "pregunta": "Los fungicidas organomercuriales, muy tóxicos, se han sustituido por:",
+      "opciones": [
+        "Organoclorados",
+        "Piretroides",
+        "Carbamatos",
+        "Anticoagulantes"
+      ],
       "correcta": 2,
       "explicacion": "Los organomercuriales eran muy tóxicos y se han reemplazado por carbamatos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-028",
-      "pregunta": "¿En qué alimentos se bioacumula y biomagnifica sobre todo el mercurio?",
-      "opciones": ["Arroz y cereales", "Carne de caza", "Espinacas y acelgas", "Peces grandes: pez espada, tiburón, atún rojo, lucio"],
+      "pregunta": "El mercurio se bioacumula y biomagnifica sobre todo en:",
+      "opciones": [
+        "Arroz y cereales",
+        "Carne de caza",
+        "Espinacas y acelgas",
+        "Peces grandes: pez espada, tiburón, atún rojo, lucio"
+      ],
       "correcta": 3,
       "explicacion": "El mercurio se acumula y aumenta a lo largo de la cadena trófica, por lo que los peces grandes y depredadores son los que más contienen.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-029",
-      "pregunta": "¿Qué forma del mercurio es la más tóxica y se acumula en los peces?",
-      "opciones": ["El mercurio orgánico (metilmercurio)", "El mercurio inorgánico de los suelos", "El mercurio de las pilas sin transformar", "Todas son igual de tóxicas"],
+      "pregunta": "La forma del mercurio más tóxica, que se acumula en los peces, es:",
+      "opciones": [
+        "El mercurio orgánico (metilmercurio).",
+        "El mercurio inorgánico de los suelos.",
+        "El mercurio metálico de las pilas.",
+        "El cloruro de mercurio de los fungicidas."
+      ],
       "correcta": 0,
       "explicacion": "En el agua, las bacterias transforman el mercurio en metilmercurio (orgánico), más tóxico, que se acumula en los peces y afecta a hígado, riñón y sistema nervioso.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-030",
-      "pregunta": "¿Cómo se llama la intoxicación crónica por plomo?",
-      "opciones": ["Hidrargirismo", "Saturnismo", "Selenosis", "Hiperqueratosis"],
+      "pregunta": "La intoxicación crónica por plomo se denomina:",
+      "opciones": [
+        "Hidrargirismo",
+        "Saturnismo",
+        "Selenosis",
+        "Hiperqueratosis"
+      ],
       "correcta": 1,
       "explicacion": "El saturnismo afecta a cerebro, hígado y riñones (neurotoxicidad, efectos cardiovasculares y renales). El hidrargirismo es la intoxicación por mercurio.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-031",
-      "pregunta": "¿Qué alimento se asocia especialmente al plomo por la munición?",
-      "opciones": ["Pez espada", "Arroz", "Carne de caza", "Espinacas"],
+      "pregunta": "Se asocia especialmente al plomo por la munición:",
+      "opciones": [
+        "Pez espada",
+        "Arroz",
+        "Carne de caza",
+        "Espinacas"
+      ],
       "correcta": 2,
       "explicacion": "La carne de caza puede contener plomo de la munición. En menor medida aparece en crustáceos y moluscos.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-032",
-      "pregunta": "¿Qué alimentos son la principal fuente de cadmio en la dieta?",
-      "opciones": ["Peces grandes", "Carne de caza", "Agua embotellada", "Plantas como espinacas, berros y acelgas, y moluscos"],
+      "pregunta": "Respecto a los metales pesados, es FALSO que:",
+      "opciones": [
+        "El cadmio está en espinacas, berros, acelgas y moluscos.",
+        "La absorción del cadmio aumenta si la ingesta de zinc es baja.",
+        "El plomo puede estar en la carne de caza por la munición.",
+        "La principal fuente de cadmio son los peces grandes como el pez espada."
+      ],
       "correcta": 3,
-      "explicacion": "El cadmio lo absorben plantas como espinacas, berros y acelgas, y está en moluscos (menos en crustáceos). Afecta al riñón y causa problemas óseos.",
+      "explicacion": "Es falso: los peces grandes se asocian al MERCURIO. El cadmio procede sobre todo de plantas (espinacas, berros, acelgas) y moluscos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-033",
-      "pregunta": "¿Qué factor aumenta la absorción del cadmio en el organismo?",
-      "opciones": ["Una baja ingesta de zinc", "Una dieta rica en fibra", "El consumo de vitamina C", "Una dieta rica en proteínas"],
+      "pregunta": "Aumenta la absorción del cadmio en el organismo:",
+      "opciones": [
+        "Una baja ingesta de zinc",
+        "Una dieta rica en fibra",
+        "El consumo de vitamina C",
+        "Una dieta rica en proteínas"
+      ],
       "correcta": 0,
       "explicacion": "El cadmio se absorbe en torno al 5 %, pero la absorción aumenta si la ingesta de zinc es baja.",
       "dificultad": 3
     },
     {
       "id": "ca-t02-034",
-      "pregunta": "¿Qué alimentos son fuente importante de arsénico?",
-      "opciones": ["Carne de caza", "Agua de consumo, arroz y derivados, otros cereales y algas", "Leche y huevos", "Frutos secos"],
-      "correcta": 1,
+      "pregunta": "Son fuente importante de arsénico:",
+      "opciones": [
+        "El agua de consumo.",
+        "El arroz y sus derivados.",
+        "La carne de caza.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
       "explicacion": "El arsénico llega por el agua de consumo y por la absorción de las plantas (arroz y derivados, cereales), además de algas y alimentos marinos.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t02-035",
-      "pregunta": "¿Qué forma del arsénico es genotóxica y cancerígena?",
-      "opciones": ["La orgánica de pescados y mariscos", "Ninguna: el arsénico no es tóxico", "La inorgánica", "Solo la del agua embotellada"],
-      "correcta": 2,
+      "pregunta": "La forma del arsénico genotóxica y cancerígena es:",
+      "opciones": [
+        "La orgánica de pescados y mariscos.",
+        "La inorgánica.",
+        "La orgánica del arroz.",
+        "La metálica de los envases."
+      ],
+      "correcta": 1,
       "explicacion": "El arsénico orgánico (pescados, mariscos) es mucho menos tóxico; el inorgánico es genotóxico y cancerígeno, con efectos cardiovasculares, hepáticos, renales y cutáneos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-036",
-      "pregunta": "¿Con qué efecto se relaciona principalmente el níquel en los alimentos?",
-      "opciones": ["Saturnismo", "Selenosis", "Problemas óseos", "Alergias"],
+      "pregunta": "El níquel de los alimentos se relaciona principalmente con:",
+      "opciones": [
+        "Saturnismo",
+        "Selenosis",
+        "Problemas óseos",
+        "Alergias"
+      ],
       "correcta": 3,
       "explicacion": "El níquel (cereales, vegetales, frutos secos, agua) se asocia sobre todo a alergias.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-037",
-      "pregunta": "¿De dónde procede principalmente el aluminio de la dieta?",
-      "opciones": ["Espesantes, floculantes, aditivos, envases y agua de consumo", "Munición de caza", "Peces grandes", "Abonos nitrogenados"],
+      "pregunta": "El aluminio de la dieta procede principalmente de:",
+      "opciones": [
+        "Espesantes, floculantes, aditivos, envases y agua de consumo",
+        "Munición de caza",
+        "Peces grandes",
+        "Abonos nitrogenados"
+      ],
       "correcta": 0,
       "explicacion": "El aluminio llega por aditivos, espesantes, floculantes, envases y agua. Se acumula en hígado, cerebro, tejido óseo y glándula paratiroides.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-038",
-      "pregunta": "¿Qué es la selenosis?",
-      "opciones": ["Un déficit de selenio", "La intoxicación por exceso de selenio: irritabilidad, caída del pelo, uñas quebradizas y fatiga", "Una alergia al níquel", "Una enfermedad causada por el plomo"],
+      "pregunta": "La selenosis es:",
+      "opciones": [
+        "Un déficit de selenio",
+        "La intoxicación por exceso de selenio: irritabilidad, caída del pelo, uñas quebradizas y fatiga",
+        "Una alergia al níquel",
+        "Una enfermedad causada por el plomo"
+      ],
       "correcta": 1,
       "explicacion": "El exceso de selenio (por ejemplo, en alimentos fortificados) causa selenosis: irritabilidad, caída del pelo, uñas quebradizas y fatiga.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-039",
-      "pregunta": "¿Qué forma del cromo es carcinógena?",
-      "opciones": ["Cromo III", "Cromo metálico", "Cromo VI o hexavalente", "Ninguna"],
+      "pregunta": "La forma del cromo carcinógena es:",
+      "opciones": [
+        "Cromo III.",
+        "Cromo metálico.",
+        "Cromo VI o hexavalente.",
+        "Cromo II."
+      ],
       "correcta": 2,
       "explicacion": "El cromo VI (hexavalente) es carcinógeno. En agua embotellada y vegetales no supone riesgo según la EFSA.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-040",
-      "pregunta": "¿Qué reglamento fija los límites máximos de contaminantes como metales y compuestos accidentales en alimentos?",
-      "opciones": ["Reglamento (CE) 1935/2004", "Reglamento (UE) 10/2011", "Reglamento (CE) 178/2002", "Reglamento (UE) 2023/915"],
+      "pregunta": "El reglamento que fija los límites máximos de contaminantes como metales y compuestos accidentales en alimentos es el:",
+      "opciones": [
+        "Reglamento (CE) 1935/2004",
+        "Reglamento (UE) 10/2011",
+        "Reglamento (CE) 178/2002",
+        "Reglamento (UE) 2023/915"
+      ],
       "correcta": 3,
       "explicacion": "El Reglamento (UE) 2023/915 establece los LMR de contaminantes. Los valores toxicológicos de referencia (IST o IDT) los fija la EFSA.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-041",
-      "pregunta": "¿Cómo se forman las nitrosaminas?",
-      "opciones": ["Nitritos + aminas (de las proteínas); los nitratos pueden pasar a nitritos", "Almidón + azúcares a alta temperatura", "Oxidación de aceites en la fritura", "Combustión de madera"],
+      "pregunta": "Las nitrosaminas se forman a partir de:",
+      "opciones": [
+        "Nitritos + aminas (de las proteínas); los nitratos pueden pasar a nitritos",
+        "Almidón + azúcares a alta temperatura",
+        "Oxidación de aceites en la fritura",
+        "Combustión de madera"
+      ],
       "correcta": 0,
       "explicacion": "Los nitritos reaccionan con aminas procedentes de proteínas para formar nitrosaminas, que son cancerígenas. Los nitratos pueden transformarse en nitritos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-042",
-      "pregunta": "¿Qué sustancias inhiben la formación de nitrosaminas?",
-      "opciones": ["Los nitratos", "El ácido ascórbico y los tocoferoles", "La sal y el azúcar", "Los fosfatos"],
-      "correcta": 1,
-      "explicacion": "La vitamina C (ácido ascórbico) y los tocoferoles (vitamina E) inhiben la formación de nitrosaminas, por eso se añaden a los productos cárnicos curados.",
-      "dificultad": 2
+      "pregunta": "Inhiben la formación de nitrosaminas:",
+      "opciones": [
+        "El ácido ascórbico.",
+        "Los tocoferoles.",
+        "Los nitratos.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "La vitamina C (ácido ascórbico) y los tocoferoles (vitamina E) inhiben la formación de nitrosaminas; los nitratos pueden pasar a nitritos y favorecerla.",
+      "dificultad": 2,
+      "orden_fijo": true
     },
     {
       "id": "ca-t02-043",
-      "pregunta": "¿Por qué vía llega el 90 % de la exposición humana a dioxinas?",
-      "opciones": ["El agua de consumo", "Las verduras de hoja", "Las grasas animales: leche y derivados, carnes, embutidos, pescados y huevos", "El aire"],
+      "pregunta": "El 90 % de la exposición humana a dioxinas llega a través de:",
+      "opciones": [
+        "El agua de consumo",
+        "Las verduras de hoja",
+        "Las grasas animales: leche y derivados, carnes, embutidos, pescados y huevos",
+        "El aire"
+      ],
       "correcta": 2,
       "explicacion": "Las dioxinas, furanos y PCBs son lipófilos: el 90 % de la exposición procede de grasas animales. Son carcinógenos, teratógenos e inmunotóxicos.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-044",
-      "pregunta": "¿Qué compuesto carcinógeno se forma al ahumar o cocinar a la brasa?",
-      "opciones": ["Acrilamida", "Nitrosaminas", "Óxido de etileno", "Hidrocarburos aromáticos policíclicos (HAPs) como el benzopireno"],
+      "pregunta": "Al ahumar o cocinar a la brasa se forman compuestos carcinógenos como:",
+      "opciones": [
+        "Acrilamida",
+        "Nitrosaminas",
+        "Óxido de etileno",
+        "Hidrocarburos aromáticos policíclicos (HAPs) como el benzopireno"
+      ],
       "correcta": 3,
       "explicacion": "Los HAPs (como el benzopireno) se forman en la combustión de madera o carbón y aparecen en ahumados y alimentos a la brasa.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-045",
-      "pregunta": "¿Cómo se forma la acrilamida en los alimentos?",
-      "opciones": ["Almidón + azúcares + aminoácidos (asparagina) a alta temperatura, por la reacción de Maillard", "Por contaminación de los envases", "Por los residuos de plaguicidas", "Al congelar los alimentos"],
+      "pregunta": "Respecto a los contaminantes de proceso, señala la opción CORRECTA:",
+      "opciones": [
+        "La acrilamida se forma a partir de almidón, azúcares y asparagina a alta temperatura (reacción de Maillard).",
+        "Los HAPs se forman al congelar los alimentos.",
+        "La termooxidación disminuye con los calentamientos sucesivos del aceite.",
+        "Las nitrosaminas se forman a partir de almidón y azúcares."
+      ],
       "correcta": 0,
-      "explicacion": "La acrilamida aparece en alimentos ricos en almidón calentados a alta temperatura (patatas fritas, pan tostado, galletas, rebozados) por la reacción de Maillard.",
+      "explicacion": "La acrilamida aparece en alimentos ricos en almidón calentados a alta temperatura. Los HAPs se forman en la combustión (ahumados, brasa); la termooxidación aumenta con los recalentamientos; las nitrosaminas, de nitritos + aminas.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-046",
-      "pregunta": "Según el semáforo de la acrilamida, ¿cómo deben quedar las patatas fritas o el pan tostado?",
-      "opciones": ["Dorado marrón", "Ligeramente dorado o dorado amarillo", "Muy tostado, casi negro", "El color no importa"],
+      "pregunta": "Según el semáforo de la acrilamida, las patatas fritas o el pan tostado deben quedar:",
+      "opciones": [
+        "Dorado marrón",
+        "Ligeramente dorado o dorado amarillo",
+        "Muy tostado, casi negro",
+        "El color no importa"
+      ],
       "correcta": 1,
       "explicacion": "Ligeramente dorado es lo correcto, dorado amarillo es aceptable y dorado marrón es incorrecto por su mayor contenido en acrilamida.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-047",
-      "pregunta": "¿Qué se forma al calentar repetidamente los aceites de fritura?",
-      "opciones": ["Dioxinas", "Acrilamida", "Compuestos de termooxidación", "Nitrosaminas"],
+      "pregunta": "Al calentar repetidamente los aceites de fritura se forman:",
+      "opciones": [
+        "Dioxinas",
+        "Acrilamida",
+        "Compuestos de termooxidación",
+        "Nitrosaminas"
+      ],
       "correcta": 2,
       "explicacion": "La termooxidación es la oxidación de los aceites a altas temperaturas; aumenta con los calentamientos sucesivos.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-048",
-      "pregunta": "¿Cuál es la situación del óxido de etileno como agente esterilizante en frío en la UE?",
-      "opciones": ["Es obligatorio en vegetales", "Solo se permite en frutos secos", "Se permite en cualquier alimento", "Está prohibido"],
+      "pregunta": "La situación del óxido de etileno como agente esterilizante en frío en la UE es que:",
+      "opciones": [
+        "Es obligatorio en vegetales",
+        "Solo se permite en frutos secos",
+        "Se permite en cualquier alimento",
+        "Está prohibido"
+      ],
       "correcta": 3,
       "explicacion": "El óxido de etileno está prohibido en la UE: genera compuestos acumulables con daño hepático y renal, y es posible mutágeno, carcinógeno y tóxico para la reproducción.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-049",
-      "pregunta": "¿Qué reglamento regula los materiales y objetos destinados a entrar en contacto con alimentos?",
-      "opciones": ["Reglamento (CE) 1935/2004", "Reglamento (UE) 2023/915", "Reglamento (CE) 1924/2006", "Reglamento (UE) 2017/625"],
+      "pregunta": "El reglamento que regula los materiales y objetos destinados a entrar en contacto con alimentos es el:",
+      "opciones": [
+        "Reglamento (CE) 1935/2004",
+        "Reglamento (UE) 2023/915",
+        "Reglamento (CE) 1924/2006",
+        "Reglamento (UE) 2017/625"
+      ],
       "correcta": 0,
       "explicacion": "El Reglamento (CE) 1935/2004 exige que los materiales no transfieran componentes peligrosos ni alteren la composición o las características del alimento.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-050",
-      "pregunta": "¿Qué diferencia hay entre un envase activo y uno inteligente?",
-      "opciones": ["No hay diferencia", "El activo amplía la conservación o mejora el alimento; el inteligente controla el estado del alimento o de su entorno", "El inteligente es más barato", "El activo solo se usa para bebidas"],
+      "pregunta": "Respecto a los envases activos e inteligentes, señala la opción CORRECTA:",
+      "opciones": [
+        "No hay diferencia entre ellos.",
+        "El activo amplía la conservación o mejora el alimento; el inteligente controla el estado del alimento o de su entorno.",
+        "El inteligente transmite o absorbe sustancias para alargar la conservación.",
+        "El activo solo se usa para bebidas."
+      ],
       "correcta": 1,
       "explicacion": "Activos: transmiten o absorben sustancias para alargar la conservación o mantener/mejorar el alimento. Inteligentes: controlan el estado del alimento o su entorno.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-051",
-      "pregunta": "¿Qué reglamento regula los materiales plásticos en contacto con alimentos?",
-      "opciones": ["Reglamento (UE) 2024/3190", "Reglamento (CE) 1935/2004", "Reglamento (UE) 10/2011", "Decisión 97/129/CE"],
+      "pregunta": "El reglamento que regula los materiales plásticos en contacto con alimentos es el:",
+      "opciones": [
+        "Reglamento (UE) 2024/3190",
+        "Reglamento (CE) 1935/2004",
+        "Reglamento (UE) 10/2011",
+        "Decisión 97/129/CE"
+      ],
       "correcta": 2,
       "explicacion": "El Reglamento (UE) 10/2011 regula los plásticos. La Decisión 97/129/CE establece el sistema de identificación de materiales de envase.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-052",
-      "pregunta": "Según el tema, ¿qué plástico es el más recomendado (marcado con un círculo) para el contacto con alimentos?",
-      "opciones": ["PVC (3)", "Poliestireno PS (6)", "Otros (7)", "Polipropileno PP (5)"],
+      "pregunta": "Según el tema, el plástico más recomendado (marcado con un círculo) para el contacto con alimentos es el:",
+      "opciones": [
+        "PVC (3)",
+        "Poliestireno PS (6)",
+        "Otros (7)",
+        "Polipropileno PP (5)"
+      ],
       "correcta": 3,
       "explicacion": "El polipropileno (PP, 5) aparece destacado como el más adecuado. El PVC (3), el poliestireno (6) y «otros» (7) aparecen tachados.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-053",
-      "pregunta": "¿Qué reglamento prohíbe el bisfenol A (BPA) en los materiales en contacto con alimentos?",
-      "opciones": ["Reglamento (UE) 2024/3190", "Reglamento (UE) 10/2011", "Reglamento (CE) 1935/2004", "Reglamento (UE) 2023/915"],
+      "pregunta": "El reglamento que prohíbe el bisfenol A (BPA) en los materiales en contacto con alimentos es el:",
+      "opciones": [
+        "Reglamento (UE) 2024/3190",
+        "Reglamento (UE) 10/2011",
+        "Reglamento (CE) 1935/2004",
+        "Reglamento (UE) 2023/915"
+      ],
       "correcta": 0,
       "explicacion": "El Reglamento (UE) 2024/3190 prohíbe el BPA, que estaba en plásticos policarbonatados y en resinas epoxi del interior de las latas.",
       "dificultad": 2
     },
     {
       "id": "ca-t02-054",
-      "pregunta": "¿Por qué se considera nocivo el bisfenol A?",
-      "opciones": ["Porque es cancerígeno al freír", "Porque es un disruptor endocrino y nocivo para el sistema inmunitario", "Porque provoca saturnismo", "Porque inhibe la acetilcolinesterasa"],
+      "pregunta": "El bisfenol A se considera nocivo porque:",
+      "opciones": [
+        "Porque es cancerígeno al freír",
+        "Porque es un disruptor endocrino y nocivo para el sistema inmunitario",
+        "Porque provoca saturnismo",
+        "Porque inhibe la acetilcolinesterasa"
+      ],
       "correcta": 1,
       "explicacion": "El BPA migra del envase al alimento; es nocivo para el sistema inmunitario y actúa como disruptor endocrino.",
       "dificultad": 1
     },
     {
       "id": "ca-t02-055",
-      "pregunta": "Los naftalenos clorados, presentes en conservantes de la madera y lubricantes, se asocian en animales a…",
-      "opciones": ["Saturnismo", "Selenosis", "Hiperqueratosis bovina", "Alergias"],
+      "pregunta": "Los naftalenos clorados, presentes en conservantes de la madera y lubricantes, se asocian en animales a:",
+      "opciones": [
+        "Saturnismo",
+        "Selenosis",
+        "Hiperqueratosis bovina",
+        "Alergias"
+      ],
       "correcta": 2,
       "explicacion": "Los naftalenos clorados llegan a través de piensos contaminados y producen hiperqueratosis bovina.",
       "dificultad": 3

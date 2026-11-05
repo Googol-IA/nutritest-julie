@@ -6,427 +6,696 @@
   "preguntas": [
     {
       "id": "ca-t05-001",
-      "pregunta": "¿Qué efecto tiene la zona de congelación (≤ −18 °C) sobre los microorganismos?",
-      "opciones": ["Detiene o inhibe su crecimiento al cristalizar el agua disponible (baja la aw)", "Los destruye a todos", "Solo ralentiza su crecimiento", "Acelera su proliferación"],
+      "pregunta": "Sobre los microorganismos, la zona de congelación (≤ −18 °C):",
+      "opciones": [
+        "Detiene o inhibe su crecimiento al cristalizar el agua disponible (baja la aw).",
+        "Los destruye a todos (esteriliza).",
+        "Solo ralentiza su crecimiento, como la refrigeración.",
+        "Acelera su proliferación."
+      ],
       "correcta": 0,
       "explicacion": "La congelación detiene el crecimiento microbiano porque el agua líquida disponible se convierte en hielo y baja la aw; no esteriliza.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-002",
-      "pregunta": "¿Entre qué temperaturas está la zona de peligro según este tema?",
-      "opciones": ["−18 a 0 °C", "4 a 65 °C", "65 a 100 °C", "0 a 4 °C"],
+      "pregunta": "Según este tema, la zona de peligro está entre:",
+      "opciones": [
+        "−18 a 0 °C",
+        "4 a 65 °C",
+        "65 a 100 °C",
+        "0 a 4 °C"
+      ],
       "correcta": 1,
       "explicacion": "Entre 4 y 65 °C se acelera la proliferación de microorganismos mesófilos (patógenos). Por eso no se debe descongelar a temperatura ambiente.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-003",
-      "pregunta": "En la zona de refrigeración (≤ 4 °C), ¿qué hay que vigilar especialmente?",
-      "opciones": ["A los termófilos", "A los mesófilos, que crecen rápido", "A los psicrófilos, que pueden crecer a esa temperatura", "Nada: no crece ningún microorganismo"],
+      "pregunta": "En la zona de refrigeración (≤ 4 °C) hay que vigilar especialmente:",
+      "opciones": [
+        "A los termófilos",
+        "A los mesófilos, que crecen rápido",
+        "A los psicrófilos, que pueden crecer a esa temperatura",
+        "Nada: no crece ningún microorganismo"
+      ],
       "correcta": 2,
       "explicacion": "La refrigeración ralentiza el crecimiento microbiano, pero los psicrófilos y psicrótrofos pueden seguir creciendo.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-004",
-      "pregunta": "¿Cuáles son las tres patas del «trípode frigorífico»?",
-      "opciones": ["Lavar, cocinar y enfriar", "Envasar, etiquetar y almacenar", "Congelar, descongelar y volver a congelar", "Partir de un alimento sano, aplicar el frío lo antes posible y no romper la cadena de frío"],
+      "pregunta": "Forman parte del «trípode frigorífico»:",
+      "opciones": [
+        "Partir de un alimento sano.",
+        "Aplicar el frío lo antes posible.",
+        "No romper la cadena de frío.",
+        "Todas son correctas."
+      ],
       "correcta": 3,
-      "explicacion": "El trípode frigorífico: 1) alimento sano, 2) aplicar frío inmediatamente, 3) no romper la cadena de frío.",
-      "dificultad": 1
+      "explicacion": "Las tres son las patas del trípode frigorífico: 1) alimento sano, 2) aplicar frío inmediatamente, 3) no romper la cadena de frío.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t05-005",
-      "pregunta": "¿Qué rango de temperatura corresponde a la refrigeración?",
-      "opciones": ["De −1/0 a 8 °C (por encima del punto de congelación)", "De 10 a 15 °C", "≤ −18 °C", "≤ −40 °C"],
+      "pregunta": "La refrigeración corresponde al rango de temperatura:",
+      "opciones": [
+        "De −1/0 a 8 °C (por encima del punto de congelación)",
+        "De 10 a 15 °C",
+        "≤ −18 °C",
+        "≤ −40 °C"
+      ],
       "correcta": 0,
       "explicacion": "Refrigeración: −1/0 a 8 °C, por encima del punto de congelación (zona ≤ 4 °C). Las temperaturas «frescas» son 10-15 °C.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-006",
-      "pregunta": "¿Qué caracteriza a la ultracongelación frente a la congelación?",
-      "opciones": ["Se hace a −10 °C", "Temperaturas ≤ −40 °C (incluso −130 °C) y un máximo de 120 minutos", "Dura de 3 a 72 horas", "Forma pocos cristales grandes"],
-      "correcta": 1,
-      "explicacion": "La ultracongelación es industrial y rápida (≤ −40 °C, máx. 120 min). La congelación doméstica es lenta: ≤ −18 °C en 3-72 h.",
+      "pregunta": "Respecto a la congelación y la ultracongelación, es FALSO que:",
+      "opciones": [
+        "La ultracongelación se hace a ≤ −40 °C en un máximo de 120 minutos.",
+        "La congelación doméstica es lenta: ≤ −18 °C en 3-72 h.",
+        "La congelación lenta forma pocos cristales grandes y extracelulares.",
+        "La ultracongelación forma pocos cristales grandes que rompen las células."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la ultracongelación forma MUCHOS cristales pequeños y redondeados que apenas dañan las células. Los cristales grandes son propios de la congelación lenta.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-007",
-      "pregunta": "¿Qué tipo de cristales de hielo forma la congelación lenta?",
-      "opciones": ["Muchos cristales pequeños y redondeados, intra y extracelulares", "No forma cristales", "Pocos cristales grandes y alargados, extracelulares, que rompen las paredes celulares", "Cristales solo en la superficie"],
+      "pregunta": "La congelación lenta forma cristales de hielo:",
+      "opciones": [
+        "Muchos cristales pequeños y redondeados, intra y extracelulares",
+        "No forma cristales",
+        "Pocos cristales grandes y alargados, extracelulares, que rompen las paredes celulares",
+        "Cristales solo en la superficie"
+      ],
       "correcta": 2,
       "explicacion": "La congelación lenta forma pocos cristales grandes y extracelulares que rompen las células; al descongelar, el alimento pierde agua, textura y valor nutritivo.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-008",
-      "pregunta": "¿Por qué la ultracongelación conserva mejor la textura del alimento?",
-      "opciones": ["Porque no congela el agua", "Porque añade conservantes", "Porque elimina el agua", "Porque forma muchos cristales pequeños y redondeados que apenas dañan las células"],
+      "pregunta": "La ultracongelación conserva mejor la textura del alimento porque:",
+      "opciones": [
+        "Porque no congela el agua",
+        "Porque añade conservantes",
+        "Porque elimina el agua",
+        "Porque forma muchos cristales pequeños y redondeados que apenas dañan las células"
+      ],
       "correcta": 3,
       "explicacion": "Al ser rápida, forma muchos cristales pequeños, intra y extracelulares, y tras la descongelación mantiene las características organolépticas y nutritivas.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-009",
-      "pregunta": "¿Cuál es el orden de las etapas del proceso de congelación?",
-      "opciones": ["Enfriamiento → cambio de estado (nucleación) → crecimiento de cristales → enfriamiento posterior", "Nucleación → enfriamiento → crecimiento → descongelación", "Crecimiento de cristales → nucleación → enfriamiento", "Enfriamiento → sublimación → nucleación"],
+      "pregunta": "El orden de las etapas del proceso de congelación es:",
+      "opciones": [
+        "Enfriamiento → cambio de estado (nucleación) → crecimiento de cristales → enfriamiento posterior",
+        "Nucleación → enfriamiento → crecimiento → descongelación",
+        "Crecimiento de cristales → nucleación → enfriamiento",
+        "Enfriamiento → sublimación → nucleación"
+      ],
       "correcta": 0,
       "explicacion": "1) Enfriamiento hasta el punto de congelación, 2) subenfriamiento y nucleación, 3) crecimiento de los cristales, 4) enfriamiento posterior cuando toda el agua es hielo.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-010",
-      "pregunta": "¿Cuál de estos procesos es totalmente reversible?",
-      "opciones": ["La congelación", "La refrigeración", "La ultracongelación", "La deshidratación"],
+      "pregunta": "Es un proceso totalmente reversible:",
+      "opciones": [
+        "La congelación",
+        "La refrigeración",
+        "La ultracongelación",
+        "La deshidratación"
+      ],
       "correcta": 1,
       "explicacion": "La refrigeración es totalmente reversible. La congelación es parcialmente reversible (cambios de textura) y la ultracongelación, prácticamente reversible.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-011",
-      "pregunta": "¿Qué humedad relativa óptima se recomienda en las cámaras de refrigeración?",
-      "opciones": ["20-40 %", "50-60 %", "80-95 %", "100 %"],
+      "pregunta": "La humedad relativa óptima recomendada en las cámaras de refrigeración es:",
+      "opciones": [
+        "20-40 %",
+        "50-60 %",
+        "80-95 %",
+        "100 %"
+      ],
       "correcta": 2,
       "explicacion": "Ni demasiado húmeda (condensación y microorganismos) ni demasiado seca (desecación superficial): 80-95 %. Se controla con higrómetro y deshumidificadores.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-012",
-      "pregunta": "¿Qué ocurre si la humedad de la cámara de refrigeración es demasiado alta?",
-      "opciones": ["El alimento se deseca", "Se acelera la ultracongelación", "Nada", "Se produce condensación sobre los alimentos, que favorece el crecimiento microbiano"],
+      "pregunta": "Si la humedad de la cámara de refrigeración es demasiado alta:",
+      "opciones": [
+        "El alimento se deseca",
+        "Se acelera la ultracongelación",
+        "Nada",
+        "Se produce condensación sobre los alimentos, que favorece el crecimiento microbiano"
+      ],
       "correcta": 3,
       "explicacion": "Demasiado húmedo → condensación y crecimiento de microorganismos. Demasiado seco → desecación superficial (por eso se envasan los alimentos).",
       "dificultad": 1
     },
     {
       "id": "ca-t05-013",
-      "pregunta": "¿Con qué instrumento se registran las temperaturas de una cámara frigorífica?",
-      "opciones": ["Con un termógrafo", "Con un higrómetro", "Con un pHmetro", "Con un refractómetro"],
+      "pregunta": "Las temperaturas de una cámara frigorífica se registran con:",
+      "opciones": [
+        "Un termógrafo.",
+        "Un higrómetro.",
+        "Un pHmetro.",
+        "Un deshumidificador."
+      ],
       "correcta": 0,
       "explicacion": "El termógrafo registra las temperaturas. El higrómetro mide la humedad relativa.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-014",
-      "pregunta": "En las atmósferas controladas para vegetales, ¿para qué se sustituye el O2 por CO2?",
-      "opciones": ["Para acelerar la maduración", "Para reducir la respiración vegetal", "Para aumentar la aw", "Para eliminar los pesticidas"],
+      "pregunta": "En las atmósferas controladas para vegetales, el O2 se sustituye por CO2 para:",
+      "opciones": [
+        "Para acelerar la maduración",
+        "Para reducir la respiración vegetal",
+        "Para aumentar la aw",
+        "Para eliminar los pesticidas"
+      ],
       "correcta": 1,
       "explicacion": "Sustituir O2 por CO2 reduce la respiración vegetal. El etileno controla la maduración, y los gases inertes o el vacío inhiben a los microorganismos.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-015",
-      "pregunta": "¿Cuál es el método de descongelación más seguro?",
-      "opciones": ["A temperatura ambiente", "En agua caliente", "En el refrigerador (≤ 4 °C)", "Al sol"],
+      "pregunta": "El método de descongelación más seguro es:",
+      "opciones": [
+        "A temperatura ambiente",
+        "En agua caliente",
+        "En el refrigerador (≤ 4 °C)",
+        "Al sol"
+      ],
       "correcta": 2,
       "explicacion": "Descongelar en el refrigerador mantiene el alimento fuera de la zona de peligro. Su desventaja es que es lento y hay que planificarlo (piezas grandes).",
       "dificultad": 1
     },
     {
       "id": "ca-t05-016",
-      "pregunta": "Al descongelar bajo agua corriente (8-10 °C), ¿qué precaución hay que tomar?",
-      "opciones": ["Usar agua caliente", "Sacar el alimento del envase", "Añadir sal al agua", "Mantener el alimento en un envase hermético para evitar contaminación y absorción de agua"],
-      "correcta": 3,
-      "explicacion": "Es más rápido que el refrigerador, pero el alimento debe ir en envase hermético. Se usa, por ejemplo, con hortalizas empaquetadas.",
-      "dificultad": 1
+      "pregunta": "Respecto a los métodos de descongelación, señala la opción CORRECTA:",
+      "opciones": [
+        "En el refrigerador es el método más rápido.",
+        "Bajo agua corriente (8-10 °C) el alimento debe ir en envase hermético.",
+        "A temperatura ambiente es el método más seguro.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Solo es cierta la b. El refrigerador es el más seguro pero lento; a temperatura ambiente no se debe descongelar (zona de peligro).",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t05-017",
-      "pregunta": "¿Qué desventaja tiene descongelar en el microondas?",
-      "opciones": ["La descongelación no es uniforme en porciones grandes y hay que cocinar después", "Es el método más lento", "Exige envase hermético en agua", "Solo sirve para pescado"],
+      "pregunta": "Descongelar en el microondas tiene la desventaja de que:",
+      "opciones": [
+        "La descongelación no es uniforme en porciones grandes y hay que cocinar después",
+        "Es el método más lento",
+        "Exige envase hermético en agua",
+        "Solo sirve para pescado"
+      ],
       "correcta": 0,
       "explicacion": "El microondas es el método más rápido, pero descongela de forma desigual las piezas grandes y obliga a cocinar justo después.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-018",
-      "pregunta": "¿Por qué la descongelación es más lenta que la congelación?",
-      "opciones": ["Porque el hielo conduce peor el calor que el agua", "Porque la conductividad térmica del agua es unas 4 veces menor que la del hielo, y el calor se transmite peor conforme avanza", "Porque el alimento pierde peso", "No es más lenta"],
+      "pregunta": "La descongelación es más lenta que la congelación porque:",
+      "opciones": [
+        "Porque el hielo conduce peor el calor que el agua",
+        "Porque la conductividad térmica del agua es unas 4 veces menor que la del hielo, y el calor se transmite peor conforme avanza",
+        "Porque el alimento pierde peso",
+        "No es más lenta"
+      ],
       "correcta": 1,
       "explicacion": "Al fundirse el hielo, la capa de agua exterior conduce peor el calor (unas 4 veces menos que el hielo), lo que ralentiza el proceso.",
       "dificultad": 3
     },
     {
       "id": "ca-t05-019",
-      "pregunta": "¿Qué es el exudado que aparece al descongelar?",
-      "opciones": ["Grasa del alimento", "Hielo sin fundir", "Agua que el tejido pierde por la rotura de las paredes celulares, junto con la pérdida de capacidad de retención", "Un aditivo"],
+      "pregunta": "El exudado que aparece al descongelar es:",
+      "opciones": [
+        "Grasa del alimento",
+        "Hielo sin fundir",
+        "Agua que el tejido pierde por la rotura de las paredes celulares, junto con la pérdida de capacidad de retención",
+        "Un aditivo"
+      ],
       "correcta": 2,
       "explicacion": "Los tejidos pierden agua y capacidad de retención, y las proteínas desnaturalizadas no recuperan su forma (textura blanda). El exudado también favorece a los microorganismos.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-020",
-      "pregunta": "¿Qué factor DISMINUYE la termorresistencia de los microorganismos?",
-      "opciones": ["Una aw baja", "Un alimento rico en grasa", "Una carga microbiana inicial alta", "Un medio ácido"],
+      "pregunta": "Respecto a la termorresistencia de los microorganismos, es FALSO que:",
+      "opciones": [
+        "Un medio ácido la disminuye.",
+        "Una aw baja la aumenta.",
+        "Un alimento rico en grasa protege al microorganismo.",
+        "Una aw baja la disminuye."
+      ],
       "correcta": 3,
-      "explicacion": "Los medios ácidos o básicos facilitan la destrucción por calor (sobre todo la acidez con las esporas). En cambio, aw baja, grasa, proteínas o almidón protegen al microorganismo.",
+      "explicacion": "Es falso: una aw baja AUMENTA la termorresistencia (por eso los sustratos secos necesitan tratamientos más intensos). Los medios ácidos la disminuyen; la grasa, proteínas o almidón protegen.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-021",
-      "pregunta": "¿Qué calor es más eficaz para destruir microorganismos?",
-      "opciones": ["El calor húmedo", "El calor seco", "Los dos son iguales", "Ninguno destruye microorganismos"],
+      "pregunta": "Para destruir microorganismos es más eficaz:",
+      "opciones": [
+        "El calor húmedo",
+        "El calor seco",
+        "Los dos son iguales",
+        "Ninguno destruye microorganismos"
+      ],
       "correcta": 0,
       "explicacion": "El calor húmedo es más eficaz que el seco; los sustratos secos necesitan tratamientos más intensos porque una aw baja aumenta la termorresistencia.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-022",
-      "pregunta": "¿Cuál es el objetivo principal del escaldado?",
-      "opciones": ["Esterilizar el alimento", "Inactivar enzimas y reducir la carga microbiana superficial", "Mantener el alimento caliente hasta servirlo", "Destruir las esporas"],
+      "pregunta": "El objetivo principal del escaldado es:",
+      "opciones": [
+        "Esterilizar el alimento.",
+        "Inactivar enzimas y reducir la carga microbiana superficial.",
+        "Mantener el alimento caliente hasta servirlo.",
+        "Destruir las esporas."
+      ],
       "correcta": 1,
       "explicacion": "El escaldado (≈ 100 °C, 1-5 min y enfriamiento rápido) es un tratamiento previo a la congelación o el enlatado; además fija colores y elimina el aire de los tejidos.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-023",
-      "pregunta": "¿Qué pérdida nutricional ligera produce el escaldado?",
-      "opciones": ["Proteínas", "Grasas", "Minerales y vitaminas hidrosolubles (C, B1)", "Fibra"],
+      "pregunta": "El escaldado produce una ligera pérdida de:",
+      "opciones": [
+        "Proteínas",
+        "Grasas",
+        "Minerales y vitaminas hidrosolubles (C, B1)",
+        "Fibra"
+      ],
       "correcta": 2,
       "explicacion": "Como se hace con agua caliente o vapor, se pierden ligeramente minerales y vitaminas hidrosolubles como la C y la B1.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-024",
-      "pregunta": "¿A qué temperatura se mantienen los alimentos en mesa caliente?",
-      "opciones": ["A más de 100 °C durante días", "Entre 40 y 50 °C", "A 4 °C", "A más de 65 °C durante horas (idealmente menos de 4 h)"],
+      "pregunta": "En la mesa caliente los alimentos se mantienen:",
+      "opciones": [
+        "A más de 100 °C durante días",
+        "Entre 40 y 50 °C",
+        "A 4 °C",
+        "A más de 65 °C durante horas (idealmente menos de 4 h)"
+      ],
       "correcta": 3,
       "explicacion": "La mesa caliente (baño maría o infrarrojos) mantiene los cocinados por encima de 65 °C, fuera de la zona de peligro, durante el servicio (buffets, comedores…).",
       "dificultad": 1
     },
     {
       "id": "ca-t05-025",
-      "pregunta": "¿Qué consigue la pasteurización?",
-      "opciones": ["Destruir las formas vegetativas de patógenos y reducir la flora alterante, pero no las esporas", "Destruir todos los microorganismos y esporas", "Solo inactivar enzimas", "Eliminar el agua del alimento"],
+      "pregunta": "La pasteurización consigue:",
+      "opciones": [
+        "Destruir las formas vegetativas de patógenos y reducir la flora alterante, pero no las esporas.",
+        "Destruir todos los microorganismos y esporas.",
+        "Solo inactivar enzimas.",
+        "La esterilidad comercial del alimento."
+      ],
       "correcta": 0,
       "explicacion": "La pasteurización (< 100 °C) no destruye esporas ni termorresistentes, por eso necesita cadena de frío y tiene vida útil limitada.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-026",
-      "pregunta": "¿Qué condiciones tiene la pasteurización HTST, la más utilizada?",
-      "opciones": ["60-65 °C durante 30 min-4 h", "72-90 °C durante 15 s-5 min", "135-150 °C durante 4-15 s", "115 °C durante 30-60 min"],
+      "pregunta": "Las condiciones de la pasteurización HTST, la más utilizada, son:",
+      "opciones": [
+        "60-65 °C durante 30 min-4 h",
+        "72-90 °C durante 15 s-5 min",
+        "135-150 °C durante 4-15 s",
+        "115 °C durante 30-60 min"
+      ],
       "correcta": 1,
       "explicacion": "HTST (alta temperatura, tiempo corto): 72-90 °C, 15 s-5 min (leche, zumos). LTLT (tradicional): 60-65 °C, 30 min-4 h.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-027",
-      "pregunta": "¿Dónde se conservan los productos pasteurizados?",
-      "opciones": ["A temperatura ambiente durante años", "Congelados obligatoriamente", "En refrigeración (días o semanas)", "En mesa caliente"],
+      "pregunta": "Los productos pasteurizados se conservan:",
+      "opciones": [
+        "A temperatura ambiente durante años",
+        "Congelados obligatoriamente",
+        "En refrigeración (días o semanas)",
+        "En mesa caliente"
+      ],
       "correcta": 2,
       "explicacion": "Como no se destruyen las esporas, los pasteurizados necesitan refrigeración y tienen una vida útil de días o semanas.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-028",
-      "pregunta": "¿Qué condiciones tiene el tratamiento UHT?",
-      "opciones": ["72 °C durante 15 s", "115 °C durante 30-60 min con el producto ya envasado", "60-65 °C durante 30 min", "135-150 °C durante 4-15 s, enfriamiento rápido y envasado aséptico"],
+      "pregunta": "Respecto a los tratamientos térmicos, es FALSO que:",
+      "opciones": [
+        "El UHT trata el líquido a 135-150 °C durante 4-15 s y se envasa asépticamente.",
+        "La appertización esteriliza el producto ya envasado (≈ 115 °C, 30-60 min).",
+        "La pasteurización HTST se hace a 72-90 °C durante 15 s-5 min.",
+        "El UHT esteriliza el producto ya envasado a ≈ 115 °C durante 30-60 min."
+      ],
       "correcta": 3,
-      "explicacion": "UHT: líquido no envasado a 135-150 °C, 4-15 s, enfriamiento rápido y envasado aséptico. La appertización trata el producto ya envasado a ≈ 115 °C, 30-60 min.",
+      "explicacion": "Es falso: eso describe la appertización. El UHT trata el líquido sin envasar a 135-150 °C, 4-15 s, con enfriamiento rápido y envasado aséptico.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-029",
-      "pregunta": "¿Qué es la appertización?",
-      "opciones": ["La esterilización del alimento ya envasado (≈ 115 °C, 30-60 min), típica de las conservas", "La pasteurización en frío", "El secado al sol", "Un tipo de escaldado"],
+      "pregunta": "La appertización es:",
+      "opciones": [
+        "La esterilización del alimento ya envasado (≈ 115 °C, 30-60 min), típica de las conservas",
+        "La pasteurización en frío",
+        "El secado al sol",
+        "Un tipo de escaldado"
+      ],
       "correcta": 0,
       "explicacion": "La appertización esteriliza el producto en su envase (latas). Tiene alto impacto nutricional y organoléptico, pero permite conservar años sin refrigeración.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-030",
-      "pregunta": "¿Qué significa «esterilidad comercial»?",
-      "opciones": ["Ausencia absoluta de cualquier microorganismo", "Ausencia de microorganismos capaces de alterar el alimento en condiciones normales de almacenamiento (referencia: esporas de C. botulinum)", "Que el alimento se vende en comercios", "Que se ha pasteurizado"],
+      "pregunta": "La «esterilidad comercial» significa:",
+      "opciones": [
+        "Ausencia absoluta de cualquier microorganismo",
+        "Ausencia de microorganismos capaces de alterar el alimento en condiciones normales de almacenamiento (referencia: esporas de C. botulinum)",
+        "Que el alimento se vende en comercios",
+        "Que se ha pasteurizado"
+      ],
       "correcta": 1,
       "explicacion": "La esterilidad comercial NO implica esterilidad absoluta: el alimento es seguro y estable. La referencia son las esporas de Clostridium botulinum.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-031",
-      "pregunta": "¿Por qué es importante una buena higiene antes de esterilizar?",
-      "opciones": ["Porque la esterilización no mata microorganismos", "Porque mejora el sabor", "Porque la destrucción es logarítmica: cuanta más carga inicial, más probable que sobrevivan algunos", "No es importante"],
+      "pregunta": "Es importante una buena higiene antes de esterilizar porque:",
+      "opciones": [
+        "Porque la esterilización no mata microorganismos",
+        "Porque mejora el sabor",
+        "Porque la destrucción es logarítmica: cuanta más carga inicial, más probable que sobrevivan algunos",
+        "No es importante"
+      ],
       "correcta": 2,
       "explicacion": "La destrucción de microorganismos es logarítmica; con una contaminación inicial alta aumenta la probabilidad de supervivientes que alteren el alimento.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-032",
-      "pregunta": "¿Qué es el valor D?",
-      "opciones": ["Los grados necesarios para reducir 10 veces el valor z", "La dosis de radiación", "La temperatura de esterilización", "El tiempo (min) a una temperatura dada para reducir un 90 % (una unidad logarítmica) la población de un microorganismo"],
+      "pregunta": "El valor D es:",
+      "opciones": [
+        "Los grados necesarios para reducir 10 veces el valor z",
+        "La dosis de radiación",
+        "La temperatura de esterilización",
+        "El tiempo (min) a una temperatura dada para reducir un 90 % (una unidad logarítmica) la población de un microorganismo"
+      ],
       "correcta": 3,
       "explicacion": "El valor D (tiempo de reducción decimal) mide la rapidez de muerte: a mayor temperatura, menor D.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-033",
-      "pregunta": "Una «reducción decimal» de la población microbiana equivale a…",
-      "opciones": ["Destruir el 90 % de los microorganismos", "Destruir el 10 % de los microorganismos", "Destruir el 50 % de los microorganismos", "Destruir el 100 % de los microorganismos"],
+      "pregunta": "Una «reducción decimal» de la población microbiana equivale a:",
+      "opciones": [
+        "Destruir el 90 % de los microorganismos",
+        "Destruir el 10 % de los microorganismos",
+        "Destruir el 50 % de los microorganismos",
+        "Destruir el 100 % de los microorganismos"
+      ],
       "correcta": 0,
       "explicacion": "Reducir 1 unidad logarítmica = destruir el 90 % = dividir entre 10 el número de microorganismos viables.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-034",
-      "pregunta": "¿Qué es el valor z?",
-      "opciones": ["El tiempo para destruir el 90 % de los microorganismos", "Los grados que hay que subir la temperatura para reducir 10 veces el valor D", "La aw mínima de crecimiento", "La dosis de radiación para esterilizar"],
+      "pregunta": "El valor z es:",
+      "opciones": [
+        "El tiempo para destruir el 90 % de los microorganismos",
+        "Los grados que hay que subir la temperatura para reducir 10 veces el valor D",
+        "La aw mínima de crecimiento",
+        "La dosis de radiación para esterilizar"
+      ],
       "correcta": 1,
       "explicacion": "El valor z (en °C) es el aumento de temperatura necesario para obtener una reducción decimal del valor D.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-035",
-      "pregunta": "Un microorganismo tiene D60 = 4 min. Si partimos de 10⁷ UFC, ¿cuántos minutos a 60 °C hacen falta para bajar a 10³ UFC?",
-      "opciones": ["4 min", "8 min", "16 min", "28 min"],
+      "pregunta": "Un microorganismo tiene D60 = 4 min. Partiendo de 10⁷ UFC, para bajar a 10³ UFC a 60 °C hacen falta:",
+      "opciones": [
+        "4 min",
+        "8 min",
+        "16 min",
+        "28 min"
+      ],
       "correcta": 2,
       "explicacion": "De 10⁷ a 10³ hay 4 reducciones decimales. 4 × D60 = 4 × 4 min = 16 min.",
       "dificultad": 3
     },
     {
       "id": "ca-t05-036",
-      "pregunta": "Si D56 = 31,62 min, D58 = 10 min y D60 = 3,16 min, ¿cuál es el valor z?",
-      "opciones": ["2 °C", "10 °C", "1 °C", "4 °C"],
+      "pregunta": "Si D56 = 31,62 min, D58 = 10 min y D60 = 3,16 min, el valor z es:",
+      "opciones": [
+        "2 °C",
+        "10 °C",
+        "1 °C",
+        "4 °C"
+      ],
       "correcta": 3,
       "explicacion": "D se reduce 10 veces (de 31,62 a 3,16) al pasar de 56 °C a 60 °C: hacen falta 4 °C, luego z = 4 °C.",
       "dificultad": 3
     },
     {
       "id": "ca-t05-037",
-      "pregunta": "¿Cómo se obtiene el valor D a partir de la recta de supervivencia (log N frente al tiempo)?",
-      "opciones": ["Como la inversa del valor negativo de la pendiente (D = −1/b)", "Es la ordenada en el origen", "Es igual a la pendiente", "Multiplicando la pendiente por 10"],
+      "pregunta": "A partir de la recta de supervivencia (log N frente al tiempo), el valor D se obtiene:",
+      "opciones": [
+        "Como la inversa del valor negativo de la pendiente (D = −1/b)",
+        "Es la ordenada en el origen",
+        "Es igual a la pendiente",
+        "Multiplicando la pendiente por 10"
+      ],
       "correcta": 0,
       "explicacion": "Tanto D (log N frente a t) como z (log D frente a T) se calculan como −1/pendiente de la recta de regresión.",
       "dificultad": 3
     },
     {
       "id": "ca-t05-038",
-      "pregunta": "¿Qué diferencia hay entre desecación y deshidratación?",
-      "opciones": ["La desecación usa métodos artificiales controlados", "La desecación usa calor por métodos naturales sin control (p. ej., al sol) y la deshidratación, métodos artificiales controlados", "La deshidratación solo elimina el 30 % del agua", "No hay diferencia"],
+      "pregunta": "Respecto a la desecación y la deshidratación, señala la opción CORRECTA:",
+      "opciones": [
+        "La desecación usa métodos artificiales controlados.",
+        "La desecación usa métodos naturales sin control (p. ej., al sol) y la deshidratación, métodos artificiales controlados.",
+        "La deshidratación solo elimina el 30 % del agua.",
+        "Ninguna es correcta."
+      ],
       "correcta": 1,
-      "explicacion": "Desecación: métodos naturales en condiciones no controladas. Deshidratación: métodos artificiales controlados. Ambas eliminan > 98 % del agua (humedad < 3 %).",
-      "dificultad": 1
+      "explicacion": "Es cierta la b. Ambas eliminan > 98 % del agua (humedad < 3 %). La concentración es la que elimina solo el 30-70 %.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t05-039",
-      "pregunta": "¿Qué porcentaje de agua elimina la concentración y qué aw se alcanza?",
-      "opciones": ["> 98 %, aw < 0,6", "100 %, aw = 0", "30-70 %, aw moderada 0,8-0,9", "5-10 %, aw 0,99"],
+      "pregunta": "La concentración elimina un porcentaje de agua y alcanza una aw de:",
+      "opciones": [
+        "> 98 %, aw < 0,6",
+        "100 %, aw = 0",
+        "30-70 %, aw moderada 0,8-0,9",
+        "5-10 %, aw 0,99"
+      ],
       "correcta": 2,
       "explicacion": "La concentración elimina parcialmente el agua (30-70 %) y deja un producto líquido o semilíquido que necesita tratamientos adicionales (refrigeración, esterilización…).",
       "dificultad": 2
     },
     {
       "id": "ca-t05-040",
-      "pregunta": "¿En qué consiste la liofilización?",
-      "opciones": ["Pulverizar un líquido en aire caliente", "Calentar el alimento hasta ebullición", "Filtrar con membranas a presión", "Ultracongelar y después sublimar el hielo al vacío con calentamiento suave"],
+      "pregunta": "La liofilización consiste en:",
+      "opciones": [
+        "Pulverizar un líquido en aire caliente",
+        "Calentar el alimento hasta ebullición",
+        "Filtrar con membranas a presión",
+        "Ultracongelar y después sublimar el hielo al vacío con calentamiento suave"
+      ],
       "correcta": 3,
       "explicacion": "La liofilización tiene dos pasos: 1) ultracongelación y 2) sublimación (hielo → vapor) al vacío con calentamiento suave.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-041",
-      "pregunta": "¿Qué método de deshidratación pulveriza un líquido en una corriente de aire caliente para obtener polvo (p. ej., leche en polvo)?",
-      "opciones": ["Secado por atomización", "Liofilización", "Secado por contacto", "Crioconcentración"],
+      "pregunta": "El método de deshidratación que pulveriza un líquido en una corriente de aire caliente para obtener polvo (p. ej., leche en polvo) es:",
+      "opciones": [
+        "Secado por atomización",
+        "Liofilización",
+        "Secado por contacto",
+        "Crioconcentración"
+      ],
       "correcta": 0,
       "explicacion": "En el secado por atomización la evaporación es instantánea y se obtiene un polvo. Puede hacerse también bajo vacío.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-042",
-      "pregunta": "¿Por qué se seca bajo vacío?",
-      "opciones": ["Porque aumenta el punto de ebullición", "Porque a presión reducida el agua hierve a menor temperatura y se evapora con menos calor", "Porque así se añade oxígeno", "Porque es más barato que al sol"],
+      "pregunta": "Se seca bajo vacío porque:",
+      "opciones": [
+        "Porque aumenta el punto de ebullición",
+        "Porque a presión reducida el agua hierve a menor temperatura y se evapora con menos calor",
+        "Porque así se añade oxígeno",
+        "Porque es más barato que al sol"
+      ],
       "correcta": 1,
       "explicacion": "Al bajar la presión baja el punto de ebullición del agua: se evapora a menos temperatura y se dañan menos los nutrientes termosensibles.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-043",
-      "pregunta": "¿Qué método de concentración congela parcialmente el agua libre y luego la separa de los nutrientes?",
-      "opciones": ["Evaporación", "Ultrafiltración", "Crioconcentración", "Deshidratación azeotrópica"],
+      "pregunta": "El método de concentración que congela parcialmente el agua libre y luego la separa de los nutrientes es la:",
+      "opciones": [
+        "Evaporación",
+        "Ultrafiltración",
+        "Crioconcentración",
+        "Deshidratación azeotrópica"
+      ],
       "correcta": 2,
       "explicacion": "La crioconcentración congela el agua libre (no el líquido con nutrientes) y después la separa por gravedad, presión o sublimación.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-044",
-      "pregunta": "¿Cuál es un inconveniente de los alimentos deshidratados?",
-      "opciones": ["Necesitan siempre frío", "Pesan más", "Tienen menor vida útil", "Son higroscópicos (absorben humedad) y pierden nutrientes termosensibles"],
+      "pregunta": "Un inconveniente de los alimentos deshidratados es que:",
+      "opciones": [
+        "Necesitan siempre frío",
+        "Pesan más",
+        "Tienen menor vida útil",
+        "Son higroscópicos (absorben humedad) y pierden nutrientes termosensibles"
+      ],
       "correcta": 3,
       "explicacion": "Los deshidratados son muy estables y no necesitan frío, pero son higroscópicos; deben guardarse sin humedad, luz ni O2.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-045",
-      "pregunta": "¿Qué es la irradiación de alimentos?",
-      "opciones": ["Un proceso físico no térmico que aplica radiaciones ionizantes para destruir microorganismos", "Una contaminación radiactiva", "Un tipo de cocción por microondas", "Un tratamiento con rayos infrarrojos"],
+      "pregunta": "La irradiación de alimentos es:",
+      "opciones": [
+        "Un proceso físico no térmico que aplica radiaciones ionizantes para destruir microorganismos",
+        "Una contaminación radiactiva",
+        "Un tipo de cocción por microondas",
+        "Un tratamiento con rayos infrarrojos"
+      ],
       "correcta": 0,
       "explicacion": "La irradiación es un proceso físico no térmico con dosis medias < 10 kGy. No es contaminación radiactiva ni deja residuos.",
       "dificultad": 1
     },
     {
       "id": "ca-t05-046",
-      "pregunta": "¿Qué alimentos se permite irradiar en España (RD 348/2001)?",
-      "opciones": ["Carne y pescado", "Hierbas aromáticas secas, especias y condimentos vegetales", "Frutas frescas", "Leche"],
+      "pregunta": "En España (RD 348/2001) se permite irradiar:",
+      "opciones": [
+        "Carne y pescado",
+        "Hierbas aromáticas secas, especias y condimentos vegetales",
+        "Frutas frescas",
+        "Leche"
+      ],
       "correcta": 1,
       "explicacion": "En España solo hierbas aromáticas secas, especias y condimentos vegetales. Otros países de la UE autorizan más alimentos.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-047",
-      "pregunta": "¿Cómo se indica en Europa y España que un alimento ha sido irradiado?",
-      "opciones": ["Con el símbolo Radura obligatoriamente", "No hace falta indicarlo", "Con el texto «irradiado» o «tratado con radiaciones ionizantes»", "Con un punto verde"],
+      "pregunta": "En Europa y en España se indica que un alimento ha sido irradiado:",
+      "opciones": [
+        "Con el símbolo Radura obligatoriamente",
+        "No hace falta indicarlo",
+        "Con el texto «irradiado» o «tratado con radiaciones ionizantes»",
+        "Con un punto verde"
+      ],
       "correcta": 2,
       "explicacion": "En Europa se usa el texto «irradiado» o «tratado con radiaciones ionizantes». La Radura es el símbolo internacional, pero no se usa en Europa.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-048",
-      "pregunta": "¿Qué fuente de energía se usa habitualmente para irradiar alimentos?",
-      "opciones": ["Rayos ultravioleta", "Microondas", "Infrarrojos", "Rayos gamma de cobalto-60 o cesio-137"],
+      "pregunta": "La fuente de energía que se usa habitualmente para irradiar alimentos es:",
+      "opciones": [
+        "Rayos ultravioleta",
+        "Microondas",
+        "Infrarrojos",
+        "Rayos gamma de cobalto-60 o cesio-137"
+      ],
       "correcta": 3,
       "explicacion": "Se usan rayos gamma (los más penetrantes) procedentes de cobalto-60 o cesio-137.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-049",
-      "pregunta": "¿Qué microorganismos son los MÁS resistentes a la irradiación?",
-      "opciones": ["Los virus", "Los parásitos", "Las levaduras", "Las bacterias Gram negativas"],
-      "correcta": 0,
-      "explicacion": "Los virus son los más radiorresistentes (no se destruyen hasta > 50 kGy), seguidos de las esporas. Los parásitos e insectos son los más sensibles.",
+      "pregunta": "Respecto a la irradiación, es FALSO que:",
+      "opciones": [
+        "Los virus son los microorganismos más radiorresistentes.",
+        "Los parásitos e insectos son los más sensibles.",
+        "Una temperatura baja y una aw baja aumentan la radiorresistencia.",
+        "Los parásitos son los más radiorresistentes."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: los más radiorresistentes son los virus (> 50 kGy), seguidos de las esporas. Parásitos e insectos son los más sensibles.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-050",
-      "pregunta": "La radicidación (dosis medias) equivale a una…",
-      "opciones": ["Esterilización en frío", "Pasteurización en frío: destruye bacterias patógenas no esporuladas y requiere refrigeración", "Inhibición de la germinación solamente", "Destrucción de virus"],
+      "pregunta": "La radicidación (dosis medias) equivale a:",
+      "opciones": [
+        "Esterilización en frío",
+        "Pasteurización en frío: destruye bacterias patógenas no esporuladas y requiere refrigeración",
+        "Inhibición de la germinación solamente",
+        "Destrucción de virus"
+      ],
       "correcta": 1,
       "explicacion": "Radurización: dosis bajas (germinación, maduración, insectos, mohos). Radicidación: pasteurización en frío. Radappertización (30-40 kGy): esterilización en frío.",
       "dificultad": 3
     },
     {
       "id": "ca-t05-051",
-      "pregunta": "¿Qué nombre recibe la irradiación a dosis altas (generalmente 30-40 kGy) que logra una esterilización en frío?",
-      "opciones": ["Radurización", "Radicidación", "Radappertización", "Liofilización"],
+      "pregunta": "La irradiación a dosis altas (generalmente 30-40 kGy) que logra una esterilización en frío se denomina:",
+      "opciones": [
+        "Radurización",
+        "Radicidación",
+        "Radappertización",
+        "Liofilización"
+      ],
       "correcta": 2,
       "explicacion": "La radappertización destruye bacterias esporuladas y esporas (no virus) y permite conservar años a temperatura ambiente. No está autorizada en la UE.",
       "dificultad": 3
     },
     {
       "id": "ca-t05-052",
-      "pregunta": "¿Qué inconveniente tiene la irradiación?",
-      "opciones": ["Deja residuos radiactivos", "Exige calentar el producto", "No se puede aplicar a productos envasados", "No inactiva las enzimas a dosis bactericidas y en productos muy grasos puede causar enranciamiento"],
+      "pregunta": "Es un inconveniente de la irradiación:",
+      "opciones": [
+        "Deja residuos radiactivos",
+        "Exige calentar el producto",
+        "No se puede aplicar a productos envasados",
+        "No inactiva las enzimas a dosis bactericidas y en productos muy grasos puede causar enranciamiento"
+      ],
       "correcta": 3,
       "explicacion": "No inactiva enzimas (hace falta escaldado previo) y por encima de 10 kGy produce cambios importantes en productos grasos. A favor: no deja residuos y sirve para congelados y envasados.",
       "dificultad": 2
     },
     {
       "id": "ca-t05-053",
-      "pregunta": "¿Qué factores aumentan la radiorresistencia de los microorganismos?",
-      "opciones": ["Una temperatura baja y una aw baja", "Una temperatura alta", "Un pH ácido", "Una aw alta"],
-      "correcta": 0,
+      "pregunta": "Aumentan la radiorresistencia de los microorganismos:",
+      "opciones": [
+        "Una temperatura baja.",
+        "Una aw baja.",
+        "Un pH ácido.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
       "explicacion": "Una temperatura baja y una aw baja aumentan la resistencia de los microorganismos a la irradiación.",
-      "dificultad": 3
+      "dificultad": 3,
+      "orden_fijo": true
     }
   ]
 }

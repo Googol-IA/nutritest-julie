@@ -6,320 +6,524 @@
   "preguntas": [
     {
       "id": "ca-t03-001",
-      "pregunta": "¿Qué es una intoxicación alimentaria?",
-      "opciones": ["La ingestión de alimentos con tóxicos (pesticidas, metales, toxinas de microorganismos…)", "La ingestión de microorganismos que colonizan e invaden el organismo sin producir toxinas", "Una alergia a un alimento", "La alteración del color de un alimento"],
+      "pregunta": "Una intoxicación alimentaria es:",
+      "opciones": [
+        "La ingestión de alimentos con tóxicos (pesticidas, metales, toxinas de microorganismos…).",
+        "La ingestión de microorganismos que colonizan e invaden el organismo sin producir toxinas.",
+        "La ingestión de microorganismos que colonizan, invaden y producen toxinas en el organismo.",
+        "Una reacción alérgica a un alimento."
+      ],
       "correcta": 0,
       "explicacion": "En la intoxicación, lo que enferma es el tóxico ingerido (pesticidas, metales, toxinas ya formadas por microorganismos), no la multiplicación del germen en el cuerpo.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-002",
-      "pregunta": "¿Qué diferencia una toxiinfección alimentaria de una infección transmitida por alimentos?",
-      "opciones": ["En la toxiinfección no hay microorganismos", "En la toxiinfección los microorganismos, además de colonizar e invadir, producen toxinas en el organismo", "La infección solo la causan virus", "No hay diferencia"],
-      "correcta": 1,
-      "explicacion": "Infección: los patógenos colonizan, se multiplican e invaden. Toxiinfección: además producen toxinas dentro del organismo.",
-      "dificultad": 1
+      "pregunta": "Respecto a las enfermedades transmitidas por alimentos, señala la opción CORRECTA:",
+      "opciones": [
+        "En la intoxicación enferma el tóxico ingerido, no la multiplicación del germen.",
+        "En la infección los patógenos colonizan, se multiplican e invaden, sin producir toxinas.",
+        "En la toxiinfección los microorganismos, además de invadir, producen toxinas en el organismo.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. Intoxicación: el tóxico ingerido. Infección: colonización e invasión. Toxiinfección: además producen toxinas dentro del organismo.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t03-003",
-      "pregunta": "¿Cuál de estas es una consecuencia POSITIVA de la presencia de microorganismos en los alimentos?",
-      "opciones": ["La aparición de toxiinfecciones", "La alteración del alimento", "La fermentación", "La rotura de la cadena de frío"],
+      "pregunta": "Es una consecuencia POSITIVA de la presencia de microorganismos en los alimentos:",
+      "opciones": [
+        "La aparición de toxiinfecciones",
+        "La alteración del alimento",
+        "La fermentación",
+        "La rotura de la cadena de frío"
+      ],
       "correcta": 2,
       "explicacion": "La contaminación microbiana puede alterar el alimento o causar enfermedades, pero también tiene efectos positivos como la fermentación (yogur, pan, vino…).",
       "dificultad": 1
     },
     {
       "id": "ca-t03-004",
-      "pregunta": "Las setas venenosas causan enfermedad porque…",
-      "opciones": ["Contienen gérmenes que proliferan", "Se contaminan con metales", "Se les añaden aditivos tóxicos", "Contienen sustancias tóxicas de forma natural"],
+      "pregunta": "Las setas venenosas causan enfermedad porque:",
+      "opciones": [
+        "Contienen gérmenes que proliferan",
+        "Se contaminan con metales",
+        "Se les añaden aditivos tóxicos",
+        "Contienen sustancias tóxicas de forma natural"
+      ],
       "correcta": 3,
       "explicacion": "Un alimento puede enfermar porque contiene tóxicos naturales (setas venenosas), gérmenes o sus toxinas, contaminación accidental (vertidos, metales) o aditivos tóxicos.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-005",
-      "pregunta": "¿Qué papel tiene el aire como origen de contaminación alimentaria?",
-      "opciones": ["Es un medio hostil para los microorganismos, pero dispersa esporas", "Es el mejor medio de proliferación", "No interviene nunca", "Aporta sobre todo metales pesados"],
+      "pregunta": "Como origen de contaminación alimentaria, el aire:",
+      "opciones": [
+        "Es un medio hostil para los microorganismos, pero dispersa esporas",
+        "Es el mejor medio de proliferación",
+        "No interviene nunca",
+        "Aporta sobre todo metales pesados"
+      ],
       "correcta": 0,
       "explicacion": "El aire es hostil (oxígeno, radiación solar) para muchos microorganismos, pero sirve de medio de dispersión de esporas.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-006",
-      "pregunta": "¿Qué origen de contaminación se considera un buen medio de proliferación y transmisión de microorganismos y puede acumular tóxicos en moluscos bivalvos?",
-      "opciones": ["El aire", "El agua", "El suelo", "Los envases"],
+      "pregunta": "El origen de contaminación que se considera un buen medio de proliferación y transmisión de microorganismos, y que puede acumular tóxicos en moluscos bivalvos, es:",
+      "opciones": [
+        "El aire",
+        "El agua",
+        "El suelo",
+        "Los envases"
+      ],
       "correcta": 1,
       "explicacion": "El agua es buen medio de proliferación y transmisión; en zonas costeras recibe vertidos industriales y fecales, y los bivalvos acumulan tóxicos.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-007",
-      "pregunta": "¿Qué microorganismos predominan en el suelo?",
-      "opciones": ["Solo virus", "Solo bacterias patógenas", "Telúricos (muchos beneficiosos), levaduras, mohos y bacterias con sus formas de resistencia", "Ningún microorganismo"],
+      "pregunta": "En el suelo predominan:",
+      "opciones": [
+        "Solo virus",
+        "Solo bacterias patógenas",
+        "Telúricos (muchos beneficiosos), levaduras, mohos y bacterias con sus formas de resistencia",
+        "Ningún microorganismo"
+      ],
       "correcta": 2,
       "explicacion": "El suelo contiene microorganismos telúricos, muchos beneficiosos, levaduras (fermentación), mohos y bacterias con sus formas de resistencia (esporas).",
       "dificultad": 2
     },
     {
       "id": "ca-t03-008",
-      "pregunta": "En los animales, los microorganismos naturalmente presentes en el interior (nivel intestinal) contaminan el alimento sobre todo por…",
-      "opciones": ["La radiación solar", "El envasado al vacío", "La congelación", "Una manipulación errónea (p. ej., en el eviscerado)"],
+      "pregunta": "En los animales, los microorganismos naturalmente presentes en el interior (nivel intestinal) contaminan el alimento sobre todo por:",
+      "opciones": [
+        "La radiación solar",
+        "El envasado al vacío",
+        "La congelación",
+        "Una manipulación errónea (p. ej., en el eviscerado)"
+      ],
       "correcta": 3,
       "explicacion": "Los microorganismos intestinales (Enterococos, Enterobacterias, Campylobacter, Yersinia…) contaminan la carne cuando hay una manipulación errónea.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-009",
-      "pregunta": "¿Cuál de estos géneros bacterianos se cita como contaminante habitual del exterior de los vegetales?",
-      "opciones": ["Erwinia", "Yersinia", "Campylobacter", "Staphylococcus"],
-      "correcta": 0,
-      "explicacion": "En el exterior de los vegetales hay mohos, levaduras y bacterias como Erwinia o Lactobacillus. En animales destacan Staphylococcus y Pseudomonas.",
+      "pregunta": "Respecto a los microorganismos de los vegetales y los animales, es FALSO que:",
+      "opciones": [
+        "Erwinia y Lactobacillus aparecen en el exterior de los vegetales.",
+        "Staphylococcus y Pseudomonas destacan en el exterior de los animales.",
+        "Campylobacter y Yersinia forman parte de la microbiota intestinal animal.",
+        "Erwinia es la principal bacteria intestinal de los animales de abasto."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: Erwinia se cita en el exterior de los vegetales. A nivel intestinal: Enterococos, Enterobacterias, Campylobacter, Yersinia…",
       "dificultad": 3
     },
     {
       "id": "ca-t03-010",
-      "pregunta": "¿Qué factor del almacenamiento favorece la contaminación microbiana?",
-      "opciones": ["El etiquetado correcto", "Los cambios de humedad y la ruptura de la cadena de frío", "El uso de envases homologados", "La rotación de existencias"],
+      "pregunta": "Durante el almacenamiento favorecen la contaminación microbiana:",
+      "opciones": [
+        "El etiquetado correcto",
+        "Los cambios de humedad y la ruptura de la cadena de frío",
+        "El uso de envases homologados",
+        "La rotación de existencias"
+      ],
       "correcta": 1,
       "explicacion": "Durante el almacenamiento, los cambios de humedad y la rotura de la cadena de frío permiten la multiplicación de microorganismos.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-011",
-      "pregunta": "En la curva de crecimiento bacteriano, ¿qué ocurre en la fase I o de latencia (lag)?",
-      "opciones": ["Crecimiento exponencial", "Muerte celular", "Adaptación al medio, sin crecimiento apreciable", "Agotamiento total de nutrientes"],
+      "pregunta": "En la fase I o de latencia (lag) de la curva de crecimiento bacteriano:",
+      "opciones": [
+        "Crecimiento exponencial",
+        "Muerte celular",
+        "Adaptación al medio, sin crecimiento apreciable",
+        "Agotamiento total de nutrientes"
+      ],
       "correcta": 2,
       "explicacion": "En la fase de latencia los microorganismos se adaptan al medio y todavía no hay un crecimiento apreciable.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-012",
-      "pregunta": "¿En qué fase de la curva de crecimiento hay máxima multiplicación y consumo de nutrientes?",
-      "opciones": ["Fase de latencia", "Fase estacionaria", "Fase de muerte", "Fase exponencial (logarítmica)"],
-      "correcta": 3,
-      "explicacion": "En la fase exponencial (fase II) los microorganismos crecen y se multiplican al máximo y consumen muchos nutrientes.",
+      "pregunta": "Respecto a la curva de crecimiento bacteriano, señala la opción CORRECTA:",
+      "opciones": [
+        "En la fase de latencia hay máxima multiplicación.",
+        "En la fase exponencial hay máxima multiplicación y consumo de nutrientes.",
+        "En la fase estacionaria hay crecimiento máximo.",
+        "En la fase de muerte se adaptan al medio."
+      ],
+      "correcta": 1,
+      "explicacion": "Latencia: adaptación sin crecimiento apreciable. Exponencial: máxima multiplicación. Estacionaria: se agotan nutrientes, sin crecimiento neto. Muerte: agotamiento o condiciones adversas.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-013",
-      "pregunta": "¿Qué caracteriza a la fase estacionaria de la curva de crecimiento?",
-      "opciones": ["Se agotan los nutrientes, no hay crecimiento neto y se liberan metabolitos", "Adaptación al medio", "Crecimiento máximo", "Esporulación inmediata de todas las células"],
+      "pregunta": "La fase estacionaria de la curva de crecimiento se caracteriza por:",
+      "opciones": [
+        "Se agotan los nutrientes, no hay crecimiento neto y se liberan metabolitos",
+        "Adaptación al medio",
+        "Crecimiento máximo",
+        "Esporulación inmediata de todas las células"
+      ],
       "correcta": 0,
       "explicacion": "En la fase III o estacionaria los nutrientes se van agotando, no hay crecimiento y se liberan metabolitos. Después llega la fase de muerte por agotamiento o condiciones adversas.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-014",
-      "pregunta": "El pH, la aw, el potencial redox (Eh), los nutrientes y los componentes antimicrobianos del alimento son factores…",
-      "opciones": ["Extrínsecos", "Intrínsecos", "Implícitos", "De elaboración"],
-      "correcta": 1,
-      "explicacion": "Los factores intrínsecos son propios del alimento. Los extrínsecos dependen del ambiente (temperatura, humedad relativa, atmósfera).",
-      "dificultad": 1
+      "pregunta": "Son factores intrínsecos del alimento:",
+      "opciones": [
+        "El pH y la actividad de agua (aw).",
+        "La temperatura y la humedad relativa.",
+        "La atmósfera gaseosa.",
+        "b y c son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Intrínsecos (propios del alimento): pH, aw, potencial redox, nutrientes y componentes antimicrobianos. Temperatura, humedad relativa y atmósfera son extrínsecos.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t03-015",
-      "pregunta": "¿Qué componente antimicrobiano natural tiene el huevo?",
-      "opciones": ["Etileno", "Ácido acético", "Lisozima", "Ozono"],
+      "pregunta": "El componente antimicrobiano natural del huevo es:",
+      "opciones": [
+        "Etileno",
+        "Ácido acético",
+        "Lisozima",
+        "Ozono"
+      ],
       "correcta": 2,
       "explicacion": "El huevo contiene lisozima; la miel tiene sustancias antibacterianas y muchas plantas poseen sustancias antimicrobianas o antifúngicas.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-016",
-      "pregunta": "Los microorganismos microaerófilos necesitan…",
-      "opciones": ["Ausencia total de oxígeno", "Mucho CO2", "Oxígeno atmosférico normal (21 %)", "Oxígeno en baja concentración (en torno al 5 %)"],
+      "pregunta": "Los microorganismos microaerófilos necesitan:",
+      "opciones": [
+        "Ausencia total de oxígeno",
+        "Mucho CO2",
+        "Oxígeno atmosférico normal (21 %)",
+        "Oxígeno en baja concentración (en torno al 5 %)"
+      ],
       "correcta": 3,
       "explicacion": "Los microaerófilos son aerobios que necesitan oxígeno, pero en baja concentración (≈ 5 %).",
       "dificultad": 2
     },
     {
       "id": "ca-t03-017",
-      "pregunta": "¿Cómo se comportan los microorganismos anaerobios facultativos?",
-      "opciones": ["Pueden vivir con o sin oxígeno, con metabolismo oxidativo o fermentativo según el ambiente", "Solo viven sin oxígeno", "Solo viven con mucho oxígeno", "Necesitan CO2 elevado"],
+      "pregunta": "Los microorganismos anaerobios facultativos:",
+      "opciones": [
+        "Pueden vivir con o sin oxígeno, con metabolismo oxidativo o fermentativo según el ambiente.",
+        "Solo viven sin oxígeno.",
+        "Crecen sin O2 pero toleran su presencia, siempre con metabolismo fermentativo.",
+        "Necesitan oxígeno en baja concentración (≈ 5 %)."
+      ],
       "correcta": 0,
-      "explicacion": "Los facultativos crecen con o sin O2 y cambian a metabolismo oxidativo o fermentativo según el ambiente.",
+      "explicacion": "Los facultativos crecen con o sin O2 y cambian de metabolismo según el ambiente. Crecer sin O2 tolerándolo es propio de los aerotolerantes; O2 al 5 %, de los microaerófilos.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-018",
-      "pregunta": "¿Qué son los microorganismos aerotolerantes?",
-      "opciones": ["Los que necesitan oxígeno abundante", "Los que crecen sin O2 pero pueden vivir en su presencia (metabolismo fermentativo)", "Los que necesitan CO2 elevado", "Los que solo crecen en refrigeración"],
+      "pregunta": "Los microorganismos aerotolerantes:",
+      "opciones": [
+        "Los que necesitan oxígeno abundante",
+        "Los que crecen sin O2 pero pueden vivir en su presencia (metabolismo fermentativo)",
+        "Los que necesitan CO2 elevado",
+        "Los que solo crecen en refrigeración"
+      ],
       "correcta": 1,
       "explicacion": "Los aerotolerantes no usan el oxígeno (metabolismo fermentativo), pero lo toleran.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-019",
-      "pregunta": "¿Qué mide la actividad de agua (aw) de un alimento?",
-      "opciones": ["El agua total, incluida la ligada", "El porcentaje de humedad del aire", "El agua libre (no ligada) disponible para las reacciones de los microorganismos", "La acidez del alimento"],
+      "pregunta": "La actividad de agua (aw) de un alimento mide:",
+      "opciones": [
+        "El agua total, incluida la ligada",
+        "El porcentaje de humedad del aire",
+        "El agua libre (no ligada) disponible para las reacciones de los microorganismos",
+        "La acidez del alimento"
+      ],
       "correcta": 2,
       "explicacion": "La aw (valores de 0 a 1) indica el agua libre disponible para los microorganismos. Se calcula como P/P0 o %HRE/100.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-020",
-      "pregunta": "¿Cuál es la aw óptima para el crecimiento de la mayoría de microorganismos?",
-      "opciones": ["0,50-0,60", "0,60-0,70", "0,70-0,80", "0,95-0,99"],
+      "pregunta": "La aw óptima para el crecimiento de la mayoría de microorganismos es:",
+      "opciones": [
+        "0,50-0,60",
+        "0,60-0,70",
+        "0,70-0,80",
+        "0,95-0,99"
+      ],
       "correcta": 3,
       "explicacion": "La aw óptima es 0,95-0,99. Por debajo de 0,7 no crecen las bacterias, hacia 0,6 aún pueden crecer mohos y por debajo de 0,5 no crece ningún microorganismo.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-021",
-      "pregunta": "¿Por debajo de qué aw no hay crecimiento bacteriano (límite de seguridad)?",
-      "opciones": ["0,7", "0,9", "0,95", "0,3"],
-      "correcta": 0,
-      "explicacion": "Una aw de 0,7 se considera el límite de seguridad para el crecimiento bacteriano.",
+      "pregunta": "Respecto a la actividad de agua (aw), es FALSO que:",
+      "opciones": [
+        "La aw óptima de la mayoría de microorganismos es 0,95-0,99.",
+        "Por debajo de 0,7 no hay crecimiento bacteriano.",
+        "Con una aw ≈ 0,6 todavía pueden crecer mohos.",
+        "Por debajo de 0,9 no crece ningún microorganismo."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: el límite por debajo del cual no crece ningún microorganismo es 0,5. Bacterias: límite 0,7; mohos: pueden crecer hacia 0,6.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-022",
-      "pregunta": "Por debajo de una aw de 0,5…",
-      "opciones": ["Solo crecen bacterias", "No crece ningún microorganismo", "Crecen sobre todo levaduras", "El crecimiento es óptimo"],
+      "pregunta": "Por debajo de una aw de 0,5:",
+      "opciones": [
+        "Solo crecen bacterias",
+        "No crece ningún microorganismo",
+        "Crecen sobre todo levaduras",
+        "El crecimiento es óptimo"
+      ],
       "correcta": 1,
       "explicacion": "Con aw < 0,5 no hay crecimiento microbiano. Con aw ≈ 0,6 todavía es posible el crecimiento de mohos.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-023",
-      "pregunta": "Los microorganismos que toleran concentraciones elevadas de sal se llaman…",
-      "opciones": ["Osmófilos", "Xerófilos", "Halófilos/halotolerantes", "Psicrófilos"],
+      "pregunta": "Los microorganismos que toleran concentraciones elevadas de sal se llaman:",
+      "opciones": [
+        "Osmófilos",
+        "Xerófilos",
+        "Halófilos/halotolerantes",
+        "Psicrófilos"
+      ],
       "correcta": 2,
       "explicacion": "Halófilos: mucha sal. Osmófilos: muchos componentes orgánicos no ionizados (azúcar). Xerófilos: aw baja.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-024",
-      "pregunta": "¿Qué microorganismos crecen en alimentos con mucho azúcar (p. ej., mermeladas)?",
-      "opciones": ["Halófilos", "Termófilos", "Capnófilos", "Osmófilos/osmotolerantes"],
+      "pregunta": "En alimentos con mucho azúcar (p. ej., mermeladas) crecen los microorganismos:",
+      "opciones": [
+        "Halófilos",
+        "Termófilos",
+        "Capnófilos",
+        "Osmófilos/osmotolerantes"
+      ],
       "correcta": 3,
       "explicacion": "Los osmófilos toleran altas concentraciones de componentes orgánicos no ionizados, como el azúcar.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-025",
-      "pregunta": "¿Cuál es el pH óptimo para la mayoría de los microorganismos?",
-      "opciones": ["6,5-7,5", "2-3", "4,5-5", "8,5-9,5"],
+      "pregunta": "El pH óptimo para la mayoría de los microorganismos es:",
+      "opciones": [
+        "6,5-7,5",
+        "2-3",
+        "4,5-5",
+        "8,5-9,5"
+      ],
       "correcta": 0,
       "explicacion": "La mayoría crece entre pH 4,5 y 9, con un óptimo de 6,5-7,5. Excepciones: bacterias acéticas y lácticas, que crecen por debajo de 3,5.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-026",
-      "pregunta": "¿Qué microorganismos son excepción y pueden crecer a pH inferior a 3,5?",
-      "opciones": ["Las enterobacterias", "Las bacterias acéticas y lácticas", "Los estafilococos", "Las pseudomonas"],
+      "pregunta": "Son excepción y pueden crecer a pH inferior a 3,5:",
+      "opciones": [
+        "Las enterobacterias",
+        "Las bacterias acéticas y lácticas",
+        "Los estafilococos",
+        "Las pseudomonas"
+      ],
       "correcta": 1,
       "explicacion": "Las bacterias acéticas y lácticas son acidófilas y crecen a pH muy bajo (< 3,5).",
       "dificultad": 2
     },
     {
       "id": "ca-t03-027",
-      "pregunta": "La temperatura, la humedad relativa y la atmósfera gaseosa son factores…",
-      "opciones": ["Intrínsecos", "Implícitos", "Extrínsecos", "De elaboración"],
+      "pregunta": "La temperatura, la humedad relativa y la atmósfera gaseosa son factores:",
+      "opciones": [
+        "Intrínsecos",
+        "Implícitos",
+        "Extrínsecos",
+        "De elaboración"
+      ],
       "correcta": 2,
       "explicacion": "Los factores extrínsecos dependen del ambiente en que se conserva el alimento.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-028",
-      "pregunta": "Una humedad relativa alta favorece sobre todo el crecimiento de…",
-      "opciones": ["Bacterias termófilas", "Virus", "Bacterias anaerobias estrictas", "Mohos y levaduras"],
+      "pregunta": "Una humedad relativa alta favorece sobre todo el crecimiento de:",
+      "opciones": [
+        "Bacterias termófilas",
+        "Virus",
+        "Bacterias anaerobias estrictas",
+        "Mohos y levaduras"
+      ],
       "correcta": 3,
       "explicacion": "Una humedad relativa (Hr) elevada favorece el crecimiento de mohos y levaduras en la superficie de los alimentos.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-029",
-      "pregunta": "¿Qué microorganismos crecen en refrigeración aunque su temperatura óptima sea de 25-30 °C?",
-      "opciones": ["Psicrótrofos", "Termófilos", "Mesófilos", "Termótrofos"],
+      "pregunta": "Los microorganismos que crecen en refrigeración aunque su temperatura óptima sea de 25-30 °C son los:",
+      "opciones": [
+        "Psicrótrofos",
+        "Termófilos",
+        "Mesófilos",
+        "Termótrofos"
+      ],
       "correcta": 0,
       "explicacion": "Los psicrótrofos (óptimo 25-30 °C) son capaces de crecer a temperatura de refrigeración, por eso alteran los alimentos refrigerados.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-030",
-      "pregunta": "¿Qué temperatura óptima tienen los microorganismos mesófilos?",
-      "opciones": ["12-15 °C", "30-45 °C (37 °C)", "55-75 °C", "0-5 °C"],
-      "correcta": 1,
-      "explicacion": "Los mesófilos crecen a temperatura ambiente, con un óptimo de 30-45 °C (37 °C). La mayoría de patógenos humanos son mesófilos.",
-      "dificultad": 1
+      "pregunta": "Respecto a la temperatura óptima de los microorganismos, señala la opción CORRECTA:",
+      "opciones": [
+        "Mesófilos: 30-45 °C (37 °C).",
+        "Psicrófilos: 55-75 °C.",
+        "Termófilos: 12-15 °C.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Solo es cierta la a. Psicrófilos: 12-15 °C (crecen a 0 °C); termófilos: 55-75 °C; psicrótrofos: 25-30 °C; termótrofos: 40-50 °C.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t03-031",
-      "pregunta": "¿Qué temperatura óptima tienen los psicrófilos?",
-      "opciones": ["30-45 °C", "55-75 °C", "12-15 °C, y pueden crecer a 0 °C", "40-50 °C"],
+      "pregunta": "La temperatura óptima de los psicrófilos es de:",
+      "opciones": [
+        "30-45 °C",
+        "55-75 °C",
+        "12-15 °C, y pueden crecer a 0 °C",
+        "40-50 °C"
+      ],
       "correcta": 2,
       "explicacion": "Los psicrófilos tienen su óptimo a 12-15 °C y crecen incluso a 0 °C.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-032",
-      "pregunta": "Los microorganismos con temperatura óptima entre 55 y 75 °C se llaman…",
-      "opciones": ["Mesófilos", "Psicrótrofos", "Termótrofos", "Termófilos"],
+      "pregunta": "Los microorganismos con temperatura óptima entre 55 y 75 °C se llaman:",
+      "opciones": [
+        "Mesófilos",
+        "Psicrótrofos",
+        "Termótrofos",
+        "Termófilos"
+      ],
       "correcta": 3,
       "explicacion": "Termófilos: 55-75 °C. Termótrofos: 40-50 °C.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-033",
-      "pregunta": "¿Por qué se usan atmósferas controladas con CO2 (< 10 %) en el almacenamiento de frutas?",
-      "opciones": ["Inhiben la producción de etileno, retrasan la maduración y dificultan el desarrollo de hongos", "Aceleran la maduración", "Aumentan el contenido de azúcar", "Eliminan los pesticidas"],
+      "pregunta": "En el almacenamiento de frutas se usan atmósferas controladas con CO2 (< 10 %) porque:",
+      "opciones": [
+        "Inhiben la producción de etileno, retrasan la maduración y dificultan el desarrollo de hongos",
+        "Aceleran la maduración",
+        "Aumentan el contenido de azúcar",
+        "Eliminan los pesticidas"
+      ],
       "correcta": 0,
       "explicacion": "El CO2 en atmósferas controladas (< 10 %) inhibe el etileno, reduce la maduración y dificulta el crecimiento de hongos.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-034",
-      "pregunta": "¿Qué inconveniente tiene el ozono (O3) en atmósferas controladas?",
-      "opciones": ["Favorece los mohos", "Acelera la oxidación de los alimentos ricos en grasa", "Aumenta la aw", "Es inútil en frutas y verduras"],
+      "pregunta": "El inconveniente del ozono (O3) en atmósferas controladas es que:",
+      "opciones": [
+        "Favorece los mohos",
+        "Acelera la oxidación de los alimentos ricos en grasa",
+        "Aumenta la aw",
+        "Es inútil en frutas y verduras"
+      ],
       "correcta": 1,
       "explicacion": "El ozono retarda alteraciones en frutas, verduras (2-3 ppm) y carnes, pero acelera la oxidación de los alimentos con más grasa.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-035",
-      "pregunta": "Cuando un microorganismo favorece el crecimiento de otro, se habla de…",
-      "opciones": ["Antagonismo", "Parasitismo", "Sinergismo", "Esporulación"],
+      "pregunta": "Cuando un microorganismo favorece el crecimiento de otro, se habla de:",
+      "opciones": [
+        "Antagonismo",
+        "Parasitismo",
+        "Sinergismo",
+        "Esporulación"
+      ],
       "correcta": 2,
       "explicacion": "Los factores implícitos son las interacciones entre microorganismos: sinergismo (se favorecen) y antagonismo (uno impide el crecimiento de otro).",
       "dificultad": 1
     },
     {
       "id": "ca-t03-036",
-      "pregunta": "Las interacciones entre microorganismos (sinergismos y antagonismos) y los cambios que producen en el pH o la aw son factores…",
-      "opciones": ["Extrínsecos", "Intrínsecos", "De elaboración", "Implícitos"],
+      "pregunta": "Las interacciones entre microorganismos (sinergismos y antagonismos) y los cambios que producen en el pH o la aw son factores:",
+      "opciones": [
+        "Extrínsecos",
+        "Intrínsecos",
+        "De elaboración",
+        "Implícitos"
+      ],
       "correcta": 3,
       "explicacion": "Los factores implícitos son la interacción de los microorganismos entre sí y con el alimento, modificando pH, aw o composición química.",
       "dificultad": 2
     },
     {
       "id": "ca-t03-037",
-      "pregunta": "El lavado, el troceado o los tratamientos térmicos de la industria son factores…",
-      "opciones": ["De elaboración, porque modifican los factores anteriores", "Intrínsecos", "Implícitos", "Extrínsecos"],
+      "pregunta": "El lavado, el troceado o los tratamientos térmicos de la industria son factores:",
+      "opciones": [
+        "De elaboración.",
+        "Intrínsecos.",
+        "Implícitos.",
+        "Extrínsecos."
+      ],
       "correcta": 0,
       "explicacion": "Los factores de elaboración son las operaciones básicas de la industria, que modifican los factores intrínsecos, extrínsecos e implícitos.",
       "dificultad": 1
     },
     {
       "id": "ca-t03-038",
-      "pregunta": "En relación con el oxígeno, ¿qué microorganismos se asocian a un potencial redox (Eh) positivo?",
-      "opciones": ["Los anaerobios estrictos", "Los aerobios", "Los capnófilos", "Ninguno"],
+      "pregunta": "En relación con el oxígeno, se asocian a un potencial redox (Eh) positivo los microorganismos:",
+      "opciones": [
+        "Los anaerobios estrictos",
+        "Los aerobios",
+        "Los capnófilos",
+        "Ninguno"
+      ],
       "correcta": 1,
       "explicacion": "Los aerobios necesitan O2 y se asocian a Eh positivo; los anaerobios, en general, a Eh negativo.",
       "dificultad": 3
     },
     {
       "id": "ca-t03-039",
-      "pregunta": "¿Cuál de estos NO es un origen de contaminación en el tratamiento de los alimentos?",
-      "opciones": ["El agua y el aire", "Los equipos e instrumentos", "La lisozima del huevo", "Los manipuladores"],
-      "correcta": 2,
+      "pregunta": "Son origen de contaminación en el tratamiento de los alimentos:",
+      "opciones": [
+        "Los equipos e instrumentos.",
+        "Los manipuladores.",
+        "La lisozima del huevo.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
       "explicacion": "En el tratamiento contaminan el agua, el aire, los equipos, las superficies de contacto y los manipuladores. La lisozima es un antimicrobiano natural del huevo.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t03-040",
-      "pregunta": "¿Qué ETA se produce al ingerir un alimento con patógenos que colonizan, se multiplican e invaden el organismo, sin producir toxinas?",
-      "opciones": ["Intoxicación alimentaria", "Toxiinfección alimentaria", "Alergia alimentaria", "Infección transmitida por alimentos"],
+      "pregunta": "La ETA que se produce al ingerir un alimento con patógenos que colonizan, se multiplican e invaden el organismo, sin producir toxinas, es una:",
+      "opciones": [
+        "Intoxicación alimentaria",
+        "Toxiinfección alimentaria",
+        "Alergia alimentaria",
+        "Infección transmitida por alimentos"
+      ],
       "correcta": 3,
       "explicacion": "Esa es la infección transmitida por alimentos. Si además producen toxinas en el organismo, es una toxiinfección.",
       "dificultad": 1

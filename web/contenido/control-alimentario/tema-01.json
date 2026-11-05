@@ -6,136 +6,224 @@
   "preguntas": [
     {
       "id": "ca-t01-001",
-      "pregunta": "Según el Reglamento (CE) nº 178/2002, ¿cuál de estos productos SÍ se considera alimento?",
-      "opciones": ["La goma de mascar", "Los medicamentos", "Los piensos", "El tabaco"],
-      "correcta": 0,
+      "pregunta": "Según el Reglamento (CE) nº 178/2002, se considera alimento:",
+      "opciones": [
+        "La goma de mascar.",
+        "El agua.",
+        "Los piensos.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
       "explicacion": "El concepto de alimento incluye las bebidas, la goma de mascar y el agua. Quedan fuera los animales vivos, las plantas antes de la cosecha, los medicamentos, los cosméticos, el tabaco, los residuos y los piensos.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-002",
-      "pregunta": "¿Cuál de los siguientes NO se considera alimento según el Reglamento (CE) nº 178/2002?",
-      "opciones": ["El agua", "Las bebidas", "Las plantas antes de la cosecha", "La goma de mascar"],
+      "pregunta": "Según el Reglamento (CE) nº 178/2002, NO se considera alimento:",
+      "opciones": [
+        "El agua",
+        "Las bebidas",
+        "Las plantas antes de la cosecha",
+        "La goma de mascar"
+      ],
       "correcta": 2,
       "explicacion": "Las plantas antes de la cosecha están expresamente excluidas, igual que los animales vivos (salvo los preparados para el consumo humano), medicamentos, cosméticos, tabaco, residuos y piensos.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-003",
-      "pregunta": "¿Cómo define el Reglamento 178/2002 un «pienso»?",
-      "opciones": ["Cualquier alimento caducado que se destina a animales", "Cualquier sustancia o producto destinado a la alimentación oral animal, incluidos los aditivos", "Solo los cereales que consume el ganado", "Cualquier producto vegetal sin transformar"],
+      "pregunta": "El Reglamento 178/2002 define «pienso» como:",
+      "opciones": [
+        "Cualquier alimento caducado que se destina a animales",
+        "Cualquier sustancia o producto destinado a la alimentación oral animal, incluidos los aditivos",
+        "Solo los cereales que consume el ganado",
+        "Cualquier producto vegetal sin transformar"
+      ],
       "correcta": 1,
       "explicacion": "Pienso es cualquier sustancia o producto destinado a la alimentación por vía oral de los animales, incluidos los aditivos. Por eso no se considera alimento.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-004",
-      "pregunta": "El Reglamento (CE) nº 178/2002 establece los principios de la legislación alimentaria y crea la autoridad europea de seguridad alimentaria. ¿Cuál es?",
-      "opciones": ["AESAN", "FAO", "OMS", "EFSA"],
+      "pregunta": "El Reglamento (CE) nº 178/2002 establece los principios de la legislación alimentaria y crea la autoridad europea de seguridad alimentaria, que es la:",
+      "opciones": [
+        "AESAN",
+        "FAO",
+        "OMS",
+        "EFSA"
+      ],
       "correcta": 3,
       "explicacion": "La EFSA (Autoridad Europea de Seguridad Alimentaria) se crea con el Reglamento 178/2002. La AESAN es la agencia española; FAO y OMS son organismos de Naciones Unidas.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-005",
-      "pregunta": "¿En qué etapas se aplica la legislación alimentaria?",
-      "opciones": ["En cualquier etapa: producción, transformación y distribución de alimentos y piensos", "Solo en la venta al consumidor final", "Solo en la industria transformadora", "Solo en la producción primaria"],
+      "pregunta": "La legislación alimentaria se aplica:",
+      "opciones": [
+        "En cualquier etapa de la producción, transformación y distribución de alimentos y piensos.",
+        "Solo en la venta al consumidor final.",
+        "Solo en la industria transformadora.",
+        "En la producción, transformación y distribución de alimentos, pero no de piensos."
+      ],
       "correcta": 0,
       "explicacion": "La legislación alimentaria son disposiciones legales, reglamentarias y administrativas, de ámbito comunitario o nacional, aplicables en cualquier etapa de la producción, transformación y distribución de alimentos y piensos.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-006",
-      "pregunta": "¿Desde cuándo es obligatoria la trazabilidad en la cadena alimentaria?",
-      "opciones": ["Desde el 1 de enero de 2002", "Desde el 1 de enero de 2011", "Desde el 1 de enero de 2005", "Desde el 1 de enero de 2013"],
+      "pregunta": "La trazabilidad en la cadena alimentaria es obligatoria desde:",
+      "opciones": [
+        "Desde el 1 de enero de 2002",
+        "Desde el 1 de enero de 2011",
+        "Desde el 1 de enero de 2005",
+        "Desde el 1 de enero de 2013"
+      ],
       "correcta": 2,
       "explicacion": "La trazabilidad, recogida en el Reglamento 178/2002, es obligatoria desde el 1 de enero de 2005.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-007",
-      "pregunta": "¿Qué frase resume mejor el concepto de trazabilidad?",
-      "opciones": ["«Lo natural es lo más sano»", "«Seguir la pista» del alimento «de la granja a la mesa»", "«Primero en entrar, primero en salir»", "«Lavar, separar, cocinar y enfriar»"],
-      "correcta": 1,
-      "explicacion": "Trazabilidad es «seguir la pista» o «rastrear» un alimento a lo largo de toda la cadena, «de la granja a la mesa», para identificar y aislar problemas sanitarios.",
-      "dificultad": 1
+      "pregunta": "Respecto a la trazabilidad, señala la opción CORRECTA:",
+      "opciones": [
+        "Consiste en «seguir la pista» del alimento «de la granja a la mesa».",
+        "El lote permite rastrear el alimento en todas las etapas de la cadena.",
+        "Es obligatoria desde el 1 de enero de 2005.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. La trazabilidad (Reglamento 178/2002) es obligatoria desde el 1 de enero de 2005 y permite, mediante el lote, identificar y aislar problemas sanitarios.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-008",
-      "pregunta": "¿Qué dato permite seguir la información de un alimento en todas las etapas de la cadena?",
-      "opciones": ["El Nutri-Score", "La fecha de consumo preferente", "El código QR", "El lote"],
+      "pregunta": "El dato que permite seguir la información de un alimento en todas las etapas de la cadena es:",
+      "opciones": [
+        "El Nutri-Score",
+        "La fecha de consumo preferente",
+        "El código QR",
+        "El lote"
+      ],
       "correcta": 3,
       "explicacion": "El lote es la información que acompaña al alimento en todas las etapas y permite rastrearlo para identificar y aislar problemas sanitarios.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-009",
-      "pregunta": "¿Cuál de estos es un sistema de alerta alimentaria?",
-      "opciones": ["RASFF", "APPCC", "PNCOCA", "Nutri-Score"],
-      "correcta": 0,
-      "explicacion": "RASFF (europeo), SCIRI (español) e INFOSAN (internacional) son redes de alerta alimentaria. En España las gestiona la AESAN.",
+      "pregunta": "Respecto a los sistemas de alerta alimentaria, es FALSO que:",
+      "opciones": [
+        "El RASFF es la red europea.",
+        "El SCIRI es la red española.",
+        "INFOSAN es la red internacional.",
+        "En España las alertas las gestiona la EFSA."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: en España las alertas las gestiona la AESAN. RASFF (europeo), SCIRI (español) e INFOSAN (internacional) son redes de alerta.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-010",
-      "pregunta": "En España, ¿qué organismo gestiona las alertas alimentarias?",
-      "opciones": ["La EFSA", "El Codex Alimentarius", "La AESAN", "La FAO"],
+      "pregunta": "En España, las alertas alimentarias las gestiona:",
+      "opciones": [
+        "La EFSA",
+        "El Codex Alimentarius",
+        "La AESAN",
+        "La FAO"
+      ],
       "correcta": 2,
       "explicacion": "La AESAN (Agencia Española de Seguridad Alimentaria y Nutrición) coordina en España las alertas que llegan por RASFF, SCIRI o INFOSAN.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-011",
-      "pregunta": "¿Qué ley española regula la cadena alimentaria?",
-      "opciones": ["Ley 17/2011", "Ley 12/2013", "Ley 14/1986", "Ley 33/2011"],
+      "pregunta": "La ley española que regula la cadena alimentaria es la:",
+      "opciones": [
+        "Ley 17/2011",
+        "Ley 12/2013",
+        "Ley 14/1986",
+        "Ley 33/2011"
+      ],
       "correcta": 1,
       "explicacion": "La Ley 12/2013 regula la cadena alimentaria: producción primaria, industria, distribución/venta y consumidores.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-012",
-      "pregunta": "¿Cuál es el orden correcto de las etapas de la cadena alimentaria?",
-      "opciones": ["Industria → producción primaria → consumidores → distribución", "Distribución → industria → producción primaria → consumidores", "Producción primaria → distribución → industria → consumidores", "Producción primaria → industria → distribución/venta → consumidores"],
+      "pregunta": "El orden correcto de las etapas de la cadena alimentaria es:",
+      "opciones": [
+        "Industria → producción primaria → consumidores → distribución",
+        "Distribución → industria → producción primaria → consumidores",
+        "Producción primaria → distribución → industria → consumidores",
+        "Producción primaria → industria → distribución/venta → consumidores"
+      ],
       "correcta": 3,
       "explicacion": "Las 4 etapas son: 1) producción primaria, 2) industria (transformación/elaboración), 3) distribución/venta y 4) consumidores.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-013",
-      "pregunta": "¿Qué caracteriza a la etapa de producción primaria?",
-      "opciones": ["Obtiene la materia prima sin transformarla", "Elabora platos preparados", "Vende en supermercados", "Envasa al vacío los productos"],
+      "pregunta": "La etapa de producción primaria:",
+      "opciones": [
+        "Obtiene la materia prima sin transformarla.",
+        "Elabora platos preparados.",
+        "Corresponde a la venta en supermercados.",
+        "Transforma la materia prima en productos envasados."
+      ],
       "correcta": 0,
       "explicacion": "La producción primaria (agricultura, ganadería, caza, pesca) obtiene materias primas que todavía no han sido transformadas.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-014",
-      "pregunta": "¿Quién lleva el Registro General Sanitario de los Alimentos en el que se inscriben las industrias?",
-      "opciones": ["La EFSA", "El Ministerio de Sanidad y las CCAA", "Los ayuntamientos", "El Codex Alimentarius"],
+      "pregunta": "El Registro General Sanitario de los Alimentos, en el que se inscriben las industrias, lo llevan:",
+      "opciones": [
+        "La EFSA",
+        "El Ministerio de Sanidad y las CCAA",
+        "Los ayuntamientos",
+        "El Codex Alimentarius"
+      ],
       "correcta": 1,
       "explicacion": "Las empresas de la etapa industrial se inscriben en el Registro General Sanitario de los Alimentos, que depende del Ministerio de Sanidad y de las comunidades autónomas.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-015",
-      "pregunta": "¿Quién realiza la inspección de los puntos de venta (tiendas, bares, comedores…)?",
-      "opciones": ["La EFSA directamente", "Las propias empresas de distribución", "La Consejería de Sanidad de la CCAA o las Concejalías de Sanidad de los ayuntamientos", "El Ministerio de Agricultura únicamente"],
+      "pregunta": "La inspección de los puntos de venta (tiendas, bares, comedores…) la realiza:",
+      "opciones": [
+        "La EFSA directamente",
+        "Las propias empresas de distribución",
+        "La Consejería de Sanidad de la CCAA o las Concejalías de Sanidad de los ayuntamientos",
+        "El Ministerio de Agricultura únicamente"
+      ],
       "correcta": 2,
       "explicacion": "En la etapa de distribución/venta, la inspección corresponde a la Consejería de Sanidad de la comunidad autónoma o a las Concejalías de Sanidad de los ayuntamientos.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-016",
-      "pregunta": "¿Cuál de estos NO es un objetivo general del control alimentario?",
-      "opciones": ["Prevenir y proteger la salud", "Mantener la estabilidad del medio ambiente", "Mantener los recursos", "Aumentar las ventas de la industria"],
+      "pregunta": "Son objetivos generales del control alimentario:",
+      "opciones": [
+        "Prevenir y proteger la salud.",
+        "Mantener la estabilidad del medio ambiente.",
+        "Mantener los recursos.",
+        "Todas son correctas."
+      ],
       "correcta": 3,
-      "explicacion": "Los objetivos generales del control alimentario son la prevención/protección de la salud, la estabilidad del medio ambiente y el mantenimiento de los recursos.",
-      "dificultad": 1
+      "explicacion": "Los tres son objetivos generales del control alimentario: prevención/protección de la salud, estabilidad del medio ambiente y mantenimiento de los recursos.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-017",
-      "pregunta": "Dentro de los objetivos específicos del control alimentario, ¿qué persigue el objetivo «de consumo»?",
-      "opciones": ["Comprobar la correcta denominación de venta y la localización del producto en el comercio", "Mantener la inocuidad durante el almacenamiento", "Comprobar que el alimento es sano y nutritivo para todos los colectivos", "Comprobar la veracidad de la publicidad"],
+      "pregunta": "Dentro de los objetivos específicos del control alimentario, el objetivo «de consumo» persigue:",
+      "opciones": [
+        "Comprobar la correcta denominación de venta y la localización del producto en el comercio",
+        "Mantener la inocuidad durante el almacenamiento",
+        "Comprobar que el alimento es sano y nutritivo para todos los colectivos",
+        "Comprobar la veracidad de la publicidad"
+      ],
       "correcta": 0,
       "explicacion": "Consumo: denominación de venta y localización correctas. Sanitario: sano, inocuo y nutritivo. Comercial: veracidad y claridad de la información. Producción/distribución: inocuidad en procesos, almacenamiento y distribución.",
       "dificultad": 2
@@ -143,383 +231,627 @@
     {
       "id": "ca-t01-018",
       "pregunta": "El objetivo específico «comercial» del control alimentario busca:",
-      "opciones": ["Mantener los recursos naturales", "Comprobar la veracidad y claridad de la información del producto (etiquetado, publicidad…)", "Controlar los procesos tecnológicos", "Comprobar que el alimento es inocuo"],
+      "opciones": [
+        "Mantener los recursos naturales",
+        "Comprobar la veracidad y claridad de la información del producto (etiquetado, publicidad…)",
+        "Controlar los procesos tecnológicos",
+        "Comprobar que el alimento es inocuo"
+      ],
       "correcta": 1,
       "explicacion": "El objetivo comercial comprueba que la información del producto (procesado, etiquetado, publicidad, imagen en medios) sea veraz y clara.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-019",
-      "pregunta": "¿En qué niveles se organiza la legislación del control alimentario?",
-      "opciones": ["Solo europeo y nacional", "Solo nacional", "Europeo, nacional, autonómico y local", "Internacional y empresarial"],
+      "pregunta": "La legislación del control alimentario se organiza en los niveles:",
+      "opciones": [
+        "Solo europeo y nacional",
+        "Solo nacional",
+        "Europeo, nacional, autonómico y local",
+        "Internacional y empresarial"
+      ],
       "correcta": 2,
       "explicacion": "La legislación tiene normas generales/específicas, obligatorias/voluntarias y distintos niveles: europeo, nacional, autonómico y local.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-020",
-      "pregunta": "¿Quién lleva a cabo el control oficial de los alimentos?",
-      "opciones": ["Las asociaciones de consumidores", "Las empresas mediante el APPCC", "Los laboratorios privados", "La autoridad competente, es decir, la Administración pública"],
+      "pregunta": "Respecto al control oficial y al autocontrol, señala la opción CORRECTA:",
+      "opciones": [
+        "El control oficial lo ejerce la autoridad competente (Administración pública).",
+        "El autocontrol de las empresas se basa en el sistema APPCC.",
+        "El control oficial lo realizan las asociaciones de consumidores.",
+        "a y b son correctas."
+      ],
       "correcta": 3,
-      "explicacion": "El control oficial lo ejerce la autoridad competente (Administración pública local, autonómica, central o comunitaria). El control privado o autocontrol lo hacen las empresas con el APPCC.",
-      "dificultad": 1
+      "explicacion": "Son ciertas la a y la b. El control oficial lo ejerce la Administración (local, autonómica, central o comunitaria); el privado o autocontrol lo hacen las empresas con el APPCC.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-021",
-      "pregunta": "¿Qué reglamento regula actualmente los controles oficiales sobre alimentos y piensos?",
-      "opciones": ["Reglamento (UE) 2017/625", "Reglamento (CE) 882/2004", "Reglamento (CE) 1924/2006", "Reglamento (UE) 828/2014"],
+      "pregunta": "El reglamento que regula actualmente los controles oficiales sobre alimentos y piensos es el:",
+      "opciones": [
+        "Reglamento (UE) 2017/625",
+        "Reglamento (CE) 882/2004",
+        "Reglamento (CE) 1924/2006",
+        "Reglamento (UE) 828/2014"
+      ],
       "correcta": 0,
       "explicacion": "El Reglamento (UE) 2017/625 regula los controles oficiales y derogó al antiguo Reglamento (CE) 882/2004.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-022",
-      "pregunta": "El Plan Nacional de Control Oficial de la Cadena Alimentaria (PNCOCA) es un plan…",
-      "opciones": ["Anual, coordinado por la EFSA", "Quinquenal, coordinado por la AESAN", "Bienal, coordinado por cada ayuntamiento", "Decenal, coordinado por el Codex"],
+      "pregunta": "El Plan Nacional de Control Oficial de la Cadena Alimentaria (PNCOCA) es un plan:",
+      "opciones": [
+        "Anual, coordinado por la EFSA.",
+        "Quinquenal, coordinado por la AESAN.",
+        "Quinquenal, coordinado por la EFSA.",
+        "Anual, coordinado por la AESAN."
+      ],
       "correcta": 1,
       "explicacion": "El PNCOCA es quinquenal (el vigente cubre 2026-2030) y lo coordina la AESAN. Describe y coordina los controles oficiales de las distintas administraciones a lo largo de la cadena.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-023",
-      "pregunta": "¿En qué sistema se basa el control privado o autocontrol de las empresas alimentarias?",
-      "opciones": ["PNCOCA", "RASFF", "APPCC", "Nutri-Score"],
+      "pregunta": "El control privado o autocontrol de las empresas alimentarias se basa en el sistema:",
+      "opciones": [
+        "PNCOCA",
+        "RASFF",
+        "APPCC",
+        "Nutri-Score"
+      ],
       "correcta": 2,
       "explicacion": "El autocontrol empresarial se basa en el sistema APPCC (Análisis de Peligros y Puntos de Control Crítico).",
       "dificultad": 1
     },
     {
       "id": "ca-t01-024",
-      "pregunta": "¿Qué cantidad mínima debe tener una «comida testigo»?",
-      "opciones": ["50 g", "200 g", "1 ración completa de 500 g", "100 g"],
+      "pregunta": "La comida testigo debe ser una ración de cada plato de, al menos:",
+      "opciones": [
+        "50 g",
+        "200 g",
+        "1 ración completa de 500 g",
+        "100 g"
+      ],
       "correcta": 3,
       "explicacion": "La comida testigo es una ración individual de al menos 100 g de cada plato, identificada, fechada y bien conservada, para poder analizarla si hay sospecha de intoxicación.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-025",
-      "pregunta": "Según el tema, ¿cuánto tiempo mínimo debe conservarse la comida testigo?",
-      "opciones": ["7 días", "24 horas", "48 horas", "30 días"],
-      "correcta": 0,
-      "explicacion": "Según las diapositivas del tema, la comida testigo se conserva adecuadamente un mínimo de 7 días para poder analizarla ante una sospecha de intoxicación.",
+      "pregunta": "Respecto a la comida testigo, es FALSO que:",
+      "opciones": [
+        "Es una ración individual de al menos 100 g de cada plato.",
+        "Debe estar identificada y fechada.",
+        "Según el tema, se conserva un mínimo de 7 días.",
+        "Basta con una ración de 50 g de cada plato."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la ración debe ser de al menos 100 g de cada plato, identificada, fechada y bien conservada (según el tema, un mínimo de 7 días).",
       "dificultad": 2
     },
     {
       "id": "ca-t01-026",
-      "pregunta": "¿A qué temperatura deben conservarse las comidas preparadas congeladas?",
-      "opciones": ["≤ 0 °C", "≤ −18 °C", "≤ −5 °C", "≤ 4 °C"],
+      "pregunta": "Las comidas preparadas congeladas deben conservarse a:",
+      "opciones": [
+        "≤ 0 °C",
+        "≤ −18 °C",
+        "≤ −5 °C",
+        "≤ 4 °C"
+      ],
       "correcta": 1,
       "explicacion": "Comidas preparadas: congeladas ≤ −18 °C; refrigeradas que se consumen en más de 24 h ≤ 4 °C (en menos de 24 h ≤ 8 °C); calientes ≥ 63 °C.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-027",
-      "pregunta": "Una comida preparada refrigerada que se va a consumir en MÁS de 24 horas debe mantenerse a…",
-      "opciones": ["≤ 8 °C", "≤ 10 °C", "≤ 4 °C", "≤ 12 °C"],
+      "pregunta": "Una comida preparada refrigerada que se va a consumir en MÁS de 24 horas debe mantenerse a:",
+      "opciones": [
+        "≤ 8 °C",
+        "≤ 10 °C",
+        "≤ 4 °C",
+        "≤ 12 °C"
+      ],
       "correcta": 2,
       "explicacion": "Si se consume en más de 24 h: ≤ 4 °C. Si se consume en menos de 24 h se permite ≤ 8 °C.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-028",
-      "pregunta": "¿A qué temperatura mínima deben mantenerse las comidas preparadas que se sirven calientes?",
-      "opciones": ["≥ 50 °C", "≥ 55 °C", "≥ 74 °C", "≥ 63 °C"],
-      "correcta": 3,
-      "explicacion": "Las comidas calientes se mantienen a 63 °C o más para impedir la multiplicación bacteriana.",
-      "dificultad": 1
+      "pregunta": "Respecto a las temperaturas de las comidas preparadas, señala la opción CORRECTA:",
+      "opciones": [
+        "Congeladas: ≤ −12 °C.",
+        "Refrigeradas que se consumen en más de 24 h: ≤ 8 °C.",
+        "Calientes: ≥ 63 °C.",
+        "Todas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Solo es cierta la c. Congeladas ≤ −18 °C; refrigeradas ≤ 4 °C si se consumen en más de 24 h (≤ 8 °C si es en menos); calientes ≥ 63 °C.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-029",
-      "pregunta": "¿En qué consiste el enfriamiento rápido de una comida preparada?",
-      "opciones": ["Pasar de 60 °C a 10 °C en un máximo de 2 horas", "Pasar de 100 °C a 4 °C en 30 minutos", "Pasar de 63 °C a 0 °C en 6 horas", "Dejarla a temperatura ambiente hasta 25 °C"],
+      "pregunta": "El enfriamiento rápido de una comida preparada consiste en:",
+      "opciones": [
+        "Pasar de 60 °C a 10 °C en un máximo de 2 horas",
+        "Pasar de 100 °C a 4 °C en 30 minutos",
+        "Pasar de 63 °C a 0 °C en 6 horas",
+        "Dejarla a temperatura ambiente hasta 25 °C"
+      ],
       "correcta": 0,
       "explicacion": "El enfriamiento rápido lleva el alimento de 60 °C a 10 °C en 2 horas como máximo, para atravesar rápido la zona de peligro.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-030",
-      "pregunta": "¿Qué combinación de temperatura y tiempo se exige al recalentar una comida preparada?",
-      "opciones": ["63 °C durante 1 minuto", "74 °C durante 15 segundos (o combinaciones equivalentes)", "100 °C durante 5 minutos", "60 °C durante 2 horas"],
+      "pregunta": "Al recalentar una comida preparada se exige alcanzar:",
+      "opciones": [
+        "63 °C durante 1 minuto.",
+        "74 °C durante 15 segundos (o combinaciones equivalentes).",
+        "100 °C durante 5 minutos.",
+        "70 °C durante 2 minutos en la superficie."
+      ],
       "correcta": 1,
       "explicacion": "El recalentamiento debe alcanzar 74 °C durante 15 segundos en el centro del producto, o combinaciones de temperatura/tiempo equivalentes.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-031",
-      "pregunta": "¿Qué reglamento europeo regula la información alimentaria facilitada al consumidor (etiquetado)?",
-      "opciones": ["Reglamento (CE) 178/2002", "Reglamento (UE) 2017/625", "Reglamento (UE) 1169/2011", "Reglamento (CE) 1924/2006"],
+      "pregunta": "El reglamento europeo que regula la información alimentaria facilitada al consumidor (etiquetado) es el:",
+      "opciones": [
+        "Reglamento (CE) 178/2002",
+        "Reglamento (UE) 2017/625",
+        "Reglamento (UE) 1169/2011",
+        "Reglamento (CE) 1924/2006"
+      ],
       "correcta": 2,
       "explicacion": "Es el Reglamento (UE) 1169/2011 (en las diapositivas aparece como «1169/2002», pero su número oficial es 1169/2011). Su fin es proteger la salud del consumidor y su derecho a la información.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-032",
-      "pregunta": "¿Qué regula el Real Decreto 1808/1991?",
-      "opciones": ["Las comidas preparadas", "Los alérgenos", "Las declaraciones nutricionales", "Las menciones o marcas que identifican el lote de un alimento"],
+      "pregunta": "El Real Decreto 1808/1991 regula:",
+      "opciones": [
+        "Las comidas preparadas",
+        "Los alérgenos",
+        "Las declaraciones nutricionales",
+        "Las menciones o marcas que identifican el lote de un alimento"
+      ],
       "correcta": 3,
       "explicacion": "El RD 1808/1991 regula las menciones o marcas que permiten identificar el lote. El RD 1334/1999 hace obligatoria la inclusión del lote en el envase.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-033",
-      "pregunta": "¿Cuál de estas prácticas está PROHIBIDA en la información del etiquetado?",
-      "opciones": ["Atribuir al alimento propiedades para prevenir, tratar o curar enfermedades", "Indicar el modo de empleo", "Indicar la información nutricional por 100 g", "Destacar los alérgenos con otra tipografía"],
+      "pregunta": "En la información del etiquetado está PROHIBIDO:",
+      "opciones": [
+        "Atribuir al alimento propiedades para prevenir, tratar o curar enfermedades",
+        "Indicar el modo de empleo",
+        "Indicar la información nutricional por 100 g",
+        "Destacar los alérgenos con otra tipografía"
+      ],
       "correcta": 0,
       "explicacion": "La información no debe inducir a error: no puede atribuir efectos terapéuticos o curativos, insinuar características especiales que tienen todos los alimentos similares ni sugerir ingredientes que no tiene.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-034",
-      "pregunta": "¿Cuántos alérgenos son de declaración obligatoria en la UE?",
-      "opciones": ["8", "14", "12", "20"],
+      "pregunta": "El número de alérgenos de declaración obligatoria en la UE es de:",
+      "opciones": [
+        "8",
+        "14",
+        "12",
+        "20"
+      ],
       "correcta": 1,
       "explicacion": "Son 14: cereales con gluten, crustáceos, huevos, pescado, cacahuetes, soja, leche, frutos de cáscara, apio, mostaza, sésamo, sulfitos, altramuces y moluscos.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-035",
-      "pregunta": "¿Cuál de estos NO está entre los 14 alérgenos de declaración obligatoria?",
-      "opciones": ["Altramuces", "Apio", "Tomate", "Mostaza"],
+      "pregunta": "NO está entre los 14 alérgenos de declaración obligatoria:",
+      "opciones": [
+        "Altramuces",
+        "Apio",
+        "Tomate",
+        "Mostaza"
+      ],
       "correcta": 2,
       "explicacion": "El tomate no está en la lista. Altramuces, apio y mostaza sí forman parte de los 14 alérgenos obligatorios.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-036",
-      "pregunta": "¿Cómo se trata en el etiquetado la posible presencia accidental de alérgenos por contaminación cruzada («puede contener trazas de…»)?",
-      "opciones": ["Es obligatorio por ley en todos los productos", "Está prohibido indicarlo", "Solo se indica en productos sin envasar", "No está legislado: es voluntario y responsabilidad del fabricante (BPF/APPCC)"],
+      "pregunta": "La posible presencia accidental de alérgenos por contaminación cruzada («puede contener trazas de…»):",
+      "opciones": [
+        "Es obligatorio por ley en todos los productos",
+        "Está prohibido indicarlo",
+        "Solo se indica en productos sin envasar",
+        "No está legislado: es voluntario y responsabilidad del fabricante (BPF/APPCC)"
+      ],
       "correcta": 3,
       "explicacion": "Los alérgenos añadidos como ingrediente son obligatorios. La posible contaminación cruzada no está legislada: el etiquetado preventivo es voluntario y responsabilidad del fabricante.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-037",
-      "pregunta": "Para declarar un alimento «sin gluten», ¿qué contenido máximo de gluten puede tener?",
-      "opciones": ["20 mg/kg (ppm)", "100 mg/kg (ppm)", "200 mg/kg (ppm)", "0 mg/kg: nada de gluten"],
+      "pregunta": "Para declarar un alimento «sin gluten», su contenido máximo de gluten es de:",
+      "opciones": [
+        "20 mg/kg (ppm).",
+        "100 mg/kg (ppm).",
+        "200 mg/kg (ppm).",
+        "50 mg/kg (ppm)."
+      ],
       "correcta": 0,
       "explicacion": "Según el Reglamento (UE) 828/2014: «sin gluten» < 20 mg/kg y «muy bajo en gluten» < 100 mg/kg.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-038",
-      "pregunta": "¿Qué diferencia hay entre fecha de caducidad y fecha de consumo preferente?",
-      "opciones": ["Son lo mismo", "Tras la caducidad no debe consumirse; tras el consumo preferente pierde cualidades pero puede seguir consumiéndose", "La de consumo preferente se usa en alimentos muy perecederos", "Tras el consumo preferente el alimento es peligroso"],
+      "pregunta": "Respecto a la fecha de caducidad y la de consumo preferente, señala la opción CORRECTA:",
+      "opciones": [
+        "Son lo mismo.",
+        "Tras la caducidad no debe consumirse; tras el consumo preferente pierde cualidades pero puede seguir consumiéndose.",
+        "La de consumo preferente se usa en alimentos muy perecederos.",
+        "Pasada la fecha de consumo preferente el alimento es peligroso."
+      ],
       "correcta": 1,
       "explicacion": "Caducidad: alimentos muy perecederos, no deben consumirse pasada la fecha. Consumo preferente: el alimento pierde cualidades pero puede seguir consumiéndose.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-039",
-      "pregunta": "En el consumo preferente, ¿cuándo basta con indicar «día y mes»?",
-      "opciones": ["Cuando la duración es superior a 18 meses", "Cuando la duración está entre 3 y 18 meses", "Cuando la duración es inferior a 3 meses", "Nunca: siempre debe indicarse el año"],
+      "pregunta": "En el consumo preferente, basta con indicar «día y mes» cuando la duración es:",
+      "opciones": [
+        "Cuando la duración es superior a 18 meses",
+        "Cuando la duración está entre 3 y 18 meses",
+        "Cuando la duración es inferior a 3 meses",
+        "Nunca: siempre debe indicarse el año"
+      ],
       "correcta": 2,
       "explicacion": "Duración < 3 meses: día y mes. Entre 3 y 18 meses: mes y año. Más de 18 meses: año.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-040",
-      "pregunta": "¿Cuál de estos productos está EXENTO de indicar fecha de duración mínima?",
-      "opciones": ["Yogur natural", "Leche pasteurizada", "Pan de molde", "Vino"],
+      "pregunta": "Está EXENTO de indicar fecha de duración mínima:",
+      "opciones": [
+        "Yogur natural",
+        "Leche pasteurizada",
+        "Pan de molde",
+        "Vino"
+      ],
       "correcta": 3,
       "explicacion": "Están exentos, entre otros, los vegetales frescos, los vinos y bebidas alcohólicas de uva, las bebidas de más de 10º, el vinagre, la sal, los azúcares y la confitería a base de azúcares.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-041",
-      "pregunta": "¿A partir de qué graduación es obligatorio indicar el grado alcohólico en la etiqueta?",
-      "opciones": ["Más de 0,5 %", "Más de 1,2 %", "Más de 5 %", "Más de 10 %"],
+      "pregunta": "Es obligatorio indicar el grado alcohólico en la etiqueta a partir de:",
+      "opciones": [
+        "Más de 0,5 %",
+        "Más de 1,2 %",
+        "Más de 5 %",
+        "Más de 10 %"
+      ],
       "correcta": 1,
       "explicacion": "El grado alcohólico es mención obligatoria en bebidas con más de 1,2 % de alcohol.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-042",
-      "pregunta": "¿En qué orden deben aparecer los ingredientes en la lista?",
-      "opciones": ["Alfabético", "Creciente según su peso", "Decreciente según su peso", "Primero los aditivos y luego el resto"],
+      "pregunta": "Los ingredientes deben aparecer en la lista en orden:",
+      "opciones": [
+        "Alfabético",
+        "Creciente según su peso",
+        "Decreciente según su peso",
+        "Primero los aditivos y luego el resto"
+      ],
       "correcta": 2,
       "explicacion": "La lista va precedida de la palabra «Ingredientes» y en orden decreciente de su porcentaje en peso.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-043",
-      "pregunta": "¿Cuál de estos productos NO está obligado a llevar lista de ingredientes?",
-      "opciones": ["Vegetales frescos", "Galletas", "Embutido", "Pan de molde"],
-      "correcta": 0,
+      "pregunta": "NO están obligados a llevar lista de ingredientes:",
+      "opciones": [
+        "Los vegetales frescos.",
+        "Los productos de un solo ingrediente.",
+        "Las galletas.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
       "explicacion": "No están obligados los vegetales frescos, las aguas gasificadas, los productos de un solo ingrediente, los vinagres, quesos, mantequillas y leches fermentadas (solo con leche, enzimas y fermentos) y las bebidas de más de 1,2 % de alcohol.",
-      "dificultad": 2
+      "dificultad": 2,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-044",
-      "pregunta": "¿Cuándo es obligatorio indicar la cantidad (porcentaje) de un ingrediente concreto?",
-      "opciones": ["Siempre, para todos los ingredientes", "Solo cuando es un aditivo", "Solo en productos sin envasar", "Cuando aparece en la denominación de venta, se destaca en la etiqueta o es un componente esencial"],
+      "pregunta": "Es obligatorio indicar la cantidad (porcentaje) de un ingrediente concreto:",
+      "opciones": [
+        "Siempre, para todos los ingredientes",
+        "Solo cuando es un aditivo",
+        "Solo en productos sin envasar",
+        "Cuando aparece en la denominación de venta, se destaca en la etiqueta o es un componente esencial"
+      ],
       "correcta": 3,
       "explicacion": "Es obligatoria si el ingrediente figura en la denominación, se destaca en el etiquetado o es esencial para caracterizar el alimento.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-045",
-      "pregunta": "En la información nutricional obligatoria, ¿qué se declara?",
-      "opciones": ["El sodio", "La sal", "El cloro", "Los minerales totales"],
+      "pregunta": "En la información nutricional obligatoria se declara:",
+      "opciones": [
+        "El sodio",
+        "La sal",
+        "El cloro",
+        "Los minerales totales"
+      ],
       "correcta": 1,
       "explicacion": "Se declara la sal (no el sodio), junto con el valor energético, grasas, saturadas, hidratos de carbono, azúcares y proteínas, por 100 g o 100 ml.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-046",
-      "pregunta": "¿Cuál de estos está EXENTO de información nutricional?",
-      "opciones": ["Un yogur de sabores", "Una lata de atún en aceite", "Un envase cuya superficie mayor es inferior a 25 cm²", "Unas galletas integrales"],
+      "pregunta": "Está EXENTO de información nutricional:",
+      "opciones": [
+        "Un yogur de sabores",
+        "Una lata de atún en aceite",
+        "Un envase cuya superficie mayor es inferior a 25 cm²",
+        "Unas galletas integrales"
+      ],
       "correcta": 2,
       "explicacion": "Exentos: productos sin transformar o curados de un solo ingrediente, agua, sal, especias, té, vinagres, aditivos, bebidas de más de 1,2 % de alcohol, envases con superficie mayor < 25 cm² y alimentos no envasados.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-047",
-      "pregunta": "¿Qué norma regula las menciones obligatorias de los productos SIN envasar?",
-      "opciones": ["Reglamento (UE) 1169/2011 y RD 126/2015", "Solo el RD 1808/1991", "Reglamento (CE) 1924/2006", "Reglamento (UE) 828/2014"],
+      "pregunta": "Las menciones obligatorias de los productos SIN envasar las regulan:",
+      "opciones": [
+        "Reglamento (UE) 1169/2011 y RD 126/2015",
+        "Solo el RD 1808/1991",
+        "Reglamento (CE) 1924/2006",
+        "Reglamento (UE) 828/2014"
+      ],
       "correcta": 0,
       "explicacion": "Los productos sin envasar se rigen por el Reglamento 1169/2011 y el RD 126/2015. Siempre deben informar de los ingredientes que causan alergias o intolerancias.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-048",
-      "pregunta": "¿Qué menciones obligatorias deben llevar los artículos formados por envases individuales?",
-      "opciones": ["Solo el lote", "Solo la fecha de caducidad de cada uno", "La cantidad neta de cada envase y el número total de envases", "El Nutri-Score de cada envase"],
+      "pregunta": "Los artículos formados por envases individuales deben indicar:",
+      "opciones": [
+        "Solo el lote",
+        "Solo la fecha de caducidad de cada uno",
+        "La cantidad neta de cada envase y el número total de envases",
+        "El Nutri-Score de cada envase"
+      ],
       "correcta": 2,
       "explicacion": "En los productos con envases individuales se indica la cantidad neta en cada envase y el número total de envases.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-049",
-      "pregunta": "¿Qué reglamento regula las declaraciones nutricionales y de propiedades saludables?",
-      "opciones": ["Reglamento (UE) 2017/625", "Reglamento (CE) 178/2002", "Reglamento (UE) 828/2014", "Reglamento (CE) 1924/2006"],
+      "pregunta": "El reglamento que regula las declaraciones nutricionales y de propiedades saludables es el:",
+      "opciones": [
+        "Reglamento (UE) 2017/625",
+        "Reglamento (CE) 178/2002",
+        "Reglamento (UE) 828/2014",
+        "Reglamento (CE) 1924/2006"
+      ],
       "correcta": 3,
       "explicacion": "El Reglamento (CE) 1924/2006 regula ambas. La lista de declaraciones de propiedades saludables autorizadas está en el Reglamento (UE) 432/2012.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-050",
-      "pregunta": "Para usar la declaración «bajo valor energético» en un alimento sólido, debe tener como máximo…",
-      "opciones": ["40 kcal/100 g", "4 kcal/100 g", "100 kcal/100 g", "20 kcal/100 g"],
+      "pregunta": "Para usar la declaración «bajo valor energético» en un alimento sólido, debe tener como máximo:",
+      "opciones": [
+        "40 kcal/100 g",
+        "4 kcal/100 g",
+        "100 kcal/100 g",
+        "20 kcal/100 g"
+      ],
       "correcta": 0,
       "explicacion": "Bajo valor energético: ≤ 40 kcal/100 g (sólidos) o ≤ 20 kcal/100 ml (líquidos). «Sin aporte energético»: ≤ 4 kcal/100 ml.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-051",
-      "pregunta": "¿Cuánto azúcar como máximo puede tener un producto «sin azúcar»?",
-      "opciones": ["5 g/100 g", "0,5 g/100 g o 100 ml", "2,5 g/100 ml", "1 g/100 g"],
-      "correcta": 1,
-      "explicacion": "Sin azúcar: ≤ 0,5 g/100 g o 100 ml. Bajo contenido de azúcar: ≤ 5 g/100 g o ≤ 2,5 g/100 ml.",
+      "pregunta": "Respecto a las declaraciones nutricionales sobre azúcares, es FALSO que:",
+      "opciones": [
+        "«Sin azúcar» exige ≤ 0,5 g/100 g o 100 ml.",
+        "«Bajo contenido de azúcar» exige ≤ 5 g/100 g en sólidos.",
+        "«Bajo contenido de azúcar» exige ≤ 2,5 g/100 ml en líquidos.",
+        "«Sin azúcar» exige ≤ 5 g/100 g."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: «sin azúcar» exige ≤ 0,5 g/100 g o 100 ml. «Bajo contenido de azúcar»: ≤ 5 g/100 g o ≤ 2,5 g/100 ml.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-052",
-      "pregunta": "¿Qué contenido mínimo de fibra necesita un alimento para declararse «alto contenido de fibra»?",
-      "opciones": ["3 g/100 g", "1,5 g/100 kcal", "6 g/100 g", "12 g/100 g"],
+      "pregunta": "Para declararse «alto contenido de fibra», un alimento necesita como mínimo:",
+      "opciones": [
+        "3 g/100 g",
+        "1,5 g/100 kcal",
+        "6 g/100 g",
+        "12 g/100 g"
+      ],
       "correcta": 2,
       "explicacion": "Fuente de fibra: ≥ 3 g/100 g o ≥ 1,5 g/100 kcal. Alto contenido de fibra: ≥ 6 g/100 g o ≥ 3 g/100 kcal.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-053",
-      "pregunta": "¿Qué porcentaje del valor energético deben aportar las proteínas para declarar «fuente de proteínas»?",
-      "opciones": ["≥ 5 %", "≥ 30 %", "≥ 20 %", "≥ 12 %"],
+      "pregunta": "Para declarar «fuente de proteínas», las proteínas deben aportar como mínimo:",
+      "opciones": [
+        "≥ 5 %",
+        "≥ 30 %",
+        "≥ 20 %",
+        "≥ 12 %"
+      ],
       "correcta": 3,
       "explicacion": "Fuente de proteínas: ≥ 12 % de la energía. Alto contenido de proteínas: ≥ 20 % de la energía.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-054",
-      "pregunta": "¿Qué requisito general debe cumplir un producto «light» o «contenido reducido de…»?",
-      "opciones": ["Una reducción de al menos el 30 % respecto a un producto similar", "Una reducción de al menos el 10 % en todos los casos", "No contener nada de grasa", "Tener menos de 40 kcal/100 g"],
+      "pregunta": "En general, un producto «light» o con «contenido reducido de…» debe tener:",
+      "opciones": [
+        "Una reducción de al menos el 30 % respecto a un producto similar",
+        "Una reducción de al menos el 10 % en todos los casos",
+        "No contener nada de grasa",
+        "Tener menos de 40 kcal/100 g"
+      ],
       "correcta": 0,
       "explicacion": "En general, la reducción debe ser ≥ 30 % respecto a un producto similar (≥ 10 % en micronutrientes y ≥ 25 % en sodio o sal).",
       "dificultad": 2
     },
     {
       "id": "ca-t01-055",
-      "pregunta": "¿Entre qué valores se mueve la puntuación del Nutri-Score?",
-      "opciones": ["De 0 a 100 puntos", "De −15 a +40 puntos", "De −40 a +15 puntos", "De 1 a 5 puntos"],
+      "pregunta": "La puntuación del Nutri-Score se mueve entre:",
+      "opciones": [
+        "De 0 a 100 puntos",
+        "De −15 a +40 puntos",
+        "De −40 a +15 puntos",
+        "De 1 a 5 puntos"
+      ],
       "correcta": 1,
       "explicacion": "El Nutri-Score va de −15 puntos (mejor, letra A) a +40 puntos (peor, letra E).",
       "dificultad": 2
     },
     {
       "id": "ca-t01-056",
-      "pregunta": "¿Cuál de estos componentes suma puntos DESFAVORABLES en el Nutri-Score?",
-      "opciones": ["La fibra alimentaria", "Las proteínas", "Los azúcares", "Las frutas y hortalizas"],
-      "correcta": 2,
+      "pregunta": "Suman puntos DESFAVORABLES en el Nutri-Score:",
+      "opciones": [
+        "Los azúcares.",
+        "La fibra alimentaria.",
+        "La sal.",
+        "a y c son correctas."
+      ],
+      "correcta": 3,
       "explicacion": "Desfavorables: energía, azúcares, grasas saturadas y sal. Favorables: frutas, hortalizas, legumbres, frutos secos, aceites de oliva/colza/nuez, fibra y proteínas.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ca-t01-057",
-      "pregunta": "¿Para qué NO sirve el Nutri-Score?",
-      "opciones": ["Para comparar productos similares de distintas marcas", "Para comparar productos del mismo tipo", "Para comparar productos que se consumen en la misma ocasión", "Para clasificar un alimento como saludable o no saludable"],
+      "pregunta": "El Nutri-Score NO sirve para:",
+      "opciones": [
+        "Para comparar productos similares de distintas marcas",
+        "Para comparar productos del mismo tipo",
+        "Para comparar productos que se consumen en la misma ocasión",
+        "Para clasificar un alimento como saludable o no saludable"
+      ],
       "correcta": 3,
       "explicacion": "El Nutri-Score sirve para comparar productos parecidos. No clasifica un alimento como saludable o no, ni sirve para comparar productos de distinto tipo o con otros que no lo llevan.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-058",
-      "pregunta": "En un código de barras EAN, ¿qué indican los primeros dígitos?",
-      "opciones": ["El país", "La fecha de envasado", "El precio", "El lote"],
+      "pregunta": "En un código de barras EAN, los primeros dígitos indican:",
+      "opciones": [
+        "El país",
+        "La fecha de envasado",
+        "El precio",
+        "El lote"
+      ],
       "correcta": 0,
       "explicacion": "El código de barras indica, por orden: país (84 = España), empresa, producto y un dígito de control.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-059",
-      "pregunta": "Las conservas, semiconservas y la leche esterilizada UHT pertenecen a la…",
-      "opciones": ["Primera gama", "Segunda gama", "Tercera gama", "Quinta gama"],
+      "pregunta": "Las conservas, semiconservas y la leche esterilizada UHT pertenecen a la:",
+      "opciones": [
+        "Primera gama",
+        "Segunda gama",
+        "Tercera gama",
+        "Quinta gama"
+      ],
       "correcta": 1,
       "explicacion": "La segunda gama son alimentos perecederos que han recibido un tratamiento térmico y se envasan en recipientes herméticos (esterilización comercial).",
       "dificultad": 1
     },
     {
       "id": "ca-t01-060",
-      "pregunta": "Una bolsa de ensalada lavada, envasada y lista para consumir pertenece a la…",
-      "opciones": ["Segunda gama", "Tercera gama", "Cuarta gama", "Quinta gama"],
-      "correcta": 2,
-      "explicacion": "La cuarta gama son alimentos frescos sin tratamiento térmico, lavados, seleccionados y envasados (vacío o atmósfera modificada), refrigerados y listos para consumir. Tradicionalmente se aplica a vegetales.",
+      "pregunta": "Respecto a las gamas de alimentos, es FALSO que:",
+      "opciones": [
+        "Los congelados y ultracongelados son de tercera gama.",
+        "Las conservas y la leche UHT son de segunda gama.",
+        "Los platos preparados tratados por calor y envasados, listos para consumir, son de quinta gama.",
+        "Una bolsa de ensalada lavada y envasada, lista para consumir, es de quinta gama."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la ensalada lavada y envasada (fresca, sin tratamiento térmico) es de cuarta gama. Primera: frescos y tradicionales; segunda: conservas; tercera: congelados; quinta: cocinados y envasados.",
       "dificultad": 1
     },
     {
       "id": "ca-t01-061",
-      "pregunta": "Los platos preparados tratados por calor y envasados al vacío o en atmósfera protectora, listos para consumir, son de…",
-      "opciones": ["Primera gama", "Segunda gama", "Tercera gama", "Quinta gama"],
+      "pregunta": "Los platos preparados tratados por calor y envasados al vacío o en atmósfera protectora, listos para consumir, son de:",
+      "opciones": [
+        "Primera gama",
+        "Segunda gama",
+        "Tercera gama",
+        "Quinta gama"
+      ],
       "correcta": 3,
       "explicacion": "La quinta gama son alimentos cocinados, pasteurizados o esterilizados y envasados, listos para consumir y casi siempre refrigerados (legumbres, arroces, pasta, carne en salsa…).",
       "dificultad": 1
     },
     {
       "id": "ca-t01-062",
-      "pregunta": "¿A qué gama pertenecen los alimentos congelados o ultracongelados?",
-      "opciones": ["Tercera gama", "Primera gama", "Cuarta gama", "Segunda gama"],
+      "pregunta": "Los alimentos congelados o ultracongelados pertenecen a la:",
+      "opciones": [
+        "Tercera gama",
+        "Primera gama",
+        "Cuarta gama",
+        "Segunda gama"
+      ],
       "correcta": 0,
       "explicacion": "La tercera gama son los alimentos congelados o ultracongelados (verduras, carne, pescado, helados, platos preparados…).",
       "dificultad": 1
     },
     {
       "id": "ca-t01-063",
-      "pregunta": "Un jamón curado o un producto en salazón, conservado por métodos tradicionales, pertenece a la…",
-      "opciones": ["Segunda gama", "Primera gama", "Cuarta gama", "Quinta gama"],
+      "pregunta": "Un jamón curado o un producto en salazón, conservado por métodos tradicionales, pertenece a la:",
+      "opciones": [
+        "Segunda gama",
+        "Primera gama",
+        "Cuarta gama",
+        "Quinta gama"
+      ],
       "correcta": 1,
       "explicacion": "La primera gama incluye alimentos frescos y perecederos y los conservados por métodos tradicionales (salazón, desecado, curado, maduración, oreado, fermentación, encurtido…).",
       "dificultad": 2
     },
     {
       "id": "ca-t01-064",
-      "pregunta": "¿Cuál de estas es una mención obligatoria dentro de «otras menciones»?",
-      "opciones": ["El código QR", "El punto verde", "Que el alimento ha sido tratado con radiaciones ionizantes (irradiado)", "El Nutri-Score"],
+      "pregunta": "Es una mención obligatoria dentro de «otras menciones»:",
+      "opciones": [
+        "El código QR",
+        "El punto verde",
+        "Que el alimento ha sido tratado con radiaciones ionizantes (irradiado)",
+        "El Nutri-Score"
+      ],
       "correcta": 2,
       "explicacion": "Entre las otras menciones obligatorias están: tratado con radiaciones ionizantes, envasado en atmósfera protectora, aviso para fenilcetonúricos y presencia de OMG. El QR, el punto verde y el Nutri-Score son voluntarios.",
       "dificultad": 2
     },
     {
       "id": "ca-t01-065",
-      "pregunta": "¿En cuál de estos alimentos es obligatorio indicar el país de origen?",
-      "opciones": ["Galletas", "Pan de molde", "Refrescos", "Miel"],
+      "pregunta": "Es obligatorio indicar el país de origen en:",
+      "opciones": [
+        "Galletas",
+        "Pan de molde",
+        "Refrescos",
+        "Miel"
+      ],
       "correcta": 3,
       "explicacion": "El origen es obligatorio cuando omitirlo puede inducir a error y, en concreto, en miel, vegetales, pescado, aceite de oliva y algunos tipos de carne.",
       "dificultad": 2

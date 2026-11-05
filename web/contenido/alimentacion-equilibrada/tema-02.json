@@ -6,360 +6,589 @@
   "preguntas": [
     {
       "id": "ae-t02-001",
-      "pregunta": "¿Cuántas kcal aporta 1 g de hidratos de carbono?",
-      "opciones": ["4 kcal", "9 kcal", "7 kcal", "2 kcal"],
+      "pregunta": "1 g de hidratos de carbono aporta:",
+      "opciones": [
+        "4 kcal.",
+        "9 kcal.",
+        "7 kcal.",
+        "2 kcal."
+      ],
       "correcta": 0,
       "explicacion": "Los hidratos de carbono aportan 4 kcal/g.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-002",
-      "pregunta": "¿Cuál de estas es una función de los hidratos de carbono?",
-      "opciones": ["Solo función reguladora", "Energética, estructural y formar parte del material genético (pentosas del ADN y ARN)", "Transportar oxígeno", "Formar las membranas celulares exclusivamente"],
-      "correcta": 1,
-      "explicacion": "Funciones: energética (4 kcal/g), de reserva (glucógeno, almidón), estructural y genética (ribosa y desoxirribosa).",
-      "dificultad": 1
+      "pregunta": "Señala la opción CORRECTA respecto a las funciones de los hidratos de carbono:",
+      "opciones": [
+        "Tienen función energética (4 kcal/g).",
+        "Tienen función de reserva (glucógeno y almidón).",
+        "Forman parte del material genético (ribosa y desoxirribosa).",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. Funciones de los HC: energética (4 kcal/g), de reserva (glucógeno, almidón), estructural y genética (ribosa y desoxirribosa).",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t02-003",
-      "pregunta": "¿Qué grupos funcionales caracterizan a un hidrato de carbono?",
-      "opciones": ["Solo grupos amino", "Grupos fosfato", "Grupos hidroxilo (-OH) y un grupo carbonilo (C=O)", "Solo grupos carboxilo"],
+      "pregunta": "Los grupos funcionales que caracterizan a un hidrato de carbono son:",
+      "opciones": [
+        "Grupos amino (-NH2) y un grupo carboxilo.",
+        "Grupos fosfato y un grupo hidroxilo.",
+        "Grupos hidroxilo (-OH) y un grupo carbonilo (C=O).",
+        "Grupos carboxilo y un grupo carbonilo."
+      ],
       "correcta": 2,
       "explicacion": "Los glúcidos tienen grupos hidroxilo y un carbonilo. Si no hay grupos hidroxilo, no es un carbohidrato.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-004",
-      "pregunta": "Un monosacárido con grupo aldehído se llama aldosa. ¿Cuál es un ejemplo?",
-      "opciones": ["Fructosa", "Ribulosa", "Sacarosa", "Glucosa"],
+      "pregunta": "Es un ejemplo de aldosa (monosacárido con grupo aldehído):",
+      "opciones": [
+        "Fructosa.",
+        "Ribulosa.",
+        "Sacarosa.",
+        "Glucosa."
+      ],
       "correcta": 3,
       "explicacion": "Aldosa (grupo aldehído): glucosa. Cetosa (grupo cetona): fructosa.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-005",
-      "pregunta": "La fructosa es una…",
-      "opciones": ["Cetosa", "Aldosa", "Pentosa", "Disacárido"],
+      "pregunta": "La fructosa es:",
+      "opciones": [
+        "Una cetosa.",
+        "Una aldosa.",
+        "Una pentosa.",
+        "Un disacárido."
+      ],
       "correcta": 0,
       "explicacion": "La fructosa tiene un grupo cetona: es una cetosa (y una hexosa).",
       "dificultad": 1
     },
     {
       "id": "ae-t02-006",
-      "pregunta": "¿Cuál de estas características NO es propia de los monosacáridos?",
-      "opciones": ["Son dulces", "Se pueden hidrolizar en moléculas más simples", "Son solubles en agua", "Terminan en -osa"],
+      "pregunta": "Respecto a los monosacáridos, es FALSO que:",
+      "opciones": [
+        "Son dulces y solubles en agua.",
+        "Se pueden hidrolizar en moléculas más simples.",
+        "Tienen entre 3 y 8 átomos de carbono.",
+        "Su nombre termina en -osa."
+      ],
       "correcta": 1,
-      "explicacion": "Los monosacáridos (3-8 C) no se pueden hidrolizar; son dulces, solubles en agua, blancos y terminan en -osa.",
+      "explicacion": "Es falso: los monosacáridos no se pueden hidrolizar. Tienen 3-8 C, son dulces, solubles en agua, blancos y terminan en -osa.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-007",
-      "pregunta": "¿Cuál de estos glúcidos es una pentosa?",
-      "opciones": ["Galactosa", "Fructosa", "Arabinosa", "Glucosa"],
+      "pregunta": "Es una pentosa:",
+      "opciones": [
+        "Galactosa.",
+        "Fructosa.",
+        "Arabinosa.",
+        "Glucosa."
+      ],
       "correcta": 2,
       "explicacion": "Pentosas (5 C): xilosa, arabinosa, ribulosa, ribosa, desoxirribosa. Glucosa, fructosa y galactosa son hexosas (6 C).",
       "dificultad": 1
     },
     {
       "id": "ae-t02-008",
-      "pregunta": "¿Qué monosacáridos se consideran fuente de energía?",
-      "opciones": ["Las pentosas", "Las triosas", "Ninguno", "Las hexosas"],
+      "pregunta": "Se consideran monosacáridos fuente de energía:",
+      "opciones": [
+        "Las pentosas.",
+        "Las triosas.",
+        "Ninguno es correcto.",
+        "Las hexosas."
+      ],
       "correcta": 3,
       "explicacion": "Las hexosas (glucosa, fructosa, galactosa) son energéticas; las pentosas no se consideran fuente de energía.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-009",
-      "pregunta": "¿Qué pentosa forma parte del ADN?",
-      "opciones": ["Desoxirribosa", "Ribosa", "Xilosa", "Arabinosa"],
+      "pregunta": "La pentosa que forma parte del ADN es:",
+      "opciones": [
+        "Desoxirribosa",
+        "Ribosa",
+        "Xilosa",
+        "Arabinosa"
+      ],
       "correcta": 0,
       "explicacion": "La desoxirribosa forma parte del ADN y la ribosa del ARN.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-010",
-      "pregunta": "¿Qué otro nombre recibe la glucosa?",
-      "opciones": ["Levulosa", "Dextrosa", "Lactosa", "Sorbitol"],
+      "pregunta": "La glucosa también recibe el nombre de:",
+      "opciones": [
+        "Levulosa",
+        "Dextrosa",
+        "Lactosa",
+        "Sorbitol"
+      ],
       "correcta": 1,
       "explicacion": "Glucosa = dextrosa. Fructosa = levulosa.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-011",
-      "pregunta": "¿Qué monosacáridos forman la lactosa?",
-      "opciones": ["Glucosa + glucosa", "Glucosa + fructosa", "Galactosa + glucosa", "Fructosa + galactosa"],
+      "pregunta": "La lactosa está formada por:",
+      "opciones": [
+        "Glucosa + glucosa",
+        "Glucosa + fructosa",
+        "Galactosa + glucosa",
+        "Fructosa + galactosa"
+      ],
       "correcta": 2,
       "explicacion": "Lactosa = galactosa + glucosa (enlace beta). Maltosa = glucosa + glucosa. Sacarosa = glucosa + fructosa.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-012",
-      "pregunta": "¿Qué disacárido está formado por glucosa + fructosa?",
-      "opciones": ["Lactosa", "Maltosa", "Celobiosa", "Sacarosa"],
-      "correcta": 3,
-      "explicacion": "La sacarosa (azúcar común) es glucosa + fructosa.",
-      "dificultad": 1
+      "pregunta": "Respecto a los disacáridos, señala la opción CORRECTA:",
+      "opciones": [
+        "La sacarosa está formada por glucosa + fructosa.",
+        "La maltosa está formada por glucosa + galactosa.",
+        "La lactosa está formada por glucosa + fructosa.",
+        "a y b son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Solo es cierta la a. Sacarosa = glucosa + fructosa; maltosa = glucosa + glucosa; lactosa = galactosa + glucosa.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t02-013",
-      "pregunta": "¿Qué disacárido está formado por dos glucosas?",
-      "opciones": ["Maltosa", "Sacarosa", "Lactosa", "Trehalosa de fructosa"],
+      "pregunta": "El disacárido formado por dos glucosas es:",
+      "opciones": [
+        "Maltosa.",
+        "Sacarosa.",
+        "Lactosa.",
+        "Celobiosa de fructosa."
+      ],
       "correcta": 0,
       "explicacion": "La maltosa son dos glucosas unidas por enlace alfa.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-014",
-      "pregunta": "¿Cómo se llama el enlace que une dos monosacáridos en un disacárido?",
-      "opciones": ["Peptídico", "O-glucosídico", "Éster", "Fosfodiéster"],
+      "pregunta": "El enlace que une dos monosacáridos en un disacárido se denomina:",
+      "opciones": [
+        "Peptídico",
+        "O-glucosídico",
+        "Éster",
+        "Fosfodiéster"
+      ],
       "correcta": 1,
       "explicacion": "El enlace O-glucosídico se forma liberando una molécula de agua (H2O).",
       "dificultad": 1
     },
     {
       "id": "ae-t02-015",
-      "pregunta": "¿Cuántos monosacáridos forman un oligosacárido?",
-      "opciones": ["Solo 1", "Más de 10", "De 2 a 10", "Más de 100"],
+      "pregunta": "Un oligosacárido está formado por:",
+      "opciones": [
+        "1 monosacárido.",
+        "Más de 10 monosacáridos.",
+        "De 2 a 10 monosacáridos.",
+        "Más de 100 monosacáridos."
+      ],
       "correcta": 2,
       "explicacion": "Monosacáridos: 1 unidad. Oligosacáridos: 2-10 (p. ej., sacarosa). Polisacáridos: más de 10 (p. ej., celulosa).",
       "dificultad": 1
     },
     {
       "id": "ae-t02-016",
-      "pregunta": "¿Cuál de estos es un polisacárido?",
-      "opciones": ["Sacarosa", "Lactosa", "Glucosa", "Celulosa"],
+      "pregunta": "Es un polisacárido:",
+      "opciones": [
+        "Sacarosa",
+        "Lactosa",
+        "Glucosa",
+        "Celulosa"
+      ],
       "correcta": 3,
       "explicacion": "La celulosa, el almidón y el glucógeno son polisacáridos (más de 10 monosacáridos).",
       "dificultad": 1
     },
     {
       "id": "ae-t02-017",
-      "pregunta": "¿Qué son las osaminas, como la glucosamina?",
-      "opciones": ["Monosacáridos derivados en los que un -OH se sustituye por un -NH2", "Polialcoholes", "Disacáridos", "Azúcares ácidos"],
+      "pregunta": "Las osaminas, como la glucosamina, son:",
+      "opciones": [
+        "Monosacáridos derivados en los que un -OH se sustituye por un -NH2.",
+        "Monosacáridos derivados en los que el grupo carbonilo se reduce a alcohol.",
+        "Monosacáridos derivados en los que el grupo aldehído se oxida a -COOH.",
+        "Monosacáridos derivados en los que un -OH se sustituye por un -H."
+      ],
       "correcta": 0,
-      "explicacion": "Derivados de monosacáridos: osaminas (-OH → -NH2), polialcoholes (C=O → OH), azúcares ácidos (aldehído → COOH) y desoxiazúcares (-OH → -H).",
+      "explicacion": "Osaminas: -OH → -NH2. Polialcoholes: C=O → OH. Azúcares ácidos: aldehído → COOH. Desoxiazúcares: -OH → -H.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-018",
-      "pregunta": "El sorbitol es un…",
-      "opciones": ["Azúcar ácido", "Polialcohol: el grupo carbonilo se reduce a grupo alcohol", "Desoxiazúcar", "Disacárido"],
+      "pregunta": "El sorbitol es:",
+      "opciones": [
+        "Un azúcar ácido.",
+        "Un polialcohol.",
+        "Un desoxiazúcar.",
+        "Un disacárido."
+      ],
       "correcta": 1,
-      "explicacion": "El sorbitol es un polialcohol. El ácido glucónico es un azúcar ácido y la desoxirribosa, un desoxiazúcar.",
+      "explicacion": "El sorbitol es un polialcohol (el grupo carbonilo se reduce a alcohol). El ácido glucónico es un azúcar ácido y la desoxirribosa, un desoxiazúcar.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-019",
-      "pregunta": "¿Qué son las dextrinas límite?",
-      "opciones": ["Fibra insoluble", "Monosacáridos derivados", "Fragmentos de menos de 5 glucosas que resultan de la acción de las enzimas salivares sobre el almidón", "Un tipo de goma industrial"],
+      "pregunta": "Las dextrinas límite son:",
+      "opciones": [
+        "Fibra insoluble.",
+        "Monosacáridos derivados.",
+        "Fragmentos de menos de 5 glucosas que resultan de la acción de las enzimas salivares sobre el almidón.",
+        "Fragmentos de más de 10 glucosas que resultan de la acción de la lactasa sobre el glucógeno."
+      ],
       "correcta": 2,
       "explicacion": "Las dextrinas límite son oligosacáridos que se forman cuando la amilasa salival actúa sobre el almidón.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-020",
-      "pregunta": "¿Qué diferencia hay entre homopolisacáridos y heteropolisacáridos?",
-      "opciones": ["Los homopolisacáridos tienen monosacáridos distintos", "No hay diferencia", "Los heteropolisacáridos solo tienen glucosa", "Los homopolisacáridos están formados por monosacáridos iguales (almidón, glucógeno, celulosa) y los heteropolisacáridos, por distintos"],
+      "pregunta": "Respecto a los polisacáridos, es FALSO que:",
+      "opciones": [
+        "Los homopolisacáridos están formados por monosacáridos iguales.",
+        "El almidón, el glucógeno y la celulosa son homopolisacáridos.",
+        "La goma xantana es un heteropolisacárido de uso industrial.",
+        "La hemicelulosa es un homopolisacárido de reserva animal."
+      ],
       "correcta": 3,
-      "explicacion": "Homopolisacáridos: almidón, glucógeno, celulosa. Heteropolisacáridos: industriales (goma xantana) y fibra dietética (hemicelulosa).",
+      "explicacion": "Es falso: la hemicelulosa es un heteropolisacárido de la fibra dietética. Homopolisacáridos: almidón, glucógeno, celulosa. Heteropolisacáridos: industriales (goma xantana) y fibra (hemicelulosa).",
       "dificultad": 2
     },
     {
       "id": "ae-t02-021",
-      "pregunta": "¿Cuál de estos es un heteropolisacárido de uso industrial?",
-      "opciones": ["Goma xantana", "Almidón", "Glucógeno", "Celulosa"],
+      "pregunta": "Es un heteropolisacárido de uso industrial:",
+      "opciones": [
+        "Goma xantana",
+        "Almidón",
+        "Glucógeno",
+        "Celulosa"
+      ],
       "correcta": 0,
       "explicacion": "La goma xantana es un heteropolisacárido industrial; la hemicelulosa es un heteropolisacárido de la fibra dietética.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-022",
-      "pregunta": "¿Cómo se define la fibra?",
-      "opciones": ["Un hidrato de carbono simple", "Un hidrato de carbono complejo no hidrolizable", "Una proteína vegetal", "Un tipo de grasa"],
+      "pregunta": "La fibra se define como:",
+      "opciones": [
+        "Un hidrato de carbono simple.",
+        "Un hidrato de carbono complejo no hidrolizable por nuestras enzimas.",
+        "Un hidrato de carbono complejo que se hidroliza totalmente en el intestino delgado.",
+        "Un oligosacárido de reserva vegetal."
+      ],
       "correcta": 1,
       "explicacion": "La fibra es un hidrato de carbono complejo que nuestras enzimas no pueden hidrolizar.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-023",
-      "pregunta": "¿Cuál de estas es fibra SOLUBLE?",
-      "opciones": ["Celulosa", "Lignina", "Pectina", "Salvado de trigo"],
-      "correcta": 2,
-      "explicacion": "Solubles: inulina, pectina, gomas, mucílagos, algunas hemicelulosas, almidón resistente y FOS. Insolubles: celulosa, lignina, hemicelulosa (salvado de trigo).",
-      "dificultad": 1
+      "pregunta": "Son fibras solubles:",
+      "opciones": [
+        "Celulosa.",
+        "Pectina.",
+        "Inulina.",
+        "b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Pectina e inulina son solubles (también gomas, mucílagos, almidón resistente y FOS). La celulosa es insoluble.",
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t02-024",
-      "pregunta": "¿Cuál de estas es fibra INSOLUBLE?",
-      "opciones": ["Inulina", "Gomas", "FOS", "Lignina"],
+      "pregunta": "Es una fibra insoluble:",
+      "opciones": [
+        "Inulina",
+        "Gomas",
+        "FOS",
+        "Lignina"
+      ],
       "correcta": 3,
       "explicacion": "La celulosa, la lignina y la hemicelulosa (salvado de trigo) son fibras insolubles.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-025",
-      "pregunta": "¿Qué efecto tiene la fibra soluble sobre el tránsito intestinal?",
-      "opciones": ["Lo enlentece, porque capta agua y forma geles viscosos", "Lo acelera mucho", "No influye", "Provoca siempre diarrea"],
+      "pregunta": "Señala la opción CORRECTA respecto a la fibra soluble:",
+      "opciones": [
+        "Capta agua, forma geles viscosos y enlentece el tránsito intestinal.",
+        "Acelera el tránsito intestinal y aumenta el volumen de las heces.",
+        "Es poco fermentable por la microbiota (15-50 %).",
+        "Es la más indicada en el estreñimiento."
+      ],
       "correcta": 0,
-      "explicacion": "La fibra soluble forma geles, enlentece el tránsito, reduce en parte la absorción de grasas y azúcares y los picos de insulina. Es útil en la diarrea.",
+      "explicacion": "La fibra soluble forma geles, enlentece el tránsito, reduce en parte la absorción de grasas y azúcares y es muy fermentable (80-95 %). Acelerar el tránsito y ser útil en el estreñimiento es propio de la insoluble.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-026",
-      "pregunta": "¿Qué tipo de fibra es más útil en el estreñimiento?",
-      "opciones": ["Soluble", "Insoluble, porque acelera el tránsito y aumenta el volumen de las heces", "Ninguna", "Las dos están contraindicadas"],
+      "pregunta": "En el estreñimiento es más útil la fibra:",
+      "opciones": [
+        "Soluble, porque forma geles viscosos.",
+        "Insoluble, porque acelera el tránsito y aumenta el volumen de las heces.",
+        "Soluble, porque es muy fermentable.",
+        "Insoluble, porque enlentece el tránsito."
+      ],
       "correcta": 1,
       "explicacion": "La insoluble acelera el tránsito y aumenta el volumen y consistencia de las heces; útil en el estreñimiento. La soluble se asocia más a la diarrea.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-027",
-      "pregunta": "¿Qué fibra es muy fermentable por la microbiota (80-95 %)?",
-      "opciones": ["La insoluble", "La lignina", "La soluble", "Ninguna fermenta"],
+      "pregunta": "La fibra muy fermentable por la microbiota (80-95 %) es:",
+      "opciones": [
+        "La insoluble.",
+        "La lignina.",
+        "La soluble.",
+        "La celulosa."
+      ],
       "correcta": 2,
       "explicacion": "La fibra soluble es muy fermentable (80-95 %); la insoluble, poco (15-50 %).",
       "dificultad": 2
     },
     {
       "id": "ae-t02-028",
-      "pregunta": "¿Qué minerales puede reducir la fibra soluble en su absorción?",
-      "opciones": ["Sodio y potasio", "Cloro y yodo", "Flúor y selenio", "Zinc, hierro, magnesio y calcio"],
+      "pregunta": "La fibra soluble puede reducir la absorción de:",
+      "opciones": [
+        "Sodio y potasio",
+        "Cloro y yodo",
+        "Flúor y selenio",
+        "Zinc, hierro, magnesio y calcio"
+      ],
       "correcta": 3,
       "explicacion": "La fibra soluble puede reducir la absorción de Zn, Fe, Mg y Ca.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-029",
-      "pregunta": "¿Cuáles son los requerimientos de fibra para una mujer adulta?",
-      "opciones": ["22-25 g/día", "10-12 g/día", "30-35 g/día", "50-60 g/día"],
+      "pregunta": "Los requerimientos de fibra de una mujer adulta son de:",
+      "opciones": [
+        "22-25 g/día",
+        "10-12 g/día",
+        "30-35 g/día",
+        "50-60 g/día"
+      ],
       "correcta": 0,
       "explicacion": "Mujeres: 22-25 g/día. Hombres: 30-35 g/día.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-030",
-      "pregunta": "¿Cuáles son los requerimientos de fibra para un hombre adulto?",
-      "opciones": ["22-25 g/día", "30-35 g/día", "15-20 g/día", "45-50 g/día"],
+      "pregunta": "Respecto a los requerimientos de fibra, señala la opción CORRECTA:",
+      "opciones": [
+        "Mujeres: 30-35 g/día; hombres: 22-25 g/día.",
+        "Mujeres: 22-25 g/día; hombres: 30-35 g/día.",
+        "Mujeres y hombres: 15-20 g/día.",
+        "Mujeres y hombres: 45-50 g/día."
+      ],
       "correcta": 1,
       "explicacion": "Los hombres necesitan 30-35 g de fibra al día.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-031",
-      "pregunta": "¿Qué indica el índice glucémico (IG)?",
-      "opciones": ["El impacto glucémico de una ración real", "Las calorías del alimento", "Solo la elevación de la glucosa en sangre según el tipo de hidrato de carbono", "La cantidad de fibra"],
+      "pregunta": "El índice glucémico (IG):",
+      "opciones": [
+        "Refleja el impacto glucémico de una ración real.",
+        "Depende de las calorías del alimento.",
+        "Mide solo la elevación de la glucosa en sangre según el tipo de hidrato de carbono.",
+        "Es mejor indicador que la carga glucémica."
+      ],
       "correcta": 2,
       "explicacion": "El IG depende del tipo de HC y mide solo la elevación de la glucemia; es peor indicador que la carga glucémica.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-032",
-      "pregunta": "¿Por qué la carga glucémica es mejor indicador que el índice glucémico?",
-      "opciones": ["Porque solo depende del tipo de azúcar", "Porque no tiene en cuenta la ración", "Porque es más fácil de medir", "Porque considera el tipo de HC y la cantidad de HC por ración (impacto de porciones reales)"],
+      "pregunta": "La carga glucémica es mejor indicador que el índice glucémico porque:",
+      "opciones": [
+        "Solo depende del tipo de azúcar.",
+        "No tiene en cuenta la ración.",
+        "Es más fácil de medir en el laboratorio.",
+        "Considera el tipo de HC y la cantidad de HC por ración."
+      ],
       "correcta": 3,
       "explicacion": "La CG combina IG y cantidad de hidratos de carbono de la ración real.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-033",
-      "pregunta": "¿Cuál es la fórmula de la carga glucémica?",
-      "opciones": ["CG = (IG × g de HC) / 100", "CG = IG × 100", "CG = IG / g de HC", "CG = g de HC × 4"],
+      "pregunta": "La fórmula de la carga glucémica es:",
+      "opciones": [
+        "CG = (IG × g de HC) / 100",
+        "CG = IG × 100",
+        "CG = IG / g de HC",
+        "CG = g de HC × 4"
+      ],
       "correcta": 0,
       "explicacion": "CG = (índice glucémico × gramos de hidratos de carbono) / 100.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-034",
-      "pregunta": "¿A partir de qué valor la carga glucémica se considera ALTA?",
-      "opciones": ["> 5", "> 20", "> 10", "> 50"],
+      "pregunta": "La carga glucémica se considera ALTA a partir de:",
+      "opciones": [
+        "5.",
+        "20.",
+        "10.",
+        "50."
+      ],
       "correcta": 1,
       "explicacion": "CG > 20: alta; 10-20: media; < 10: baja.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-035",
-      "pregunta": "Un alimento con IG 62 tiene 20 g de HC por 100 g. ¿Cuál es su CG por 100 g?",
-      "opciones": ["6,2", "20", "12,4", "31"],
+      "pregunta": "Un alimento con IG 62 tiene 20 g de HC por 100 g. Su CG por 100 g es:",
+      "opciones": [
+        "6,2",
+        "20",
+        "12,4",
+        "31"
+      ],
       "correcta": 2,
       "explicacion": "CG = (62 × 20) / 100 = 12,4 por cada 100 g.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-036",
-      "pregunta": "Siguiendo con ese alimento (CG 12,4 por 100 g), ¿cuál es la CG de una ración de 80 g y cómo se clasifica?",
-      "opciones": ["12,4: media", "15,5: media", "24,8: alta", "9,92: baja"],
+      "pregunta": "Siguiendo con ese alimento (CG 12,4 por 100 g), la CG de una ración de 80 g es:",
+      "opciones": [
+        "12,4: media",
+        "15,5: media",
+        "24,8: alta",
+        "9,92: baja"
+      ],
       "correcta": 3,
       "explicacion": "12,4 × 80 / 100 = 9,92 → CG baja (< 10). Es un ejemplo de IG moderado con CG baja.",
       "dificultad": 3
     },
     {
       "id": "ae-t02-037",
-      "pregunta": "Un alimento con IG 70 y 30 g de HC por ración, ¿qué carga glucémica tiene?",
-      "opciones": ["21 (alta)", "7 (baja)", "10 (media)", "2,1 (baja)"],
+      "pregunta": "Un alimento con IG 70 aporta 30 g de HC por ración. Su carga glucémica es:",
+      "opciones": [
+        "21 (alta)",
+        "7 (baja)",
+        "10 (media)",
+        "2,1 (baja)"
+      ],
       "correcta": 0,
       "explicacion": "(70 × 30) / 100 = 21 → CG alta (> 20).",
       "dificultad": 2
     },
     {
       "id": "ae-t02-038",
-      "pregunta": "¿Qué componentes forman el almidón?",
-      "opciones": ["Celulosa y lignina", "Amilosa y amilopectina", "Glucosa y fructosa", "Pectina y gomas"],
+      "pregunta": "El almidón está formado por:",
+      "opciones": [
+        "Celulosa y lignina",
+        "Amilosa y amilopectina",
+        "Glucosa y fructosa",
+        "Pectina y gomas"
+      ],
       "correcta": 1,
       "explicacion": "El almidón está formado por amilosa y amilopectina; su proporción influye en el índice glucémico.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-039",
-      "pregunta": "¿Cuál de estos es un efecto perjudicial del exceso de hidratos de carbono simples?",
-      "opciones": ["Hipotiroidismo", "Anemia", "Caries dental", "Osteoporosis"],
-      "correcta": 2,
-      "explicacion": "Efectos perjudiciales: obesidad, hipertrigliceridemia, diabetes y caries dental. También existen intolerancias (lactosa, galactosa, fructosa-sorbitol).",
+      "pregunta": "Respecto al exceso de hidratos de carbono simples, es FALSO que:",
+      "opciones": [
+        "Se relaciona con la obesidad.",
+        "Se relaciona con la hipertrigliceridemia.",
+        "Se relaciona con la caries dental.",
+        "Protege frente a la diabetes."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: el exceso de HC simples se relaciona con obesidad, hipertrigliceridemia, diabetes y caries dental.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-040",
-      "pregunta": "¿Qué recomienda la OMS sobre los azúcares libres para prevenir enfermedades crónicas y controlar el peso?",
-      "opciones": ["Menos del 30 % del VCT", "Menos del 20 % del VCT", "Menos del 15 % del VCT", "Menos del 10 % del VCT"],
+      "pregunta": "Para prevenir enfermedades crónicas y controlar el peso, la OMS recomienda que los azúcares libres supongan:",
+      "opciones": [
+        "Menos del 30 % del VCT",
+        "Menos del 20 % del VCT",
+        "Menos del 15 % del VCT",
+        "Menos del 10 % del VCT"
+      ],
       "correcta": 3,
       "explicacion": "< 10 % del valor calórico total (VCT); bajar a < 5 % aporta beneficios adicionales frente a obesidad y caries.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-041",
-      "pregunta": "¿Qué beneficio adicional tiene reducir los azúcares libres por debajo del 5 % del VCT?",
-      "opciones": ["Beneficios adicionales en obesidad y caries dental", "Aumenta la masa muscular", "Mejora la absorción del hierro", "Ninguno"],
+      "pregunta": "Reducir los azúcares libres por debajo del 5 % del VCT:",
+      "opciones": [
+        "Aporta beneficios adicionales en obesidad y caries dental.",
+        "Aumenta la masa muscular.",
+        "Mejora la absorción del hierro.",
+        "No aporta beneficios adicionales frente al 10 %."
+      ],
       "correcta": 0,
       "explicacion": "Por debajo del 5 % del VCT se obtienen beneficios adicionales en obesidad y caries dental.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-042",
-      "pregunta": "¿Qué intolerancias se citan relacionadas con los hidratos de carbono?",
-      "opciones": ["Gluten y caseína", "Lactosa, galactosa y fructosa-sorbitol", "Histamina y níquel", "Sulfitos y tartrazina"],
+      "pregunta": "Las intolerancias relacionadas con los hidratos de carbono que se citan en el tema son:",
+      "opciones": [
+        "Gluten y caseína",
+        "Lactosa, galactosa y fructosa-sorbitol",
+        "Histamina y níquel",
+        "Sulfitos y tartrazina"
+      ],
       "correcta": 1,
       "explicacion": "Las intolerancias citadas son a la lactosa, la galactosa y la fructosa-sorbitol.",
       "dificultad": 2
     },
     {
       "id": "ae-t02-043",
-      "pregunta": "¿Cómo se almacena la glucosa en los animales y en las plantas?",
-      "opciones": ["Como celulosa en ambos", "Como sacarosa en ambos", "Como glucógeno en los animales y almidón en las plantas", "Como lactosa en los animales"],
+      "pregunta": "La glucosa se almacena:",
+      "opciones": [
+        "Como celulosa en animales y plantas.",
+        "Como almidón en los animales y glucógeno en las plantas.",
+        "Como glucógeno en los animales y almidón en las plantas.",
+        "Como sacarosa en animales y plantas."
+      ],
       "correcta": 2,
       "explicacion": "Glucógeno (glucogenogénesis) en animales y almidón en plantas son las formas de reserva.",
       "dificultad": 1
     },
     {
       "id": "ae-t02-044",
-      "pregunta": "¿Qué otro nombre recibe la fructosa?",
-      "opciones": ["Dextrosa", "Maltosa", "Galactosa", "Levulosa"],
-      "correcta": 3,
+      "pregunta": "Respecto a los nombres de los monosacáridos, señala la opción CORRECTA:",
+      "opciones": [
+        "Glucosa = levulosa.",
+        "Fructosa = dextrosa.",
+        "Fructosa = levulosa.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
       "explicacion": "Fructosa = levulosa; glucosa = dextrosa.",
-      "dificultad": 1
+      "dificultad": 1,
+      "orden_fijo": true
     },
     {
       "id": "ae-t02-045",
-      "pregunta": "¿Qué tipo de enlace tiene la lactosa?",
-      "opciones": ["Beta", "Alfa", "Peptídico", "Éster"],
+      "pregunta": "La lactosa presenta un enlace:",
+      "opciones": [
+        "Beta.",
+        "Alfa.",
+        "Peptídico.",
+        "Éster."
+      ],
       "correcta": 0,
       "explicacion": "La lactosa tiene enlace beta; la maltosa y la sacarosa, enlace alfa.",
       "dificultad": 3
