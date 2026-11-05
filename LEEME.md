@@ -9,7 +9,7 @@ Web publicada: https://googol-ia.github.io/nutritest-julie/ (repo `Googol-IA/nut
 
 | Fase | Estado |
 |---|---|
-| 1. Proyecto + SQL de Supabase | ✅ Hecho — **falta ejecutar el SQL en Supabase** (mientras, modo local) |
+| 1. Proyecto + SQL de Supabase | ✅ Hecho y conectado (proyecto `aekyogcjrwbdzvrfcmaf`, esquema `dietetica`) |
 | 2. Web completa | ✅ Hecho y probado |
 | 3. GitHub + publicación automática | ✅ Hecho |
 | 4. Preguntas | ✅ Control alimentario T1-T5, Dietoterapia T1-T4, Alimentación equilibrada T1-T4 (652 preguntas) |
