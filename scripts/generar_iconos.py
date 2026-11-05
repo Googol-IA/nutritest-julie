@@ -22,11 +22,16 @@ def icono(tam: int, redondeo: bool = True) -> Image.Image:
     d.ellipse([170 * k, 260 * k, 342 * k, 400 * k], fill=BLANCO)
     # Hoja
     d.polygon([(256 * k, 150 * k), (276 * k, 95 * k), (316 * k, 70 * k), (300 * k, 120 * k)], fill=VERDE_CLARO)
-    # Check
-    d.line([(196 * k, 262 * k), (240 * k, 306 * k), (324 * k, 214 * k)], fill=VERDE, width=int(34 * k), joint="curve")
-    for x, y in [(196, 262), (324, 214)]:
-        r = 17 * k
-        d.ellipse([x * k - r, y * k - r, x * k + r, y * k + r], fill=VERDE)
+    # J de Julie: barra superior + palo + curva inferior (mismo trazo que icono.svg)
+    g = 36  # grosor
+    d.line([(236 * k, 208 * k), (316 * k, 208 * k)], fill=VERDE, width=int(g * k))
+    d.line([(290 * k, 208 * k), (290 * k, 288 * k)], fill=VERDE, width=int(g * k))
+    cx, cy, r = 252, 288, 38
+    ext = r + g / 2
+    d.arc([(cx - ext) * k, (cy - ext) * k, (cx + ext) * k, (cy + ext) * k], 0, 180, fill=VERDE, width=int(g * k))
+    for x, y in [(236, 208), (316, 208), (214, 288), (290, 208)]:  # extremos redondeados
+        rr = g / 2 * k
+        d.ellipse([x * k - rr, y * k - rr, x * k + rr, y * k + rr], fill=VERDE)
     return img.resize((tam, tam), Image.LANCZOS)
 
 

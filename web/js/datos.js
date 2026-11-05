@@ -90,6 +90,7 @@ const remoto = {
   listarPerfiles: () => api('perfiles?select=*&order=nombre.asc'),
   crearPerfil: async (p) => (await api('perfiles', { metodo: 'POST', cuerpo: p, prefer: 'return=representation' }))[0],
   borrarPerfil: (id) => api(`perfiles?id=eq.${id}`, { metodo: 'DELETE' }),
+  actualizarPerfil: async (id, cambios) => (await api(`perfiles?id=eq.${id}`, { metodo: 'PATCH', cuerpo: cambios, prefer: 'return=representation' }))[0],
   guardarRespuesta: (r) => insertarConCola('respuestas', r, 'r'),
   guardarExamen: (e) => insertarConCola('examenes', e, 'e'),
   progresoTemas: (id) => api(`progreso_temas?perfil_id=eq.${id}&select=libro,tema,respondidas,aciertos,vistas,dominadas`),
@@ -135,6 +136,11 @@ const local = {
     const nuevo = { ...p, id: crypto.randomUUID(), creado_en: new Date().toISOString() };
     escribir(L.perfiles, [...leer(L.perfiles, []), nuevo]);
     return nuevo;
+  },
+  async actualizarPerfil(id, cambios) {
+    const lista = leer(L.perfiles, []).map(p => (p.id === id ? { ...p, ...cambios } : p));
+    escribir(L.perfiles, lista);
+    return lista.find(p => p.id === id);
   },
   async borrarPerfil(id) {
     escribir(L.perfiles, leer(L.perfiles, []).filter(p => p.id !== id));

@@ -591,3 +591,15 @@ a.fila-examen:hover { box-shadow: 0 0 0 2px var(--primario), var(--sombra); }
   .lista-examenes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .est-extra .lista-examenes { grid-template-columns: 1fr; }
 }
+
+/* ---------- Editar perfil ---------- */
+.saludo-cabecera { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: .5em; }
+.saludo-cabecera h1 { margin: 0; }
+.saludo-cabecera .enlace-suave { flex: none; text-decoration: none; }
+.perfil-gestion { display: flex; gap: 6px; }
+.perfil-gestion > * { flex: 1; font-size: .9rem; white-space: nowrap; padding: 0 6px; }
+.perfil-editar {
+  display: grid; place-items: center; min-height: 44px; border-radius: 999px; font-weight: 800; text-decoration: none;
+  background: var(--primario-suave); color: var(--primario-fuerte);
+}
+.formulario > .enlace-suave { align-self: center; }

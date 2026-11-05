@@ -139,7 +139,7 @@ async function router() {
   principal.dataset.pantalla = ruta || 'inicio';   // para los estilos de escritorio
   try {
     await cargarCatalogo();
-    if (!estado.perfil && !['perfiles', 'nuevo'].includes(ruta)) {
+    if (!estado.perfil && !['perfiles', 'nuevo', 'editar'].includes(ruta)) {
       const id = perfilRecordado();
       if (id) estado.perfil = (await datos.listarPerfiles()).find(p => p.id === id) || null;
       if (!estado.perfil) return ir('perfiles');
@@ -151,6 +151,7 @@ async function router() {
     switch (ruta) {
       case 'perfiles': return pantallaPerfiles(args[0] === 'gestionar');
       case 'nuevo': return pantallaNuevoPerfil();
+      case 'editar': return pantallaEditarPerfil(args[0]);
       case 'libro': return pantallaLibro(args[0]);
       case 'config': return pantallaConfig(args[0]);
       case 'test': return estado.sesion ? pantallaPregunta() : ir('inicio');
@@ -196,7 +197,10 @@ async function pantallaPerfiles(gestionar = false) {
             <span class="perfil-avatar" aria-hidden="true">${esc(p.avatar)}</span>
             <span class="perfil-nombre">${esc(p.nombre)}</span>
           </button>
-          ${gestionar ? `<button class="perfil-borrar" type="button" data-borrar="${p.id}" aria-label="Borrar el perfil de ${esc(p.nombre)}">Borrar</button>` : ''}
+          ${gestionar ? `<div class="perfil-gestion">
+            <a class="perfil-editar" href="#/editar/${p.id}" aria-label="Editar el perfil de ${esc(p.nombre)}">✏️ Editar</a>
+            <button class="perfil-borrar" type="button" data-borrar="${p.id}" aria-label="Borrar el perfil de ${esc(p.nombre)}">Borrar</button>
+          </div>` : ''}
         </li>`).join('')}
       <li><a class="perfil perfil-nuevo" href="#/nuevo"><span class="perfil-avatar" aria-hidden="true">＋</span><span class="perfil-nombre">Nuevo perfil</span></a></li>
     </ul>
@@ -219,40 +223,65 @@ async function pantallaPerfiles(gestionar = false) {
 
 function pantallaNuevoPerfil() {
   estado.perfil = null;
+  formularioPerfil(null);
+}
+
+async function pantallaEditarPerfil(id) {
+  cargando();
+  const p = (await datos.listarPerfiles()).find(x => x.id === id);
+  if (!p) return ir('perfiles');
+  formularioPerfil(p);
+}
+
+// Crear (p = null) o editar (p = perfil existente) nombre y fruta
+function formularioPerfil(p) {
+  const editar = !!p;
+  const actual = editar ? Math.max(0, AVATARES.findIndex(([a]) => a === p.avatar)) : 0;
+  const esPropio = editar && estado.perfil?.id === p.id;
+  const volver = esPropio ? 'inicio' : editar ? 'perfiles/gestionar' : 'perfiles';
+  const textoBoton = editar ? 'Guardar cambios' : 'Crear y empezar';
   pintar(`
     <form class="tarjeta formulario" id="form-perfil" novalidate>
-      <h1>Nuevo perfil</h1>
+      <h1>${editar ? 'Editar perfil' : 'Nuevo perfil'}</h1>
       <label class="campo">
-        <span>¿Cómo te llamas?</span>
-        <input id="nombre" name="nombre" type="text" maxlength="40" autocomplete="given-name" autocapitalize="words" required placeholder="Por ejemplo, Julie">
+        <span>${editar ? 'Nombre' : '¿Cómo te llamas?'}</span>
+        <input id="nombre" name="nombre" type="text" maxlength="40" autocomplete="given-name" autocapitalize="words" required placeholder="Por ejemplo, Julie" value="${editar ? esc(p.nombre) : ''}">
       </label>
       <fieldset class="campo">
         <legend>Elige tu fruta</legend>
         <div class="avatares">
           ${AVATARES.map(([a, c], i) => `
             <label class="avatar-opcion" style="--c:${c}">
-              <input type="radio" name="avatar" value="${i}" ${i === 0 ? 'checked' : ''}>
+              <input type="radio" name="avatar" value="${i}" ${i === actual ? 'checked' : ''}>
               <span aria-hidden="true">${a}</span><span class="solo-lector">${a}</span>
             </label>`).join('')}
         </div>
       </fieldset>
       <p class="error-campo" id="error-nombre" role="alert"></p>
-      <button class="boton boton-grande" type="submit">Crear y empezar</button>
-    </form>`, { volver: 'perfiles', titulo: 'Nuevo perfil' });
-  $('#nombre').focus();
+      <button class="boton boton-grande" type="submit">${textoBoton}</button>
+      ${editar ? `<a class="enlace-suave centro" href="#/${volver}">Cancelar</a>` : ''}
+    </form>`, { volver, titulo: editar ? 'Editar perfil' : 'Nuevo perfil' });
+  if (!editar) $('#nombre').focus();
   $('#form-perfil').onsubmit = async (ev) => {
     ev.preventDefault();
     const nombre = $('#nombre').value.trim();
     if (!nombre) { $('#error-nombre').textContent = 'Escribe un nombre para el perfil.'; $('#nombre').focus(); return; }
     const [avatar, color] = AVATARES[Number(new FormData(ev.target).get('avatar'))];
     const boton = $('button[type=submit]', ev.target);
-    boton.disabled = true; boton.textContent = 'Creando…';
+    boton.disabled = true; boton.textContent = 'Guardando…';
     try {
-      estado.perfil = await datos.crearPerfil({ nombre, avatar, color });
-      recordarPerfil(estado.perfil.id);
-      avisar(`¡Bienvenida, ${nombre}!`);
-      ir('inicio');
-    } catch (e) { boton.disabled = false; boton.textContent = 'Crear y empezar'; error(e); }
+      if (editar) {
+        const nuevo = await datos.actualizarPerfil(p.id, { nombre, avatar, color });
+        if (esPropio) estado.perfil = nuevo;
+        avisar('Perfil actualizado');
+        ir(volver);
+      } else {
+        estado.perfil = await datos.crearPerfil({ nombre, avatar, color });
+        recordarPerfil(estado.perfil.id);
+        avisar(`¡Bienvenida, ${nombre}!`);
+        ir('inicio');
+      }
+    } catch (e) { boton.disabled = false; boton.textContent = textoBoton; error(e); }
   };
 }
 
@@ -272,7 +301,10 @@ async function pantallaInicio() {
   pintar(`
     <div class="inicio">
     <section class="saludo inicio-saludo">
-      <h1>¡Hola, ${esc(estado.perfil.nombre)}! <span aria-hidden="true">👋</span></h1>
+      <div class="saludo-cabecera">
+        <h1>¡Hola, ${esc(estado.perfil.nombre)}! <span aria-hidden="true">👋</span></h1>
+        <a class="enlace-suave" href="#/editar/${estado.perfil.id}" aria-label="Editar mi perfil (nombre y fruta)">✏️ Editar</a>
+      </div>
       <div class="racha ${racha ? 'activa' : ''}">
         <span class="racha-fuego" aria-hidden="true">🔥</span>
         <div>
