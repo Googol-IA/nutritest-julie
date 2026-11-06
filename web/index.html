@@ -2,45 +2,33 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>NutriTest de Julie · FP Superior de Dietética</title>
-  <meta name="description" content="Tests de estudio para el FP Superior de Dietética, hechos para Julie y sus compañeras.">
-  <meta name="theme-color" content="#2f9e5b" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#14201a" media="(prefers-color-scheme: dark)">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="iconos/icono.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="iconos/icono-180.png">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="NutriTest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NutriTest se ha mudado</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://nutritest-julie.netlify.app/">
+  <meta http-equiv="refresh" content="3; url=https://nutritest-julie.netlify.app/">
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px; box-sizing: border-box;
+           font-family: system-ui, sans-serif; background: #f6f8f1; color: #1d2b22; text-align: center; }
+    @media (prefers-color-scheme: dark) { body { background: #121a15; color: #e8efe9; } }
+    main { max-width: 440px; }
+    .icono { font-size: 3.5rem; }
+    a { display: inline-block; margin-top: 16px; padding: 14px 24px; border-radius: 99px; background: #2f9e5b;
+        color: #fff; font-weight: 800; text-decoration: none; }
+  </style>
 </head>
 <body>
-  <a class="saltar" href="#principal">Saltar al contenido</a>
-  <header class="barra" id="barra">
-    <button class="barra-volver" id="volver" type="button" aria-label="Volver" hidden>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
-    </button>
-    <div class="barra-titulo" id="barra-titulo">
-      <img class="barra-logo" src="iconos/icono.svg" alt="" width="40" height="40">
-      <div class="barra-textos">
-        <span class="marca">NutriTest <em>de Julie</em></span>
-        <span class="sub">FP Superior de Dietética</span>
-      </div>
-    </div>
-    <nav class="barra-nav" id="barra-nav" aria-label="Secciones">
-      <a href="#/inicio" data-nav="inicio">Inicio</a>
-      <a href="#/estadisticas" data-nav="estadisticas">Estadísticas</a>
-      <a href="#/historial" data-nav="historial">Historial</a>
-      <a href="#/ranking" data-nav="ranking">Ranking</a>
-    </nav>
-    <span class="barra-nombre" id="barra-nombre" aria-hidden="true"></span>
-    <button class="barra-perfil" id="barra-perfil" type="button" aria-label="Cambiar de perfil" hidden></button>
-  </header>
-  <main id="principal" tabindex="-1"></main>
-  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
-  <script type="module" src="js/app.js"></script>
+  <main>
+    <div class="icono" aria-hidden="true">🥗</div>
+    <h1>NutriTest se ha mudado</h1>
+    <p>Ahora tiene su propia web, con cuentas y contraseña. Tu progreso ya está allí.</p>
+    <a href="https://nutritest-julie.netlify.app/">Ir a la web nueva</a>
+  </main>
+  <script>
+    // Quitar la app antigua instalada (service worker y caché) y saltar a la nueva
+    if ('serviceWorker' in navigator) navigator.serviceWorker.getRegistrations().then(rs => rs.forEach(r => r.unregister()));
+    if (window.caches) caches.keys().then(ks => ks.forEach(k => caches.delete(k)));
+    setTimeout(() => location.replace('https://nutritest-julie.netlify.app/'), 1500);
+  </script>
 </body>
 </html>
