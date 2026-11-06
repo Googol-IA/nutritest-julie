@@ -1,6 +1,6 @@
 {
   "examen": "dt-madrid-2018",
-  "titulo": "Madrid 2018",
+  "titulo": "Madrid 2018 y 2019",
   "libro": "dietoterapia",
   "fuente": "Pruebas libres de Técnico Superior en Dietética",
   "preguntas": [
@@ -710,21 +710,6 @@
       "dificultad": 2
     },
     {
-      "id": "of-dt-madrid-2018-049",
-      "numero": 49,
-      "pregunta": "De las siguientes afirmaciones señala la verdadera:",
-      "opciones": [
-        "Las venas suprahepáticas son las venas que recogen la sangre del hígado y la llevan a la vena cava superior.",
-        "Al hígado le llega la sangre a través de la arteria y la vena hepática.",
-        "El espacio porta está constituido por una arteriola hepática, un vaso portal y un conductillo biliar.",
-        "Las sinusoides son espacios vasculares que drenan la sangre de la arteria hepática y la vena porta directamente a la cava inferior."
-      ],
-      "correcta": 2,
-      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
       "id": "of-dt-madrid-2018-050",
       "numero": 50,
       "pregunta": "Respecto a la ascitis:",
@@ -1006,6 +991,38 @@
       ],
       "correcta": 1,
       "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2019-069",
+      "numero": 69,
+      "referencia": "Madrid 2019, pregunta 69",
+      "pregunta": "En el catabolismo acelerado del paciente oncológico, las células cancerosas consumen gran cantidad de:",
+      "opciones": [
+        "Ácidos grasos.",
+        "Proteínas.",
+        "Glucosa.",
+        "Vitaminas y minerales."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2019-070",
+      "numero": 70,
+      "referencia": "Madrid 2019, pregunta 70",
+      "pregunta": "El mejor tipo de nutrición para el paciente oncológico es:",
+      "opciones": [
+        "La nutrición oral.",
+        "La nutrición enteral.",
+        "La nutrición parenteral.",
+        "Cualquiera de ellas, ya que las tres tienen las mismas ventajas para el paciente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
       "orden_fijo": true,
       "dificultad": 2
     }

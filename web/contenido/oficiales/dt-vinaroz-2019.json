@@ -785,21 +785,6 @@
       "dificultad": 2
     },
     {
-      "id": "of-dt-vinaroz-2019-055",
-      "numero": 55,
-      "pregunta": "En el síndrome de Cushing:",
-      "opciones": [
-        "Se produce una excesiva pérdida de peso.",
-        "Se presenta obesidad debido a la hiperfunción suprarrenal con la que cursa.",
-        "Se manifiesta con obesidad debido a la hipofunción suprarrenal con la que cursa.",
-        "Existe obesidad debido a la retención de líquidos."
-      ],
-      "correcta": 1,
-      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
       "id": "of-dt-vinaroz-2019-056",
       "numero": 56,
       "pregunta": "La ingesta diaria recomendada de ácidos grasos para prevenir enfermedades cardiovasculares es:",

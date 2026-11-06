@@ -33,28 +33,21 @@
       "titulo": "Vinaroz 2019",
       "libro": "alimentacion-equilibrada",
       "archivo": "vinaroz-2019.json",
-      "preguntas": 68
+      "preguntas": 64
     },
     {
       "id": "dt-vinaroz-2019",
       "titulo": "Vinaroz 2019",
       "libro": "dietoterapia",
       "archivo": "dt-vinaroz-2019.json",
-      "preguntas": 76
+      "preguntas": 75
     },
     {
       "id": "dt-madrid-2018",
-      "titulo": "Madrid 2018",
+      "titulo": "Madrid 2018 y 2019",
       "libro": "dietoterapia",
       "archivo": "dt-madrid-2018.json",
-      "preguntas": 67
-    },
-    {
-      "id": "dt-madrid-2019",
-      "titulo": "Madrid 2019",
-      "libro": "dietoterapia",
-      "archivo": "dt-madrid-2019.json",
-      "preguntas": 67
+      "preguntas": 68
     },
     {
       "id": "dt-palma-2019",
@@ -68,14 +61,49 @@
       "titulo": "País Vasco 2019 (V/F)",
       "libro": "dietoterapia",
       "archivo": "dt-pais-vasco-2019.json",
-      "preguntas": 72
+      "preguntas": 71
     },
     {
       "id": "dt-ibiza-2019",
       "titulo": "Ibiza 2019 (V/F)",
       "libro": "dietoterapia",
       "archivo": "dt-ibiza-2019.json",
-      "preguntas": 92
+      "preguntas": 67
+    },
+    {
+      "id": "otros--control-alimentario",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "control-alimentario",
+      "archivo": "otros--control-alimentario.json",
+      "preguntas": 9
+    },
+    {
+      "id": "otros--microbiologia-higiene",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "microbiologia-higiene",
+      "archivo": "otros--microbiologia-higiene.json",
+      "preguntas": 1
+    },
+    {
+      "id": "otros--fisiopatologia",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "fisiopatologia",
+      "archivo": "otros--fisiopatologia.json",
+      "preguntas": 15
+    },
+    {
+      "id": "otros--organizacion-gestion",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "organizacion-gestion",
+      "archivo": "otros--organizacion-gestion.json",
+      "preguntas": 6
+    },
+    {
+      "id": "otros--alimentacion-equilibrada",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "alimentacion-equilibrada",
+      "archivo": "otros--alimentacion-equilibrada.json",
+      "preguntas": 1
     }
   ]
 }

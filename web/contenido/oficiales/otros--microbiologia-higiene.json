@@ -1,0 +1,24 @@
+{
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "examen": "otros--microbiologia-higiene",
+  "titulo": "De exámenes de otros módulos",
+  "libro": "microbiologia-higiene",
+  "preguntas": [
+    {
+      "id": "of-vinaroz-2019-054",
+      "numero": 54,
+      "pregunta": "La solanina:",
+      "opciones": [
+        "Es un alcaloide producido por la luz del sol sobre la patata.",
+        "Puede producir micotoxinas.",
+        "Puede aparecer en nueces.",
+        "a y b son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Vinaroz 2019, pregunta 54 (examen de Alimentación equilibrada)"
+    }
+  ]
+}

@@ -510,7 +510,7 @@ async function pantallaOficiales() {
           return `<li class="tarjeta oficial">
             <div class="oficial-texto">
               <strong>${esc(e.titulo)}</strong>
-              <span>${e.preguntas} preguntas${vistas ? ` · ${vistas} vistas · ${pct(p.aciertos, p.respondidas)}% acierto` : ''}</span>
+              <span>${e.preguntas} pregunta${e.preguntas === 1 ? '' : 's'}${vistas ? ` · ${vistas} vistas · ${pct(p.aciertos, p.respondidas)}% acierto` : ''}</span>
               ${barra(pct(p ? Number(p.dominadas) : 0, e.preguntas), of.color)}
             </div>
             <div class="oficial-botones">
@@ -577,7 +577,7 @@ function pantallaPregunta() {
     ${cabeceraTest(s)}
     <article class="pregunta ${s.examen ? 'pregunta-examen' : 'pregunta-estudio'}" aria-labelledby="enunciado">
       <p class="pregunta-origen" style="--c:${libro.color}"><span aria-hidden="true">${libro.icono}</span> ${libro.id === ID_OFICIALES
-        ? `Examen oficial · ${libroPorId(tema?.libro) ? esc(nombreCorto(libroPorId(tema.libro))) + ' · ' : ''}${esc(tema?.nombre ?? '')} · pregunta ${it.p.numero}`
+        ? `Examen oficial · ${libroPorId(tema?.libro) ? esc(nombreCorto(libroPorId(tema.libro))) + ' · ' : ''}${esc(it.p.referencia ?? `${tema?.nombre ?? ''} · pregunta ${it.p.numero}`)}`
         : `${esc(nombreCorto(libro))} · Tema ${tema?.numero ?? ''}`}</p>
       <h1 id="enunciado" class="enunciado">${esc(it.p.pregunta)}</h1>
       <div class="opciones" role="group" aria-label="Opciones de respuesta">

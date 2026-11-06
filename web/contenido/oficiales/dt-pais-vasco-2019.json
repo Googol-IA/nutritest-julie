@@ -83,19 +83,6 @@
       "dificultad": 2
     },
     {
-      "id": "of-dt-pais-vasco-2019-008",
-      "numero": 8,
-      "pregunta": "En la actualidad la ley obliga a que en el etiquetado de productos aparezcan sustancias tales como pescado y productos derivados, frutos secos, frutas etc., susceptibles de producir alergias o intolerancias.",
-      "opciones": [
-        "Verdadero",
-        "Falso"
-      ],
-      "correcta": 0,
-      "explicacion": "Según la clave del examen es verdadera.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
       "id": "of-dt-pais-vasco-2019-009",
       "numero": 9,
       "pregunta": "En la alergia a la proteína de la leche de vaca están indicadas las leches de otras especies como oveja o cabra.",

@@ -230,36 +230,6 @@
       "dificultad": 2
     },
     {
-      "id": "of-vinaroz-2019-017",
-      "numero": 17,
-      "pregunta": "El pH de la carne es de:",
-      "opciones": [
-        "6,2.",
-        "7,0.",
-        "5,6.",
-        "7,5."
-      ],
-      "correcta": 2,
-      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
-      "id": "of-vinaroz-2019-018",
-      "numero": 18,
-      "pregunta": "El almacenamiento de la carne en frigorífico debe darse a: (",
-      "opciones": [
-        "6 °C.",
-        "5 °C.",
-        "3 °C.",
-        "4 °C."
-      ],
-      "correcta": 3,
-      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
       "id": "of-vinaroz-2019-019",
       "numero": 19,
       "pregunta": "El pescado con menos grasa es el:",
@@ -271,21 +241,6 @@
       ],
       "correcta": 0,
       "explicacion": "Respuesta de la clave del examen: a.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
-      "id": "of-vinaroz-2019-020",
-      "numero": 20,
-      "pregunta": "La congelación de pescados y mariscos debe darse a",
-      "opciones": [
-        "−2 °C.",
-        "−40 °C.",
-        "−8 °C.",
-        "−4 °C."
-      ],
-      "correcta": 1,
-      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
       "orden_fijo": true,
       "dificultad": 2
     },
@@ -751,21 +706,6 @@
       ],
       "correcta": 2,
       "explicacion": "Respuesta de la clave del examen: c.",
-      "orden_fijo": true,
-      "dificultad": 2
-    },
-    {
-      "id": "of-vinaroz-2019-054",
-      "numero": 54,
-      "pregunta": "La solanina:",
-      "opciones": [
-        "Es un alcaloide producido por la luz del sol sobre la patata.",
-        "Puede producir micotoxinas.",
-        "Puede aparecer en nueces.",
-        "a y b son correctas."
-      ],
-      "correcta": 0,
-      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
       "orden_fijo": true,
       "dificultad": 2
     },

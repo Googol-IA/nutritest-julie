@@ -1,0 +1,140 @@
+{
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "examen": "otros--control-alimentario",
+  "titulo": "De exámenes de otros módulos",
+  "libro": "control-alimentario",
+  "preguntas": [
+    {
+      "id": "of-vinaroz-2019-017",
+      "numero": 17,
+      "pregunta": "El pH de la carne es de:",
+      "opciones": [
+        "6,2.",
+        "7,0.",
+        "5,6.",
+        "7,5."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Vinaroz 2019, pregunta 17 (examen de Alimentación equilibrada)"
+    },
+    {
+      "id": "of-vinaroz-2019-018",
+      "numero": 18,
+      "pregunta": "El almacenamiento de la carne en frigorífico debe darse a: (",
+      "opciones": [
+        "6 °C.",
+        "5 °C.",
+        "3 °C.",
+        "4 °C."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Vinaroz 2019, pregunta 18 (examen de Alimentación equilibrada)"
+    },
+    {
+      "id": "of-vinaroz-2019-020",
+      "numero": 20,
+      "pregunta": "La congelación de pescados y mariscos debe darse a",
+      "opciones": [
+        "−2 °C.",
+        "−40 °C.",
+        "−8 °C.",
+        "−4 °C."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Vinaroz 2019, pregunta 20 (examen de Alimentación equilibrada)"
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-008",
+      "numero": 8,
+      "pregunta": "En la actualidad la ley obliga a que en el etiquetado de productos aparezcan sustancias tales como pescado y productos derivados, frutos secos, frutas etc., susceptibles de producir alergias o intolerancias.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "País Vasco 2019 (V/F), pregunta 8 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-012",
+      "numero": 12,
+      "pregunta": "El agua se encuentra normalmente en estado puro.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Habitualmente tiene minerales disueltos.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 12 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-013",
+      "numero": 13,
+      "pregunta": "Las aguas utilizadas en la industria alimentaria para fabricar, tratar, conservar o comercializar productos o sustancias destinadas al consumo humano se consideran aptas para el consumo humano.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 13 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-015",
+      "numero": 15,
+      "pregunta": "Hoy en día los únicos requisitos para que el agua sea para consumo humano son que debe ser incolora, inodora e insípida.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Existe toda una legislación de parámetros fisicoquímicos y microbiológicos.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 15 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-016",
+      "numero": 16,
+      "pregunta": "Entre otras características químicas del agua se encuentran la alcalinidad, la conductividad, la turbidez.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. La turbidez no es una propiedad química, sino organoléptica.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 16 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-017",
+      "numero": 17,
+      "pregunta": "Si hablamos de características biológicas del agua nos referimos a la presencia de huevos, bacterias y virus.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 17 (examen de Dietoterapia)"
+    }
+  ]
+}

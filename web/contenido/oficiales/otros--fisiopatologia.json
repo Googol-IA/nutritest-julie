@@ -1,0 +1,222 @@
+{
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "examen": "otros--fisiopatologia",
+  "titulo": "De exámenes de otros módulos",
+  "libro": "fisiopatologia",
+  "preguntas": [
+    {
+      "id": "of-dt-vinaroz-2019-055",
+      "numero": 55,
+      "pregunta": "En el síndrome de Cushing:",
+      "opciones": [
+        "Se produce una excesiva pérdida de peso.",
+        "Se presenta obesidad debido a la hiperfunción suprarrenal con la que cursa.",
+        "Se manifiesta con obesidad debido a la hipofunción suprarrenal con la que cursa.",
+        "Existe obesidad debido a la retención de líquidos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Vinaroz 2019, pregunta 55 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-madrid-2018-049",
+      "numero": 49,
+      "pregunta": "De las siguientes afirmaciones señala la verdadera:",
+      "opciones": [
+        "Las venas suprahepáticas son las venas que recogen la sangre del hígado y la llevan a la vena cava superior.",
+        "Al hígado le llega la sangre a través de la arteria y la vena hepática.",
+        "El espacio porta está constituido por una arteriola hepática, un vaso portal y un conductillo biliar.",
+        "Las sinusoides son espacios vasculares que drenan la sangre de la arteria hepática y la vena porta directamente a la cava inferior."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Madrid 2018 y 2019, pregunta 49 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-018",
+      "numero": 18,
+      "pregunta": "El contenido de agua en el cuerpo está relacionado directamente con la cantidad de tejido adiposo.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 18 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-019",
+      "numero": 19,
+      "pregunta": "Las chicas tienen una mayor proporción de contenido hídrico que los chicos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es menor.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 19 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-021",
+      "numero": 21,
+      "pregunta": "Las condiciones ambientales no afectan a las pérdidas de agua corporal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 21 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-022",
+      "numero": 22,
+      "pregunta": "En la deshidratación sólo interviene el agua.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. También los electrolitos.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 22 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-023",
+      "numero": 23,
+      "pregunta": "En la deshidratación isotónica el volumen intracelular disminuye.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es el extracelular.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 23 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-024",
+      "numero": 24,
+      "pregunta": "En la deshidratación hipertónica el volumen intracelular se mantiene constante.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Disminuye.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 24 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-025",
+      "numero": 25,
+      "pregunta": "En la deshidratación hipotónica el volumen intracelular incrementa.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 25 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-026",
+      "numero": 26,
+      "pregunta": "En la deshidratación isotónica se pierde únicamente agua.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. También el sodio.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 26 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-027",
+      "numero": 27,
+      "pregunta": "En la deshidratación hipertónica la presión osmótica incrementa.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 27 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-028",
+      "numero": 28,
+      "pregunta": "En la deshidratación hipotónica se pierden más agua que sales (Na⁺).",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Más sodio.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 28 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-029",
+      "numero": 29,
+      "pregunta": "La deshidratación puede influir en la aparición de dolores de cabeza.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 29 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-070",
+      "numero": 70,
+      "pregunta": "La ghrelina es una sustancia que estimula el apetito.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 70 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-073",
+      "numero": 73,
+      "pregunta": "El consumo de grasas tiene un elevado efecto saciante.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 73 (examen de Dietoterapia)"
+    }
+  ]
+}
