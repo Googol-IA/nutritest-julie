@@ -487,6 +487,20 @@
       "explicacion": "Respuesta de la clave del examen: c.",
       "orden_fijo": true,
       "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-020",
+      "numero": 20,
+      "pregunta": "Al día se pueden llegar a perder entre 2-3 litros de agua.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 20 (examen de Dietoterapia)"
     }
   ]
 }

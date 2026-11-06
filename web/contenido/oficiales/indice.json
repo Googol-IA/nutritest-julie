@@ -26,7 +26,7 @@
       "titulo": "Ibiza 2019",
       "libro": "alimentacion-equilibrada",
       "archivo": "ibiza-2019.json",
-      "preguntas": 34
+      "preguntas": 35
     },
     {
       "id": "vinaroz-2019",
@@ -97,13 +97,6 @@
       "libro": "organizacion-gestion",
       "archivo": "otros--organizacion-gestion.json",
       "preguntas": 6
-    },
-    {
-      "id": "otros--alimentacion-equilibrada",
-      "titulo": "De exámenes de otros módulos",
-      "libro": "alimentacion-equilibrada",
-      "archivo": "otros--alimentacion-equilibrada.json",
-      "preguntas": 1
     }
   ]
 }
