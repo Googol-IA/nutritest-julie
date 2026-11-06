@@ -3,3 +3,7 @@
 Temario/
 __pycache__/
 .claude/
+ficha-tienda/
+# Claves secretas (Supabase, Stripe, Resend...): nunca a GitHub
+.env
+.env.*
