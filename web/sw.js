@@ -1,6 +1,6 @@
 // Service worker: la web funciona sin conexión con lo último que se haya cargado.
 // Estrategia "red primero": si hay internet, siempre se ve la versión más nueva.
-const CACHE = 'nutritest-v7';
+const CACHE = 'nutritest-v8';
 const BASE = ['./', 'index.html', 'css/estilos.css', 'js/app.js', 'js/datos.js', 'js/contenido.js', 'js/test.js', 'js/config.js',
   'contenido/libros.json', 'manifest.webmanifest', 'iconos/icono.svg'];
 

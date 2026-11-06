@@ -577,7 +577,7 @@ function pantallaPregunta() {
     ${cabeceraTest(s)}
     <article class="pregunta ${s.examen ? 'pregunta-examen' : 'pregunta-estudio'}" aria-labelledby="enunciado">
       <p class="pregunta-origen" style="--c:${libro.color}"><span aria-hidden="true">${libro.icono}</span> ${libro.id === ID_OFICIALES
-        ? `Examen oficial · ${esc(tema?.nombre ?? '')} · pregunta ${it.p.numero}`
+        ? `Examen oficial · ${libroPorId(tema?.libro) ? esc(nombreCorto(libroPorId(tema.libro))) + ' · ' : ''}${esc(tema?.nombre ?? '')} · pregunta ${it.p.numero}`
         : `${esc(nombreCorto(libro))} · Tema ${tema?.numero ?? ''}`}</p>
       <h1 id="enunciado" class="enunciado">${esc(it.p.pregunta)}</h1>
       <div class="opciones" role="group" aria-label="Opciones de respuesta">

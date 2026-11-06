@@ -1,0 +1,653 @@
+{
+  "examen": "dt-palma-2019",
+  "titulo": "Palma de Mallorca 2019",
+  "libro": "dietoterapia",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-dt-palma-2019-001",
+      "numero": 1,
+      "pregunta": "Las interacciones farmacológicas son aquellas que…",
+      "opciones": [
+        "Afectan a la entrada y distribución del fármaco del organismo.",
+        "Afectan a la salida del fármaco del organismo.",
+        "Las respuestas a y b son correctas.",
+        "Ninguna de las respuestas anteriores es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-002",
+      "numero": 2,
+      "pregunta": "En el caso de pacientes con disfunción renal, la dosis del fármaco…",
+      "opciones": [
+        "No se debe modificar.",
+        "Debe incrementarse.",
+        "Debe disminuirse.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-003",
+      "numero": 3,
+      "pregunta": "La biodisponibilidad del fármaco en la administración oral es…",
+      "opciones": [
+        "Más lenta que en la administración intravenosa y se alcanzan concentraciones de fármacos más elevadas.",
+        "Más rápida que en la administración intravenosa, y se alcanzan concentraciones de fármacos más elevadas.",
+        "Más lenta que en la administración intravenosa y se alcanzan concentraciones de fármacos menos elevadas.",
+        "Más rápida que en la administración intravenosa y se alcanzan concentraciones de fármacos menos elevadas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-004",
+      "numero": 4,
+      "pregunta": "Las reacciones de quelación…",
+      "opciones": [
+        "Se dan entre los fármacos y algunos minerales (cationes) como el Fe o el Ca y reducen la absorción del fármaco.",
+        "Se dan entre los fármacos y algunos minerales (cationes) como el Fe o el Ca y reducen la absorción de los minerales.",
+        "No se dan reacciones de quelación entre fármacos y minerales.",
+        "A y B son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-005",
+      "numero": 5,
+      "pregunta": "La adsorción…",
+      "opciones": [
+        "Es la unión del fármaco a un alimento o componente alimentario, lo que dificulta la absorción del fármaco y se puede evitar no ingiriendo alimentos ricos en los componentes que la causan.",
+        "Es la unión del fármaco a un alimento o componente alimentario, lo que dificulta la absorción del fármaco, pero no hay forma de evitarla.",
+        "Es la unión del fármaco a un alimento o componente alimentario, lo que incrementa la absorción del fármaco.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-006",
+      "numero": 6,
+      "pregunta": "Las dietas hipocalóricas están contraindicadas en los siguientes casos:",
+      "opciones": [
+        "En enfermos mentales no estabilizados, niños menores de 6 años y en los hospitales.",
+        "En personas que padecen sobrepeso u obesidad, niños menores de 8 años y embarazadas.",
+        "En pacientes con temperaturas elevadas de forma sostenida, niños menores de 6 años, periodos de lactancia y enfermos mentales no estabilizados.",
+        "En enfermos mentales no estabilizados, niños menores de 6 años y en periodos de embarazo y lactancia."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-007",
+      "numero": 7,
+      "pregunta": "¿Cuál de las siguientes listas de alimentos recomendados no es cierta para las dietas hipocalóricas?",
+      "opciones": [
+        "Alimentos ricos en fibra, alimentos con baja densidad calórica, verduras en general.",
+        "Alimentos ricos en fibra, alimentos con elevada densidad calórica, verduras en general.",
+        "Alimentos ricos en fibra, alimentos con hidratos de carbono complejos, verduras en general.",
+        "Alimentos con hidratos de carbono complejos, alimentos con baja densidad calórica, verduras en general."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-008",
+      "numero": 8,
+      "pregunta": "Una disminución de 500 kcal/día en la dieta implica una pérdida de peso aproximada de…",
+      "opciones": [
+        "500 gramos a la semana.",
+        "1000 gramos a la semana.",
+        "250 gramos a la semana.",
+        "750 gramos a la semana."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-009",
+      "numero": 9,
+      "pregunta": "Son alimentos ricos en carbohidratos complejos…",
+      "opciones": [
+        "Pasta y arroz.",
+        "Avena y leche.",
+        "Azúcar y miel.",
+        "A y B son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-010",
+      "numero": 10,
+      "pregunta": "A mayor índice glucémico del alimento…",
+      "opciones": [
+        "Menor cantidad de insulina liberada por el páncreas.",
+        "Mayor cantidad de insulina liberada por el páncreas.",
+        "Más recomendable será el alimento para las personas con diabetes.",
+        "Menos recomendable será el alimento para las personas con diabetes."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-011",
+      "numero": 11,
+      "pregunta": "Entre las recomendaciones nutricionales para el tratamiento del síndrome de Dumping no encontramos…",
+      "opciones": [
+        "Incrementar los alimentos ricos en proteínas y lípidos, que hacen más lento el vaciamiento gástrico.",
+        "Disminuir los alimentos ricos en hidratos de carbono, especialmente simples, que favorecen el vaciado gástrico.",
+        "Hacer menos comidas y más abundantes para disminuir el trabajo global del aparato digestivo.",
+        "Evitar la ingesta de líquidos con las comidas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-012",
+      "numero": 12,
+      "pregunta": "Las manifestaciones clínicas de la diabetes son:",
+      "opciones": [
+        "Poliuria, pérdida de apetito, astenia.",
+        "Polidipsia, polifagia, poliuria, astenia.",
+        "Incremento de peso.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-013",
+      "numero": 13,
+      "pregunta": "¿Qué tipo de edulcorante se recomienda utilizar en la dieta para el tratamiento de la diabetes?",
+      "opciones": [
+        "Polialcoholes.",
+        "Sorbitol.",
+        "Fructosa.",
+        "Sacarina."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-014",
+      "numero": 14,
+      "pregunta": "Entre los beneficios del consumo de hidratos de carbono complejos en los casos de diabetes no se encuentra…",
+      "opciones": [
+        "Evitar las hiperglucemias.",
+        "Provocar alteraciones importantes en el nivel de glucemia.",
+        "Conducir a un incremento postprandial de la glucemia.",
+        "Todas las anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-015",
+      "numero": 15,
+      "pregunta": "Los alimentos que suelen presentar valores biológicos más elevados son…",
+      "opciones": [
+        "Los de origen vegetal.",
+        "Los de origen animal.",
+        "Las frutas.",
+        "Las carnes."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-016",
+      "numero": 16,
+      "pregunta": "Con la edad, las necesidades de proteínas (gramos de proteína/kilogramo de peso)…",
+      "opciones": [
+        "Incrementan.",
+        "Disminuyen.",
+        "Se mantienen igual.",
+        "Depende del lugar donde se vive."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-017",
+      "numero": 17,
+      "pregunta": "El tratamiento nutricional en la hiperuricemia y la gota…",
+      "opciones": [
+        "Tanto es efectivo que hace que el tratamiento farmacológico sea prescindible en la mayoría de casos.",
+        "Va dirigido a incrementar la formación endógena de ácido úrico.",
+        "Va encaminado a disminuir la excreción urinaria de ácido úrico.",
+        "Puede influir sobre la formación de ácido úrico."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-018",
+      "numero": 18,
+      "pregunta": "La dieta en el caso de la hiperuricemia y la gota…",
+      "opciones": [
+        "Es hiperproteica.",
+        "Es hipoproteica.",
+        "Es normoproteica.",
+        "Comienza siendo muy hipoproteica pero poco a poco se alcanzan los valores normales."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-019",
+      "numero": 19,
+      "pregunta": "¿Cuál de las siguientes no es una recomendación para el tratamiento de la hiperuricemia y la gota?",
+      "opciones": [
+        "Ingerir tres litros de agua al día.",
+        "Evitar el estrés.",
+        "Suprimir completamente el alcohol.",
+        "Llevar zapatos ajustados."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-020",
+      "numero": 20,
+      "pregunta": "Para evitar el síndrome de realimentación…",
+      "opciones": [
+        "Se deben corregir las alteraciones electrolíticas lo más rápidamente posible.",
+        "El aporte de glucosa debe ser elevado.",
+        "El aporte de líquidos debe ser progresivo.",
+        "La solución electrolítica debe ser de elevada osmolaridad."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-021",
+      "numero": 21,
+      "pregunta": "La dieta para el tratamiento de la enfermedad pulmonar obstructiva crónica (EPOC) incluye…",
+      "opciones": [
+        "Disminuir los lípidos e incrementar los hidratos de carbono.",
+        "Limitar la ingesta de sal.",
+        "Incrementar siempre el consumo de legumbres, coles o vegetales de hoja verde crudos.",
+        "Hacer cuatro comidas al día para disminuir el trabajo digestivo total."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-022",
+      "numero": 22,
+      "pregunta": "¿Cuáles de los siguientes nutrientes tienen un efecto positivo sobre la función pulmonar y son, por tanto, recomendables en la dieta para tratamiento de la EPOC?",
+      "opciones": [
+        "Vitamina B12, vitamina E y selenio.",
+        "Vitamina C, vitamina B12 y selenio.",
+        "Vitamina C, vitamina E y selenio.",
+        "Vitamina C, vitamina E y vitamina B12."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-023",
+      "numero": 23,
+      "pregunta": "¿Qué alimentos tienen función antiinflamatoria en los pulmones y están, por tanto, recomendados en la dieta para la EPOC?",
+      "opciones": [
+        "Pescado azul y brócoli.",
+        "Soja y brócoli.",
+        "Pescado azul y soja.",
+        "Ninguno de los anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-024",
+      "numero": 24,
+      "pregunta": "¿Qué tipo de nutriente puede ser positivo en la dietoterapia de las dislipemias, ya que limitan la absorción del colesterol de la dieta por competencia?",
+      "opciones": [
+        "Esteroles vegetales.",
+        "Antioxidantes.",
+        "Fibra.",
+        "Componentes sulfurados de las plantas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-025",
+      "numero": 25,
+      "pregunta": "Entre los alimentos desaconsejados para el tratamiento de las dislipemias encontramos…",
+      "opciones": [
+        "Pato.",
+        "Nueces.",
+        "Sorbetes.",
+        "Mostaza."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-026",
+      "numero": 26,
+      "pregunta": "¿Qué tipo de nutrientes se recomienda ingerir en el caso de sufrir hemocromatosis (sobrecarga de hierro)?",
+      "opciones": [
+        "Vitamina C.",
+        "Alcohol.",
+        "Ácido láctico.",
+        "Polifenoles."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-027",
+      "numero": 27,
+      "pregunta": "En el tratamiento para el hipotiroidismo es importante evitar aquellos alimentos que favorecen la formación del bocio. Son ejemplos de este tipo de alimentos…",
+      "opciones": [
+        "Col, nabos, brócoli y apio.",
+        "Col, nabos, brócoli y judías.",
+        "Col, brócoli, judías y apio.",
+        "Nabos, brócoli, judías y apio."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-028",
+      "numero": 28,
+      "pregunta": "La dieta indicada en los casos de disfagia a líquidos es la dieta…",
+      "opciones": [
+        "De protección dental.",
+        "Triturada.",
+        "Pastosa.",
+        "Líquida completa."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-029",
+      "numero": 29,
+      "pregunta": "La ingesta de lípidos saturados en prevención secundaria debería ser…",
+      "opciones": [
+        "Aproximadamente de un 10%.",
+        "Entre un 15 y un 20%.",
+        "La mínima que se pueda tolerar.",
+        "Un 7% como máximo."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-030",
+      "numero": 30,
+      "pregunta": "El incremento energético necesario en niños con VIH que han sufrido una infección oportunista se estima en…",
+      "opciones": [
+        "Un 50%.",
+        "Entre un 20 y un 50%.",
+        "Entre un 10 y un 20%.",
+        "No se precisa incremento después de una infección oportunista."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-031",
+      "numero": 31,
+      "pregunta": "No se incluye entre las recomendaciones dietéticas para el tratamiento de la acalasia…",
+      "opciones": [
+        "Seguir una dieta baja en proteínas e hidratos de carbono y rica en lípidos.",
+        "Ingerir alimentos cítricos o picantes, ya que estimulan el paso de los alimentos hacia el estómago.",
+        "Seguir una dieta líquida o semilíquida, con tomas frecuentes y de baja cantidad.",
+        "Ingerir los alimentos de forma lenta, deglutiendo los alimentos entre cacho y cacho."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-032",
+      "numero": 32,
+      "pregunta": "En el tratamiento del reflujo gastroesofágico se suele recomendar…",
+      "opciones": [
+        "Evitar la ingesta de medicamentos que pueden relajar el esfínter esofágico.",
+        "Elevar la cabecera de la cama unos 15 centímetros.",
+        "Esperar unas 3 horas desde la última comida para ir a dormir.",
+        "Utilizar ropa ajustada, que ayude a mantener el peristaltismo esofágico."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-033",
+      "numero": 33,
+      "pregunta": "Según su IMC, una persona de 1,82 metros de altura y 119 kg debería perder cada semana…",
+      "opciones": [
+        "Entre 0,25 y 0,5 kg.",
+        "Entre 0,5 y 1 kg.",
+        "Entre 1 y 2 kg.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-034",
+      "numero": 34,
+      "pregunta": "¿Qué grupos de lípidos podría ser beneficioso incrementar en el tratamiento nutricional del paciente con VIH?",
+      "opciones": [
+        "Monoinsaturados y omega-6.",
+        "Omega-3 y triglicéridos.",
+        "Omega-3 y omega-6.",
+        "Omega-6 y triglicéridos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-035",
+      "numero": 35,
+      "pregunta": "En los pacientes sometidos a trasplante renal…",
+      "opciones": [
+        "Se recomienda una dieta baja en fibra.",
+        "Se debe limitar el consumo de sal y de las grasas vegetales.",
+        "Se recomienda tomar los lácteos desnatados.",
+        "B y C son ciertas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-036",
+      "numero": 36,
+      "pregunta": "Son alimentos a evitar en el tratamiento del reflujo gastroesofágico…",
+      "opciones": [
+        "Pescado blanco, cebolla, embutido, menta.",
+        "Arroz, huevo hervido, mantequilla, picantes.",
+        "Patata, pepino, queso, café.",
+        "Legumbres, pimienta, chocolate, ajo."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-037",
+      "numero": 37,
+      "pregunta": "El uso de vitaminas y minerales en el tratamiento nutricional médico del cáncer…",
+      "opciones": [
+        "Es controvertido, ya que hay autores e instituciones que lo recomiendan y otros que no.",
+        "Es considerado seguro, siempre que no supere el 100% de la ingesta dietética de referencia.",
+        "Se recomienda no emplearlo en dosis altas, ya que pueden tener efectos promotores del cáncer.",
+        "Todas las anteriores son ciertas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-038",
+      "numero": 38,
+      "pregunta": "En casos de insuficiencia renal grave, con retención nitrogenada considerable, se recomiendan dietas con…",
+      "opciones": [
+        "0,5-0,7 gramos de proteína/kg de peso/día.",
+        "0,8 gramos de proteína/kg de peso/día.",
+        "1,0-1,5 gramos de proteína/kg de peso/día.",
+        "1,5-2,0 gramos de proteína/kg de peso/día."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-041",
+      "numero": 41,
+      "pregunta": "El consumo de agua en los pacientes sometidos a diálisis…",
+      "opciones": [
+        "Es completamente libre.",
+        "Debe estar limitado a 1-1,5 litros al día.",
+        "No debe implicar un aumento de peso superior a 1-1,5 kg entre sesiones.",
+        "Debe ser de entre 0,3 y 0,5 litros al día."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-042",
+      "numero": 42,
+      "pregunta": "Los alimentos que contienen pequeñas partes indigeribles, como las semillas, se deben eliminar en caso de sufrir…",
+      "opciones": [
+        "Diverticulitis.",
+        "Abetalipoproteinemia.",
+        "Colitis ulcerosa.",
+        "Las tres anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-043",
+      "numero": 43,
+      "pregunta": "Las necesidades proteicas en pacientes con cáncer sometidos a estrés grave son…",
+      "opciones": [
+        "De unos 0,8 g/kg/día.",
+        "De entre 0,8 y 1,5 g/kg/día.",
+        "De entre 1,5 y 2 g/kg/día.",
+        "De entre 1,5 y 2,5 g/kg/día."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-044",
+      "numero": 44,
+      "pregunta": "En la fase de cierre completo de la estenosis esofágica está indicada la…",
+      "opciones": [
+        "Nutrición enteral.",
+        "Nutrición parenteral.",
+        "Nutrición oral líquida.",
+        "Nutrición oral pastosa."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-palma-2019-045",
+      "numero": 45,
+      "pregunta": "En el tratamiento de la colitis ulcerosa y de la enfermedad de Crohn no se recomienda…",
+      "opciones": [
+        "Seguir un plan dietético hipercalórico e hiperproteico.",
+        "Utilizar condimentos aliáceos, como el ajo o la cebolla.",
+        "Emplear lácteos sin lactosa y farináceos sin gluten.",
+        "Eliminar las legumbres y limitar los frutos secos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

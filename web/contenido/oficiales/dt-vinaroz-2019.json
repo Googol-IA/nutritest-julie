@@ -1,0 +1,1148 @@
+{
+  "examen": "dt-vinaroz-2019",
+  "titulo": "Vinaroz 2019",
+  "libro": "dietoterapia",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-dt-vinaroz-2019-001",
+      "numero": 1,
+      "pregunta": "Con respecto a la nutrición, es falso que:",
+      "opciones": [
+        "Es una ciencia multidisciplinar.",
+        "Se realiza tanto a individuos sanos como enfermos.",
+        "Es un proceso biológico.",
+        "Es un conjunto de procesos voluntarios."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-002",
+      "numero": 2,
+      "pregunta": "“Permite determinar el estado nutricional de un individuo, sopesar las necesidades o requerimientos nutricionales y pronosticar los posibles riesgos de salud que pueda presentar en relación con su estado nutricional\", esta definición se la conoce como:",
+      "opciones": [
+        "Soporte nutricional.",
+        "Alimentación básica.",
+        "Valoración nutricional.",
+        "Todas son falsas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-003",
+      "numero": 3,
+      "pregunta": "Es verdadero que:",
+      "opciones": [
+        "El estado nutricional de un enfermo no se refleja por los datos de talla y peso.",
+        "La altura debe determinarse con su ropa habitual, incluido zapatos.",
+        "El IMC utiliza el peso y el volumen.",
+        "La talla sirve como parámetro para medir el IMC."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-004",
+      "numero": 4,
+      "pregunta": "¿Cuáles son los índices hematológicos y bioquímicos más comunes?",
+      "opciones": [
+        "Albumina.",
+        "Transferrina y Urea.",
+        "Todas son correctas.",
+        "Urea."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-005",
+      "numero": 5,
+      "pregunta": "¿Cuál no es un factor de actividad para la ecuación de Harris -Benedict?",
+      "opciones": [
+        "Ingesta.",
+        "Reposo en cama.",
+        "Movimientos en cama.",
+        "Si se levanta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-006",
+      "numero": 6,
+      "pregunta": "Con respecto al metabolismo basal, es falso que:",
+      "opciones": [
+        "La termorregulación es la necesidad de adaptación por parte del organismo para mantener una temperatura constante.",
+        "En las primeras etapas de la vida las necesidades energéticas son inferiores.",
+        "En el embarazo aumenta el metabolismo basal.",
+        "En la lactancia hay un gasto calórico mayor para producir leche."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-007",
+      "numero": 7,
+      "pregunta": "¿En qué se basa la técnica del BOD-POD?",
+      "opciones": [
+        "En bioimpedancia eléctrica.",
+        "En interactancia de rayos infrarrojos.",
+        "En la medida del pliegue tricipital",
+        "En pletismografía por desplazamiento de aire."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-008",
+      "numero": 8,
+      "pregunta": "El tratamiento dietético de la hiponutrición se realiza en tres fases que siguen el siguiente orden:",
+      "opciones": [
+        "Mantenimiento, renutrición y adaptativa.",
+        "Adaptativa, renutrición y mantenimiento.",
+        "Renutrición, mantenimiento y adaptativa.",
+        "Mantenimiento, adaptativa y renutrición."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-009",
+      "numero": 9,
+      "pregunta": "En las dietas terapéuticas:",
+      "opciones": [
+        "Las dietas terapéuticas completas, debido a la patología que se va a tratar, se modifican ciertos aspectos nutricionales provocando carencias. Son dietas desequilibradas.",
+        "Las dietas terapéuticas incompletas son aquellas en las que los desequilibrios no provocan carencias.",
+        "En las dietas terapéuticas incompletas hay que establecer la suplementación de los elementos en que son deficitarias.",
+        "Todas son falsas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-010",
+      "numero": 10,
+      "pregunta": "Dentro de los tipos de malnutrición energético-proteica (MEP) podemos realizar una clasificación cualitativa y una clasificación cuantitativa. Señala la respuesta verdadera:",
+      "opciones": [
+        "La MEP tipo Kwashiorkor aparece cuando existe un exceso de proteína visceral.",
+        "La MEP tipo Kwashiorkor es aquella en la que hay un déficit único o combinado de los compartimentos de reserva energética o de la proteína muscular.",
+        "Se cataloga MEP de tipo mixto cuando se asocian reducciones en los compartimentos de proteína visceral y los de reserva de grasa o proteína muscular.",
+        "La a y b son verdaderas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-011",
+      "numero": 11,
+      "pregunta": "¿Cuáles de las siguientes enfermedades neurológicas cursan con afagia o disfagia severa?",
+      "opciones": [
+        "Esclerosis múltiple.",
+        "Síndrome de Guillain-Barré.",
+        "Síndrome miasteniforme.",
+        "Todas son verdaderas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-012",
+      "numero": 12,
+      "pregunta": "Actualmente ¿cuál es la contraindicación de nutrición enteral?",
+      "opciones": [
+        "Peritonitis.",
+        "Pancreatitis.",
+        "Obstrucción intestinal",
+        "Todas son verdaderas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-013",
+      "numero": 13,
+      "pregunta": "¿Qué tanto por ciento de agua se utiliza en las fórmulas de nutrición enteral?",
+      "opciones": [
+        "10-15 %.",
+        "25-50%.",
+        "80-85%.",
+        "100%."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-014",
+      "numero": 14,
+      "pregunta": "¿Cuál es la fórmula más utilizada en la nutrición enteral?",
+      "opciones": [
+        "Poliméricas.",
+        "Oligoméricas.",
+        "Modulares.",
+        "Especiales."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-016",
+      "numero": 16,
+      "pregunta": "¿En las fórmulas modulares las proteínas de qué tipo pueden ser?",
+      "opciones": [
+        "Entera.",
+        "Con péptidos.",
+        "Con aminoácidos.",
+        "Todas son verdaderas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-017",
+      "numero": 17,
+      "pregunta": "¿Cuáles son las complicaciones potencialmente mecánicas graves de la nutrición enteral?",
+      "opciones": [
+        "Hemorragia digestiva alta.",
+        "Mal posicionamiento de la sonda.",
+        "Infección.",
+        "A y b son verdaderas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-018",
+      "numero": 18,
+      "pregunta": "La complicación digestiva más frecuente en la nutrición enteral es:",
+      "opciones": [
+        "El dolor abdominal.",
+        "Vómitos.",
+        "Diarrea.",
+        "Náuseas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-020",
+      "numero": 20,
+      "pregunta": "La nutrición parenteral periférica tiene una osmolaridad de:",
+      "opciones": [
+        "Inferior a 200mOsm/kg.",
+        "Inferior a 500mOsm/kg.",
+        "Inferior a 900mOsm/kg.",
+        "Superior a 1000mOsm/kg."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-021",
+      "numero": 21,
+      "pregunta": "¿Cuándo se debe añadir insulina a la mezcla de nutrición parenteral?",
+      "opciones": [
+        "Cuando las glucemias son mayores de 190 mg/dl.",
+        "No se recomienda adición a la mezcla.",
+        "Se puede administrar sin ningún problema.",
+        "Cuando las glucemias son menores de 80 mg/dl."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-022",
+      "numero": 22,
+      "pregunta": "¿Dónde se prepara la nutrición parenteral?",
+      "opciones": [
+        "En cualquier mesa.",
+        "En quirófano.",
+        "En cabinas de flujo laminar.",
+        "Todas son falsas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-023",
+      "numero": 23,
+      "pregunta": "¿Cuál de las siguientes ventajas de la nutrición enteral sobre la parenteral es falsa?",
+      "opciones": [
+        "Es más fisiológica y permite la reanudación de la alimentación oral con mejor tolerancia.",
+        "Presenta mayor número de complicaciones, pero son menos graves.",
+        "Es más económica.",
+        "Resulta más fácil de preparar, administrar y controlar."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-024",
+      "numero": 24,
+      "pregunta": "Indica la opción falsa:",
+      "opciones": [
+        "Los preparados poliméricos normoproteicos tienen una contribución de proteínas de entre un 11% y 18%. Se presentan de forma líquida y su contribución calórica es de 1 kcal/ml.",
+        "Los preparados poliméricos concentrados presentan las mismas características que los normoproteicos pero su disolución es de 1,5 kcal/ml.",
+        "Los preparados poliméricos hiperproteicos contienen entre un 18% a 30% y su relación entre kcal/gr de nitrógeno está entre un 75-120.",
+        "Los preparados poliméricos concentrados tienen las mismas características que los hiperproteicos, pero a diferente disolución."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-025",
+      "numero": 25,
+      "pregunta": "Indica la opción verdadera de los preparados especiales de la nutrición enteral:",
+      "opciones": [
+        "Los preparados con fibra son dietas poliméricas que aportan la fibra dietética en forma de monosacáridos.",
+        "Los preparados para hepatopatías crónicas aportan aminoácidos, con predominio de los aromáticos sobre los ramificados.",
+        "Los preparados para nefropatías crónicas la cantidad de nitrógeno está limitada y se da en forma de aminoácidos más histidina.",
+        "En los preparados especiales no se incluyen las dietas para pacientes con intolerancia a la glucosa, ni las dietas para pacientes inmunodeprimidos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-026",
+      "numero": 26,
+      "pregunta": "Los criterios para la iniciación de la nutrición parenteral son, indica la falsa:",
+      "opciones": [
+        "Pacientes que partiendo de un buen estado nutricional basal deben permanecer en ayuno absoluto, durante un máximo de 7 días.",
+        "Pacientes que partiendo de un buen estado nutricional basal se le supone un periodo de ayuno absoluto igual o superior a 7 días sin patología específica hipercatabólica añadida.",
+        "Pacientes con un estado hipercatabólico secundario a su patología base o que encontrándose en el grupo anterior sufre una complicación que se transforma en hipercatabólico.",
+        "En pacientes desnutridos que sí que pueden alimentarse por vía digestiva."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-027",
+      "numero": 27,
+      "pregunta": "El número de ingestas en un paciente diabético con tendencia a hipoglucemias será:",
+      "opciones": [
+        "2 veces al día.",
+        "3 comidas al día.",
+        "5-6 comidas al día.",
+        "Cada vez que tenga hambre."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-028",
+      "numero": 28,
+      "pregunta": "¿Cuál de los siguientes factores es hiperglucemiante?",
+      "opciones": [
+        "Insulina.",
+        "Progesterona.",
+        "Adrenalina.",
+        "b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-029",
+      "numero": 29,
+      "pregunta": "El aumento de cuerpos cetónicos en sangre y orina se relacionan con:",
+      "opciones": [
+        "Glúcidos.",
+        "Lípidos.",
+        "Proteínas.",
+        "Sodio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-030",
+      "numero": 30,
+      "pregunta": "La relación de ácidos grasos insaturados frente a los saturados en el paciente diabético debe ser:",
+      "opciones": [
+        "Igual proporción de ambos.",
+        "Doble proporción de saturados frente a insaturadas.",
+        "Triple proporción de insaturados frente a saturados.",
+        "Doble proporción de insaturados frente a saturados."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-031",
+      "numero": 31,
+      "pregunta": "Los diabéticos deben aportar a su dieta, respecto a un individuo sano:",
+      "opciones": [
+        "Mayor cantidad de minerales.",
+        "Mayor cantidad de vitaminas.",
+        "Igual cantidad de minerales y vitaminas.",
+        "Mayor cantidad de vitaminas, pero menos minerales."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-032",
+      "numero": 32,
+      "pregunta": "Dentro del sistema inmunitario innato están:",
+      "opciones": [
+        "Barreras naturales.",
+        "Inmunidad artificial activa.",
+        "Barreras celulares.",
+        "A y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-033",
+      "numero": 33,
+      "pregunta": "Con respecto a las alergias alimentarias, es falso que:",
+      "opciones": [
+        "Se denomina alergia alimentaria a las reacciones adversas que se producen tras la ingesta de un alimento.",
+        "El término hipersensibilidad se refiere a la especificidad ante el antígeno.",
+        "El alérgeno suele ser una proteína.",
+        "El alérgeno es la sustancia que el sistema inmunitario reconoce como dañina."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-034",
+      "numero": 34,
+      "pregunta": "¿Qué tipo de intolerancias se pueden presentar?",
+      "opciones": [
+        "Enzimáticas.",
+        "Farmacológicas.",
+        "Relacionadas con el uso de aditivos.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-035",
+      "numero": 35,
+      "pregunta": "¿Cuál es la principal manifestación tras una intolerancia?",
+      "opciones": [
+        "Náuseas.",
+        "Gases.",
+        "Hinchazón.",
+        "Diarrea acuosa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-036",
+      "numero": 36,
+      "pregunta": "Con respecto a la intolerancia al gluten, es falso que:",
+      "opciones": [
+        "Es un trastorno alérgico-inmunitario.",
+        "La enfermedad es de origen desconocido.",
+        "Hay varios tipos: sintomática, subclínica, latente y potencial.",
+        "Si el paciente lo consume da lugar a una inflamación del esófago."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-037",
+      "numero": 37,
+      "pregunta": "Señala la respuesta correcta:",
+      "opciones": [
+        "Existen 4 subtipos de reacciones de alergia alimentaria. La mayoría de reacciones a alimentos son de tipo II.",
+        "El término alergia suele identificarse con hipersensibilidad de tipo I.",
+        "Las reacciones inmediatas ocurren tras 3 horas de la ingesta del alimento.",
+        "Las reacciones adversas a los alimentos incluyen cualquier síndrome clínico tras la ingestión de una comida."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-038",
+      "numero": 38,
+      "pregunta": "Señalar la respuesta falsa:",
+      "opciones": [
+        "Los síntomas gastrointestinales son los más comunes (70%) en las reacciones adversas a los alimentos.",
+        "El chocolate puede estar implicado en el desarrollo de migrañas en individuos susceptibles.",
+        "La cafeína se asocia con casos de ansiedad crónica, insomnio y palpitaciones.",
+        "Un exceso de enzima lactasa puede provocar un síndrome de intolerancia a la lactosa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-039",
+      "numero": 39,
+      "pregunta": "Con respecto al diagnóstico de las reacciones adversas a los alimentos, señalar la respuesta falsa:",
+      "opciones": [
+        "Durante 10-14 días se van eliminando alimentos identificados como sospechosos en las pruebas realizadas.",
+        "En algunos casos es necesario eliminar todos los alimentos y proveer al paciente de una dieta elemental que evite la desnutrición.",
+        "La prueba de provocación alimentaria consiste en introducir en la dieta los alimentos sospechosos de 3 en 3.",
+        "En la prueba de provocación alimentaria se empieza por introducir pequeñas cantidades del alimento."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-040",
+      "numero": 40,
+      "pregunta": "Señala la respuesta correcta:",
+      "opciones": [
+        "Los cacahuetes son la primera causa de reacciones adversas severas e incluso letales.",
+        "Las precipitinas son las proteínas identificadas como principales alérgenos de la leche de vaca.",
+        "La sensibilidad al huevo aumenta a medida que crecemos.",
+        "El gluten representa el 85% de los carbohidratos totales del trigo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-041",
+      "numero": 41,
+      "pregunta": "Señala las características de los tumores:",
+      "opciones": [
+        "Comportamiento similar al de un parásito.",
+        "Competencia por el alimento.",
+        "Propensión a crecer a expensas del huésped.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-042",
+      "numero": 42,
+      "pregunta": "Con respecto a las alteraciones metabólicas en pacientes oncológicos, no es cierto que:",
+      "opciones": [
+        "El metabolismo basal se ve disminuido.",
+        "Aumento de la glucólisis anaerobia.",
+        "Aumento de la producción de lactato.",
+        "Balances nitrogenados negativos."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-043",
+      "numero": 43,
+      "pregunta": "Señala las causas de malnutrición en oncología:",
+      "opciones": [
+        "Cirugía.",
+        "Quimioterapia.",
+        "Diabetes.",
+        "La a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-044",
+      "numero": 44,
+      "pregunta": "¿Cómo puede ser la estrategia nutricional en el enfermo de cáncer?",
+      "opciones": [
+        "Coadyuvante o de mantenimiento.",
+        "Paliativa.",
+        "La a y b son correctas.",
+        "Educativa."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-045",
+      "numero": 45,
+      "pregunta": "¿Cuáles son las estimaciones para cubrir las necesidades del enfermo oncológico?",
+      "opciones": [
+        "Disminuir el aporte energético.",
+        "Administrar suplementos multivitamínicos y minerales.",
+        "Aporte excesivo de grasas.",
+        "No aportar carbohidratos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-046",
+      "numero": 46,
+      "pregunta": "Es cierto que:",
+      "opciones": [
+        "En la cirugía de cabeza y cuello se ve alterada la ingesta de alimentos.",
+        "En la cirugía de cabeza y cuello se utilizará la nutrición parenteral.",
+        "La a y b son correctas.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-047",
+      "numero": 47,
+      "pregunta": "En cuanto a los factores de malnutrición del VIH, indica la falsa:",
+      "opciones": [
+        "La anorexia se debe a la propia patología del enfermo y no influye para nada la situación emocional.",
+        "Disfagia y cambios gustativos.",
+        "Náuseas y vómitos.",
+        "Fiebre."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-048",
+      "numero": 48,
+      "pregunta": "En la valoración nutricional del enfermo de SIDA, indica la falsa:",
+      "opciones": [
+        "Es importante la historia nutricional del individuo.",
+        "Carece de importancia valorar el estado psicosocial.",
+        "Es importante vigilar los cambios en los parámetros antropométricos.",
+        "El porcentaje de cambio de peso es un factor importante para la desnutrición."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-049",
+      "numero": 49,
+      "pregunta": "En las recomendaciones alimentarias del SIDA, en infección asintomática, indica la verdadera:",
+      "opciones": [
+        "Es conveniente el aumento en el aporte energético, proteico y añadir suplementos vitamínicos y minerales.",
+        "Hay que extremar la higiene.",
+        "Es conveniente aumentar el aporte energético, pero no el proteico.",
+        "La a y b son ciertas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-050",
+      "numero": 50,
+      "pregunta": "Los trastornos de la conducta alimentaria se producen:",
+      "opciones": [
+        "En la infancia.",
+        "En la adolescencia.",
+        "A los 40 años de edad.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-051",
+      "numero": 51,
+      "pregunta": "Señala la respuesta correcta en la anorexia nerviosa:",
+      "opciones": [
+        "Puede ser de tipo restrictivo.",
+        "Existe amenorrea secundaria.",
+        "Se produce un uso excesivo de laxantes y diuréticos.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-052",
+      "numero": 52,
+      "pregunta": "En la paciente bulímica los atracones tienen lugar, como promedio:",
+      "opciones": [
+        "Una vez por semana durante 3 meses.",
+        "Dos veces por semana durante 3 meses.",
+        "Dos veces al mes.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-053",
+      "numero": 53,
+      "pregunta": "El tratamiento de los TCA en situaciones límites obligan:",
+      "opciones": [
+        "Al ingreso hospitalario.",
+        "Permiten una atención de tipo ambulatorio.",
+        "Requieren un control del equilibrio hidroelectrolítico.",
+        "a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-054",
+      "numero": 54,
+      "pregunta": "¿Se deben usar los mismos patrones para diagnosticar la obesidad en niños y en adultos?",
+      "opciones": [
+        "Sí, porque ellos también siguen el modelo bicompartimental.",
+        "No, porque los niños siguen el \"modelo multicompartimental”.",
+        "Si, porque se relaciona con el peso y la altura.",
+        "No, porque ellos están en crecimiento y esto hace fluctuar su acúmulo de grasa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-055",
+      "numero": 55,
+      "pregunta": "En el síndrome de Cushing:",
+      "opciones": [
+        "Se produce una excesiva pérdida de peso.",
+        "Se presenta obesidad debido a la hiperfunción suprarrenal con la que cursa.",
+        "Se manifiesta con obesidad debido a la hipofunción suprarrenal con la que cursa.",
+        "Existe obesidad debido a la retención de líquidos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-056",
+      "numero": 56,
+      "pregunta": "La ingesta diaria recomendada de ácidos grasos para prevenir enfermedades cardiovasculares es:",
+      "opciones": [
+        "Inferior al 20% de la energía total de la dieta.",
+        "20% de la energía total de la dieta.",
+        "30% de la energía total de la dieta.",
+        "Superior al 45% de la energía total de la dieta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-057",
+      "numero": 57,
+      "pregunta": "¿Cuáles son los factores más importantes causantes de alteraciones en el corazón?",
+      "opciones": [
+        "Sobrepeso.",
+        "Hipercolesterolemia.",
+        "Todas son correctas.",
+        "Hipertensión arterial."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-058",
+      "numero": 58,
+      "pregunta": "¿Qué factores influyen en la aparición de aterosclerosis?",
+      "opciones": [
+        "Elevación de colesterol y triglicéridos.",
+        "Consumo excesivo de alcohol.",
+        "Inactividad física.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-059",
+      "numero": 59,
+      "pregunta": "Para controlar la insuficiencia cardiaca:",
+      "opciones": [
+        "Se necesita tratamiento farmacológico y/o quirúrgico.",
+        "Hábitos y estilo de vida saludable.",
+        "Dieta y ejercicio físico.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-060",
+      "numero": 60,
+      "pregunta": "¿Cuáles de los siguientes productos alimenticios contienen cantidades importantes de sodio?",
+      "opciones": [
+        "Embutidos.",
+        "Pescado ahumado.",
+        "Conservas.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-061",
+      "numero": 61,
+      "pregunta": "Una dieta restringida en sodio es buena para:",
+      "opciones": [
+        "La diabetes.",
+        "Cáncer.",
+        "Ninguna es correcta.",
+        "Varices."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-062",
+      "numero": 62,
+      "pregunta": "Los factores modificables más importantes de riesgo cardiovascular son:",
+      "opciones": [
+        "La hiperlipidemia y el tabaquismo.",
+        "Los factores genéticos.",
+        "La hipertensión arterial y el estilo de vida sedentario.",
+        "La a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-063",
+      "numero": 63,
+      "pregunta": "Con respecto a la sal, es verdadero que:",
+      "opciones": [
+        "La sal baja la tensión arterial.",
+        "Uno de los componentes es el potasio.",
+        "Provoca retención de líquidos.",
+        "Todas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-064",
+      "numero": 64,
+      "pregunta": "Con respecto a los triglicéridos, es verdadero que:",
+      "opciones": [
+        "Los triglicéridos son moléculas lipídicas derivadas fundamentalmente de la grasa endógena.",
+        "Los triglicéridos son moléculas lipídicas derivadas de la dieta.",
+        "Los triglicéridos son moléculas que derivan de la conversión de cualquier forma de calorías sobrantes.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-065",
+      "numero": 65,
+      "pregunta": "¿Cuáles son distintos tipos de grasas?",
+      "opciones": [
+        "Saturadas, monoinsaturadas y poliinsaturadas.",
+        "Blancas y rojas.",
+        "Animales o vegetales.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-066",
+      "numero": 66,
+      "pregunta": "Una dieta rica en colesterol:",
+      "opciones": [
+        "Eleva LDL.",
+        "Disminuye HDL.",
+        "Aumenta HDL.",
+        "a y c son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-067",
+      "numero": 67,
+      "pregunta": "El tratamiento dietético de la hipertensión se centra:",
+      "opciones": [
+        "En la reducción de peso.",
+        "En la restricción de la ingesta de sodio.",
+        "En la restricción de alcohol.",
+        "Todas son ciertas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-069",
+      "numero": 69,
+      "pregunta": "Para reducir la ingesta de ácidos grasos saturados habrá que limitar la ingesta de:",
+      "opciones": [
+        "Grasa en carne.",
+        "Aceite de oliva.",
+        "Aceite de coco.",
+        "a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-070",
+      "numero": 70,
+      "pregunta": "Para la prevención de enfermedades coronarias se debe fomentar la sustitución de ácidos grasos saturados por monoinsaturados, destacando como alimentos ricos en estos últimos:",
+      "opciones": [
+        "Aceite de oliva y aceitunas.",
+        "Nueces.",
+        "Margarina.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-071",
+      "numero": 71,
+      "pregunta": "Actualmente está muy recomendado aumentar el consumo de ácidos grasos poliinsaturados en la dieta para la prevención de aterosclerosis. Esto se conseguirá:",
+      "opciones": [
+        "Ingiriendo pescado azul como, por ejemplo, sardinas.",
+        "Tomando nueces.",
+        "Consumiendo soja y productos que la contengan.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-072",
+      "numero": 72,
+      "pregunta": "Es falso que:",
+      "opciones": [
+        "El corazón es el órgano encargado de bombear la sangre.",
+        "Las cifras normales de tensión arterial son 12/70 mmHg.",
+        "La tensión arterial es la que ejerce el corazón sobre los pulmones.",
+        "La dieta hiposódica está indicada para pacientes con hipertensión arterial."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-073",
+      "numero": 73,
+      "pregunta": "Con respecto a las enfermedades cardiovasculares, es falso que:",
+      "opciones": [
+        "Los factores de riesgo tienden a asociarse.",
+        "Son factores de riesgo: edad, sexo, tabaquismo.",
+        "La aterosclerosis coronaria es un proceso rápido.",
+        "Es una enfermedad prevalente en países desarrollados."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-074",
+      "numero": 74,
+      "pregunta": "Señala los factores que previenen el riesgo coronario:",
+      "opciones": [
+        "Dejar de fumar.",
+        "Vida sedentaria.",
+        "Tomar alcohol.",
+        "Todas son verdaderas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-075",
+      "numero": 75,
+      "pregunta": "En el tratamiento dietético de la hipertensión, indica la falsa:",
+      "opciones": [
+        "Restricción en la ingesta de sodio.",
+        "Restricción de alcohol.",
+        "Aumento de peso.",
+        "Disminución de peso."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-076",
+      "numero": 76,
+      "pregunta": "¿Cuál no es un cereal permitido en la dieta para control de la tensión arterial?",
+      "opciones": [
+        "Galletas.",
+        "Palomitas saladas.",
+        "Harinas.",
+        "Patatas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-077",
+      "numero": 77,
+      "pregunta": "Entre las medidas dietéticas que disminuyen los niveles de colesterol, indica la falsa:",
+      "opciones": [
+        "Disminución en la ingesta total de grasas.",
+        "Consumo de grasas insaturadas en cantidades recomendadas.",
+        "Aumento en la ingesta de grasas saturadas.",
+        "Reducción de peso o mantenimiento de un peso corporal deseable."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-078",
+      "numero": 78,
+      "pregunta": "Señala las opciones que se refieren a una parte del estómago:",
+      "opciones": [
+        "Duodeno.",
+        "Cuerpo.",
+        "Píloro.",
+        "b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-vinaroz-2019-079",
+      "numero": 79,
+      "pregunta": "¿Qué alimentos favorecen el reflujo esofágico del esfínter inferior?",
+      "opciones": [
+        "Chocolate.",
+        "Verduras.",
+        "Fibra.",
+        "Legumbres."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}
