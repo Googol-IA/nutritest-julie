@@ -1,0 +1,879 @@
+{
+  "examen": "dt-ibiza-2019",
+  "titulo": "Ibiza 2019 (V/F)",
+  "libro": "dietoterapia",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-dt-ibiza-2019-001",
+      "numero": 1,
+      "pregunta": "Entre los factores personales que influyen en la alimentación se encuentran el factor económico, el factor social y la cultura.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-002",
+      "numero": 2,
+      "pregunta": "La palabra dieta tiene su origen en la palabra latina diaetae.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-009",
+      "numero": 9,
+      "pregunta": "La característica más importante de la alimentación judía es el alimento Kosher o puro.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-010",
+      "numero": 10,
+      "pregunta": "Los musulmanes tienen prohibido el consumo de ternera.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Lo prohibido es el cerdo.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-030",
+      "numero": 30,
+      "pregunta": "Las dietas terapéuticas sólo tienen un objetivo.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-031",
+      "numero": 31,
+      "pregunta": "Una dieta terapéutica equivale a una dieta/alimentación equilibrada siempre que sea posible.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-032",
+      "numero": 32,
+      "pregunta": "En la dieta líquida se permiten alimentos con consistencia tipo miel.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-033",
+      "numero": 33,
+      "pregunta": "La dieta hídrica es equivalente a la dieta absoluta.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. La dieta absoluta es sin ingesta oral.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-034",
+      "numero": 34,
+      "pregunta": "Una dieta líquida es siempre completa.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-035",
+      "numero": 35,
+      "pregunta": "A la hora de preparar un puré, emplear verduras fibrosas y, sobre todo, alcachofas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-036",
+      "numero": 36,
+      "pregunta": "Es mejor emplear pescado azul para la preparación de purés ya que se tolera mejor que el blanco.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Tiene más grasa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-037",
+      "numero": 37,
+      "pregunta": "La pasta es un ingrediente completo y muy empleado para hacer purés.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-038",
+      "numero": 38,
+      "pregunta": "La única manera de tomar agua en una dieta es hacerlo en forma líquida.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-039",
+      "numero": 39,
+      "pregunta": "Una dieta no astringente es la más recomendada para tratar las diarreas agudas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-040",
+      "numero": 40,
+      "pregunta": "Es muy importante el consumo de leche como uno de los primeros alimentos que se deben dar en el tratamiento para las diarreas agudas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-041",
+      "numero": 41,
+      "pregunta": "En el estreñimiento los lácteos y derivados están indicados sin ningún tipo de restricción.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-042",
+      "numero": 42,
+      "pregunta": "Durante un período de estreñimiento, el consumo de verduras y hortalizas se procurará hacer en crudo, y en el caso de la fruta, con piel.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-044",
+      "numero": 44,
+      "pregunta": "En el reflujo gastroesofágico se pueden tomar ciertos alimentos como chocolate, ajo, cebolla, canela, cítricos, menta, nuez moscada, etc.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-045",
+      "numero": 45,
+      "pregunta": "Evitar la tensión puede aliviar los síntomas del colon irritable.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-046",
+      "numero": 46,
+      "pregunta": "Para la colitis ulcerosa se debe seguir un plan dietético hipercalórico e hipoproteico.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es hiperproteica.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-047",
+      "numero": 47,
+      "pregunta": "Para tratar la cirrosis hepática se debe planificar una dieta hipercalórica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-048",
+      "numero": 48,
+      "pregunta": "Para tratar la pancreatitis aguda es innecesario el ayuno, se puede seguir una dieta en la que quedan eliminadas las proteínas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-049",
+      "numero": 49,
+      "pregunta": "Una persona con arterioesclerosis puede consumir carne de pollo.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-050",
+      "numero": 50,
+      "pregunta": "Una persona con arterioesclerosis debería consumir vísceras como cerebro, hígado…",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-051",
+      "numero": 51,
+      "pregunta": "Una persona con arterioesclerosis tiene restringido el consumo de pescado, pero no el consumo de marisco.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-052",
+      "numero": 52,
+      "pregunta": "La leche entera es mejor que la descremada para personas con problemas de arteriosclerosis.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-053",
+      "numero": 53,
+      "pregunta": "Para tratar la hipertensión arterial se reduce la ingestión de sodio.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-054",
+      "numero": 54,
+      "pregunta": "Es muy común realizar dietas hiposódicas severas que se mantienen durante un cierto tiempo.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Se utilizan en casos puntuales.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-055",
+      "numero": 55,
+      "pregunta": "En una dieta hiposódica severa se pueden tomar productos de origen animal siempre y cuando se calcule de forma precisa la cantidad.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-056",
+      "numero": 56,
+      "pregunta": "La dieta es la base fundamental para el tratamiento de la diabetes, sobre todo la de tipo 2.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-057",
+      "numero": 57,
+      "pregunta": "En la diabetes, los glúcidos que se deben controlar son, especialmente, los de absorción rápida.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-058",
+      "numero": 58,
+      "pregunta": "La forma de cocinar los glúcidos influye en su velocidad de absorción.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-059",
+      "numero": 59,
+      "pregunta": "En una dieta para una persona diabética es recomendable la ingesta de fibra ya que incrementa la velocidad de absorción de los glúcidos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Disminuye.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-060",
+      "numero": 60,
+      "pregunta": "El mantenimiento de un peso corporal constante está determinado por un complejo sistema de mecanismos neurales, hormonales y químicos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-061",
+      "numero": 61,
+      "pregunta": "El aumento del peso corporal es siempre debido a un aumento del tejido adiposo, causando obesidad o sobrepeso.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Agua, músculo, hueso…",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-062",
+      "numero": 62,
+      "pregunta": "El IMC se considera un indicador de obesidad o sobrepeso.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-063",
+      "numero": 63,
+      "pregunta": "En personas sanas, el porcentaje de grasa corporal total está hacia 8-24% en hombres y 21-35% en mujeres.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. En personas con normopeso: hombre 12-20 % y mujer 20-30 %. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-064",
+      "numero": 64,
+      "pregunta": "La hipertrofia se produce cuando se añade lípido en el adipocito.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-067",
+      "numero": 67,
+      "pregunta": "El MB es el responsable del 60-70% del gasto energético.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-068",
+      "numero": 68,
+      "pregunta": "Si el organismo se ve privado bruscamente de la energía que necesita, el MB se adapta y disminuye.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-069",
+      "numero": 69,
+      "pregunta": "Las personas que no restringen el aporte de kcal no es necesario que desarrollen más actividad física para mantener su peso corporal a medida que la edad comienza a disminuir su MCM, pero no su MB.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-071",
+      "numero": 71,
+      "pregunta": "Existen una gran variedad de genes que pueden contribuir al sufrimiento de obesidad.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-074",
+      "numero": 74,
+      "pregunta": "Los alimentos ricos en grasa tienen una elevada palatabilidad.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-075",
+      "numero": 75,
+      "pregunta": "Las vitaminas aportan una mínima cantidad de kcal a la dieta.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. No aportan. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-076",
+      "numero": 76,
+      "pregunta": "La distribución regional de la grasa no influye sobre los factores de riesgo metabólicos y cardiovasculares.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-077",
+      "numero": 77,
+      "pregunta": "Las mujeres con obesidad ginecoide no desarrollan las alteraciones del metabolismo de la glucosa que sí se observan en mujeres obesas con el mismo peso que tienen la grasa en la zona abdominal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-078",
+      "numero": 78,
+      "pregunta": "Es fundamental una modificación del estilo de vida para lograr y mantener una pérdida de peso en una persona obesa.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-079",
+      "numero": 79,
+      "pregunta": "Los pacientes con insuficiencia renal avanzada deben hacer una dieta hipocalórica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-080",
+      "numero": 80,
+      "pregunta": "A estos pacientes se les recomiendan las judías por la elevada cantidad de sodio que contienen.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-081",
+      "numero": 81,
+      "pregunta": "Para evitar la gota se deben consumir vísceras y mariscos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-082",
+      "numero": 82,
+      "pregunta": "Durante el tratamiento de la displasia broncopulmonar, típica de bebés prematuros, siempre se ha de consumir la misma cantidad de kilocalorías.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-083",
+      "numero": 83,
+      "pregunta": "Los bebés con esta enfermedad deben hacer pequeñas tomas y frecuentes.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-084",
+      "numero": 84,
+      "pregunta": "En la fibrosis quística se recomienda bajar la ingesta de proteínas y grasas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-085",
+      "numero": 85,
+      "pregunta": "En la EPOC es común que exista distensión abdominal y se limitará la ingesta de alimentos flatulentos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-086",
+      "numero": 86,
+      "pregunta": "A un paciente oncológico (preventivo) se le deben aumentar las necesidades energéticas entre 15-40 %.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-087",
+      "numero": 87,
+      "pregunta": "No está indicado en ningún caso aplicar un suplemento vitamínico a un paciente oncológico preventivo.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Si las personas tienen dificultades con la alimentación y efectos secundarios del tratamiento.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-088",
+      "numero": 88,
+      "pregunta": "A un paciente oncológico paliativo se le pueden flexibilizar los horarios de las ingestas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-089",
+      "numero": 89,
+      "pregunta": "Los tratamientos que reciben los enfermos de cáncer no afectan a la dieta de los pacientes.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-091",
+      "numero": 91,
+      "pregunta": "En la odinofagia está indicada la ingesta de alimentos fríos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Templados.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-092",
+      "numero": 92,
+      "pregunta": "El olor de los alimentos disminuye si estos están fríos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-094",
+      "numero": 94,
+      "pregunta": "La cafeína ayuda a aliviar las molestias causadas por la proctitis rádica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es irritante del tubo digestivo.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-095",
+      "numero": 95,
+      "pregunta": "Pacientes con SIDA: la necesidad proteica aumenta si la situación es hipocatabólica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Hiper.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-096",
+      "numero": 96,
+      "pregunta": "Pacientes con SIDA: se recomienda multiplicar por 2 o por 3 la cantidad de vitaminas y minerales con respecto a una persona sana.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-097",
+      "numero": 97,
+      "pregunta": "Las recomendaciones aplicadas a pacientes oncológicos también se pueden aplicar, en su mayor parte, a los pacientes con SIDA que ya han desarrollado la enfermedad.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-098",
+      "numero": 98,
+      "pregunta": "Si el paciente que se prepara para una operación quirúrgica está malnutrido, se recomienda que siga una dieta altamente hipercalórica e hiperproteica antes de la operación.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-099",
+      "numero": 99,
+      "pregunta": "Durante la fase catabólica, en el postoperatorio, sólo se pueden suministrar nutrientes por vía parenteral.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-100",
+      "numero": 100,
+      "pregunta": "Durante la fase anabólica, la dieta a seguir debe ser de fácil digestión.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

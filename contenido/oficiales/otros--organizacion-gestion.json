@@ -1,0 +1,92 @@
+{
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "examen": "otros--organizacion-gestion",
+  "titulo": "De exámenes de otros módulos",
+  "libro": "organizacion-gestion",
+  "preguntas": [
+    {
+      "id": "of-dt-ibiza-2019-003",
+      "numero": 3,
+      "pregunta": "Las funciones de los dietistas en la asesoría nutricional son únicamente la evaluación y la planificación.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. También es comunicador, facilitador e investigador.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 3 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-004",
+      "numero": 4,
+      "pregunta": "El proceso de atención está basado en el método científico.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 4 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-005",
+      "numero": 5,
+      "pregunta": "Cuando se habla de planificación, esta puede hacerse conjunta con otros profesionales.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 5 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-006",
+      "numero": 6,
+      "pregunta": "En la definición del caso dentro del proceso de atención es mejor que el cliente/paciente no participe en ella.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Debe participar.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 6 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-007",
+      "numero": 7,
+      "pregunta": "Las personas que asisten a la consulta tienen la obligación de aceptar cualquier decisión de la asesoría.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 7 (examen de Dietoterapia)"
+    },
+    {
+      "id": "of-dt-ibiza-2019-008",
+      "numero": 8,
+      "pregunta": "Al planificar y ejecutar el plan de asesoría nutricional se ha de hacer con la colaboración del paciente.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 8 (examen de Dietoterapia)"
+    }
+  ]
+}

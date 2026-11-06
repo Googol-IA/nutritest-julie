@@ -1,0 +1,2318 @@
+{
+  "examen": "pais-vasco-2019",
+  "titulo": "País Vasco 2019",
+  "libro": "alimentacion-equilibrada",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-pais-vasco-2019-001",
+      "numero": 1,
+      "pregunta": "¿Cuál de los siguientes hidratos de carbono puede ser utilizado por las células cerebrales?",
+      "opciones": [
+        "Galactosa.",
+        "Glucógeno.",
+        "Fructosa.",
+        "Glucosa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-002",
+      "numero": 2,
+      "pregunta": "¿Qué alimento tiene grandes cantidades de glucosa libre?",
+      "opciones": [
+        "Uvas.",
+        "Sacarosa.",
+        "Almidón.",
+        "Leche."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-003",
+      "numero": 3,
+      "pregunta": "¿Qué alimento tiene galactosa aprovechable por el organismo?",
+      "opciones": [
+        "Uvas.",
+        "Sacarosa.",
+        "Almidón.",
+        "Leche y derivados lácteos."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-004",
+      "numero": 4,
+      "pregunta": "La sacarosa:",
+      "opciones": [
+        "Es un disacárido formado por galactosa y fructosa.",
+        "Se utiliza como estándar para expresar el dulzor de otros azúcares.",
+        "Es ideal para el desarrollo de la flora intestinal.",
+        "Es consecuencia de la hidrólisis del almidón."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-005",
+      "numero": 5,
+      "pregunta": "Las maltodextrinas o dextrinas límite",
+      "opciones": [
+        "Son oligosacáridos que se obtienen a partir del almidón.",
+        "Se utilizan en fórmulas lácteas infantiles y formulas enterales.",
+        "La enzima intestinal isomaltasa las hidroliza hasta glucosa.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-006",
+      "numero": 6,
+      "pregunta": "El almidón",
+      "opciones": [
+        "Constituyen la reserva energética de la mayoría de los animales.",
+        "Se obtienen de la hidrólisis de a la amilosa y la amilopectina.",
+        "Es el HC más abundante en la alimentación humana.",
+        "Todas las respuestas anteriores son incorrectas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-007",
+      "numero": 7,
+      "pregunta": "¿Dónde se almacena mayoritariamente el glucógeno?",
+      "opciones": [
+        "Hígado y músculo.",
+        "Hígado y cerebro.",
+        "Hígado y sangre.",
+        "Hígado y tubo digestivo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-008",
+      "numero": 8,
+      "pregunta": "Señala la afirmación correcta:",
+      "opciones": [
+        "Los alimentos de origen animal poseen un alto contenido de glucógeno.",
+        "El glucógeno hepático es necesario para mantener el organismo en normoglucemia.",
+        "El almidón y el glucógeno forman parte de los HC no glucémicos.",
+        "El almidón retiene mucha agua, por eso cuando se consume por ejercicio físico intenso se pierde agua y “parece” que se adelgaza."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-009",
+      "numero": 9,
+      "pregunta": "No es función de los hidratos de carbono...",
+      "opciones": [
+        "Los hidratos de carbono sirven como precursores de compuestos como los ácidos nucleicos.",
+        "La principal función nutritiva de los hidratos de carbono es la energética.",
+        "El ácido acético, que es un metabolito de la glucosa, es necesario para la excreción de toxinas y sustancias químicas.",
+        "Función de reserva."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-010",
+      "numero": 10,
+      "pregunta": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "La glucosa es hidrolizada a nivel de la amilasa salival.",
+        "La maltosa es digerida en el intestino delgado gracias a una disacaridasa.",
+        "La lactosa está formada por la unión de dos fructosas.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-011",
+      "numero": 11,
+      "pregunta": "- La situación postprandial se refiere a...",
+      "opciones": [
+        "La situación 1 hora antes de la comida.",
+        "La situación tras la comida.",
+        "La situación entre comidas.",
+        "Todas las respuestas anteriores son ciertas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-012",
+      "numero": 12,
+      "pregunta": "Señala la afirmación correcta sobre la amilasa pancreática:",
+      "opciones": [
+        "Hidroliza el almidón hasta maltosa, maltotriosa y otras dextrinas límite.",
+        "Hidroliza la lactosa a nivel de las microvellosidades.",
+        "Se inactiva en el estómago por acción del pH acido.",
+        "Necesita la secreción de la bilis para favorecer su acción."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-013",
+      "numero": 13,
+      "pregunta": "La formación del glucógeno en el hígado:",
+      "opciones": [
+        "Se denomina gluconeogénesis.",
+        "Se da en situación de ayuno.",
+        "Favorece la obtención rápida de energía por parte del sistema nervioso.",
+        "Está inducida por la secreción de la insulina."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-014",
+      "numero": 14,
+      "pregunta": "La lipogénesis:",
+      "opciones": [
+        "Es un proceso por el que se obtiene grasa a partir de la glucosa.",
+        "Se da en situación de postprandial gracias a la acción del glucagón.",
+        "Es un proceso de obtención de energía.",
+        "Ocurre a nivel del borde de cepillo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-015",
+      "numero": 15,
+      "pregunta": "En situación postprandial....",
+      "opciones": [
+        "Se activa la gluconeogénesis.",
+        "Se activa la glucogenólisis.",
+        "Se activa la lipólisis.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-017",
+      "numero": 17,
+      "pregunta": "En cuanto a los mecanismos de regulación de la glucemia....",
+      "opciones": [
+        "El glucagón hace que la glucemia disminuya.",
+        "La insulina hace que la glucemia aumente.",
+        "Cuando la glucemia se eleva mucho el hígado tiende a liberar glucosa a sangre.",
+        "Ninguna de las respuestas anteriores es cierta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-019",
+      "numero": 19,
+      "pregunta": "El glucagón:",
+      "opciones": [
+        "Estimula la proteogénesis.",
+        "Aumenta la absorción intestinal de carbohidratos.",
+        "Activa la glucogenólisis del hígado y la lipólisis del tejido adiposo.",
+        "Es una hormona para situación de estrés, por lo que aumenta la glucemia."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-020",
+      "numero": 20,
+      "pregunta": "Elige la afirmación correcta:",
+      "opciones": [
+        "La adrenalina y noradrenalina aumentan la glucemia estimulando la glucogenólisis tanto hepática como muscular.",
+        "Las hormonas tiroideas ralentizan el metabolismo de los HC.",
+        "Los glucocorticoides inhiben la gluconeogénesis.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-021",
+      "numero": 21,
+      "pregunta": "¿Qué ocasiona ingerir alimentos de alto índice glucémico?",
+      "opciones": [
+        "Aumenta rápidamente el nivel de glucosa en la sangre.",
+        "Provoca la secreción de insulina para reducir la glucemia.",
+        "Al de dos o tres horas, cae la hipoglucemia y se vuelve a tener hambre.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-022",
+      "numero": 22,
+      "pregunta": "Elige la afirmación correcta:",
+      "opciones": [
+        "El índice glucémico bajo de un alimento implica que ese alimento contiene pocos HC.",
+        "La carga glucémica de un alimento es la relación entre el área de la curva de absorción de la ingesta de 50 g de glucosa pura a lo largo del tiempo, con la obtenida al ingerir la misma cantidad de HC del alimento al que se refiere.",
+        "El índice glucémico es un sistema para cuantificar la respuesta glucémica de un alimento que contiene la misma cantidad de carbohidratos que un alimento de referencia.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-023",
+      "numero": 23,
+      "pregunta": "La carga glucémica:",
+      "opciones": [
+        "Es un concepto más práctico que el índice glucémico.",
+        "Tiene en cuenta los HC que contiene la ración del alimento.",
+        "Tiene en cuenta el índice glucémico del alimento.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-024",
+      "numero": 24,
+      "pregunta": "La fibra alimentaría:",
+      "opciones": [
+        "Es la parte de las plantas comestibles que pasa intacta a través del aparato digestivo.",
+        "Todas las fibras son únicamente polisacáridos no almidonados.",
+        "Puede disminuir la absorción de sustancias orgánicas e inorgánicas.",
+        "Es digerida en el intestino delgado por la flora bacteriana."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-025",
+      "numero": 25,
+      "pregunta": "La fibra insoluble:",
+      "opciones": [
+        "Está formada por inulina, pectinas, gomas y fructooligosacáridos.",
+        "Predomina sobre todo en el salvado de trigo, granos enteros, verduras y cereales.",
+        "Es altamente fermentable por los microorganismos intestinales.",
+        "Predomina en las legumbres, cereales y fruta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-026",
+      "numero": 26,
+      "pregunta": "La fibra soluble:",
+      "opciones": [
+        "Es poco fermentable y resiste la acción de los microorganismos del intestino.",
+        "Es capaz de disminuir y ralentizar la absorción de grasas y azúcares.",
+        "Su efecto principal es limpiar las paredes intestinales, desprendiendo los deshechos adheridos.",
+        "Todas son verdaderas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-027",
+      "numero": 27,
+      "pregunta": "Son alimentos ricos en HC complejos:",
+      "opciones": [
+        "Legumbres.",
+        "Leche.",
+        "Hígado.",
+        "Miel."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-028",
+      "numero": 28,
+      "pregunta": "Es característico de la fibra:",
+      "opciones": [
+        "Es inatacable por las enzimas digestivas humanas.",
+        "Necesita de la bilis para su absorción.",
+        "Un consumo excesivo produce diverticulosis.",
+        "Evita la obesidad."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-029",
+      "numero": 29,
+      "pregunta": "Los edulcorantes:",
+      "opciones": [
+        "Los polioles son edulcorantes derivados de los azucares.",
+        "Es toda sustancia capaz de proporcionar sabor dulce.",
+        "Los edulcorantes intensos son considerados aditivos alimentarios.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-030",
+      "numero": 30,
+      "pregunta": "La fibra alimentaria:",
+      "opciones": [
+        "Que es digerida por los enzimas digestivos produce ácidos grasos de cadena corta que descienden los niveles de pH.",
+        "Que es fermentada por las enzimas bacterianas produce ácidos grasos de cadena corta que son usados por la mucosa intestinal o absorbidos a través de la pared colónica.",
+        "Favorece el hipercolesterolemia porque reduce la absorción de colesterol.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-031",
+      "numero": 31,
+      "pregunta": "Se denomina polipéptido cuando la molécula contiene....",
+      "opciones": [
+        "5 aminoácidos.",
+        "50 aminoácidos.",
+        "500 aminoácidos.",
+        "5000 aminoácidos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-032",
+      "numero": 32,
+      "pregunta": "¿Cuál de los siguientes aminoácidos es ESENCIAL?",
+      "opciones": [
+        "Valina.",
+        "Glicina.",
+        "Prolina.",
+        "Glutamina."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-033",
+      "numero": 33,
+      "pregunta": "¿Cuál de los siguientes aminoácidos es NO ESENCIAL?",
+      "opciones": [
+        "Triptófano.",
+        "Arginina.",
+        "Fenilalanina.",
+        "Serina."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-034",
+      "numero": 34,
+      "pregunta": "¿Cuál de los siguientes aminoácidos es SEMIESENCIAL?",
+      "opciones": [
+        "Metionina.",
+        "Tirosina.",
+        "Isoleucina.",
+        "Triptófano."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-035",
+      "numero": 35,
+      "pregunta": "La a-hélice y las láminas B corresponden a:",
+      "opciones": [
+        "La estructura primaria.",
+        "La estructura secundaria.",
+        "La estructura terciaria.",
+        "La estructura cuaternaria."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-036",
+      "numero": 36,
+      "pregunta": "Las proteínas fibrosas:",
+      "opciones": [
+        "Son generalmente estructurales.",
+        "Tienen función de transporte, enzimática y hormonal.",
+        "Ejemplos son la hemoglobina y la caseína de la leche.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-037",
+      "numero": 37,
+      "pregunta": "Las proteínas globulares:",
+      "opciones": [
+        "Son estructurales.",
+        "Metabólicamente activas.",
+        "Cabe destacar entre ellas el colágeno, la actina y la miosina.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-038",
+      "numero": 38,
+      "pregunta": "La estructura primaria de una proteína......",
+      "opciones": [
+        "Condiciona los niveles estructurales superiores.",
+        "Está determinada por el código genético.",
+        "Es responsable de su actividad funcional.",
+        "Todas las otras respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-039",
+      "numero": 39,
+      "pregunta": "La desnaturalización de las proteínas se puede producir por(que):",
+      "opciones": [
+        "Cambios de pH, de temperatura, alteraciones en la concentración.",
+        "Los enlaces de la formación globular se rompen.",
+        "La proteína adopta una conformación filamentosa.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-040",
+      "numero": 40,
+      "pregunta": "¿Cuál es la principal función de las proteínas?",
+      "opciones": [
+        "Estructural.",
+        "Defensiva.",
+        "Reguladora.",
+        "Energética."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-041",
+      "numero": 41,
+      "pregunta": "Identifica la función que no es de las proteínas:",
+      "opciones": [
+        "Son moléculas de gran poder energético.",
+        "Pueden formar sistemas de protección (anticuerpos).",
+        "Pueden ser elementos de transporte.",
+        "Algunas tienen función catalizadora."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-042",
+      "numero": 42,
+      "pregunta": "Cuál de estas funciones no realizan las proteínas?",
+      "opciones": [
+        "Defensiva.",
+        "Enzimática.",
+        "Vitamínica.",
+        "Hormonal."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-043",
+      "numero": 43,
+      "pregunta": "¿Qué función cumple la hemoglobina?",
+      "opciones": [
+        "Estructural.",
+        "Transporte.",
+        "Defensiva.",
+        "Reguladora."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-044",
+      "numero": 44,
+      "pregunta": "¿Qué función tiene la enteroquinasa?",
+      "opciones": [
+        "Estructural.",
+        "Transporte.",
+        "Activar el tripsinógeno.",
+        "Hidrolizar los dipéptidos y tripéptidos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-045",
+      "numero": 45,
+      "pregunta": "¿Dónde comienza la digestión de las proteínas?",
+      "opciones": [
+        "En la boca con la amilasa salival.",
+        "En el estómago por acción del pepsinógeno.",
+        "En el estómago por acción de la pepsina.",
+        "En el duodeno por acción de la quimiotripsina."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-046",
+      "numero": 46,
+      "pregunta": "¿Cuál es la función del tripsinógeno?",
+      "opciones": [
+        "Romper enlaces alifáticos.",
+        "Romper enlaces aromáticos.",
+        "Romper enlaces C-terminal.",
+        "Es sólo una proenzima."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-047",
+      "numero": 47,
+      "pregunta": "¿Cuál de los siguientes es un precursor?",
+      "opciones": [
+        "Tripsina.",
+        "Quimiotripsinógeno.",
+        "Elastasa.",
+        "Carboxipeptidasa."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-048",
+      "numero": 48,
+      "pregunta": "Las proteínas absorbidas se dirigen al hígado...",
+      "opciones": [
+        "Por vía linfática.",
+        "Por vía porta.",
+        "Por vía carótida.",
+        "Por vía urinaria."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-049",
+      "numero": 49,
+      "pregunta": "Los AMINOÁCIDOS absorbidos utilizados para la formación de proteínas siguen...",
+      "opciones": [
+        "Procesos anabólicos.",
+        "Procesos catabólicos.",
+        "Procesos anabólicos y catabólicos.",
+        "Ninguno de los procesos anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-050",
+      "numero": 50,
+      "pregunta": "Para la síntesis proteica se utilizan:",
+      "opciones": [
+        "Aminoácidos ingeridos por la dieta.",
+        "Aminoácidos de la degradación de proteínas corporales.",
+        "A partir de otros cetoácidos por transaminación.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-051",
+      "numero": 51,
+      "pregunta": "Señala la opción incorrecta sobre los aminoácidos que no se utilizan para la síntesis proteica:",
+      "opciones": [
+        "Se degradan con la consiguiente obtención de energía.",
+        "Se almacenan en forma de aminoácido en el hígado para un posterior requerimiento.",
+        "Se degradan y se convierten en grasa.",
+        "En la degradación de estos aminoácidos se produce urea."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-052",
+      "numero": 52,
+      "pregunta": "La calidad de las proteínas viene determinada por:",
+      "opciones": [
+        "La digestibilidad de la proteína.",
+        "El contenido de aminoácidos esenciales.",
+        "La cantidad de proteína que tiene el alimento.",
+        "La digestibilidad de la proteína y su contenido de aminoácidos esenciales."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-054",
+      "numero": 54,
+      "pregunta": "El aminoácido limitante de una proteína:",
+      "opciones": [
+        "En los frutos secos suele ser la arginina.",
+        "En las legumbres suele ser la metionina.",
+        "Es el contenido de aminoácidos esenciales.",
+        "Es el aminoácido que está en muy baja proporción en esa proteína."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-055",
+      "numero": 55,
+      "pregunta": "¿Cuál de las siguientes enfermedades se debe a una deficiencia de proteínas?",
+      "opciones": [
+        "Kwashiorkor.",
+        "Celiaquía.",
+        "Enfermedad renal.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-056",
+      "numero": 56,
+      "pregunta": "¿Cuál de las siguientes enfermedades se puede causar por un exceso de proteínas?",
+      "opciones": [
+        "Kwashiorkor.",
+        "Celiaquía.",
+        "Enfermedad renal.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-057",
+      "numero": 57,
+      "pregunta": "Habitualmente, ¿cuál es el aminoácido limitante en los cereales?",
+      "opciones": [
+        "Lisina.",
+        "Triptófano.",
+        "Treonina.",
+        "Metionina."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-058",
+      "numero": 58,
+      "pregunta": "¿Cuál de las siguientes afirmaciones es cierta?",
+      "opciones": [
+        "Las proteínas vegetales son de mayor calidad que las proteínas animales.",
+        "El principal problema de las proteínas del pescado es que tienen la lisina como aminoácido limitante.",
+        "Es imposible que los vegetarianos cumplan con las necesidades proteicas mínimas, pues las proteínas vegetales son deficitarias en varios aminoácidos.",
+        "Todas las anteriores son falsas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-059",
+      "numero": 59,
+      "pregunta": "Las proteínas:",
+      "opciones": [
+        "Están compuestas por carbono, hidrógeno, oxígeno, nitrógeno y ocasionalmente por magnesio y fósforo.",
+        "Es el único macronutriente que posee hidrógeno.",
+        "En su oxidación completa obtenemos carbono dióxido, agua y energía.",
+        "Todas las respuestas son falsas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-060",
+      "numero": 60,
+      "pregunta": "Las dipeptidasas digestivas:",
+      "opciones": [
+        "Deben ser activadas por la enteroquinasa.",
+        "Están en el borde de cepillo de los enterocitos del intestino delgado.",
+        "Son enzimas proteolíticas pancreáticas.",
+        "Deben ser activadas por la tripsina."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-061",
+      "numero": 61,
+      "pregunta": "Los lípidos saponificables:",
+      "opciones": [
+        "Contienen ácidos grasos en sus estructuras.",
+        "El colesterol y los esteroides son lípidos saponificables.",
+        "Son solubles en agua.",
+        "Son precursores de vitaminas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-062",
+      "numero": 62,
+      "pregunta": "Elige la respuesta correcta...",
+      "opciones": [
+        "Los ácidos grasos saturados contienen dobles enlaces, lo que les confiere una gran estabilidad y la característica de ser sólidos a temperatura ambiente.",
+        "Los pescados y aceites vegetales, líquidos a temperatura ambiente, son especialmente ricos en ácidos grasos monoinsaturados.",
+        "Aunque en todos los alimentos hay mezclas de ácidos grasos saturados, monoinsaturados y poliinsaturados, en los de origen vegetal predominan las grasas insaturadas y en los de origen animal las saturadas.",
+        "El ácido oleico es un ácido esencial, por lo que el consumo de aceite de oliva está muy recomendado."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-063",
+      "numero": 63,
+      "pregunta": "¿Dónde se encuentran las grasas saturadas en cantidades importantes?",
+      "opciones": [
+        "Aceite de palma.",
+        "Aceite de oliva.",
+        "Aceite de coco.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-064",
+      "numero": 64,
+      "pregunta": "¿En qué tipo de ácido graso es rico el pescado?",
+      "opciones": [
+        "Ácido butírico y palmitoleico.",
+        "Ácido linolénico y linoleico.",
+        "EPA y DHA.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-065",
+      "numero": 65,
+      "pregunta": "¿Cuáles son ácidos grasos esenciales?",
+      "opciones": [
+        "Ácido butírico y palmitoleico.",
+        "Ácido linolénico y linoleico.",
+        "Ácido eicosapentaenoico y docosahexaenoico.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-066",
+      "numero": 66,
+      "pregunta": "¿Qué ácido graso es precursor de la serie ω-9?",
+      "opciones": [
+        "Ácido linolénico.",
+        "Ácido linoleico.",
+        "Ácido oleico.",
+        "Ácido eicosanoide."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-067",
+      "numero": 67,
+      "pregunta": "Los ácidos grasos trans:",
+      "opciones": [
+        "Son más saludables que los ácidos grasos cis.",
+        "Se encuentran en grandes cantidades en la mantequilla.",
+        "Se obtienen por procesos industriales de hidrogenación.",
+        "Tienen un efecto protector ante enfermedades cardiovasculares."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-068",
+      "numero": 68,
+      "pregunta": "Elige la respuesta correcta:",
+      "opciones": [
+        "La grasa saturada se encuentra en abundancia en pastelería y bollería.",
+        "El ácido poliinsaturado oleico está presente en gran cantidad en el aceite de oliva.",
+        "El ácido linoleico es precursor de las EPA y DHA.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-069",
+      "numero": 69,
+      "pregunta": "Elige la respuesta incorrecta:",
+      "opciones": [
+        "Gracias a los triglicéridos es posible el transporte y absorción de las vitaminas liposolubles A, D, E y K.",
+        "Los triglicéridos se depositan en el tejido adiposo y constituyen la gran reserva energética del organismo.",
+        "Entre las funciones de los fosfolípidos se encuentra la formación de micelas para que las grasas puedan absorberse y penetrar en los enterocitos.",
+        "Los fosfolípidos son los precursores de ácidos biliares, hormonas esteroídicas y la vitamina D3."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-070",
+      "numero": 70,
+      "pregunta": "Elige la respuesta incorrecta:",
+      "opciones": [
+        "Los eicosanoides son moléculas de 20 átomos de carbono.",
+        "La vitamina D3 se forma a partir del colesterol.",
+        "Las hormonas esteroídicas se forman a partir del colesterol.",
+        "Los gangliósidos y cerebrósidos se forman a partir del colesterol."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-071",
+      "numero": 71,
+      "pregunta": "¿Dónde comienza la digestión de los lípidos?",
+      "opciones": [
+        "Boca.",
+        "Estómago.",
+        "Duodeno.",
+        "Intestino grueso."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-072",
+      "numero": 72,
+      "pregunta": "¿Qué enzima digestiva hidroliza mayoritariamente a los triglicéridos?",
+      "opciones": [
+        "Lipasa gástrica.",
+        "Colipasa.",
+        "Lipasa pancreática.",
+        "Fosfolipasa pancreática."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-073",
+      "numero": 73,
+      "pregunta": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "Todos los ácidos grasos pasan del enterocito a la linfa.",
+        "Proporcionalmente las VLDL tienen más colesterol que las LDL.",
+        "Una vez en el enterocito los componentes lipídicos se vuelven a resintetizar en triglicéridos, fosfolípidos y esteres de colesterol.",
+        "El HDL se denomina el “colesterol malo” porque circulan por todo el organismo transportando colesterol y dejándolo disponible para todas las células del organismo."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-074",
+      "numero": 74,
+      "pregunta": "¿Qué estructura es necesaria para que los lípidos pasen del enterocito a linfa?",
+      "opciones": [
+        "Apoproteína.",
+        "Micela.",
+        "Quilomicrón.",
+        "Colesterol."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-075",
+      "numero": 75,
+      "pregunta": "En situación postprandial ¿Cuál de los siguientes procesos se activa?",
+      "opciones": [
+        "Lipogénesis.",
+        "Lipólisis.",
+        "Cetogénesis.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-076",
+      "numero": 76,
+      "pregunta": "A través de ¿qué lipoproteína se elimina el exceso de colesterol?",
+      "opciones": [
+        "Quilomicrón.",
+        "VLDL.",
+        "LDL.",
+        "HDL."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-077",
+      "numero": 77,
+      "pregunta": "¿Cuál de las siguientes lipoproteínas tienen un efecto directo en la aterosclerosis?",
+      "opciones": [
+        "Quilomicrón.",
+        "VLDL.",
+        "LDL.",
+        "HDL."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-078",
+      "numero": 78,
+      "pregunta": "¿Cuál de los siguientes ácidos grasos no reduce los niveles de LDL?",
+      "opciones": [
+        "El ácido linoleico.",
+        "El ácido oleico.",
+        "Los ácidos ω-3.",
+        "Todas las anteriores reducen los niveles de LDL."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-079",
+      "numero": 79,
+      "pregunta": "¿Cómo se excreta el exceso de colesterol?",
+      "opciones": [
+        "Por bilis.",
+        "Por heces.",
+        "El colesterol no se excreta.",
+        "Más de una respuesta es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-080",
+      "numero": 80,
+      "pregunta": "La aterosclerosis:",
+      "opciones": [
+        "Está directamente relacionada sobre todo con el consumo de colesterol.",
+        "Los ácidos grasos saturados tienen un efecto protector ante la arterosclerosis.",
+        "El ácido linoleico favorece la vasodilatación y disminución de la agregación plaquetaria, lo que conlleva a prevenir la enfermedad cardiovascular.",
+        "Los ω-3 no producen un efecto apreciable sobre el colesterol y las lipoproteínas plasmáticas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-081",
+      "numero": 81,
+      "pregunta": "La oxidación celular:",
+      "opciones": [
+        "Será más intenso a mayor insaturación de los fosfolípidos de la membrana celular.",
+        "Es debida a la formación de radicales libres a nivel del carbono entre dos dobles enlaces.",
+        "Se asocia con los procesos de envejecimiento en general.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-082",
+      "numero": 82,
+      "pregunta": "Los cuerpos cetónicos:",
+      "opciones": [
+        "Se producen en caso de dietas ricas en HC.",
+        "Un exceso de los mismos puede producir deshidratación y acidosis.",
+        "Se producen en situaciones de exceso de lipogénesis.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-083",
+      "numero": 83,
+      "pregunta": "Elige la opción incorrecta sobre la β-oxidación de los ácidos grasos:",
+      "opciones": [
+        "Los ácidos grasos necesitan de una previa activación.",
+        "Es un proceso de obtención de energía.",
+        "Todos los ácidos grasos precisan de la L-carnitina para penetrar en la mitocondria.",
+        "Los ácidos grasos se van hidrolizando para dar moléculas de acetil-CoA."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-084",
+      "numero": 84,
+      "pregunta": "Ante un exceso de energía y nutrientes en el organismo:",
+      "opciones": [
+        "Se produce la β-oxidación.",
+        "Se produce la cetogénesis.",
+        "Se activa la acetil-coA carboxilasa.",
+        "Se activa la acil-coA sintetasa."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-085",
+      "numero": 85,
+      "pregunta": "Señala la hormona que no sea lipolítica:",
+      "opciones": [
+        "Adrenalina y noradrenalina.",
+        "Insulina.",
+        "Glucagón.",
+        "Hormonas tiroideas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-086",
+      "numero": 86,
+      "pregunta": "¿Qué hace falta para la absorción de la vitamina B12?",
+      "opciones": [
+        "Factor R o haptocorrina.",
+        "Factor extrínseco.",
+        "Factor intrínseco.",
+        "No se absorbe, es hidrosoluble."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-087",
+      "numero": 87,
+      "pregunta": "¿Qué tipo de anemia se puede sufrir por falta de B12?",
+      "opciones": [
+        "Anemia ferropénica.",
+        "Anemia hemolítica.",
+        "Anemia falciforme.",
+        "Anemia perniciosa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-088",
+      "numero": 88,
+      "pregunta": "El déficit de la ingesta de vitamina C puede provocar:",
+      "opciones": [
+        "Beriberi.",
+        "Escorbuto.",
+        "Raquitismo.",
+        "No existe el déficit porque se almacena."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-089",
+      "numero": 89,
+      "pregunta": "Señala la función principal de la vitamina E:",
+      "opciones": [
+        "Antioxidante.",
+        "Metabolismo de nutrientes.",
+        "Crecimiento óseo.",
+        "Síntesis de colesterol."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-090",
+      "numero": 90,
+      "pregunta": "¿Qué vitaminas se pueden sintetizar endógenamente?",
+      "opciones": [
+        "Vitamina D.",
+        "Vitamina K.",
+        "Niacina.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-091",
+      "numero": 91,
+      "pregunta": "¿Qué vitamina participa en la mineralización ósea?",
+      "opciones": [
+        "Vitamina C.",
+        "Vitamina D.",
+        "Vitamina E.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-092",
+      "numero": 92,
+      "pregunta": "La clara de huevo contiene un antinutriente, la avidina, que impide la absorción de la Vitamina:",
+      "opciones": [
+        "Vitamina B1.",
+        "Vitamina B3.",
+        "Vitamina B8.",
+        "Vitamina B6."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-093",
+      "numero": 93,
+      "pregunta": "Señala la característica verdadera sobre las vitaminas hidrosolubles:",
+      "opciones": [
+        "Ninguna vitamina. Hidrosoluble se almacena en el organismo de manera importante porque se excretan por orina.",
+        "Pueden provocar toxicidad cuando se ingieren en grandes cantidades.",
+        "Requieren de las sales biliares para su absorción.",
+        "Pueden eliminarse en el agua de cocción."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-094",
+      "numero": 94,
+      "pregunta": "Señala la característica verdadera sobre las vitaminas liposolubles:",
+      "opciones": [
+        "Requieren una ingesta diaria.",
+        "La vitamina B12 y ac fólico se almacenan en el hígado.",
+        "Alguna puede provocar toxicidad cuando se ingiere en grandes cantidades.",
+        "Todas las respuestas son falsas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-096",
+      "numero": 96,
+      "pregunta": "Estos elementos minerales se denominan electrolitos:",
+      "opciones": [
+        "Cloro, potasio y sodio.",
+        "El sodio y el cloro.",
+        "El magnesio y el fósforo.",
+        "Calcio, hierro y zinc."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-097",
+      "numero": 97,
+      "pregunta": "La absorción del calcio está favorecida por:",
+      "opciones": [
+        "Algunos aminoácidos.",
+        "La lactosa.",
+        "La vitamina D.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-098",
+      "numero": 98,
+      "pregunta": "La absorción de los minerales está favorecida:",
+      "opciones": [
+        "Por niveles corporales bajos de ese mineral.",
+        "En los periodos de crecimiento se puede aumentar la absorción de ciertos minerales.",
+        "Las interacciones entre los minerales y otros componentes de la dieta pueden afectar su absorción.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-099",
+      "numero": 99,
+      "pregunta": "Este mineral contribuye al mantenimiento del equilibrio ácido-base:",
+      "opciones": [
+        "Los electrolitos.",
+        "El flúor.",
+        "El selenio.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-100",
+      "numero": 100,
+      "pregunta": "Este mineral es constituyente de los huesos y dientes:",
+      "opciones": [
+        "Calcio.",
+        "Magnesio.",
+        "Fosforo.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-101",
+      "numero": 101,
+      "pregunta": "Para que el cobalto se pueda absorber necesita:",
+      "opciones": [
+        "Vitamina C.",
+        "Vitamina B3.",
+        "Vitamina B12.",
+        "Vitamina K."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-102",
+      "numero": 102,
+      "pregunta": "Cómo se denomina el exceso de sodio en sangre:",
+      "opciones": [
+        "Hiponatremia.",
+        "Hipernatremia.",
+        "Hipovolemia.",
+        "Hipervolemia."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-103",
+      "numero": 103,
+      "pregunta": "Señala la respuesta correcta sobre el azufre:",
+      "opciones": [
+        "Se elimina por la orina en forma de sulfato.",
+        "Forma parte de algunos aminoácidos.",
+        "Forma parte de las vitaminas del grupo B.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-104",
+      "numero": 104,
+      "pregunta": "Señala la respuesta correcta:",
+      "opciones": [
+        "El déficit de Zinc y selenio puede afectar al sistema inmune.",
+        "El déficit de Cromo puede provocar alteraciones en la regulación de la glucemia.",
+        "El déficit de flúor puede provocar caries dental.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-105",
+      "numero": 105,
+      "pregunta": "La ingesta excesiva de cloro puede provocar:",
+      "opciones": [
+        "Caries.",
+        "Diarrea.",
+        "Vértigos.",
+        "Intoxicación."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-106",
+      "numero": 106,
+      "pregunta": "Marca la opción incorrecta sobre la práctica regular de actividad física de intensidad moderada:",
+      "opciones": [
+        "Contribuye al desarrollo de la masa muscular.",
+        "Aumenta la capacidad de almacenamiento de glucógeno y de las grasas en el músculo.",
+        "Efecto beneficioso desde el punto de vista psíquico. Produce una sensación de bienestar debida, probablemente, debido a la liberación de endorfinas en el líquido cefalorraquídeo.",
+        "Mejora el perfil lipídico del plasma, tiende a disminuir el nivel de colesterol total, a aumentar la fracción asociada las lipoproteínas de alta densidad (LDL) y a disminuir la fracción aterogénica, asociada a las lipoproteínas de densidad baja (HDL)."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-107",
+      "numero": 107,
+      "pregunta": "El sistema anaeróbico aláctico:",
+      "opciones": [
+        "Utiliza como sustrato energético el glucógeno muscular.",
+        "Permite obtener ATP rápidamente sin necesidad de oxígeno.",
+        "Genera y acumula ácido láctico en los músculos y líquidos corporales.",
+        "Es un mecanismo de provisión energética lenta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-108",
+      "numero": 108,
+      "pregunta": "El creatinfosfato:",
+      "opciones": [
+        "Su metabolización da lugar a una reducción del pH de la sangre.",
+        "Es un compuesto energético almacenado en el músculo y de utilización inmediata.",
+        "Genera ácido láctico como producto de desecho.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-109",
+      "numero": 109,
+      "pregunta": "El sistema aeróbico:",
+      "opciones": [
+        "Implica la utilización de oxígeno.",
+        "Puede metabolizar hidratos de carbono, grasa, proteínas e incluso alcohol.",
+        "Es un mecanismo de provisión energética lenta.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-110",
+      "numero": 110,
+      "pregunta": "El ácido láctico:",
+      "opciones": [
+        "Se genera anaeróbicamente.",
+        "Puede ser generado a partir de la glucosa.",
+        "Puede ser metabolizado para producir glucosa en el hígado.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-111",
+      "numero": 111,
+      "pregunta": "Señala la opción menos rentable desde el punto de vista energético:",
+      "opciones": [
+        "Oxidación anaeróbica de la glucosa.",
+        "Oxidación aeróbica de la glucosa.",
+        "Utilización del creatinfosfato.",
+        "Oxidación aeróbica de la grasa."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-112",
+      "numero": 112,
+      "pregunta": "Señala la opción de obtención de energía más rápida:",
+      "opciones": [
+        "A partir del glucógeno por medio de la vía aeróbica.",
+        "A partir del sistema de obtención de energía del fosfágeno.",
+        "A partir del glucógeno por medio de la vía anaeróbica.",
+        "A partir de la proteína."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-113",
+      "numero": 113,
+      "pregunta": "La utilización aeróbica o anaeróbica de los sustratos energéticos va a depender de diversos factores, señala la respuesta correcta:",
+      "opciones": [
+        "Un individuo entrenado tiene un valor de VO2máx menor que un individuo no entrenado.",
+        "Un individuo entrenado presenta el umbral anaeróbico más tardíamente que un individuo no entrenado.",
+        "En ejercicios de intensidad alta y corta duración el sistema de obtención energética predominante es el aeróbico.",
+        "Un individuo no entrenado posee una gran capacidad de oxidación aeróbica."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-114",
+      "numero": 114,
+      "pregunta": "¿En qué deporte se utiliza única o en gran medida el sistema energético creatinfosfato?",
+      "opciones": [
+        "100 m lisos.",
+        "Boxeo.",
+        "Pruebas gimnásticas.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-115",
+      "numero": 115,
+      "pregunta": "Glucosa proveniente de la gluconeogénesis hepática:",
+      "opciones": [
+        "procede de los aminoácidos ramificados contenidos en las proteínas musculares.",
+        "procede del glicerol procedente de la grasa adiposa movilizada.",
+        "procede del lactato que alcanza el hígado y que se ha producido en el músculo.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-116",
+      "numero": 116,
+      "pregunta": "La fatiga:",
+      "opciones": [
+        "Aparece por falta de sustratos energéticos para el músculo.",
+        "muscular aparece por una disminución del pH sanguíneo originada por una alta producción de ácido láctico.",
+        "se origina por falta de glucosa para el cerebro.",
+        "La respuesta b. y c. son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-117",
+      "numero": 117,
+      "pregunta": "La técnica de supercompensación o carga de glucógeno o escandinava:",
+      "opciones": [
+        "Consiste en ingerir durante 6 días una dieta muy pobre en carbohidratos.",
+        "Resulta muy práctico para los/las deportistas de competición.",
+        "Supone riesgo de lesiones para el/la deportista por hacer ejercicio hasta el agotamiento la semana de la competición.",
+        "La respuesta b. y c. son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-118",
+      "numero": 118,
+      "pregunta": "El método o régimen disociado o modificado:",
+      "opciones": [
+        "Consiste en aumentar la intensidad de entrenamiento los 3 días antes de la competición.",
+        "Consumir una dieta de 70 % de HC de la energía total hasta 3 días antes de la competición.",
+        "Conlleva un aumento de la reserva muscular de agua.",
+        "Todas las respuestas son incorrectas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-119",
+      "numero": 119,
+      "pregunta": "Para un entrenamiento de baja intensidad propondremos una dieta:",
+      "opciones": [
+        "Alta en HC.",
+        "Baja-moderada de HC.",
+        "Muy alta en HC.",
+        "Dieta de sobrecarga de glucógeno."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-120",
+      "numero": 120,
+      "pregunta": "Para un entrenamiento de resistencia moderada-alta intensidad, propondremos una dieta:",
+      "opciones": [
+        "Alta en HC.",
+        "Baja-moderada de HC.",
+        "Muy alta en HC.",
+        "Dieta de sobrecarga de glucógeno."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-121",
+      "numero": 121,
+      "pregunta": "La semana previa a la competición:",
+      "opciones": [
+        "Se debe disminuir la intensidad de entrenamiento.",
+        "No se debe seguir ninguna estrategia especial.",
+        "Se debe aumentar la ingesta de HC.",
+        "La respuesta a. y c. son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-122",
+      "numero": 122,
+      "pregunta": "Respecto ala dieta de la semana previa a la competición:",
+      "opciones": [
+        "En pruebas de resistencia que duran menos de 4 minutos es interesante realizar una dieta de carga de HC.",
+        "En pruebas de resistencia que duran más de 90 minutos es interesante realizar una dieta de carga de HC.",
+        "En pruebas de resistencia que duran menos de 90 minutos es interesante realizar una dieta de carga de HC.",
+        "En múltiples eliminatorias cortas de un día es interesante realizar una dieta de carga de HC."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-123",
+      "numero": 123,
+      "pregunta": "Las 4-5 horas previas a la competición:",
+      "opciones": [
+        "Se debe elegir CH de índice glucémico alto.",
+        "Se debe elegir CH de índice glucémico medio.",
+        "Se debe elegir CH de índice glucémico bajo.",
+        "el IG puede ser bajo, medio o alto."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-124",
+      "numero": 124,
+      "pregunta": "Tomar una bebida isotónica, que contiene HC simples, antes del ejercicio:",
+      "opciones": [
+        "Produce la hipoglucemia reactiva por lo que es desaconsejable.",
+        "No se debe tomar para evitar el peak-insulinico.",
+        "no genera problemas, ya que la cantidad de HC que estás contienen no generarán una respuesta insulínica importante.",
+        "las respuestas a. y b. son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-125",
+      "numero": 125,
+      "pregunta": "La ingesta de HC durante la de la competición:",
+      "opciones": [
+        "Es efectiva en la mantención de los niveles de glucemia en deportes de menos de 4 minutos.",
+        "Es beneficiosa en deportes de tiempo prolongado (más de 90 minutos), con intensidad igual o mayor a 70% de la VO2máx.",
+        "Debe ser una mezcla de fructosa sobre todo para asegurar la tolerancia digestiva.",
+        "Se sugiere que el aporte de HC durante la competición sea a través de alimentos sólidos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-126",
+      "numero": 126,
+      "pregunta": "Para favorecer la recuperación del glucógeno muscular:",
+      "opciones": [
+        "Se sugiere 60-80 g de proteína de rápida absorción.",
+        "La relación de HC/proteína debe ser 1/2-4.",
+        "Se sugiere un aporte de 1-1,5 gr de HC/kg peso corporal, consumiéndolos durante los 15 minutos posteriores a la finalización de la competición.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-127",
+      "numero": 127,
+      "pregunta": "En deportistas entrenados la ingesta diaria de proteínas:",
+      "opciones": [
+        "En exceso puede tener efectos perjudiciales.",
+        "Puede ser mayor de 2 g/kg de peso corporal.",
+        "A cantidades mayores de 2 g/kg se favorece el desarrollo de la masa muscular.",
+        "Sólo se puede conseguir por medio de suplementos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-128",
+      "numero": 128,
+      "pregunta": "Durante el ejercicio físico:",
+      "opciones": [
+        "La sensación de sed aparece cuando ya se ha perdido un 1-2 % de peso corporal.",
+        "La deshidratación aumenta el riesgo de lesiones.",
+        "La cantidad de pérdida de líquido depende de la temperatura y humedad ambiental.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-129",
+      "numero": 129,
+      "pregunta": "Las vitaminas:",
+      "opciones": [
+        "Tiamina B1, riboflavina B2 y niacina B3 están relacionadas con el metabolismo energético.",
+        "Piridoxina y la B12 están relacionadas con el metabolismo de HC.",
+        "Las vitaminas A, C, E y β-carotenos favorecen la producción de radicales libres.",
+        "La suplementación de vitamina C y E en plena competición está recomendada."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-130",
+      "numero": 130,
+      "pregunta": "La mineralización ósea en el/la deportista:",
+      "opciones": [
+        "El ejercicio moderado ayuda a mantener la mineralización del hueso.",
+        "El ejercicio extenuante evita la eliminación de calcio por la orina.",
+        "En las mujeres el deporte aumenta el riesgo a padecer fracturas óseas y osteoporosis.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-131",
+      "numero": 131,
+      "pregunta": "Durante la tercera edad:",
+      "opciones": [
+        "Hay una disminución del metabolismo basal.",
+        "Hay un incremento de la actividad física.",
+        "La masa grasa disminuye y aumenta la masa magra.",
+        "Todas son ciertas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-132",
+      "numero": 132,
+      "pregunta": "Señala la opción incorrecta sobre la tercera edad:",
+      "opciones": [
+        "La talla disminuye 1 cm por cada década a partir de la edad adulta.",
+        "Es un grupo extraordinariamente homogéneo.",
+        "Desde el punto de vista funcional comienza cuando se ha producido un 60 % de las modificaciones atribuibles a la edad.",
+        "Los estilos de vida saludable pueden moderar la calidad de vida y duración de la tercera edad."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-133",
+      "numero": 133,
+      "pregunta": "Durante la tercera edad se produce:",
+      "opciones": [
+        "Un aumento de la motilidad intestinal.",
+        "Un aumento de la secreción salival.",
+        "Una disminución de las capacidades funcionales del sistema renal.",
+        "Un aumento de la masa muscular."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-134",
+      "numero": 134,
+      "pregunta": "Durante la tercera edad no suele darse:",
+      "opciones": [
+        "Intolerancia a la glucosa.",
+        "Hipertensión.",
+        "Predominio del anabolismo frente al catabolismo.",
+        "Disminución de la capacidad inmunitaria."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-135",
+      "numero": 135,
+      "pregunta": "Durante la tercera edad respecto a las necesidades nutricionales:",
+      "opciones": [
+        "Requieren un aumento de las kcal consumidas.",
+        "Se recomienda alimentos ricos en fibra.",
+        "En los varones especialmente aumenta mucho el nivel de colesterol en sangre por lo que deben controlar su ingesta.",
+        "Se recomienda los hidratos de carbono de absorción rápida por su fácil absorción."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-136",
+      "numero": 136,
+      "pregunta": "En la tercera edad la actividad física:",
+      "opciones": [
+        "Aumenta el riesgo de caídas.",
+        "Aumenta los cambios en la composición corporal que se suelen dar en esta etapa fisiológica.",
+        "Aumenta el riesgo de enfermedades cardiovasculares.",
+        "Aumenta la percepción de bien estar psíquico."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-137",
+      "numero": 137,
+      "pregunta": "Las recomendaciones de vitamina D en la tercera edad:",
+      "opciones": [
+        "Están aumentadas porque puede haber insuficiente exposición al sol.",
+        "Están aumentadas porque pueden ocurrir deficiencias en los procesos de conversión que ocurren en el riñón.",
+        "No están aumentadas.",
+        "Las respuestas a. y b. son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-138",
+      "numero": 138,
+      "pregunta": "El riesgo de padecer enfermedades cardiovasculares está aumentado en la tercera edad por:",
+      "opciones": [
+        "La obesidad.",
+        "Deficiencia de ácido fólico.",
+        "Deficiencia de B12 y B6.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-139",
+      "numero": 139,
+      "pregunta": "Durante la tercera edad pueden darse deficiencias de minerales por:",
+      "opciones": [
+        "El uso de laxantes.",
+        "La reducción de secreciones gástricas.",
+        "Aumento de perdidas.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-140",
+      "numero": 140,
+      "pregunta": "Se considera factor de riesgo de malnutrición en la tercera edad",
+      "opciones": [
+        "Viudedad.",
+        "Mala situación económica.",
+        "Deterioro sensorial.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-141",
+      "numero": 141,
+      "pregunta": "El recién nacido tiene los siguientes procesos inmaduros:",
+      "opciones": [
+        "Digestión y absorción de nutrientes.",
+        "Equilibrio térmico.",
+        "Regulación del metabolismo de agua y minerales.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-143",
+      "numero": 143,
+      "pregunta": "En la alimentación del niño/a de 1-3, para evitar los malos hábitos alimentarios es aconsejable:",
+      "opciones": [
+        "Forzar a que acabe con toda la comida servida.",
+        "Evitar los dulces y bebidas azucaradas.",
+        "Distraerle con la televisión mientras come.",
+        "Premiarle con alimentos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-144",
+      "numero": 144,
+      "pregunta": "En la alimentación del niño/a de 1-3, el aporte de leche Y productos lácteos:",
+      "opciones": [
+        "Es fundamental para el aporte de calcio.",
+        "Es una buena fuente de proteína.",
+        "Debe cubrir el 30% de la energía diaria.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-145",
+      "numero": 145,
+      "pregunta": "En la alimentación del preescolar y escolar:",
+      "opciones": [
+        "Es mejor consumir carne que pescado ya que las proteínas son de mayor valor biológico.",
+        "Aumentan su actividad física por lo que requieren mayor aporte energético.",
+        "Se da un aporte de fibra por lo general escaso.",
+        "Aumentan las influencias externas a la familia adquiriendo así buenos hábitos alimentarios."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-146",
+      "numero": 146,
+      "pregunta": "La adolescencia es un periodo vulnerable desde el punto de vista nutricional por:",
+      "opciones": [
+        "Rápido incremento de la velocidad de crecimiento.",
+        "Aumento en la demanda de energía y nutrientes.",
+        "Aumento de la masa y cambios en la composición corporal.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-147",
+      "numero": 147,
+      "pregunta": "En la adolescencia:",
+      "opciones": [
+        "Una ingesta insuficiente de nutrientes podría reducir la talla final del adolescente.",
+        "Una ingesta excesiva de calcio puede producir osteopenia y osteoporosis.",
+        "La deficiencia de zinc en las mujeres puede provocar hipogonadismo e hipocrecimiento.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-148",
+      "numero": 148,
+      "pregunta": "Durante la adolescencia:",
+      "opciones": [
+        "Los requerimientos de B1, B2 y B3 están aumentados para cubrir las demandas del metabolismo de ácidos nucleicos y proteínas.",
+        "Los requerimientos de Zinc están aumentados por su relación con el crecimiento y maduración de esta etapa.",
+        "Las necesidades de B6, ácido fólico y B12 aumentan por el incremento de la demanda de energía.",
+        "Las necesidades de hierro son mayores en los hombres que en las mujeres por el aumento de hemoglobina y mioglobina."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-149",
+      "numero": 149,
+      "pregunta": "La triada de la atleta femenina:",
+      "opciones": [
+        "Es un desorden de la alimentación que pueden padecer un alto porcentaje de las chicas atletas.",
+        "La atleta presenta menstruación.",
+        "La atleta tiene un óptimo desarrollo óseo.",
+        "Todas las respuestas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-150",
+      "numero": 150,
+      "pregunta": "Elige la opción correcta:",
+      "opciones": [
+        "El gasto energético en reposo depende de la masa libre de grasa, por eso será menor en las mujeres que en los varones.",
+        "Las necesidades energéticas en la adolescencia son menores que en ninguna otra etapa de la vida.",
+        "El huevo se introducirá en la alimentación del bebé transcurrido el primer año de vida.",
+        "Todas las respuestas son incorrectas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-151",
+      "numero": 151,
+      "pregunta": "Durante la gestación:",
+      "opciones": [
+        "Se disminuye la sensación de hambre y sed.",
+        "El volumen sanguíneo sufre una gran disminución.",
+        "Se producen cambios psicológicos.",
+        "Hay un aumento en la motilidad gastrointestinal."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-152",
+      "numero": 152,
+      "pregunta": "En la gestación la mujer embarazada:",
+      "opciones": [
+        "No debe hacer ejercicio físico.",
+        "Necesita, en general, aumentar el consumo de proteínas.",
+        "Necesita una fuente adicional de lípidos.",
+        "Tiene requerimientos aumentados en ácido fólico sobre todo al inicio del embarazo."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-153",
+      "numero": 153,
+      "pregunta": "Durante la gestación:",
+      "opciones": [
+        "Se precisan suplementos de hierro durante el tercer trimestre.",
+        "Se recomienda el consumo de pescado para favorecer el aporte de ácidos grasos insaturados y vitamina D.",
+        "No es recomendado tomar sal yodada.",
+        "Todas las respuestas son incorrectas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-154",
+      "numero": 154,
+      "pregunta": "Durante la gestación es normal:",
+      "opciones": [
+        "Que se altere el gusto.",
+        "Que haya acidez gástrica.",
+        "Todas son ciertas.",
+        "Que se padezca estreñimiento."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-155",
+      "numero": 155,
+      "pregunta": "En la mujer en periodo de lactación:",
+      "opciones": [
+        "Existe una ganancia de peso inmediatamente de después del parto.",
+        "Hay un aumento del volumen sanguíneo.",
+        "Se movilizan los depósitos corporales de grasa para la formación de la leche.",
+        "Se tiende a retener líquidos extracelulares."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-156",
+      "numero": 156,
+      "pregunta": "Elige la respuesta adecuada sobre las necesidades proteicas para un anciano de 70 kg:",
+      "opciones": [
+        "70 g proteína/día.",
+        "80 g proteína/día.",
+        "56 g proteína/día.",
+        "66 g proteína/día."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-157",
+      "numero": 157,
+      "pregunta": "Elige la respuesta adecuada sobre las necesidades proteicas para una embarazada de 70 kg:",
+      "opciones": [
+        "71 g proteína/día.",
+        "80 g proteína/día.",
+        "66 g proteína/día.",
+        "La a. y la c. son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-159",
+      "numero": 159,
+      "pregunta": "Durante la primera mitad del embarazo:",
+      "opciones": [
+        "Se da un proceso anabólico en el que aumenta la degradación de glucógeno.",
+        "Se da un proceso anabólico en el que aumentan los depósitos de grasa.",
+        "Se da un proceso catabólico en el que aumenta la utilización de glucosa para la obtención de triglicéridos.",
+        "Se da un proceso catabólico en la mujer que busca la transferencia de aminoácidos hacia el feto."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-pais-vasco-2019-160",
+      "numero": 160,
+      "pregunta": "Durante la segunda mitad del embarazo:",
+      "opciones": [
+        "Se da un proceso anabólico en el que aumenta la utilización de glucosa para la formación de glucógeno.",
+        "Se da un proceso anabólico en el que aumentan los depósitos de grasa.",
+        "Se da un proceso catabólico en el que aumenta la utilización de glucosa para la obtención de triglicéridos.",
+        "Se da un proceso catabólico en la mujer que busca la transferencia de aminoácidos hacia el feto."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

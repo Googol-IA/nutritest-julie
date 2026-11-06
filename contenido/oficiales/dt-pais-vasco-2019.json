@@ -1,0 +1,931 @@
+{
+  "examen": "dt-pais-vasco-2019",
+  "titulo": "País Vasco 2019 (V/F)",
+  "libro": "dietoterapia",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-dt-pais-vasco-2019-001",
+      "numero": 1,
+      "pregunta": "En caso de daño tisular se produce un aumento de las necesidades, además de una respuesta endocrina (se movilizan sustratos) y una respuesta metabólica (se producen hormonas), cuya finalidad es ayudar a la supervivencia.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. La respuesta endocrina produce hormonas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-003",
+      "numero": 3,
+      "pregunta": "Las dietas líquidas, semilíquidas, semiblanda etc. se clasifican dentro de las dietas con modificación de texturas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-004",
+      "numero": 4,
+      "pregunta": "En el cribado del riesgo nutricional NRS (nutritional risk screening) se utilizan como variables el IMC, la pérdida de peso y el efecto de las enfermedades agudas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-005",
+      "numero": 5,
+      "pregunta": "El Kwashiorkor aparece cuando hay una insuficiente ingesta calórica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Se debe a un déficit de proteínas séricas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-006",
+      "numero": 6,
+      "pregunta": "Existe una relación inversamente proporcional entre IMC (para valores mayores de 25) y mortalidad.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es directamente proporcional, sobre todo por encima de 30.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-007",
+      "numero": 7,
+      "pregunta": "En el marasmo aparecen edemas debida a la baja ingesta proteica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Ocurre en el kwashiorkor.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-009",
+      "numero": 9,
+      "pregunta": "En la alergia a la proteína de la leche de vaca están indicadas las leches de otras especies como oveja o cabra.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Las proteínas son similares.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-010",
+      "numero": 10,
+      "pregunta": "En la alergia inducida por el ejercicio físico, puede aparecer implicado cualquier alimento, aunque son más frecuentes los de origen vegetal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-011",
+      "numero": 11,
+      "pregunta": "Los pacientes con tratamiento IMAO (Inhibidores de las monoaminoxidasas) pueden sufrir una crisis hipertensiva si no se controlan las aminas alimentarias.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Especialmente la tiramina.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-012",
+      "numero": 12,
+      "pregunta": "En el tratamiento de la disfagia a líquidos se distinguen 5 tipos de texturas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Son 3.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-014",
+      "numero": 14,
+      "pregunta": "La fruta triturada se considera que tiene una textura pudding.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-015",
+      "numero": 15,
+      "pregunta": "Dentro de los factores que afectan a la absorción de L-dopa, usada en el tratamiento del Parkinson, se encuentran el tamaño de la ingesta, contenido energético, las dietas ricas en proteínas, los niveles de vitamina B6 y C.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-017",
+      "numero": 17,
+      "pregunta": "La disfagia es muy poco frecuente en los pacientes con ACV (accidente cerebro-vascular).",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-018",
+      "numero": 18,
+      "pregunta": "En diverticulitis aguda está indicado hacer dieta pobre en fibra al principio del tratamiento.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es baja.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-019",
+      "numero": 19,
+      "pregunta": "Para prevenir el dumping temprano se debe incrementar la cantidad de azúcares sencillos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Hay que limitarlo.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-020",
+      "numero": 20,
+      "pregunta": "Como consecuencia del propio tumor o de los tratamientos oncológicos es muy poco frecuente que se produzca ageusia, hipogeusia, disgeusia y que los pacientes perciban sabores metálicos de la comida.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Son frecuentes.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-021",
+      "numero": 21,
+      "pregunta": "La deficiencia en Vit B12 es poco frecuente, pero puede darse en vegetarianos estrictos o personas que evitan el consumo de carnes y lácteos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-022",
+      "numero": 22,
+      "pregunta": "Los potenciadores de la absorción de hierro no hemo más conocidos y potentes son el ácido ascórbico y los alimentos de origen animal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-023",
+      "numero": 23,
+      "pregunta": "En el caso de existencia de estasis en el colon, está indicado la fibra insoluble.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-024",
+      "numero": 24,
+      "pregunta": "Las nuevas teorías sobre la obesidad proponen que el tejido adiposo, además de almacenar TG, se comporta como un órgano endocrino, produciendo sustancias que originan una inflamación de bajo grado. Por eso se deben incluir en las dietas de adelgazamiento sustancias que potencien el estado de inflamación.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Se buscan sustancias que contrarresten el estado de inflamación.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-025",
+      "numero": 25,
+      "pregunta": "En la dieta antirreflujo está indicado incluir guarniciones en los segundos platos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Se prefieren comidas de volumen pequeño.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-026",
+      "numero": 26,
+      "pregunta": "El 100% de colesterol sérico es de origen dietético, por lo que para disminuirlo es fundamental reducir el colesterol de la dieta.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. También es endógeno.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-027",
+      "numero": 27,
+      "pregunta": "Para disminuir los niveles de colesterol sanguíneo es más eficaz reducir drásticamente el colesterol dietético que reducir las grasas saturadas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-029",
+      "numero": 29,
+      "pregunta": "Dentro de las medidas que menos influyen en la reducción de la HTA se encuentran la reducción de peso y la reducción del consumo de sal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es al revés.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-030",
+      "numero": 30,
+      "pregunta": "Son fuentes de Fe hemo las legumbres, determinadas verduras (espinacas, acelgas, col, berros), frutos secos (pistachos, almendras) y cereales de desayuno enriquecidos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es hierro no hemo.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-031",
+      "numero": 31,
+      "pregunta": "Para la elaboración de las dietas de intercambio, se clasifican los alimentos en 6 grupos: lácteos, alimentos proteicos, verduras, farináceos, grasas y alimentos hidrocarbonados.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Falta el grupo de frutas y farináceos, y los HC son los mismos.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-032",
+      "numero": 32,
+      "pregunta": "Las jarras utilizadas en las dietas de intercambio miden la cantidad de alimento en cocido correspondiente a 3 intercambios de HC.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Son 2 intercambios.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-033",
+      "numero": 33,
+      "pregunta": "En las jarras utilizadas en las dietas de intercambios existen varios niveles en función del IG de los alimentos. El ras de la jarra corresponde con los alimentos de menor índice glucémico.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Los niveles dependen del volumen de alimento cocido necesario para alcanzar 20 g de HC.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-034",
+      "numero": 34,
+      "pregunta": "Los flavonoides son compuestos con función cardioprotectora por su función antioxidante.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-035",
+      "numero": 35,
+      "pregunta": "En hemodiálisis y en diálisis peritoneal la ingesta de proteína debe ser entre 0,6-0,8 g/kg/día.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Son 1-1,2 g/kg por las pérdidas proteicas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-036",
+      "numero": 36,
+      "pregunta": "Niveles bajos de vitaminas como folatos, B6 y B9 disminuyen el efecto ateroesclerótico de la homocisteína.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Los niveles son altos.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-039",
+      "numero": 39,
+      "pregunta": "El síndrome de realimentación incluye al conjunto de alteraciones metabólicas desencadenadas tras la reintroducción gradual del soporte nutricional en pacientes con malnutrición calórico-proteica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. El problema es una reintroducción muy rápida.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-040",
+      "numero": 40,
+      "pregunta": "En pacientes con cirrosis compensada aparecen complicaciones como la ascitis o la encefalopatía que tienen un tratamiento nutricional.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Ocurre en las descompensadas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-041",
+      "numero": 41,
+      "pregunta": "En el trastorno por atracones se producen atracones, donde la ingesta es mucho más rápida de lo normal, se come a solas para esconder la voracidad, etc., pero existen estrategias compensatorias inadecuadas como purgas, ayuno, ejercicio físico intenso, etc.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. No existen acciones compensatorias.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-042",
+      "numero": 42,
+      "pregunta": "Al reintroducir de forma rápida la alimentación, especialmente rica en HC, a un paciente con ayuno prolongado, se produce una rápida liberación de glucagón, que, al ser una hormona anabólica, produce entrada de fósforo, potasio y magnesio al interior de la célula.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es la insulina.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-044",
+      "numero": 44,
+      "pregunta": "A pacientes con EII (enfermedad inflamatoria intestinal) con estenosis puede administrarse fibra insoluble ya que facilita la deposición.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Se limita la fibra.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-045",
+      "numero": 45,
+      "pregunta": "En pacientes con colostomía o ileostomía, dentro del tratamiento dietético, en la fase inicial de dieta se debe disminuir las grasas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. En la colostomía no.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-046",
+      "numero": 46,
+      "pregunta": "Según la SEEDO con un IMC 22-24,9 no está justificada nunca la intervención dietética.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Si se han ganado 5 kg en menos de un año, sí.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-047",
+      "numero": 47,
+      "pregunta": "El zumo de limón es ácido, por lo que se considera un alimento acidificante.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. El limón alcaliniza la orina, y el pH sanguíneo apenas varía en personas sanas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-048",
+      "numero": 48,
+      "pregunta": "Las furanocumarinas presentes en el zumo del pomelo presentan pocas interacciones con los medicamentos por lo que puede utilizarse sin problemas cuando se está recibiendo tratamiento farmacológico.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Interaccionan con varios fármacos (antagonistas del calcio, antihistamínicos…).",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-049",
+      "numero": 49,
+      "pregunta": "El síndrome del queso se caracteriza por una crisis — hipertensiva que puede ser mortal, y está causado por la presencia de tiramina y otras aminas biógenas en los alimentos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-050",
+      "numero": 50,
+      "pregunta": "En los pacientes con bulimia nerviosa con sobrepeso se recomienda seguir dietas inferiores a 1500 kcal/día, con objeto de obtener lo más rápido posible el peso idóneo, ya que se ha demostrado que eso disminuye la presencia de atracones.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Las dietas muy restrictivas aumentan el riesgo de atracón.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-051",
+      "numero": 51,
+      "pregunta": "En la etapa inicial del tratamiento de la anorexia nerviosa deben aportarse entre 30-40 kcal/kg de peso real, lo que supone un VET de 1000-1600 kcal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-052",
+      "numero": 52,
+      "pregunta": "Los alimentos integrales tienen gran cantidad de potasio y fósforo, por lo que su consumo está indicado en insuficiencia renal crónica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. El potasio se restringe según el paciente y para el fósforo se usan quelantes.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-053",
+      "numero": 53,
+      "pregunta": "En la atención nutricional a pacientes con AN (anorexia nerviosa) desde las primeras etapas del tratamiento se recomienda introducir los llamados «alimentos rechazados» para normalizar su uso lo antes posible.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es mejor hacerlo gradualmente.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-054",
+      "numero": 54,
+      "pregunta": "Las dietas de 60 g de proteínas están indicadas en insuficiencia renal aguda y crónica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-055",
+      "numero": 55,
+      "pregunta": "Los azúcares refinados, especialmente la fructosa, aumentan los niveles séricos de triglicéridos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-056",
+      "numero": 56,
+      "pregunta": "La caquexia relacionada con el VIH aparece en el 90% de los pacientes que reciben TARGA (terapia antirretroviral de gran actividad).",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-057",
+      "numero": 57,
+      "pregunta": "La lipodistrofia aparece como consecuencia de la medicación TARGA (terapia antirretroviral de gran actividad). Su tratamiento dietético resulta fundamental para mantener una calidad de vida adecuada.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-058",
+      "numero": 58,
+      "pregunta": "Durante el ayuno se ponen en marcha varios mecanismos para compensar el déficit de ingesta. Los mecanismos son, y en este orden, los siguientes: glucogenólisis muscular, gluconeogénesis y lipólisis.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es glucogenólisis hepática, no muscular.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-059",
+      "numero": 59,
+      "pregunta": "Las proteínas de la leche de vaca, además de encontrarse en productos lácteos y derivados, están presentes en productos manufacturados, como embutidos, pescados congelados, cosméticos y medicamentos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-060",
+      "numero": 60,
+      "pregunta": "En el tratamiento dietético de la fibrosis quística, las necesidades están aumentadas en función de lo avanzada que esté la enfermedad, pudiendo llegar a ser del 120-150% de las recomendaciones para personas sanas de su misma edad, sexo y composición corporal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-062",
+      "numero": 62,
+      "pregunta": "En la hemocromatosis están indicados los alimentos fortificados, como, por ejemplo, los cereales de desayuno.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Pueden contener hierro.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-063",
+      "numero": 63,
+      "pregunta": "En el tratamiento dietético de la desnutrición, está indicado empezar directamente el tratamiento dietético con una dieta hipercalórica e hiperproteica.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Se empieza por una dieta normocalórica.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-064",
+      "numero": 64,
+      "pregunta": "En hepatopatía crónica las medidas utilizadas en somatometría son de gran utilidad a la hora de diagnosticar el riesgo de desnutrición.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Peso, talla e IMC son insuficientes aquí.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-065",
+      "numero": 65,
+      "pregunta": "En las dietas de protección biliar, debe reducirse la ingesta de grasa. Además, hay que tener en cuenta que las grasas vegetales crudas se toleran mejor que las fritas y las de origen animal.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-066",
+      "numero": 66,
+      "pregunta": "En insuficiencia hepática con encefalopatía se recomienda disminuir la ingesta de proteínas (dieta de 40 gramos de proteína) y mantenerla durante los días necesarios, hasta que mejore la sintomatología de la misma.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Los estudios actuales no apoyan reducir tanto las proteínas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-067",
+      "numero": 67,
+      "pregunta": "Según la SEEDO, un valor de IMC de 36 kg/m² indica una obesidad de grado I.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Es obesidad de grado II.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-068",
+      "numero": 68,
+      "pregunta": "Los alimentos, una vez metabolizados, dejan residuos ácidos o alcalinos que modifican el pH urinario. Alimentos como las carnes, pescados, cereales, huevos etc. originan un residuo ácido, es decir, acidifican la orina.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-069",
+      "numero": 69,
+      "pregunta": "En la diabulimia, jóvenes con diabetes DM1 aumentan las dosis de insulina para perder peso rápidamente. Se consigue perder peso al aumentar la pérdida de glucosa por la orina.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. No aumentan las dosis, las reducen.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-070",
+      "numero": 70,
+      "pregunta": "La dieta no forma parte fundamental del tratamiento en los EIM (errores innatos del metabolismo).",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. A veces es el único tratamiento.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-071",
+      "numero": 71,
+      "pregunta": "En el caso de litiasis de ácido úrico, el pH de la dieta debe ser alcalinizante (que produce residuo alcalino), por lo que están aconsejados vegetales, frutas, etc.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-072",
+      "numero": 72,
+      "pregunta": "Cuando hay cirugía gástrica es necesario limitar los azúcares sencillos, aumentar los complejos e incorporar el agua a las comidas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. El agua se toma fuera de las comidas.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-073",
+      "numero": 73,
+      "pregunta": "En dietas hipocalóricas equilibradas para el tratamiento de la obesidad el porcentaje de proteínas sube hasta 20% del VET.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-074",
+      "numero": 74,
+      "pregunta": "En pacientes con pancreatitis crónica está indicado el uso de TCM (triglicéridos de cadena media). Una dieta pobre en grasa suplementada con MCT reduce la producción de secreción pancreática.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-075",
+      "numero": 75,
+      "pregunta": "Entre los alimentos ricos en purinas se encuentran todas las carnes (incluyendo vísceras y extractos cárnicos), todos los pescados (incluyendo los mariscos) y algunos vegetales, como legumbres, espinacas, espárragos, setas y extractos de levadura.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-076",
+      "numero": 76,
+      "pregunta": "Dentro de la Alimentación básica adaptada se incluyen únicamente los productos nutricionalmente completos.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-077",
+      "numero": 77,
+      "pregunta": "En el tratamiento de la diarrea en fase I está indicada una dieta astringente, baja en grasas y de bajo contenido en lactosa.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Solo soluciones orales.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-078",
+      "numero": 78,
+      "pregunta": "Los alimentos con sello de FACE poseen menos de 50 ppm de gluten.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. Son 10 ppm.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-079",
+      "numero": 79,
+      "pregunta": "En pacientes con EPOC el aporte de grasas debe suponer entre el 30 y el 45% de las calorías totales de la dieta.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-pais-vasco-2019-080",
+      "numero": 80,
+      "pregunta": "Dentro de los factores dietéticos que promueven el desarrollo de litiasis cálcica, se encuentran una alta ingesta de proteína animal, una baja ingesta de líquidos, una alta ingesta de sodio y una alta ingesta de oxalato.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 1,
+      "explicacion": "Según la clave del examen es falsa. La alta ingesta de oxalato no.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

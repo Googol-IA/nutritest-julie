@@ -1,0 +1,102 @@
+{
+  "examenes": [
+    {
+      "id": "madrid-2018",
+      "titulo": "Madrid 2018",
+      "libro": "alimentacion-equilibrada",
+      "archivo": "madrid-2018.json",
+      "preguntas": 72
+    },
+    {
+      "id": "madrid-2019",
+      "titulo": "Madrid 2019",
+      "libro": "alimentacion-equilibrada",
+      "archivo": "madrid-2019.json",
+      "preguntas": 77
+    },
+    {
+      "id": "pais-vasco-2019",
+      "titulo": "País Vasco 2019",
+      "libro": "alimentacion-equilibrada",
+      "archivo": "pais-vasco-2019.json",
+      "preguntas": 154
+    },
+    {
+      "id": "ibiza-2019",
+      "titulo": "Ibiza 2019",
+      "libro": "alimentacion-equilibrada",
+      "archivo": "ibiza-2019.json",
+      "preguntas": 35
+    },
+    {
+      "id": "vinaroz-2019",
+      "titulo": "Vinaroz 2019",
+      "libro": "alimentacion-equilibrada",
+      "archivo": "vinaroz-2019.json",
+      "preguntas": 64
+    },
+    {
+      "id": "dt-vinaroz-2019",
+      "titulo": "Vinaroz 2019",
+      "libro": "dietoterapia",
+      "archivo": "dt-vinaroz-2019.json",
+      "preguntas": 75
+    },
+    {
+      "id": "dt-madrid-2018",
+      "titulo": "Madrid 2018 y 2019",
+      "libro": "dietoterapia",
+      "archivo": "dt-madrid-2018.json",
+      "preguntas": 68
+    },
+    {
+      "id": "dt-palma-2019",
+      "titulo": "Palma de Mallorca 2019",
+      "libro": "dietoterapia",
+      "archivo": "dt-palma-2019.json",
+      "preguntas": 43
+    },
+    {
+      "id": "dt-pais-vasco-2019",
+      "titulo": "País Vasco 2019 (V/F)",
+      "libro": "dietoterapia",
+      "archivo": "dt-pais-vasco-2019.json",
+      "preguntas": 71
+    },
+    {
+      "id": "dt-ibiza-2019",
+      "titulo": "Ibiza 2019 (V/F)",
+      "libro": "dietoterapia",
+      "archivo": "dt-ibiza-2019.json",
+      "preguntas": 67
+    },
+    {
+      "id": "otros--control-alimentario",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "control-alimentario",
+      "archivo": "otros--control-alimentario.json",
+      "preguntas": 9
+    },
+    {
+      "id": "otros--microbiologia-higiene",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "microbiologia-higiene",
+      "archivo": "otros--microbiologia-higiene.json",
+      "preguntas": 1
+    },
+    {
+      "id": "otros--fisiopatologia",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "fisiopatologia",
+      "archivo": "otros--fisiopatologia.json",
+      "preguntas": 15
+    },
+    {
+      "id": "otros--organizacion-gestion",
+      "titulo": "De exámenes de otros módulos",
+      "libro": "organizacion-gestion",
+      "archivo": "otros--organizacion-gestion.json",
+      "preguntas": 6
+    }
+  ]
+}

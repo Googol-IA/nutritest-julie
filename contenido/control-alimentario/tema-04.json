@@ -1,0 +1,743 @@
+{
+  "libro": "control-alimentario",
+  "tema": "t04",
+  "titulo": "Alteraciones físico-químicas de los alimentos",
+  "fuente": "Tema 4 Control A diapo.pdf",
+  "preguntas": [
+    {
+      "id": "ca-t04-001",
+      "pregunta": "Un alimento al que se ha añadido o quitado alguna sustancia para variar su composición, peso o volumen, para encubrir defectos o abaratarlo, es un alimento:",
+      "opciones": [
+        "Adulterado",
+        "Falsificado",
+        "Alterado",
+        "Contaminado"
+      ],
+      "correcta": 0,
+      "explicacion": "El alimento adulterado es intencional y fraudulento: se le añade o quita algo para encubrir o corregir defectos o abaratar costes.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-002",
+      "pregunta": "Un alimento preparado o etiquetado para simular otro conocido, cuya composición real no coincide con la declarada, es un alimento:",
+      "opciones": [
+        "Adulterado",
+        "Falsificado",
+        "Nocivo",
+        "Alterado"
+      ],
+      "correcta": 1,
+      "explicacion": "El alimento falsificado es intencional y busca engañar al consumidor haciéndolo pasar por otro.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-003",
+      "pregunta": "Un alimento «alterado» es aquel que:",
+      "opciones": [
+        "Se le ha añadido una sustancia para abaratarlo.",
+        "Contiene gérmenes patógenos por presencia accidental.",
+        "Ha sufrido cambios no provocados en sus caracteres organolépticos, composición o valor nutritivo, y es menos apto aunque siga siendo inocuo.",
+        "Ha sido etiquetado para imitar a otro."
+      ],
+      "correcta": 2,
+      "explicacion": "La alteración no es deliberada: el alimento pierde aptitud para el consumo, aunque pueda mantenerse inocuo.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-004",
+      "pregunta": "Un alimento que, por presencia accidental, contiene gérmenes patógenos, sustancias químicas o radiactivas, toxinas o parásitos capaces de transmitir enfermedades es un alimento:",
+      "opciones": [
+        "Alterado",
+        "Falsificado",
+        "Adulterado",
+        "Contaminado"
+      ],
+      "correcta": 3,
+      "explicacion": "El alimento contaminado lo es por presencia accidental de elementos externos que pueden producir o transmitir enfermedades.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-005",
+      "pregunta": "Un alimento se considera «nocivo» cuando:",
+      "opciones": [
+        "Cuando produce efectos perjudiciales con un consumo normal, su ingestión repetida es peligrosa o supera los límites de microorganismos o materias extrañas",
+        "Cuando se ha etiquetado para simular otro",
+        "Cuando ha cambiado de color sin ser peligroso",
+        "Cuando se ha abaratado añadiendo agua"
+      ],
+      "correcta": 0,
+      "explicacion": "El alimento nocivo supone un peligro para la salud, en general o para grupos concretos como lactantes o embarazadas.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-006",
+      "pregunta": "Respecto a las categorías de alimentos, es FALSO que:",
+      "opciones": [
+        "El adulterado es un fraude intencionado.",
+        "El falsificado es un fraude intencionado.",
+        "El alterado sufre cambios no provocados.",
+        "El contaminado es un fraude intencionado."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: el contaminado lo es por presencia ACCIDENTAL. Adulterado y falsificado son fraudes intencionados; alterado y contaminado se deben a causas no provocadas.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-007",
+      "pregunta": "La vida útil de un alimento es:",
+      "opciones": [
+        "El tiempo que tarda en cocinarse",
+        "El tiempo que puede estar sin envasar",
+        "El tiempo durante el cual, conservado, es seguro, mantiene sus características y cumple su valor nutricional declarado",
+        "El tiempo que tarda en caducar el envase"
+      ],
+      "correcta": 2,
+      "explicacion": "La vida útil depende de una manipulación y conservación adecuadas para mantener la estabilidad del alimento.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-008",
+      "pregunta": "Las alteraciones causadas por la actividad de enzimas, microorganismos o plagas son:",
+      "opciones": [
+        "Físicas",
+        "Químicas",
+        "Organolépticas",
+        "Biológicas"
+      ],
+      "correcta": 3,
+      "explicacion": "Biológicas: enzimas, microorganismos o plagas. Físicas: luz, O2, humedad, temperatura por mala manipulación. Químicas: reacciones por enzimas u O2 que alteran los componentes.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-009",
+      "pregunta": "Por cada aumento de 10 °C, la velocidad de la mayoría de reacciones químicas de los alimentos:",
+      "opciones": [
+        "Se duplica.",
+        "No cambia.",
+        "Se reduce a la mitad.",
+        "Se multiplica por 10."
+      ],
+      "correcta": 0,
+      "explicacion": "La velocidad de la mayoría de reacciones se duplica con cada aumento de 10 °C. Por eso se controla con refrigeración y termómetros de máximas y mínimas.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-010",
+      "pregunta": "Respecto a la pérdida de vitaminas, señala la opción CORRECTA:",
+      "opciones": [
+        "Las vitaminas B1 y B9 son fotosensibles.",
+        "Las vitaminas A, D, K y B2 son fotosensibles.",
+        "Las vitaminas A, C y E son termolábiles.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Solo es cierta la b. Calor: B1 y B9. Luz: A, D, K y B2. Oxígeno: A, C, E y también D.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ca-t04-011",
+      "pregunta": "Son vitaminas fotosensibles (se pierden con la luz):",
+      "opciones": [
+        "B1 y B9",
+        "C y E",
+        "A, D, K y B2",
+        "B12 y B6"
+      ],
+      "correcta": 2,
+      "explicacion": "La luz destruye vitaminas fotosensibles (A, D, K, B2) y aminoácidos como His, Trp, Met y Tyr.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-012",
+      "pregunta": "Se pierden sobre todo por acción del oxígeno las vitaminas antioxidantes:",
+      "opciones": [
+        "B1 y B9",
+        "B2 y K",
+        "B12 y ácido fólico",
+        "A, C, E y también D"
+      ],
+      "correcta": 3,
+      "explicacion": "El oxígeno oxida los componentes del alimento: enranciamiento de lípidos, pardeamiento enzimático y pérdida de vitaminas antioxidantes (A, C, E y también D).",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-013",
+      "pregunta": "Un pH débilmente ácido (pH > 4):",
+      "opciones": [
+        "Activa las fenolasas y la oxidación del ácido ascórbico",
+        "Inhibe totalmente el pardeamiento",
+        "Favorece la reacción de Maillard",
+        "Desnaturaliza todas las proteínas"
+      ],
+      "correcta": 0,
+      "explicacion": "pH extremos: inhiben microorganismos y desnaturalizan proteínas. pH débilmente ácido: activa fenolasas y oxidación de vitamina C. pH alcalino: favorece la reacción de Maillard.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-014",
+      "pregunta": "Favorece la reacción de Maillard (pardeamiento no enzimático) un pH:",
+      "opciones": [
+        "pH muy ácido",
+        "pH alcalino",
+        "pH 2",
+        "El pH no influye"
+      ],
+      "correcta": 1,
+      "explicacion": "Un pH alcalino favorece la reacción de Maillard. Por eso la acidificación es una forma de prevenirla.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-015",
+      "pregunta": "El factor físico que se considera más crítico para las reacciones de alteración y los microbios es:",
+      "opciones": [
+        "La luz",
+        "El pH",
+        "La humedad y la actividad de agua (aw)",
+        "La composición propia"
+      ],
+      "correcta": 2,
+      "explicacion": "El agua es un buen catalizador de las reacciones de alteración: cuanto mayor es la aw, mayor es la velocidad de las reacciones bioquímicas y microbiológicas.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-016",
+      "pregunta": "Respecto a los tipos de agua del alimento, es FALSO que:",
+      "opciones": [
+        "El agua fuertemente ligada existe incluso en los deshidratados y no se congela.",
+        "El agua fuertemente ligada no actúa como disolvente ni como reactivo.",
+        "El agua libre o disponible actúa como disolvente y la usan los microorganismos.",
+        "El agua fuertemente ligada es la que usan los microorganismos para crecer."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: los microorganismos usan el agua disponible o libre (en poros y espacios), que actúa como disolvente. La fuertemente ligada no está disponible.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-017",
+      "pregunta": "El agua del alimento que actúa como disolvente y dispersante y mantiene sus propiedades físico-químicas es:",
+      "opciones": [
+        "El agua disponible o libre",
+        "El agua fuertemente ligada",
+        "El agua débilmente ligada",
+        "El agua de constitución"
+      ],
+      "correcta": 0,
+      "explicacion": "El agua disponible no está unida a ninguna molécula (está en poros y espacios), conserva sus propiedades y actúa como disolvente; es la que usan los microorganismos.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-018",
+      "pregunta": "La mayoría de las bacterias patógenas crecen a partir de una aw de:",
+      "opciones": [
+        "0,50",
+        "0,90",
+        "0,70",
+        "0,60"
+      ],
+      "correcta": 1,
+      "explicacion": "Mayoría de bacterias patógenas > 0,90 (no crecen bacterias < 0,75-0,8). Levaduras > 0,80-0,85. Mohos > 0,70-0,80. Ningún microorganismo < 0,5.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-019",
+      "pregunta": "Pueden crecer con una aw más baja:",
+      "opciones": [
+        "Las bacterias patógenas.",
+        "Las levaduras no osmófilas.",
+        "Los mohos (incluso xerófilos por debajo de 0,6).",
+        "Las bacterias lácticas."
+      ],
+      "correcta": 2,
+      "explicacion": "Los mohos crecen desde aw 0,70-0,80, y algunos xerófilos incluso por debajo de 0,6. Por debajo de 0,5 no crece ningún microorganismo.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-020",
+      "pregunta": "En relación con la actividad de agua, «crecimiento ≠ presencia» significa que:",
+      "opciones": [
+        "Que si no hay crecimiento no hay microorganismos",
+        "Que la aw no influye",
+        "Que todos los microorganismos mueren a aw baja",
+        "Que aunque un microorganismo no crezca a esa aw, puede estar presente en el alimento"
+      ],
+      "correcta": 3,
+      "explicacion": "Una aw baja impide el crecimiento, pero los microorganismos pueden seguir presentes (por ejemplo, en forma de esporas) y crecer si el alimento se rehidrata.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-021",
+      "pregunta": "Las quemaduras por frío en los alimentos congelados son:",
+      "opciones": [
+        "Pérdida de humedad por sublimación de los cristales de hielo de la superficie, con manchas secas, fibrosas y pálidas",
+        "Una contaminación bacteriana",
+        "La formación de acrilamida",
+        "Un pardeamiento enzimático"
+      ],
+      "correcta": 0,
+      "explicacion": "La sublimación (hielo → vapor) por desequilibrio de humedad relativa causa pérdida de peso, manchas secas y fibrosas, color pálido y pérdida de calidad irreversible.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-022",
+      "pregunta": "Al almacenar productos frescos se produce:",
+      "opciones": [
+        "Floración grasa",
+        "Pérdida de turgencia, de peso, arrugamiento superficial y coloraciones anormales",
+        "Quemaduras por frío",
+        "Granulación"
+      ],
+      "correcta": 1,
+      "explicacion": "En los productos frescos hay desecación: pérdida de peso y valor comercial, contracción y arrugamiento, película dura, pérdida de turgencia por transpiración/respiración y colores anormales.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-023",
+      "pregunta": "Respecto a las alteraciones del huevo durante el almacenamiento, señala la opción CORRECTA:",
+      "opciones": [
+        "Al perder CO2 sube el pH de la clara.",
+        "Al perder agua aumenta la cámara de aire.",
+        "La yema se vuelve flácida, aplanada y acuosa.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. La pérdida de CO2 eleva el pH de la clara (envejece, más riesgo microbiano); el agua pasa de la clara a la yema, que queda flácida, y la cámara de aire aumenta.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ca-t04-024",
+      "pregunta": "Al perder agua el huevo, el agua pasa de la clara a la yema, que toma un aspecto:",
+      "opciones": [
+        "Dura y esférica",
+        "Más oscura y seca",
+        "Granulosa",
+        "Flácida, aplanada y acuosa"
+      ],
+      "correcta": 3,
+      "explicacion": "El paso de agua de la clara a la yema deja la yema flácida, aplanada y acuosa, signo de huevo envejecido.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-025",
+      "pregunta": "En casa se recomienda conservar los huevos:",
+      "opciones": [
+        "En el frigorífico pero no en la puerta, con la punta hacia abajo y sin lavarlos hasta su uso.",
+        "En la puerta del frigorífico, lavados.",
+        "A temperatura ambiente con la punta hacia arriba.",
+        "En el frigorífico, lavados y con la punta hacia arriba."
+      ],
+      "correcta": 0,
+      "explicacion": "Frigorífico (no en la puerta, por los cambios de temperatura), punta hacia abajo y sin lavar hasta el momento de usarlos.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-026",
+      "pregunta": "Respecto a la floración del chocolate, es FALSO que:",
+      "opciones": [
+        "La floración grasa se debe a una recristalización incorrecta de la manteca de cacao.",
+        "La floración grasa tiene aspecto graso y cede a la presión.",
+        "La floración de azúcar es seca, áspera y granulosa.",
+        "La floración de azúcar se debe al polimorfismo de la manteca de cacao."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la floración de azúcar se debe a la recristalización de la sacarosa por la humedad. El polimorfismo de la manteca de cacao causa la floración grasa.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-027",
+      "pregunta": "La floración de azúcar (sugar bloom) del chocolate se debe a:",
+      "opciones": [
+        "El polimorfismo de la manteca de cacao",
+        "La oxidación de lípidos",
+        "La recristalización de la sacarosa por la humedad",
+        "La reacción de Maillard"
+      ],
+      "correcta": 2,
+      "explicacion": "La humedad disuelve la sacarosa de la superficie, que después recristaliza dejando una capa grisácea, seca y granulosa.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-028",
+      "pregunta": "La granulación (textura arenosa) en caramelos y bombones con mucha sacarosa se produce por:",
+      "opciones": [
+        "Por la floración grasa",
+        "Por pardeamiento enzimático",
+        "Por contaminación microbiana",
+        "Por la inversión de la sacarosa (fructosa + glucosa), que altera la solubilidad y provoca cristalización"
+      ],
+      "correcta": 3,
+      "explicacion": "La inversión de la sacarosa altera la solubilidad y produce cristalización. También influyen una formulación o un almacenamiento incorrectos.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-029",
+      "pregunta": "El cuajado de la clara de huevo o el corte de la leche son ejemplos de:",
+      "opciones": [
+        "Desnaturalización proteica",
+        "Pardeamiento enzimático",
+        "Alteración de lípidos",
+        "Reacción de Maillard"
+      ],
+      "correcta": 0,
+      "explicacion": "La desnaturalización proteica afecta a las proteínas por calor o por ácidos/bases.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-030",
+      "pregunta": "Son consecuencias de las alteraciones de los lípidos:",
+      "opciones": [
+        "La disminución del valor nutritivo (pérdida de vitaminas liposolubles).",
+        "La generación de sustancias tóxicas.",
+        "Los olores y sabores anormales.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. Las alteraciones lipídicas reducen el valor nutritivo, la calidad higiénico-sanitaria, la calidad sensorial y el valor comercial.",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "ca-t04-031",
+      "pregunta": "La lipólisis o rancidez hidrolítica consiste en:",
+      "opciones": [
+        "En la formación de polímeros por fritura",
+        "En la oxidación espontánea con el O2",
+        "En la ruptura de los enlaces éster glicerol-ácido graso, liberando ácidos grasos libres",
+        "En la formación de metilcetonas por mohos"
+      ],
+      "correcta": 2,
+      "explicacion": "La lipólisis rompe los enlaces éster de los triglicéridos por acción de lipasas, agua, calor y pH ácido, liberando ácidos grasos libres (AGL).",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-032",
+      "pregunta": "La lipólisis produce un sabor u olor característico:",
+      "opciones": [
+        "A pescado o paja",
+        "A queso Roquefort",
+        "A caramelo",
+        "Jabonoso"
+      ],
+      "correcta": 3,
+      "explicacion": "La lipólisis da sabores y olores «jabonosos», sobre todo por los AGL de cadena corta (como el ácido láurico). Afecta a leche, mantequilla, aceites o carne picada almacenados mucho tiempo.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-033",
+      "pregunta": "La reversión del flavor es:",
+      "opciones": [
+        "La aparición temprana de aromas anómalos (a pescado, paja, melón) en aceites refinados ricos en ácido linolénico",
+        "La formación de polímeros en la fritura",
+        "Un tipo de pardeamiento enzimático",
+        "La rotura de enlaces éster"
+      ],
+      "correcta": 0,
+      "explicacion": "Es un proceso oxidativo previo y menos intenso que el enranciamiento. Afecta a aceites de soja, colza y pescado. Los antioxidantes convencionales no son eficaces; se usa la hidrogenación parcial.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-034",
+      "pregunta": "Para los aceites de fritura y evitar la polimerización se recomienda:",
+      "opciones": [
+        "Reutilizarlos sin límite si no han cambiado de color.",
+        "No reutilizarlos más de 2-3 veces, desecharlos si han humeado, freír a menos de 170 °C y compuestos polares < 25 %.",
+        "Freír siempre a más de 200 °C.",
+        "Mezclar aceite nuevo con el usado."
+      ],
+      "correcta": 1,
+      "explicacion": "La fritura repetida forma polímeros: más viscosidad, oscurecimiento, espuma y tóxicos. Por eso se limita su reutilización y la temperatura.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-035",
+      "pregunta": "La oxidación por lipooxigenasas en legumbres verdes, cereales y patatas se previene antes de congelar o desecar mediante:",
+      "opciones": [
+        "Añadiendo sal",
+        "Lavando con agua fría",
+        "Con un escaldado que inactiva la enzima (y antioxidantes)",
+        "Envasando en atmósfera con O2"
+      ],
+      "correcta": 2,
+      "explicacion": "Las lipooxigenasas (enzimas con hierro) oxidan ácidos grasos poliinsaturados incluso a baja temperatura. El escaldado previo las inactiva.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-036",
+      "pregunta": "Los mohos que oxidan ácidos grasos saturados de cadena corta-media formando metilcetonas producen:",
+      "opciones": [
+        "Lipólisis",
+        "Reversión del flavor",
+        "Polimerización",
+        "Enranciamiento cetónico"
+      ],
+      "correcta": 3,
+      "explicacion": "El enranciamiento cetónico puede ser indeseable (manteca de cacao) o deseado (sabor del queso Roquefort).",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-037",
+      "pregunta": "En la autooxidación se oxidan más rápido los ácidos grasos:",
+      "opciones": [
+        "Poliinsaturados.",
+        "Saturados.",
+        "Monoinsaturados.",
+        "Todos a la misma velocidad."
+      ],
+      "correcta": 0,
+      "explicacion": "Cuantas más insaturaciones, mayor velocidad de oxidación: AGP > AGM > AGS. Además se oxidan más en estado libre que formando triglicéridos.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-038",
+      "pregunta": "El orden correcto de las fases de la autooxidación lipídica es:",
+      "opciones": [
+        "Propagación → iniciación → terminación",
+        "Iniciación → propagación → terminación",
+        "Terminación → iniciación → propagación",
+        "Iniciación → terminación → propagación"
+      ],
+      "correcta": 1,
+      "explicacion": "1) Iniciación: se forma el radical libre R•. 2) Propagación: R• + O2 → ROO•, que forma hidroperóxidos ROOH y nuevos R•. 3) Terminación: productos estables y compuestos volátiles a rancio.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-039",
+      "pregunta": "En la autooxidación, la fase en la que el radical libre reacciona con el O2 y se forman hidroperóxidos es la:",
+      "opciones": [
+        "Iniciación",
+        "Terminación",
+        "Propagación",
+        "Hidrólisis"
+      ],
+      "correcta": 2,
+      "explicacion": "En la propagación, R• + O2 forma el radical peróxido ROO•, que reacciona con otro ácido graso formando un hidroperóxido (ROOH) y un nuevo R•.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-040",
+      "pregunta": "Los responsables del olor a rancio en la fase de terminación son:",
+      "opciones": [
+        "Los radicales libres",
+        "Los ácidos grasos libres",
+        "Los triglicéridos",
+        "Los compuestos secundarios volátiles (aldehídos, cetonas, alcoholes)"
+      ],
+      "correcta": 3,
+      "explicacion": "Los hidroperóxidos inestables se degradan a compuestos secundarios (aldehídos, cetonas, alcoholes); los volátiles dan el olor y aroma a rancio.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-041",
+      "pregunta": "Si se miden pocos peróxidos en un aceite, puede significar:",
+      "opciones": [
+        "Que la oxidación está empezando.",
+        "Que la oxidación está muy avanzada (peróxidos ya degradados).",
+        "Que el aceite está en plena fase de propagación.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Hay pocos peróxidos al inicio de la oxidación y también al final, cuando se han degradado a aldehídos y cetonas. Por eso este dato solo no basta.",
+      "dificultad": 3,
+      "orden_fijo": true
+    },
+    {
+      "id": "ca-t04-042",
+      "pregunta": "Para que haya pardeamiento enzimático deben estar presentes a la vez:",
+      "opciones": [
+        "Azúcares reductores, aminoácidos y calor.",
+        "Compuestos fenólicos, polifenoloxidasa (fenolasa) y oxígeno.",
+        "Ácidos grasos, lipasas y agua.",
+        "Compuestos fenólicos, lipooxigenasa y calor."
+      ],
+      "correcta": 1,
+      "explicacion": "Sustrato (compuestos fenólicos) + enzima (polifenoloxidasa, que contiene cobre) + oxígeno. La prevención consiste en eliminar o inactivar al menos uno de ellos.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-043",
+      "pregunta": "La polifenoloxidasa contiene, y acelera la oxidación de los polifenoles, el metal:",
+      "opciones": [
+        "Hierro",
+        "Zinc",
+        "Cobre",
+        "Magnesio"
+      ],
+      "correcta": 2,
+      "explicacion": "Las polifenoloxidasas son catalizadores que contienen cobre. Las lipooxigenasas, en cambio, contienen hierro.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-044",
+      "pregunta": "Sufre típicamente pardeamiento enzimático al cortarlo o golpearlo:",
+      "opciones": [
+        "Pan",
+        "Leche en polvo",
+        "Carne asada",
+        "Manzana"
+      ],
+      "correcta": 3,
+      "explicacion": "Se activa por daño en los tejidos (golpes, cortes, pelado, zumos) en plátanos, manzanas, patatas, peras, melocotones o champiñones.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-045",
+      "pregunta": "En el pardeamiento enzimático se forman los pigmentos llamados:",
+      "opciones": [
+        "Melaninas (a partir de quinonas)",
+        "Melanoidinas",
+        "Carotenos",
+        "Clorofilas"
+      ],
+      "correcta": 0,
+      "explicacion": "Polifenoles + O2 → quinonas (intermediario) → melaninas. Las melanoidinas se forman en la reacción de Maillard.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-046",
+      "pregunta": "Es un ejemplo DESEADO de pardeamiento enzimático:",
+      "opciones": [
+        "La corteza del pan",
+        "La fermentación del té y el secado del cacao",
+        "La salsa de caramelo",
+        "La manzana cortada"
+      ],
+      "correcta": 1,
+      "explicacion": "Ejemplos deseados: maduración de dátiles y pasas, secado del cacao y fermentación del té. La corteza del pan es Maillard y el caramelo es caramelización.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-047",
+      "pregunta": "Previenen el pardeamiento enzimático:",
+      "opciones": [
+        "El ácido ascórbico.",
+        "El escaldado.",
+        "Aumentar el pH.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Se previene con escaldado, frío, antioxidantes (ácido ascórbico), sulfitos, exclusión de O2, BAJAR el pH, evitar golpes y recubrimientos (sal, azúcar).",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "ca-t04-048",
+      "pregunta": "En la reacción de Maillard intervienen como sustratos:",
+      "opciones": [
+        "Compuestos fenólicos y oxígeno",
+        "Ácidos grasos y lipasas",
+        "Solo sacarosa",
+        "Aminoácidos (con grupo amino libre) y compuestos carbonilo (azúcares reductores)"
+      ],
+      "correcta": 3,
+      "explicacion": "Maillard: aminoácidos o proteínas + azúcares reductores, con el calor como catalizador principal. Se forman melanoidinas.",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-049",
+      "pregunta": "El aminoácido más susceptible a la reacción de Maillard (y por tanto el que más se pierde) es:",
+      "opciones": [
+        "Lisina",
+        "Leucina",
+        "Glicina",
+        "Valina"
+      ],
+      "correcta": 0,
+      "explicacion": "La lisina es la más reactiva; también participan L-arginina, L-histidina y tirosina. Su pérdida reduce el valor nutritivo de la proteína.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-050",
+      "pregunta": "Los azúcares más reactivos en la reacción de Maillard son:",
+      "opciones": [
+        "Los disacáridos como la sacarosa",
+        "Las pentosas, como la ribosa",
+        "El almidón",
+        "La celulosa"
+      ],
+      "correcta": 1,
+      "explicacion": "Reactividad: pentosas (ribosa) > hexosas (glucosa, fructosa) > disacáridos reductores (lactosa, maltosa). La sacarosa solo reacciona si se hidroliza en medio ácido.",
+      "dificultad": 3
+    },
+    {
+      "id": "ca-t04-051",
+      "pregunta": "Es un efecto INDESEADO de la reacción de Maillard:",
+      "opciones": [
+        "La corteza dorada del pan",
+        "El aroma del café tostado",
+        "La pérdida de nutrientes en la concentración de leche y zumos",
+        "El color de la carne asada"
+      ],
+      "correcta": 2,
+      "explicacion": "Es deseada en panadería, café, chocolate o asados, pero indeseada al concentrar o deshidratar leche y zumos, pasteurizar o deshidratar carne y huevo (pérdida de lisina, vitamina C…).",
+      "dificultad": 1
+    },
+    {
+      "id": "ca-t04-052",
+      "pregunta": "La reacción de Maillard es máxima con una aw:",
+      "opciones": [
+        "aw muy baja (< 0,2)",
+        "aw muy alta (> 0,95)",
+        "aw = 1",
+        "aw media (0,55-0,75)"
+      ],
+      "correcta": 3,
+      "explicacion": "La reacción de Maillard se favorece con temperatura alta, aw media (0,55-0,75) y pH neutro. Se previene con aw bajas o altas.",
+      "dificultad": 2
+    },
+    {
+      "id": "ca-t04-053",
+      "pregunta": "La etapa de la reacción de Maillard que produce compuestos olorosos como las pirazinas de las patatas chips es:",
+      "opciones": [
+        "La degradación de Strecker",
+        "La condensación inicial",
+        "La transposición de Amadori",
+        "La glucosilamina"
+      ],
+      "correcta": 0,
+      "explicacion": "La degradación de Strecker descompone los α-dicarbonilos y libera CO2, NH3 y compuestos olorosos como las pirazinas.",
+      "dificultad": 3
+    },
+    {
+      "id": "ca-t04-054",
+      "pregunta": "En la reacción de Maillard, la reorganización de la glucosilamina procedente de una aldosa se llama:",
+      "opciones": [
+        "Transposición de Heyns",
+        "Transposición de Amadori",
+        "Degradación de Strecker",
+        "Caramelización"
+      ],
+      "correcta": 1,
+      "explicacion": "Aldosa → transposición de Amadori; cetosa → transposición de Heyns. Es la etapa 2 de la reacción.",
+      "dificultad": 3
+    },
+    {
+      "id": "ca-t04-055",
+      "pregunta": "Respecto a la caramelización y la reacción de Maillard, señala la opción CORRECTA:",
+      "opciones": [
+        "La caramelización ocurre con azúcares en ausencia de aminoácidos y a temperaturas muy altas.",
+        "La caramelización necesita enzimas.",
+        "La reacción de Maillard no necesita aminoácidos.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Es cierta la a. La caramelización es una reacción química de azúcares sin aminoácidos (flan, caramelo, cebolla caramelizada). Maillard necesita aminoácidos y azúcares reductores; ninguna de las dos usa enzimas.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ca-t04-056",
+      "pregunta": "En el pardeamiento NO enzimático interviene la enzima:",
+      "opciones": [
+        "Polifenoloxidasa.",
+        "Lipasa.",
+        "Lipooxigenasa.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Tanto la reacción de Maillard como la caramelización son reacciones químicas sin enzimas. Solo el pardeamiento enzimático usa polifenoloxidasas.",
+      "dificultad": 1,
+      "orden_fijo": true
+    }
+  ]
+}

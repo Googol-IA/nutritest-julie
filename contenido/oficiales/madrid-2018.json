@@ -1,0 +1,1088 @@
+{
+  "examen": "madrid-2018",
+  "titulo": "Madrid 2018",
+  "libro": "alimentacion-equilibrada",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-madrid-2018-001",
+      "numero": 1,
+      "pregunta": "El ácido docosahexaenoico:",
+      "opciones": [
+        "Abunda en el aceite de palma, soja, lino y otros vegetales.",
+        "Su carencia puede producir pérdida de agudeza visual.",
+        "Es un AGPI de la familia ω6.",
+        "Es precursor de las hormonas esteroideas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-002",
+      "numero": 2,
+      "pregunta": "En el aceite de oliva:",
+      "opciones": [
+        "Los grados del aceite expresan el porcentaje en volumen de triglicéridos.",
+        "El virgen no contiene ácidos grasos linoleico y linolénico.",
+        "El de oliva se obtiene al mezclar aceites de oliva virgen y refinado.",
+        "Los de 1° de acidez son mejores nutricionalmente que los de 0,4°."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-003",
+      "numero": 3,
+      "pregunta": "En las encuestas alimentarias es correcto que:",
+      "opciones": [
+        "Un recuerdo de 24 horas valora la ingesta habitual de una persona.",
+        "El diario de registro por pesada de alimentos es el más empleado en estudios alimentarios epidemiológicos.",
+        "Los diarios dietéticos pueden alterar el patrón de ingesta habitual del individuo.",
+        "En general, los métodos retrospectivos requieren mayor colaboración por parte del encuestado."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-004",
+      "numero": 4,
+      "pregunta": "El selenio:",
+      "opciones": [
+        "No presenta toxicidad por dosis altas.",
+        "Junto a la vitamina E se le atribuye acción antineoplásica natural.",
+        "Su déficit produce anemia microcítica en niños.",
+        "Interviene en la oxidación de ion ferroso a férrico."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-005",
+      "numero": 5,
+      "pregunta": "Para las mediciones antropométricas:",
+      "opciones": [
+        "El plano de Frankfurt indica la posición adecuada de la espalda para medir la talla.",
+        "La estatura se mide con los talones juntos, recto y la espalda en máxima extensión.",
+        "El pliegue cutáneo subescapular se toma debajo del ángulo inferior del omoplato en dirección oblicua respecto a la columna vertebral.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-006",
+      "numero": 6,
+      "pregunta": "En la composición nutricional de la leche entera, es cierto que:",
+      "opciones": [
+        "La proteína más abundante es la lactoalbúmina.",
+        "Es buena fuente de calcio, fósforo y hierro para la dieta.",
+        "Es muy rica en colecalciferol.",
+        "Las vitaminas más abundantes son riboflavina y retinol."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-007",
+      "numero": 7,
+      "pregunta": "\"Moderar el consumo de grasas, particularmente de grasas saturadas y colesterol\" es:",
+      "opciones": [
+        "Un requerimiento nutricional.",
+        "Un objetivo nutricional.",
+        "Una recomendación de guía alimentaria.",
+        "Ingesta recomendada de grasa."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-008",
+      "numero": 8,
+      "pregunta": "Señale la respuesta correcta:",
+      "opciones": [
+        "El sodio participa en la excitabilidad normal del músculo.",
+        "El principal anión del líquido extracelular es el cloro.",
+        "La hormona que participa en la eliminación de potasio por la orina es la aldosterona.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-009",
+      "numero": 9,
+      "pregunta": "En las fracciones de la fibra, es correcto que:",
+      "opciones": [
+        "Las pectinas abundan en las castañas, pistachos y almendras.",
+        "Las gomas pueden contribuir a reducir la arteriosclerosis.",
+        "La carragenina forma parte de los tejidos blandos de las frutas y verduras.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-010",
+      "numero": 10,
+      "pregunta": "En la composición nutritiva de los cereales es cierto que:",
+      "opciones": [
+        "La composición de la aleurona es de escaso valor nutricional.",
+        "El núcleo amiláceo es rico en vitaminas del grupo B que se pierden en el refinado.",
+        "El germen es rico en tocoferol y tiamina.",
+        "El arroz vaporizado tiene menos vitaminas que el arroz pulido."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-011",
+      "numero": 11,
+      "pregunta": "Sobre los estándares de referencia nutricional es correcto:",
+      "opciones": [
+        "Los Requerimientos Nutricionales son la cantidad de nutriente que un individuo necesita para evitar deficiencias.",
+        "Las Ingestas Recomendadas indican la cantidad máxima de nutriente que puede ingerir cualquier individuo de la población de referencia para una nutrición adecuada.",
+        "Los Requerimientos Nutricionales cubren las necesidades de nutrientes del 50 % de la población.",
+        "Las Ingestas Recomendadas se obtienen sumando 2 desviaciones estándar a los Requerimientos Nutricionales."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-012",
+      "numero": 12,
+      "pregunta": "Durante los primeros 6 meses de la vida del niño la necesidad:",
+      "opciones": [
+        "De energía por kilogramo de peso es menor que en la edad escolar.",
+        "De proteína por kilogramo de peso es menor que en el adulto joven deportista.",
+        "De la proporción de energía desde lípidos de la alimentación es mayor que en el resto de las etapas de la vida.",
+        "Todas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-013",
+      "numero": 13,
+      "pregunta": "Respecto a la cianocobalamina, es cierto que:",
+      "opciones": [
+        "Interviene en la formación de la mielina y funcionamiento de las células nerviosas.",
+        "Se almacena principalmente en el hígado.",
+        "Su carencia produce anemia.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-014",
+      "numero": 14,
+      "pregunta": "Respecto a los sacáridos siguientes, es correcto que:",
+      "opciones": [
+        "El azúcar invertido es una mezcla de glucosa y xilosa.",
+        "La amilopectina es la cadena lineal de α-1,4-D-glucosa del almidón.",
+        "La sacarosa tiene mayor índice glucémico que ningún otro alimento.",
+        "La glucosa se emplea como patrón para la determinación del índice glucémico de los alimentos."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-015",
+      "numero": 15,
+      "pregunta": "La luteína y zeaxantina:",
+      "opciones": [
+        "Son aminas biógenas que pueden estar presentes en quesos curados.",
+        "Son aminas biógenas que pueden estar presentes en la yema de huevo.",
+        "Son xantofilas con carácter antioxidante presentes en la yema de huevo.",
+        "Son xantofilas con carácter antioxidante presentes en los quesos curados."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-017",
+      "numero": 17,
+      "pregunta": "La deficiencia de:",
+      "opciones": [
+        "Tocoferol produce en el hombre alteraciones de la visión, alteraciones en la piel y aumento de infecciones.",
+        "Filoquinona produce hemorragias.",
+        "Vitamina A produce trastornos en la coagulación y alteración en la estabilidad de la membrana eritrocitaria.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-018",
+      "numero": 18,
+      "pregunta": "Las maltodextrinas:",
+      "opciones": [
+        "Son disacáridos.",
+        "Se utilizan para preparados que requieren un esfuerzo digestivo menor que el almidón.",
+        "Se usan como conservantes en la industria alimentaria.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-019",
+      "numero": 19,
+      "pregunta": "Las proteínas de la dieta, en personas sanas, cumplirán el equilibrio nutritivo si:",
+      "opciones": [
+        "En un adolescente son 2,5 g/kg de peso al día.",
+        "En una embarazada son al menos 2 g/kg de peso al día.",
+        "En una mujer menopáusica de 55 años aportan 0,8 g/kg de peso al día.",
+        "En un anciano son al menos de 1 g/kg de peso al día."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-020",
+      "numero": 20,
+      "pregunta": "El balance de nitrógeno:",
+      "opciones": [
+        "Negativo indica que se están perdiendo proteínas corporales.",
+        "Positivo se produce en los adultos sanos cuyo consumo de proteínas es excesivo.",
+        "Las respuestas a y b son correctas.",
+        "Todas las anteriores son falsas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-021",
+      "numero": 21,
+      "pregunta": "En la composición nutricional del huevo, es cierto que:",
+      "opciones": [
+        "La clara contiene un alto contenido vitamínico del grupo B.",
+        "Contiene ovovitelina que impide que se absorba la biotina.",
+        "La yema es muy rica en colesterol y triglicéridos.",
+        "La yema contiene proteínas, pero a diferencia de las de la clara son de bajo valor biológico."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-022",
+      "numero": 22,
+      "pregunta": "De los siguientes componentes de la fibra alimentaria, es verdadero que:",
+      "opciones": [
+        "La inulina es un fructo-oligosacárido que se degrada mínimamente por las enzimas digestivas humanas.",
+        "El almidón resistente se corresponde con las cadenas de amilopectina de cereales y patata.",
+        "Los mucílagos abundan en las semillas de cereales y legumbres.",
+        "La rafinosa se fermenta en el colon produciendo metano."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-023",
+      "numero": 23,
+      "pregunta": "El índice metabólico basal se mide con el sujeto:",
+      "opciones": [
+        "Relajado y dormido varias horas después de cualquier ejercicio físico a una temperatura aproximada de 20 °C.",
+        "Relajado pero despierto, inmediatamente después de comer, varias horas después de haber realizado ejercicio físico a una temperatura de unos 20 °C.",
+        "Relajado, pero despierto varias horas después de haber comido e inmediatamente después de haber realizado 30' de ejercicio moderado, a una temperatura de unos 20 °C.",
+        "Todas son falsas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-024",
+      "numero": 24,
+      "pregunta": "Las ayudas ergogénicas nutricionales en deportistas:",
+      "opciones": [
+        "Consisten en aumentar el depósito de proteína muscular.",
+        "Son útiles en pruebas de resistencia.",
+        "Aumentan los fosfágenos musculares.",
+        "Todas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-025",
+      "numero": 25,
+      "pregunta": "En relación con los ácidos grasos es correcto que:",
+      "opciones": [
+        "El C18:3 omega 3 tiene menor punto de fusión que el esteárico.",
+        "El esteárico pertenece a la serie omega 7.",
+        "El palmitoleico es precursor del palmítico y se oxida fácilmente.",
+        "Los ácidos grasos \"trans\" no se incorporan a las células, por lo que aumentan la trigliceridemia."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-026",
+      "numero": 26,
+      "pregunta": "La patata:",
+      "opciones": [
+        "Es especialmente rica en piridoxina.",
+        "Contiene igual cantidad de proteína que los cereales.",
+        "Contiene menor cantidad de almidón que los cereales.",
+        "a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-027",
+      "numero": 27,
+      "pregunta": "Es un buen indicador bioquímico indirecto de:",
+      "opciones": [
+        "La masa muscular corporal, la excreción de creatina.",
+        "La ingesta de grasa, el colesterol plasmático.",
+        "La ingesta de vitamina D, la fosfatasa alcalina sérica.",
+        "La ingesta de hierro, la concentración de hierro sérico."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-028",
+      "numero": 28,
+      "pregunta": "Sobre los nutrientes esenciales es correcto que:",
+      "opciones": [
+        "El ácido α-linolénico es precursor del ácido araquidónico.",
+        "Son precursores de compuestos vitales para las reacciones energéticas del organismo.",
+        "La glucosa es nutriente esencial ya que los eritrocitos y células del SNC solo pueden utilizar glucosa como combustible para su correcto funcionamiento.",
+        "La glutamina es un aminoácido esencial en situaciones de alto estrés metabólico."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-029",
+      "numero": 29,
+      "pregunta": "El equivalente metabólico o cociente calórico de oxígeno:",
+      "opciones": [
+        "Se obtiene dividiendo los moles de CO2 producidos entre los moles de O2 consumidos.",
+        "Es la cantidad de energía que se desprende de la combustión de los respectivos nutrientes con un litro de oxígeno.",
+        "Es de 4 kcal/l para los glúcidos y proteínas y 9 kcal/l para las grasas.",
+        "Las respuestas b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-030",
+      "numero": 30,
+      "pregunta": "Señale la respuesta correcta respecto a la calidad nutritiva de las proteínas:",
+      "opciones": [
+        "El valor biológico de una proteína se obtiene multiplicando la utilización neta de la proteína por su coeficiente de digestibilidad.",
+        "La utilización neta de la proteína es el porcentaje de N retenido respecto al ingerido.",
+        "Las vegetales complementadas convenientemente pueden dar lugar al consumo de proteína de un valor biológico similar a la proteína patrón.",
+        "Las respuestas b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-031",
+      "numero": 31,
+      "pregunta": "Intervienen en la transmisión nerviosa de la contracción del músculo:",
+      "opciones": [
+        "Fósforo y zinc.",
+        "Magnesio y calcio.",
+        "Cromo y manganeso.",
+        "Ninguna respuesta es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-033",
+      "numero": 33,
+      "pregunta": "En el grupo de los alimentos complementarios es correcto que:",
+      "opciones": [
+        "El cacao contiene teobromina y grasa monoinsaturada y poliinsaturada mayoritariamente.",
+        "La miel carece de micronutrientes, pero es altamente energética por contener azúcar invertido.",
+        "El vino contiene flavonoides antioxidantes beneficiosos para el sistema cardiovascular.",
+        "Los helados tipo sorbete son ricos en grasas insaturadas a diferencia del tipo crema, cuya grasa es de origen lácteo y saturada."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-034",
+      "numero": 34,
+      "pregunta": "Es un oligosacárido no digerible:",
+      "opciones": [
+        "Celulosa.",
+        "Betaglucano.",
+        "Estaquiosa.",
+        "Ninguno de los anteriores."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-035",
+      "numero": 35,
+      "pregunta": "Las verduras:",
+      "opciones": [
+        "Aportan vitamina A, en forma de carotenos.",
+        "Contienen cantidades de tiamina, riboflavina y niacina inferiores que los cereales y leguminosas.",
+        "No son muy ricas en vitamina C.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-037",
+      "numero": 37,
+      "pregunta": "Los valores de calcemia se regulan por los niveles de:",
+      "opciones": [
+        "Calcio dietético y óseo.",
+        "Vitamina D y fósforo.",
+        "Calcitonina y hormona paratiroidea.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-038",
+      "numero": 38,
+      "pregunta": "Las hojas de balance alimentario:",
+      "opciones": [
+        "Dan valores per cápita de alimentos a nivel nacional.",
+        "Estiman la disponibilidad de alimentos en el mercado a nivel nacional.",
+        "Permiten evaluar tendencias en los hábitos alimentarios de la población.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-039",
+      "numero": 39,
+      "pregunta": "El hígado es más rico que la carne en:",
+      "opciones": [
+        "Hierro y vitamina C.",
+        "Vitaminas A y D.",
+        "Calcio y potasio.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-040",
+      "numero": 40,
+      "pregunta": "En la interpretación de los siguientes parámetros antropométricos es correcto que:",
+      "opciones": [
+        "El peso mínimo o peso magro corporal de un individuo es el valor menor del intervalo de peso ideal que se asocia con mayor esperanza de vida.",
+        "El valor de la altura de la rodilla se emplea con frecuencia para conocer la proporcionalidad del cuerpo en adolescentes.",
+        "El perímetro de la cadera debe medirse a nivel de las crestas ilíacas y da idea de la constitución corporal en mujeres.",
+        "El pliegue cutáneo subescapular elevado se relaciona positivamente con las fracciones lipídicas asociadas a riesgo cardiovascular."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-041",
+      "numero": 41,
+      "pregunta": "El cinc:",
+      "opciones": [
+        "Forma parte del factor de tolerancia a la glucosa.",
+        "Su déficit provoca cretinismo.",
+        "Interviene en los procesos relacionados con la fertilidad y reproducción.",
+        "Dosis altas alivian los trastornos asociados a la menopausia."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-043",
+      "numero": 43,
+      "pregunta": "Señale la respuesta correcta:",
+      "opciones": [
+        "El glucógeno es un homopolisacárido de glucosa.",
+        "El sorbitol aumenta la secreción de insulina más que la glucosa.",
+        "Amilasa y tripsina son enzimas digestivas que hidrolizan los glúcidos.",
+        "Las respuestas a y b son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-044",
+      "numero": 44,
+      "pregunta": "El ácido araquidónico:",
+      "opciones": [
+        "Es esencial ya que no puede sintetizarse en el organismo.",
+        "Deriva del ácido linoleico.",
+        "Pertenece a la serie ω-3.",
+        "Las respuestas a y c son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-045",
+      "numero": 45,
+      "pregunta": "La carne es una buena fuente de vitaminas:",
+      "opciones": [
+        "B12, B1 y C.",
+        "B1, B2, A y C.",
+        "B1, B2, B12 y niacina.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-046",
+      "numero": 46,
+      "pregunta": "Las minarinas:",
+      "opciones": [
+        "Son semejantes a las margarinas, pero con contenido lipídico inferior a estas.",
+        "Son grasas animales comestibles utilizadas fundamentalmente en las frituras de tipo industrial.",
+        "Son una variedad de manteca de coco.",
+        "Es el nombre comercial que reciben algunos preparados de la manteca de cacao."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-047",
+      "numero": 47,
+      "pregunta": "Si un individuo se encuentra en el percentil 25 de su talla:",
+      "opciones": [
+        "Mide un 25 % menos de la talla media de la población de referencia.",
+        "Su talla es igual o superior a la del 25 % de la población de referencia.",
+        "Su talla está en el intervalo que indica alteración patológica.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-048",
+      "numero": 48,
+      "pregunta": "La hemicelulosa:",
+      "opciones": [
+        "Es fermentada parcialmente en el colon.",
+        "Está formada por polímeros de D-xilanos y hexosas con ácidos urónicos.",
+        "Puede fijar cationes.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-049",
+      "numero": 49,
+      "pregunta": "Son compuestos con actividad de provitamina:",
+      "opciones": [
+        "La tiaminasa para la tiamina.",
+        "La cumarina para la filoquinona.",
+        "El triptófano para la tiamina.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-050",
+      "numero": 50,
+      "pregunta": "Señale la respuesta correcta:",
+      "opciones": [
+        "Los alimentos funcionales son capaces de mejorar el estado de salud y/o de reducir el riesgo de padecer una enfermedad.",
+        "Los prebióticos son microorganismos que producen beneficios en la salud.",
+        "Los probióticos son nutrientes esenciales adicionados a los alimentos que normalmente no los contienen.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-051",
+      "numero": 51,
+      "pregunta": "La ortorexia se caracteriza por:",
+      "opciones": [
+        "El miedo a ingerir alimentos considerados contaminados y un culto hacia los alimentos que se consideran \"sanos\".",
+        "La obsesión de beber agua para \"desintoxicarse\".",
+        "La ingesta excesiva de alimentos y suplementos de proteínas, vitaminas y minerales y entrenamiento físico extenuante.",
+        "Un deseo intenso e irresistible de comer determinado tipo de alimentos o un alimento concreto como chocolate, pizza, frutos secos, etc."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-052",
+      "numero": 52,
+      "pregunta": "En los siguientes alimentos, el aminoácido limitante es:",
+      "opciones": [
+        "Metionina en las legumbres.",
+        "Lisina en el arroz.",
+        "Triptófano en el maíz.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-053",
+      "numero": 53,
+      "pregunta": "Señale la respuesta verdadera:",
+      "opciones": [
+        "El aceite de cacahuete es rico en ácidos grasos saturados.",
+        "Los aceites de soja, girasol y maíz son ricos en ácido linoleico.",
+        "A diferencia del aceite de oliva virgen, el refinado no tiene acción vasodilatadora y antiagregante plaquetaria.",
+        "Todas son falsas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-054",
+      "numero": 54,
+      "pregunta": "En relación con los siguientes macrominerales es correcto que:",
+      "opciones": [
+        "El azufre interviene en la transmisión del impulso nervioso en la placa motora.",
+        "El magnesio es necesario para el mantenimiento y funcionamiento del músculo cardiaco.",
+        "El cloro forma parte de la estructura de muchas vitaminas.",
+        "El fósforo interviene en la regulación de la coagulación sanguínea."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-055",
+      "numero": 55,
+      "pregunta": "Señale la respuesta incorrecta:",
+      "opciones": [
+        "El colesterol tiene función estructural en las membranas celulares.",
+        "La carencia del ácido docosahexaenoico puede producir pérdida de agudeza visual.",
+        "Las reacciones de oxidación de los AGPI conducen a la formación de radicales libres.",
+        "El déficit de ácidos grasos ω3 provoca dermatitis en niños."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-058",
+      "numero": 58,
+      "pregunta": "En las vitaminas del grupo B:",
+      "opciones": [
+        "La biotina en parte es sintetizada por la flora intestinal e interviene en la homeostasis de la glucemia.",
+        "La riboflavina interviene en la regulación del metabolismo energético y en la conversión del triptófano a niacina.",
+        "La tiamina interviene en la regulación del metabolismo energético y en la transmisión del impulso nervioso.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-059",
+      "numero": 59,
+      "pregunta": "En los cereales es verdadero que:",
+      "opciones": [
+        "La proteína de la avena es la de mayor valor biológico del grupo.",
+        "La sémola es la harina de maíz.",
+        "El trigo es el que posee mayor cantidad de macronutrientes.",
+        "Los integrales son aquellos que dan harinas de bajo grado de extracción."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-060",
+      "numero": 60,
+      "pregunta": "El butirato:",
+      "opciones": [
+        "Es un fructo-oligosacárido.",
+        "Pertenece a la fibra soluble.",
+        "Se forma en el colon por la fermentación de la fibra.",
+        "Las respuestas a y b son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-061",
+      "numero": 61,
+      "pregunta": "Señale la respuesta correcta:",
+      "opciones": [
+        "Son aminoácidos esenciales lisina, leucina, fenilalanina, triptófano y metionina.",
+        "El gluten es una mezcla de las proteínas gelatina y glutelina.",
+        "La albúmina tiene función estructural en el organismo humano.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-062",
+      "numero": 62,
+      "pregunta": "Los pescados:",
+      "opciones": [
+        "Blancos no aportan menos proteína que el azul.",
+        "Azules son una buena fuente de vitaminas A y D.",
+        "Sardina y salmón son una buena fuente de ácido fólico.",
+        "b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-063",
+      "numero": 63,
+      "pregunta": "Pueden utilizarse las muestras de pelo para determinar los niveles de:",
+      "opciones": [
+        "Vitamina B12.",
+        "Selenio.",
+        "Proteína transportadora de retinol.",
+        "3-metilhistidina."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-064",
+      "numero": 64,
+      "pregunta": "Para conseguir el equilibrio alimentario:",
+      "opciones": [
+        "Es imprescindible ingerir diariamente los valores de los macro y micronutrientes que figuran en las tablas de ingestas recomendadas.",
+        "En cada ingesta las proporciones de macronutrientes tienen que ser las recomendadas en el perfil calórico.",
+        "Es imprescindible realizar 5 ingestas al día: desayuno, media mañana, comida, merienda y cena.",
+        "Todas son falsas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-065",
+      "numero": 65,
+      "pregunta": "Los mariscos son ricos en:",
+      "opciones": [
+        "Purinas.",
+        "Hierro.",
+        "Colesterol.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-066",
+      "numero": 66,
+      "pregunta": "La técnica de impedancia bioeléctrica mide de forma directa, sin necesidad de cálculo:",
+      "opciones": [
+        "La resistencia del organismo al paso de una corriente eléctrica.",
+        "El % de grasa.",
+        "El contenido total de agua del cuerpo.",
+        "Todas son falsas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-067",
+      "numero": 67,
+      "pregunta": "Las legumbres:",
+      "opciones": [
+        "Tienen un contenido proteico similar al de la carne.",
+        "De mayor contenido proteico son las especies de soja.",
+        "Si se complementan con cereales se consigue una proteína de calidad semejante a las proteínas de la carne.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-068",
+      "numero": 68,
+      "pregunta": "Los objetivos nutricionales:",
+      "opciones": [
+        "Solo incluyen macronutrientes y fibra.",
+        "Usan como unidad porcentajes calóricos.",
+        "Son idénticos para toda la población.",
+        "Las respuestas a y b son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-069",
+      "numero": 69,
+      "pregunta": "Indique la respuesta correcta:",
+      "opciones": [
+        "El cobre forma parte de la superóxido dismutasa interviniendo en la protección contra oxidantes.",
+        "El cromo forma parte del factor de tolerancia a la glucosa.",
+        "El flúor conserva la dureza del esmalte de los dientes y contribuye a mantener estable la matriz ósea.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-071",
+      "numero": 71,
+      "pregunta": "Pueden producir toxicidad el exceso de ingesta de:",
+      "opciones": [
+        "Vitamina D y A.",
+        "Vitamina E y B12.",
+        "Tiamina, niacina y pantoténico.",
+        "Todas las anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-072",
+      "numero": 72,
+      "pregunta": "En los ancianos:",
+      "opciones": [
+        "De 65 años su necesidad energética será aproximadamente un 20 % menor que cuando era un adulto.",
+        "Si hay falta de apetito debe aumentarse el contenido lipídico de la dieta para completar el aporte de la energía.",
+        "Son recomendables las dietas hiperproteicas para evitar la pérdida de masa muscular.",
+        "Las respuestas a y c son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-073",
+      "numero": 73,
+      "pregunta": "La filoquinona:",
+      "opciones": [
+        "Es la vitamina K de origen bacteriano.",
+        "Es la vitamina K procedente de los alimentos vegetales.",
+        "Es la vitamina E procedente de los alimentos de origen animal.",
+        "Es la vitamina E procedente de los alimentos vegetales."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-074",
+      "numero": 74,
+      "pregunta": "El calostro:",
+      "opciones": [
+        "Tiene mayor contenido lipídico que la leche madura humana.",
+        "Tiene propiedades astringentes beneficiosas para el funcionamiento intestinal.",
+        "Tiene menor contenido energético que la leche madura.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-075",
+      "numero": 75,
+      "pregunta": "Respecto a la composición nutricional de los derivados y confecciones de frutas es cierto que:",
+      "opciones": [
+        "El \"zumo natural\" comercial contiene menos vitaminas y más sacarosa que el zumo fresco.",
+        "La compota de frutas no se elabora con adición de azúcar.",
+        "La confitura contiene más del 50 % de azúcares, expresada en sacarosa.",
+        "La jalea de frutas se prepara a partir de mermelada sometida a cocción y trituración."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-076",
+      "numero": 76,
+      "pregunta": "Los síntomas de la pelagra son:",
+      "opciones": [
+        "Ceguera nocturna, piel escamosa, anemia y aumento de infecciones.",
+        "Fotofobia, disminución de agudeza visual, cataratas y alteración de las mucosas bucales.",
+        "Dermatitis, diarreas, vómitos, irritabilidad, insomnio, neuritis y confusión mental.",
+        "Hemorragias subcutáneas, mala cicatrización, piel seca y con prurito y sangrado gingival."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-078",
+      "numero": 78,
+      "pregunta": "La actividad mental intensa (estudio):",
+      "opciones": [
+        "No afecta a las necesidades de energía.",
+        "Aumenta el metabolismo basal.",
+        "Disminuye el gasto energético total.",
+        "Aumenta el gasto energético total."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-079",
+      "numero": 79,
+      "pregunta": "Las fórmulas lácteas infantiles:",
+      "opciones": [
+        "De \"inicio\" son las que se elaboran a partir de proteína de soja y no contienen lactosa.",
+        "\"Hipoalergénicas\" con proteínas modificadas se utilizan para niños prematuros.",
+        "\"De continuación\" contienen dextrinas y gluten.",
+        "\"Sin lactosa\" se emplean en casos de diarreas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-madrid-2018-080",
+      "numero": 80,
+      "pregunta": "Puede producir malformaciones fetales la sobredosificación durante la gestación de:",
+      "opciones": [
+        "Yodo y vitamina B6.",
+        "Vitamina B12 y ácido fólico.",
+        "Vitamina A y D.",
+        "Hierro y vitamina E."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "examen": "ibiza-2019",
+  "titulo": "Ibiza 2019",
+  "libro": "alimentacion-equilibrada",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-ibiza-2019-001",
+      "numero": 1,
+      "pregunta": "Alimentación y nutrición...",
+      "opciones": [
+        "Son conceptos equivalentes, ambos se refieren a la acción voluntaria y consciente de obtener los macronutrientes y los micronutrientes indispensables para una buena salud corporal.",
+        "Son conceptos equivalentes, voluntarios, ambas incluyen los procesos de ingestión, digestión, metabolismo, crecimiento y mantenimiento de estructuras para el desarrollo. Podemos introducir cambios en ambas para adecuarnos a las recomendaciones.",
+        "Las dos opciones son correctas.",
+        "Ninguna opción es verdadera."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-002",
+      "numero": 2,
+      "pregunta": "Respecto a la elevada frecuencia de sobrepeso en la población actual...",
+      "opciones": [
+        "Neel propuso el mecanismo adaptativo del “gen hiperinsulinémico” y la discordancia evolutiva como una de las principales causas.",
+        "Neel propuso el mecanismo adaptativo del “gen hipoinsulinémico” como causa principal.",
+        "Neel propuso el mecanismo adaptativo del “gen hipoinsulinémico” o “gen ahorrador” y la discordancia evolutiva como una de las principales causas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-004",
+      "numero": 4,
+      "pregunta": "Los cerebrósidos",
+      "opciones": [
+        "Son fosfolípidos formados por una esfingosina, 1 AG, un glicerol, un grupo fosfato y una molécula polar nitrogenada.",
+        "Son glucolípidos formados por una esfingosina, 1 AG y una hexosa.",
+        "Son fosfolípidos formados por una esfingosina, 2 AG, un grupo fosfato y un radical (normalmente, una molécula polar nitrogenada)."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-005",
+      "numero": 5,
+      "pregunta": "La sacarosa",
+      "opciones": [
+        "Se recomienda en gran medida a pacientes diabéticos no obesos, pues rinde fructosa, que ha demostrado no tener un efecto significativo sobre la insulinemia.",
+        "Es fundamental en productos de bollería, en pastelería y como edulcorante en refrescos.",
+        "Es un disacárido y no un monosacárido más simple, por lo que se considera de IG bajo.",
+        "Todas las opciones son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-006",
+      "numero": 6,
+      "pregunta": "El estado de cetosis afectará, al ser la glucosa fuente preferente de energía, sobre todo a...",
+      "opciones": [
+        "células cerebrales, eritrocitos, células hígado y células medulares",
+        "células inmunitarias, glóbulos rojos, neuronas y hepatocitos (células del hígado)",
+        "neuronas y eritrocitos, entre otros."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-007",
+      "numero": 7,
+      "pregunta": "Indica la asociación correcta",
+      "opciones": [
+        "AGT - mayor curvatura que AGS - estado untuoso/semisólido a temperatura ambiente",
+        "AGS cis - mayor curvatura de la molécula - estado oleoso (líquido) a temperatura ambiente).",
+        "Todas las opciones son incorrectas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-008",
+      "numero": 8,
+      "pregunta": "Teniendo en cuenta la etiopatogenia de la caries dental, se decide limitar la frecuencia en el consumo de productos o alimentos dulces fermentables por debajo de 6 impactos/día, recordando la necesidad de mantener una buena secuencia de higiene bucodental diaria.",
+      "opciones": [
+        "La afirmación es falsa.",
+        "La afirmación es verdadera."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-009",
+      "numero": 9,
+      "pregunta": "Para una mujer de 23 años y 55kg de peso, si se pretende una dieta óptima, se recomienda una ingesta de...",
+      "opciones": [
+        "Suponiendo que consuma unas 2000 kcal diarias, el 15%, es decir, 300kcal/día de proteína (75g/día).",
+        "1,5 g/kg/día de proteínas.",
+        "Ambas opciones podrían ser correctas.",
+        "Ninguna opción es válida."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-010",
+      "numero": 10,
+      "pregunta": "Los fosfolípidos, nutrientes esenciales, además de formar las bicapas lipídicas, también se encargan de reconocer a los antígenos presentes en el organismo, por lo que tienen una función inmunológica muy importante.",
+      "opciones": [
+        "La afirmación es falsa.",
+        "La afirmación es verdadera."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-011",
+      "numero": 11,
+      "pregunta": "La desnaturalización proteica...",
+      "opciones": [
+        "Todas las opciones son incorrectas.",
+        "Puede ser parcial o total.",
+        "Puede afectar a los enzimas digestivos, pues al cambiar su estructura cuaternaria, pierden la solubilidad en medios ácidos diluidos como el estómago.",
+        "Todas las opciones son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-012",
+      "numero": 12,
+      "pregunta": "Las proteínas de la soja, a diferencia de las legumbres...",
+      "opciones": [
+        "Tienen un VB y una digestibilidad similar a las proteínas vegetales.",
+        "Tienen un VB similar a las proteínas animales y una digestibilidad similar a las proteínas vegetales.",
+        "Tienen un VB y una digestibilidad similar a las proteínas animales.",
+        "Tienen un VB similar a las proteínas vegetales y una digestibilidad similar a las proteínas animales."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-013",
+      "numero": 13,
+      "pregunta": "La deficiencia en vitamina B12 causa:",
+      "opciones": [
+        "Estreñimiento",
+        "Anemia perniciosa",
+        "Anemia hemolítica",
+        "Escorbuto"
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-014",
+      "numero": 14,
+      "pregunta": "¿Cuál es la función principal de la tiamina?",
+      "opciones": [
+        "Participa en el metabolismo de las grasas.",
+        "Participa en el metabolismo de los hidratos de carbono.",
+        "Participa en el metabolismo de las proteínas.",
+        "Participa en la regulación de todo el metabolismo."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-016",
+      "numero": 16,
+      "pregunta": "Respecto a la absorción del Fe...",
+      "opciones": [
+        "Se recomienda tomar el hierro farmacológico durante la comida, ya que la absorción aumenta cuando el estómago está lleno.",
+        "El calcio puede aumentar tanto la absorción de hierro “hemo” como “no hemo”. Es recomendable el aporte de lácteos (leche, yogur, queso) en las comidas principales ricas en hierro.",
+        "Los taninos (vino, té, café, granadas, nísperos, moras, arándanos, grosellas, membrillos, legumbres, chocolate) dificultan la absorción del Fe de forma proporcional a la cantidad consumida."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-018",
+      "numero": 18,
+      "pregunta": "Respecto al agua...",
+      "opciones": [
+        "Las únicas fuentes que tenemos para cubrir las necesidades de agua de nuestro organismo son: agua de constitución y las bebidas.",
+        "Puede perderse de forma sensible (orina) e insensible (sudor).",
+        "La vía principal de eliminación del agua es la renal, mientras que los electrolitos eliminan más por transpiración.",
+        "Ninguna opción es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-019",
+      "numero": 19,
+      "pregunta": "Durante la adolescencia...",
+      "opciones": [
+        "Disminuyen los requerimientos de proteínas en favor de los requerimientos lipídicos, recomendando el consumo de alimentos «bajos en calorías» o «bajos en grasa».",
+        "Disminuyen los requerimientos de proteínas en favor de los requerimientos lipídicos, recomendando en general el consumo de alimentos que contengan grasas saturadas para un mayor aporte energético que cubra sus requerimientos.",
+        "Aumentan los requerimientos de proteínas, pues la masa magra y la masa grasa aumentan considerablemente su peso."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-020",
+      "numero": 20,
+      "pregunta": "Respecto a los requerimientos dietéticos en personas mayores, indica la opción que es incorrecta...",
+      "opciones": [
+        "La menor capacidad de regulación de funciones digestivas y excretoras es, junto a las patologías crónicas, un factor muy relevante para explicar que las necesidades de algunos nutrientes pueden ser mayores.",
+        "La polimedicación hace imprescindible tener en cuenta las posibles interacciones fármaco-nutriente y nutriente-fármaco y los efectos secundarios de los medicamentos que el paciente esté tomando.",
+        "No se requiere en ningún caso que los ancianos practiquen actividad física diariamente, es suficiente con que controlen las raciones que ingieren y sigan una alimentación equilibrada."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-021",
+      "numero": 21,
+      "pregunta": "Si una persona de sexo masculino presenta un ICC de 1,4...",
+      "opciones": [
+        "Refleja una acumulación adiposa de tipo ginoide, relacionada con trastornos metabólicos y cardiovasculares, apnea del sueño y osteoartritis.",
+        "Refleja una acumulación adiposa de tipo visceral, relacionada con trastornos metabólicos y cardiovasculares, apnea del sueño y osteoartritis.",
+        "Refleja una acumulación de tejido adiposo tanto en zonas periféricas como viscerales por igual, por lo que no presenta ningún riesgo patológico aumentado."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-022",
+      "numero": 22,
+      "pregunta": "El IMC...",
+      "opciones": [
+        "Es un parámetro que permite detectar deficiencias crónicas de energía.",
+        "Discrimina con gran precisión entre tejido muscular y adiposo, por eso permite comparar poblaciones.",
+        "Se calcula mediante la fórmula: IMC = talla² (m) / peso (kg)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-023",
+      "numero": 23,
+      "pregunta": "Identifica la asociación correcta entre valor e interpretación (según la OMS). Respecto al IMC...",
+      "opciones": [
+        "Si el IMC = 32, el paciente puede presentar obesidad (grado I).",
+        "Si el IMC = 24, el paciente presenta insuficiencia ponderal.",
+        "Si el IMC = 29, el paciente presenta obesidad mórbida."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-027",
+      "numero": 27,
+      "pregunta": "Para pautar una dieta, indica qué ON generales serían recomendables:",
+      "opciones": [
+        "ON: 30 % proteínas, 20 % lípidos (6 % AGS, 17 % AGM, 7 % AGP, <1 % AGT), 50 % glúcidos (>10 % glúcidos simples), <300 g/día de colesterol, 28 mg/día de fibra dietética, <5 g de sal al día. En cuanto a las recomendaciones de AGE debe mantenerse una proporción ω6:ω3 de 4:1 o 5:1.",
+        "ON: 15 % proteínas, 30 % lípidos (7 % AGS, 17 % AGM, 6 % AGP, <1 % AGT), 55 % glúcidos (<10 % glúcidos simples), <300 mg/día de colesterol, 28 g/día de fibra dietética, <5 g de sal al día. En cuanto a las recomendaciones de AGE debe mantenerse una proporción ω6:ω3 de 2:1, 4:1 o 5:1.",
+        "ON: 15 % proteínas, 30 % lípidos (17 % AGS, 7 % AGM, 6 % AGP, >1 % AGT), 55 % glúcidos (>10 % glúcidos simples), <300 g/día de colesterol, 28 mg/día de fibra dietética, <5 g de sal al día. En cuanto a las recomendaciones de AGE debe mantenerse una proporción ω6:ω3 de 4:1 o 5:1."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-028",
+      "numero": 28,
+      "pregunta": "Indica qué relación entre frecuencia recomendada, peso de ración y medida casera es incorrecta:",
+      "opciones": [
+        "Aceite de oliva - 1-2 raciones/día - 10ml/ración - 1 cucharada sopera/ración",
+        "Agua de bebida - 4-8 raciones/día (en ambiente templado y condiciones de escasa actividad física) - 200 ml/ración - 1 vaso o botellín/ración.",
+        "Verduras y hortalizas - 2 o más raciones/día - 150-200 g por ración - 1 plato de verdura cocida o ensalada por ración, por ejemplo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-029",
+      "numero": 29,
+      "pregunta": "En el plato saludable, referido al total de alimentos consumidos en un día...",
+      "opciones": [
+        "¼ del plato deben ser frutas y verduras, ½ cereales y/o comidas hechas con estos ingredientes, ¼ deben ser alimentos de alto valor proteico (pescado, pollo, legumbres como habichuelas, garbanzos y lentejas), aceites de plantas saludables en moderación (oliva, especialmente), agua, café o té.",
+        "½ del plato deben ser frutas y verduras (aquí no se incluyen las patatas), ¼ cereales integrales e intactos y/o comidas hechas con estos ingredientes, ¼ deben ser alimentos de alto valor proteico (pescado, pollo, legumbres como habichuelas, garbanzos y lentejas), aceites de plantas saludables en moderación (oliva, especialmente), agua, café o té.",
+        "½ del plato deben ser frutas y verduras (aquí no se incluyen las patatas), ½ cereales integrales e intactos y/o comidas hechas con estos ingredientes, ¼ deben ser alimentos de alto valor proteico (pescado, pollo), aceites de plantas saludables en moderación (oliva, especialmente), agua, café o té."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-030",
+      "numero": 30,
+      "pregunta": "Las tablas de composición de alimentos...",
+      "opciones": [
+        "Indican la composición de 100 g totales de dicho alimento, por eso su interpretación es fácil y no hace falta aplicar el factor «porción comestible».",
+        "Indican la composición de 100g de porción comestible del alimento cocinado, por lo que hace falta aplicar el factor “porción comestible”.",
+        "Ninguna opción es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-031",
+      "numero": 31,
+      "pregunta": "Respecto a los cereales...",
+      "opciones": [
+        "El salvado es rico en hidratos de carbono digeribles y vitaminas.",
+        "El refinado elimina las envolturas, la aleurona y el germen, por lo que contienen proteínas de valor biológico bajo y almidón, principalmente.",
+        "El refinado elimina las envolturas y el germen, por lo que contienen proteínas de valor biológico medio y almidón procedente del salvado, principalmente."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-032",
+      "numero": 32,
+      "pregunta": "Respecto a los cereales, son aptos para celíacos...",
+      "opciones": [
+        "Quinoa, mijo y amaranto.",
+        "Avena, centeno y cebada.",
+        "Espelta, trigo y mijo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-033",
+      "numero": 33,
+      "pregunta": "Las legumbres...",
+      "opciones": [
+        "Son fuente de proteínas, con metionina como aminoácido limitante.",
+        "Contienen fibras insolubles y fibras solubles.",
+        "Son fuente de proteínas de un alto VB, con valores cercanos a las proteínas del huevo sin AA limitantes.",
+        "A y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-034",
+      "numero": 34,
+      "pregunta": "Los hongos o setas comestibles son...",
+      "opciones": [
+        "Vegetales de composición parecida a las verduras",
+        "Tubérculos, y se incluyen dentro del grupo de farináceos ricos en hidratos de carbono",
+        "Una destacada fuente de proteínas de alto valor biológico, con un elevado contenido en lípidos."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-036",
+      "numero": 36,
+      "pregunta": "Respecto a la carne...",
+      "opciones": [
+        "La edad del animal en el momento del sacrificio no influye en su composición.",
+        "Es rica en AGS de cadena larga y en AG insaturados.",
+        "Las carnes magras, como por ejemplo la del cordero, son aquellas que contienen menos grasa (10-15% únicamente) y por ello se permite su consumo ocasional."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-037",
+      "numero": 37,
+      "pregunta": "El pescado...",
+      "opciones": [
+        "Es rico en AGP del tipo omega-6, que reducen los lípidos plasmáticos y disminuyen el poder trombótico de la sangre, beneficioso para reducir el riesgo de enfermedades coronarias.",
+        "Contiene proteínas de alto VB y sin ningún aa limitante.",
+        "Son ricos en vitaminas hidrosolubles y liposolubles, sobre todo en vit A y vit D.",
+        "Ninguna respuesta es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-038",
+      "numero": 38,
+      "pregunta": "Los frutos secos...",
+      "opciones": [
+        "Se incluyen en el grupo de grasas sólidas y líquidas por su elevado contenido lipídico (sobre todo en AGS). Además, contienen alrededor de un 20 % de proteínas.",
+        "Contienen Ca, Fe, vitamina C, tiamina y ácido nicotínico.",
+        "Todas las respuestas son correctas.",
+        "Ninguna opción es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-039",
+      "numero": 39,
+      "pregunta": "En la elaboración de menús, las cocciones más recomendadas en todos los grupos de edad son...",
+      "opciones": [
+        "Hervidos, al vapor y papillote, por ejemplo.",
+        "Rehogados, guisos, hervidos o al horno, por ejemplo.",
+        "A la plancha y barbacoa, por ejemplo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-040",
+      "numero": 40,
+      "pregunta": "La siguiente afirmación: «Una galleta tipo María (porción de 7 g) contiene 0,4 raciones de glúcidos (15 g/ración) y su IG es de 70, su CG será 30».",
+      "opciones": [
+        "Es verdadera.",
+        "Es falsa."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-ibiza-2019-041",
+      "numero": 41,
+      "pregunta": "Una mujer de 30 años (GET: 2500 kcal) debería ingerir, para seguir una dieta equilibrada y suficiente en ausencia de enfermedades carenciales...",
+      "opciones": [
+        "500 kcal en forma de lípidos.",
+        "375 kcal en forma de lípidos.",
+        "Entre 750 kcal y un máximo de 875 kcal en forma de lípidos (siempre en base al aumento del consumo de AGI)."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-ibiza-2019-020",
+      "numero": 20,
+      "pregunta": "Al día se pueden llegar a perder entre 2-3 litros de agua.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "correcta": 0,
+      "explicacion": "Según la clave del examen es verdadera.",
+      "orden_fijo": true,
+      "dificultad": 2,
+      "referencia": "Ibiza 2019 (V/F), pregunta 20 (examen de Dietoterapia)"
+    }
+  ]
+}

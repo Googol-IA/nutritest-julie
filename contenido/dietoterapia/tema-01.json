@@ -1,0 +1,714 @@
+{
+  "libro": "dietoterapia",
+  "tema": "t01",
+  "titulo": "Fundamentos de dietoterapia y dietas hospitalarias",
+  "fuente": "tema 1 dieto diapo.pdf",
+  "preguntas": [
+    {
+      "id": "dt-t01-001",
+      "pregunta": "Respecto a la alimentación y la nutrición, señala la opción CORRECTA:",
+      "opciones": [
+        "La alimentación es voluntaria y consciente; la nutrición comprende procesos principalmente involuntarios e internos.",
+        "La nutrición es voluntaria y la alimentación, involuntaria.",
+        "Son sinónimos.",
+        "La alimentación incluye la transformación y utilización de los nutrientes."
+      ],
+      "correcta": 0,
+      "explicacion": "La alimentación (seleccionar, preparar, cocinar e ingerir) es voluntaria y depende de factores externos. La nutrición (incorporar, transformar y utilizar nutrientes) es involuntaria y depende de la fisiología.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-002",
+      "pregunta": "La nutrición se define como:",
+      "opciones": [
+        "El conjunto de alimentos que se consumen habitualmente",
+        "La ciencia que comprende los procesos por los que el organismo incorpora, transforma y utiliza los nutrientes",
+        "La disciplina que evalúa la idoneidad de las dietas",
+        "La elaboración de dietas para tratar enfermedades"
+      ],
+      "correcta": 1,
+      "explicacion": "La nutrición abarca los procesos internos de incorporación, transformación y utilización de nutrientes.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-003",
+      "pregunta": "La dietoterapia es:",
+      "opciones": [
+        "El conjunto de alimentos que se consumen habitualmente.",
+        "La ciencia que estudia los procesos de incorporación y utilización de nutrientes.",
+        "La parte de la Dietética que elabora modelos de alimentación para tratar enfermedades.",
+        "La disciplina que evalúa la idoneidad de las dietas de la población sana."
+      ],
+      "correcta": 2,
+      "explicacion": "La dietoterapia forma parte de la Dietética y diseña dietas terapéuticas. Requiere trabajo multidisciplinar: médico, dietista, enfermería y paciente.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-004",
+      "pregunta": "La disciplina que evalúa la idoneidad de las dietas, formula recomendaciones y las modifica cuando es necesario es:",
+      "opciones": [
+        "Nutrición",
+        "Dietoterapia",
+        "Bromatología",
+        "Dietética"
+      ],
+      "correcta": 3,
+      "explicacion": "La Dietética evalúa y mejora las dietas; la dietoterapia es la parte de la Dietética dedicada al tratamiento de enfermedades.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-005",
+      "pregunta": "Según el tema, la dieta actúa como tratamiento PRINCIPAL en:",
+      "opciones": [
+        "Diabetes tipo 2",
+        "Diabetes tipo 1",
+        "Úlcera",
+        "Intolerancia a la lactosa"
+      ],
+      "correcta": 0,
+      "explicacion": "Diabetes tipo 2: tratamiento principal. Diabetes tipo 1: junto con fármacos. Úlcera: reducir síntomas. Intolerancia a la lactosa: eliminar un nutriente.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-006",
+      "pregunta": "Respecto al papel de la dieta en distintas enfermedades, es FALSO que:",
+      "opciones": [
+        "En la diabetes tipo 2 es el tratamiento principal.",
+        "En la diabetes tipo 1 se combina con fármacos (insulina).",
+        "En la intolerancia a la lactosa consiste en eliminar un nutriente.",
+        "En la diabetes tipo 1 es el único tratamiento."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: en la diabetes tipo 1 la dieta se combina con la insulina. Diabetes tipo 2: tratamiento principal. Úlcera: reducir síntomas. Intolerancia a la lactosa: eliminar un nutriente.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-007",
+      "pregunta": "El orden correcto del proceso de cuidado nutricional es:",
+      "opciones": [
+        "Intervención → valoración → objetivos → seguimiento.",
+        "Objetivos → valoración → seguimiento → intervención.",
+        "Valoración nutricional → definición de objetivos → intervención → evaluación y seguimiento.",
+        "Valoración nutricional → intervención → definición de objetivos → seguimiento."
+      ],
+      "correcta": 2,
+      "explicacion": "1) Valoración, 2) objetivos realistas, 3) intervención (prescripción, educación, suplementación) y 4) evaluación y seguimiento.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-008",
+      "pregunta": "Forman parte de la valoración nutricional:",
+      "opciones": [
+        "La antropometría.",
+        "Los parámetros bioquímicos.",
+        "La historia clínica.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas. La valoración incluye historia clínica, antropometría, parámetros bioquímicos, exploración física, información psicosocial y actividad física.",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "dt-t01-009",
+      "pregunta": "El cribado nutricional sirve para:",
+      "opciones": [
+        "Identificar rápidamente a personas con riesgo nutricional o malnutrición.",
+        "Calcular la dieta exacta del paciente.",
+        "Diagnosticar enfermedades digestivas.",
+        "Sustituir la valoración nutricional completa."
+      ],
+      "correcta": 0,
+      "explicacion": "El cribado identifica de forma rápida a personas en riesgo, sobre todo en hospitales, atención primaria y centros sociosanitarios, mediante cuestionarios.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-010",
+      "pregunta": "El cribado MST (Malnutrition Screening Tool) se basa en:",
+      "opciones": [
+        "El IMC y la enfermedad aguda.",
+        "La pérdida de peso involuntaria reciente y la disminución de la ingesta por falta de apetito.",
+        "La movilidad y los problemas neuropsicológicos.",
+        "La pérdida de masa muscular y los edemas."
+      ],
+      "correcta": 1,
+      "explicacion": "El MST es breve y se basa en la pérdida de peso y la ingesta reciente. Máximo 5 puntos; ≥ 2 indica riesgo.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-011",
+      "pregunta": "En el MST, existe riesgo nutricional a partir de:",
+      "opciones": [
+        "1 punto.",
+        "3 puntos.",
+        "2 puntos.",
+        "5 puntos."
+      ],
+      "correcta": 2,
+      "explicacion": "En el MST, una puntuación ≥ 2 (sobre un máximo de 5) indica riesgo nutricional.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-012",
+      "pregunta": "El MUST valora:",
+      "opciones": [
+        "Ingesta, movilidad y estrés",
+        "Grasa subcutánea, masa muscular y edema",
+        "Edad, enfermedad grave e ingesta",
+        "IMC, pérdida de peso involuntaria y efecto de enfermedad aguda"
+      ],
+      "correcta": 3,
+      "explicacion": "El MUST (sobre todo en el ámbito comunitario) suma IMC + pérdida de peso en 3-6 meses + enfermedad aguda. Máximo 6 puntos; ≥ 2 = riesgo.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-013",
+      "pregunta": "En el MUST, un IMC inferior a 18,5 kg/m² puntúa:",
+      "opciones": [
+        "2 puntos",
+        "1 punto",
+        "0 puntos",
+        "3 puntos"
+      ],
+      "correcta": 0,
+      "explicacion": "IMC > 20: 0 puntos; 18,5-20: 1 punto; < 18,5: 2 puntos.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-014",
+      "pregunta": "En el MUST, el «efecto de enfermedad aguda» suma 2 puntos cuando:",
+      "opciones": [
+        "Si el paciente tiene más de 70 años",
+        "Si no se come o se prevé no comer durante 5 días o más",
+        "Si tiene fiebre",
+        "Si ha perdido menos del 5 % del peso"
+      ],
+      "correcta": 1,
+      "explicacion": "Se suman 2 puntos si el paciente no come o se prevé que no comerá durante ≥ 5 días.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-015",
+      "pregunta": "Respecto a la puntuación del MUST, es FALSO que:",
+      "opciones": [
+        "Un IMC < 18,5 kg/m² suma 2 puntos.",
+        "Una pérdida de peso > 10 % en 3-6 meses suma 2 puntos.",
+        "Una puntuación ≥ 2 indica riesgo.",
+        "Una pérdida de peso del 5-10 % en 3-6 meses suma 0 puntos."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: una pérdida del 5-10 % suma 1 punto (< 5 %: 0; > 10 %: 2). IMC < 18,5: 2 puntos. Máximo 6 puntos; ≥ 2 = riesgo.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-016",
+      "pregunta": "La herramienta de cribado elaborada por la ESPEN, especialmente útil en pacientes hospitalizados médico-quirúrgicos, es:",
+      "opciones": [
+        "MNA",
+        "MUST",
+        "VGS",
+        "NRS-2002"
+      ],
+      "correcta": 3,
+      "explicacion": "El NRS-2002 (ESPEN) combina estado nutricional y gravedad de la enfermedad. ≥ 3 puntos: riesgo; < 3: reevaluación semanal.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-017",
+      "pregunta": "En el NRS-2002, si el paciente tiene 70 años o más:",
+      "opciones": [
+        "Se suma 1 punto.",
+        "Se suman 2 puntos.",
+        "No se suma nada.",
+        "Se clasifica directamente como riesgo alto."
+      ],
+      "correcta": 0,
+      "explicacion": "En la parte 2 del NRS-2002 se suma 1 punto si la edad es ≥ 70 años.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-018",
+      "pregunta": "En el NRS-2002, con una puntuación inferior a 3:",
+      "opciones": [
+        "Se inicia nutrición enteral",
+        "Reevaluación semanal",
+        "Se da de alta al paciente",
+        "Se repite a los 6 meses"
+      ],
+      "correcta": 1,
+      "explicacion": "≥ 3 puntos indica riesgo nutricional; con < 3 puntos se reevalúa semanalmente.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-019",
+      "pregunta": "En el cribado inicial del NRS-2002, el IMC que se considera para pasar a la parte 2 es:",
+      "opciones": [
+        "IMC < 18,5 kg/m²",
+        "IMC > 30 kg/m²",
+        "IMC < 20,5 kg/m²",
+        "IMC < 25 kg/m²"
+      ],
+      "correcta": 2,
+      "explicacion": "La parte 1 pregunta por IMC < 20,5, pérdida de peso, reducción de ingesta y enfermedad grave. Si alguna es afirmativa, se pasa a la parte 2.",
+      "dificultad": 3
+    },
+    {
+      "id": "dt-t01-020",
+      "pregunta": "La herramienta de cribado especialmente dirigida a personas mayores es:",
+      "opciones": [
+        "MUST",
+        "MST",
+        "NRS-2002",
+        "MNA (Mini Nutritional Assessment)"
+      ],
+      "correcta": 3,
+      "explicacion": "El MNA se usa en mayores, en población ambulatoria y situaciones subagudas. Valora ingesta, peso, movilidad, estrés, problemas neuropsicológicos e IMC.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-021",
+      "pregunta": "En el MNA, si no se dispone del IMC, puede utilizarse:",
+      "opciones": [
+        "La circunferencia de la pantorrilla",
+        "El perímetro de cintura",
+        "La altura de rodilla",
+        "El pliegue tricipital"
+      ],
+      "correcta": 0,
+      "explicacion": "Si no se conoce el IMC, el MNA permite usar la circunferencia de la pantorrilla.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-022",
+      "pregunta": "Respecto a la puntuación del MNA, señala la opción CORRECTA:",
+      "opciones": [
+        "12-14 puntos: riesgo de desnutrición.",
+        "8-11 puntos: riesgo de desnutrición.",
+        "0-7 puntos: estado nutricional normal.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Solo es cierta la b. MNA: 12-14 normal; 8-11 riesgo de desnutrición; 0-7 malnutrición.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "dt-t01-023",
+      "pregunta": "En el MNA, indica malnutrición una puntuación de:",
+      "opciones": [
+        "12-14 puntos",
+        "8-11 puntos",
+        "0-7 puntos",
+        "≥ 3 puntos"
+      ],
+      "correcta": 2,
+      "explicacion": "Entre 0 y 7 puntos el MNA indica malnutrición.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-024",
+      "pregunta": "La herramienta que combina historia clínica y exploración física subjetiva y clasifica al paciente en A, B o C es:",
+      "opciones": [
+        "MUST",
+        "MNA",
+        "NRS-2002",
+        "Valoración Global Subjetiva (VGS)"
+      ],
+      "correcta": 3,
+      "explicacion": "La VGS se diseñó para pacientes tras cirugía gastrointestinal. A: bien nutrido; B: desnutrición moderada o riesgo; C: desnutrición grave.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-025",
+      "pregunta": "En la VGS, la categoría C corresponde a:",
+      "opciones": [
+        "Desnutrición grave",
+        "Bien nutrido",
+        "Desnutrición moderada",
+        "Sobrepeso"
+      ],
+      "correcta": 0,
+      "explicacion": "A = bien nutrido, B = desnutrición moderada o riesgo, C = desnutrición grave.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-026",
+      "pregunta": "La exploración física subjetiva de la VGS valora:",
+      "opciones": [
+        "El IMC y la circunferencia de la pantorrilla",
+        "La pérdida de grasa subcutánea, la pérdida de masa muscular y la presencia de edema o ascitis",
+        "Los parámetros bioquímicos",
+        "La movilidad"
+      ],
+      "correcta": 1,
+      "explicacion": "La exploración física de la VGS valora grasa subcutánea, masa muscular y edema/ascitis.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-027",
+      "pregunta": "Una dieta que modifica la CANTIDAD de determinados alimentos o nutrientes (p. ej., en la diabetes) es una dieta:",
+      "opciones": [
+        "Cualitativa",
+        "Facilitadora",
+        "Cuantitativa",
+        "Exploratoria"
+      ],
+      "correcta": 2,
+      "explicacion": "Cuantitativa: cambia cantidades (diabetes). Cualitativa: cambia el tipo de alimentos permitidos (enfermedad gastrointestinal).",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-028",
+      "pregunta": "Según su aporte nutricional, una dieta hipocalórica de 1000 kcal/día es una dieta:",
+      "opciones": [
+        "Completa",
+        "Basal",
+        "Facilitadora",
+        "Incompleta"
+      ],
+      "correcta": 3,
+      "explicacion": "Las dietas incompletas tienen déficit de algún nutriente, como la de 1000 kcal. Una dieta hiposódica en un hipertenso puede ser completa.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-029",
+      "pregunta": "Según su finalidad, la dieta sin gluten en la enfermedad celíaca es una dieta:",
+      "opciones": [
+        "Esencial o curativa",
+        "Coadyuvante o paliativa",
+        "Profiláctica",
+        "Exploratoria"
+      ],
+      "correcta": 0,
+      "explicacion": "Esenciales o curativas: fundamentales en el tratamiento, como la dieta sin gluten en la celiaquía.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-030",
+      "pregunta": "Respecto a la clasificación de las dietas según su finalidad, es FALSO que:",
+      "opciones": [
+        "La dieta sin gluten en la celiaquía es esencial o curativa.",
+        "Una dieta triturada es facilitadora.",
+        "La dieta previa a una prueba de sangre oculta en heces es exploratoria.",
+        "Una dieta con restricción de sodio para prevenir la hipertensión es coadyuvante."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la dieta para PREVENIR la hipertensión es profiláctica o preventiva. Las coadyuvantes complementan otros tratamientos, como la dieta de la diabetes con insulina.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-031",
+      "pregunta": "Según su finalidad, la dieta para la diabetes asociada al tratamiento con insulina es:",
+      "opciones": [
+        "Exploratoria",
+        "Facilitadora",
+        "Coadyuvante o paliativa",
+        "Artificial"
+      ],
+      "correcta": 2,
+      "explicacion": "Las coadyuvantes o paliativas complementan otros tratamientos, como la insulina.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-032",
+      "pregunta": "Según su finalidad, una dieta triturada es una dieta:",
+      "opciones": [
+        "Curativa",
+        "Exploratoria",
+        "Profiláctica",
+        "Facilitadora"
+      ],
+      "correcta": 3,
+      "explicacion": "Las facilitadoras modifican la textura o consistencia para facilitar la ingesta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-033",
+      "pregunta": "La dieta previa a una prueba de sangre oculta en heces es una dieta:",
+      "opciones": [
+        "Exploratoria o diagnóstica",
+        "Profiláctica",
+        "Facilitadora",
+        "Curativa"
+      ],
+      "correcta": 0,
+      "explicacion": "Las exploratorias o diagnósticas se usan para preparar determinadas pruebas.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-034",
+      "pregunta": "La nutrición enteral por sonda es un ejemplo de dieta:",
+      "opciones": [
+        "Facilitadora",
+        "Artificial",
+        "Exploratoria",
+        "Basal"
+      ],
+      "correcta": 1,
+      "explicacion": "Las dietas artificiales sustituyen o complementan la alimentación convencional (nutrición enteral, parenteral).",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-035",
+      "pregunta": "El orden correcto de las dietas progresivas es:",
+      "opciones": [
+        "Blanda → semiblanda → semilíquida → líquida.",
+        "Líquida → semiblanda → semilíquida → blanda.",
+        "Líquida → semilíquida → semiblanda → blanda.",
+        "Líquida → semilíquida → blanda → semiblanda."
+      ],
+      "correcta": 2,
+      "explicacion": "Líquidos → purés → proteína animal → alimentación casi normal (blanda) y después la dieta basal.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-036",
+      "pregunta": "Respecto a las dietas progresivas, señala la opción CORRECTA:",
+      "opciones": [
+        "Cada fase debe durar al menos 24 h.",
+        "Todas las fases son nutricionalmente completas.",
+        "La progresión es rígida e igual para todos los pacientes.",
+        "La progresión es gradual e individualizada y no es necesario mantener cada fase 24 h."
+      ],
+      "correcta": 3,
+      "explicacion": "La progresión es individualizada. La líquida y la semilíquida son incompletas y deben usarse poco tiempo. La alimentación oral o enteral debe iniciarse pronto.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-037",
+      "pregunta": "La dieta basal está indicada en:",
+      "opciones": [
+        "Para pacientes sin necesidades dietéticas específicas y con actividad física muy ligera",
+        "Para pacientes con disfagia",
+        "Para el postoperatorio inmediato",
+        "Para pacientes celíacos"
+      ],
+      "correcta": 0,
+      "explicacion": "La dieta basal es completa, variada y equilibrada; sigue las recomendaciones de alimentación saludable y es la base de las demás dietas terapéuticas.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-038",
+      "pregunta": "Respecto a la dieta basal hospitalaria, es FALSO que:",
+      "opciones": [
+        "Aporta aproximadamente 2300 kcal.",
+        "Aporta más de 25 g de fibra al día.",
+        "Es completa, variada y equilibrada.",
+        "Es alta en sodio."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: la dieta basal es baja en sodio. Aporta ≈ 2300 kcal (HC 50-55 %, grasas 25-30 %, proteínas 15-20 %) y más de 25 g de fibra al día.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-039",
+      "pregunta": "La distribución de la energía de la dieta basal a lo largo del día es:",
+      "opciones": [
+        "Desayuno 10 %, comida 50 %, merienda 10 %, cena 30 %",
+        "25 % en cada comida",
+        "Desayuno 25 %, comida 30 %, merienda 15 %, cena 30 %",
+        "Desayuno 40 %, comida 40 %, cena 20 %"
+      ],
+      "correcta": 2,
+      "explicacion": "Distribución de la dieta basal: desayuno 25 %, comida 30 %, merienda 15 % y cena 30 %.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-040",
+      "pregunta": "La dieta basal debe aportar una cantidad de fibra de:",
+      "opciones": [
+        "> 5 g/día",
+        "> 10 g/día",
+        "> 50 g/día",
+        "> 25 g/día"
+      ],
+      "correcta": 3,
+      "explicacion": "La dieta basal tiene hidratos de carbono principalmente complejos y más de 25 g de fibra al día.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-041",
+      "pregunta": "El objetivo de la dieta líquida es:",
+      "opciones": [
+        "Reiniciar la alimentación oral y comprobar la tolerancia digestiva con mínima estimulación gastrointestinal.",
+        "Cubrir todas las necesidades nutricionales del paciente.",
+        "Aportar proteínas de alto valor biológico.",
+        "Sustituir de forma prolongada a la dieta basal."
+      ],
+      "correcta": 0,
+      "explicacion": "Es la primera fase: solo líquidos de fácil absorción y mínimo residuo, en 6 tomas pequeñas. Es nutricionalmente incompleta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-042",
+      "pregunta": "La dieta líquida aporta:",
+      "opciones": [
+        "≈ 1500 kcal",
+        "< 500 kcal",
+        "≈ 1850 kcal",
+        "≈ 2250 kcal"
+      ],
+      "correcta": 1,
+      "explicacion": "La dieta líquida aporta menos de 500 kcal, con ≈ 95 % de hidratos de carbono, ≈ 1 % de grasas y < 5 % de proteínas.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-043",
+      "pregunta": "Es un alimento propio de la dieta líquida:",
+      "opciones": [
+        "Yogur",
+        "Puré de verduras",
+        "Caldo desgrasado",
+        "Pescado a la plancha"
+      ],
+      "correcta": 2,
+      "explicacion": "Dieta líquida: agua, infusiones, caldos desgrasados, zumos poco ácidos y colados, y azúcar.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-044",
+      "pregunta": "En la dieta semilíquida se introducen:",
+      "opciones": [
+        "Carne, pescado y huevo",
+        "Verduras crudas y legumbres",
+        "Solo infusiones",
+        "Purés, cremas, lácteos y cereales refinados"
+      ],
+      "correcta": 3,
+      "explicacion": "La semilíquida añade alimentos pastosos, lácteos y cereales (leche, yogur, pan tostado, galletas, purés, fruta cocida). Aporta ≈ 1500 kcal y sigue siendo incompleta.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-045",
+      "pregunta": "La fase de la dieta progresiva que introduce los segundos platos y la proteína animal (carne, pescado, huevo) es la:",
+      "opciones": [
+        "Semiblanda.",
+        "Líquida.",
+        "Semilíquida.",
+        "Blanda."
+      ],
+      "correcta": 0,
+      "explicacion": "La semiblanda (≈ 1850 kcal) incluye primer plato, segundo y postre, con preparaciones suaves. Ya cubre los requerimientos proteicos.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-046",
+      "pregunta": "La dieta blanda, frente a la semiblanda:",
+      "opciones": [
+        "Solo admite líquidos.",
+        "Es completa e introduce frutas y verduras crudas y legumbres en puré.",
+        "Elimina los lácteos.",
+        "Aporta menos de 1500 kcal."
+      ],
+      "correcta": 1,
+      "explicacion": "La blanda (≈ 2250 kcal) es completa y muy próxima a la basal, aunque sigue siendo moderada en grasa y fibra.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-047",
+      "pregunta": "Son nutricionalmente incompletas las dietas:",
+      "opciones": [
+        "Semiblanda y blanda.",
+        "Solo la blanda.",
+        "Líquida y semilíquida.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "La líquida y la semilíquida son incompletas y deben usarse poco tiempo para evitar déficits y monotonía.",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "dt-t01-048",
+      "pregunta": "Respecto a la dieta triturada (túrmix), señala la opción CORRECTA:",
+      "opciones": [
+        "Es incompleta y solo se usa unos días.",
+        "Solo incluye líquidos claros.",
+        "Excluye la carne y el pescado.",
+        "Mantiene la composición de la dieta basal con la textura modificada, y es completa."
+      ],
+      "correcta": 3,
+      "explicacion": "La triturada incluye todos los grupos de alimentos, puede mantenerse mucho tiempo y en algunos pacientes es la dieta definitiva.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-049",
+      "pregunta": "La dieta triturada está indicada en:",
+      "opciones": [
+        "Disfagia a sólidos.",
+        "Pérdida de piezas dentarias.",
+        "Diabetes tipo 2.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Indicada en disfagia a sólidos, dificultad importante de masticación, falta de piezas dentarias o inapetencia ante alimentos enteros.",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "dt-t01-050",
+      "pregunta": "Para aumentar el aporte de PROTEÍNAS de una dieta triturada se puede añadir:",
+      "opciones": [
+        "Aceite de oliva o nata.",
+        "Clara de huevo, leche en polvo o quesitos.",
+        "Patata.",
+        "Maicena o galleta."
+      ],
+      "correcta": 1,
+      "explicacion": "Proteínas: clara de huevo, leche en polvo, quesitos. Energía: aceite de oliva, nata o patata. Espesantes: patata, maicena o galleta.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-051",
+      "pregunta": "En una dieta triturada para un paciente con disfagia a líquidos hay que evitar:",
+      "opciones": [
+        "Los purés espesos",
+        "Las texturas homogéneas",
+        "Los líquidos sin adaptar",
+        "Las compotas"
+      ],
+      "correcta": 2,
+      "explicacion": "Si hay disfagia a líquidos, estos deben espesarse; la textura debe ser homogénea y segura.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-052",
+      "pregunta": "En la dieta triturada hay que extremar la higiene porque:",
+      "opciones": [
+        "Porque lleva más sal",
+        "Porque es incompleta",
+        "Porque se sirve fría",
+        "Por la elevada manipulación de los alimentos"
+      ],
+      "correcta": 3,
+      "explicacion": "Triturar implica mucha manipulación; además, la presentación debe ser variada y apetecible y la condimentación suave.",
+      "dificultad": 1
+    },
+    {
+      "id": "dt-t01-053",
+      "pregunta": "En las dietas hospitalarias de control proteico se usan rangos de:",
+      "opciones": [
+        "40 g, 60 g, 90 g o hiperproteica",
+        "10 g, 20 g o 30 g",
+        "100 g, 150 g o 200 g",
+        "Solo hiperproteica"
+      ],
+      "correcta": 0,
+      "explicacion": "El control de proteínas incluye dietas de 40, 60 o 90 g, o hiperproteica. El control de peso y diabetes usa 1000, 1500, 2000 o 2500 kcal.",
+      "dificultad": 2
+    },
+    {
+      "id": "dt-t01-054",
+      "pregunta": "A cualquier dieta terapéutica hospitalaria se le puede añadir:",
+      "opciones": [
+        "Aumentar el alcohol",
+        "Prescribirla sin sal o restringiendo azúcares sencillos",
+        "Eliminar el agua",
+        "Duplicar las grasas"
+      ],
+      "correcta": 1,
+      "explicacion": "Cualquiera de ellas puede prescribirse sin sal o con restricción de azúcares sencillos.",
+      "dificultad": 1
+    }
+  ]
+}

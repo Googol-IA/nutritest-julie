@@ -1,0 +1,968 @@
+{
+  "examen": "vinaroz-2019",
+  "titulo": "Vinaroz 2019",
+  "libro": "alimentacion-equilibrada",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-vinaroz-2019-002",
+      "numero": 2,
+      "pregunta": "¿Qué significa que la entropía es baja?",
+      "opciones": [
+        "Tiene poca organización",
+        "Tiene mucha organización.",
+        "La organización es nula.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-003",
+      "numero": 3,
+      "pregunta": "El ciclo de Krebs se encuentra dentro del metabolismo:",
+      "opciones": [
+        "Aerobio.",
+        "Anaerobio.",
+        "En reposo.",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-004",
+      "numero": 4,
+      "pregunta": "El metabolismo anaerobio:",
+      "opciones": [
+        "Requiere oxígeno.",
+        "Requiere glucosa.",
+        "No requiere oxígeno.",
+        "Requiere ácidos grasos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-005",
+      "numero": 5,
+      "pregunta": "Los organismos autótrofos:",
+      "opciones": [
+        "Obtienen la energía por medio de la glucosa.",
+        "Obtienen la energía por medio de los alimentos.",
+        "Obtienen la energía del agua.",
+        "Obtienen la energía de materia orgánica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-006",
+      "numero": 6,
+      "pregunta": "¿Qué datos se necesitan para usar la ecuación de Harris- Benedict?",
+      "opciones": [
+        "Peso, edad, sexo, efecto termogénico de los alimentos.",
+        "Peso, edad, sexo y altura.",
+        "Peso, edad, altura, efecto termogénico y AF.",
+        "Actividad física, peso, estatura y efecto termogénico."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-007",
+      "numero": 7,
+      "pregunta": "¿Cuántas Kcal aporta 1 gramo de lípidos?",
+      "opciones": [
+        "5 kcal.",
+        "9 kcal.",
+        "3 kcal.",
+        "4 kcal."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-008",
+      "numero": 8,
+      "pregunta": "Los alimentos que contienen más celulosa tienen:",
+      "opciones": [
+        "Digestibilidad rápida.",
+        "Mucha digestibilidad.",
+        "Digestibilidad fácil.",
+        "Poca digestibilidad."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-009",
+      "numero": 9,
+      "pregunta": "¿Cuál de los siguientes aminoácidos se considera esencial?",
+      "opciones": [
+        "Alanina.",
+        "Triptófano.",
+        "Glutamina.",
+        "Prolina."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-010",
+      "numero": 10,
+      "pregunta": "¿A qué equivale 1 kilocaloría?",
+      "opciones": [
+        "1000 kJ.",
+        "4,184 kJ.",
+        "0,239 kJ.",
+        "239 kJ."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-011",
+      "numero": 11,
+      "pregunta": "El ácido oleico viene representado por la expresión:",
+      "opciones": [
+        "C18:1 n-9.",
+        "C18:2 n-6.",
+        "C18:3 n-3.",
+        "C18:4 n-3."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-012",
+      "numero": 12,
+      "pregunta": "Las grasas se pueden clasificar en:",
+      "opciones": [
+        "Solubles e insolubles.",
+        "Saturadas e insaturadas.",
+        "Fibrosas y globulares.",
+        "Simples y complejas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-013",
+      "numero": 13,
+      "pregunta": "Función principal de las proteínas:",
+      "opciones": [
+        "Construir y reparar estructuras celulares del cuerpo.",
+        "Proporcionar energía.",
+        "Reserva energética.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-014",
+      "numero": 14,
+      "pregunta": "Es un ejemplo de complementación proteica.",
+      "opciones": [
+        "Lentejas con arroz.",
+        "Arroz con verduras.",
+        "Lentejas con verduras.",
+        "Todas son correctas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-015",
+      "numero": 15,
+      "pregunta": "No se puede almacenar en el cuerpo:",
+      "opciones": [
+        "Vitamina A.",
+        "Vitamina B1.",
+        "Vitamina D.",
+        "Vitamina K."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-016",
+      "numero": 16,
+      "pregunta": "Cuántas moléculas de agua se obtienen de la respiración aerobia de la glucosa?",
+      "opciones": [
+        "4.",
+        "6.",
+        "10.",
+        "12."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-019",
+      "numero": 19,
+      "pregunta": "El pescado con menos grasa es el:",
+      "opciones": [
+        "Blanco.",
+        "Azul.",
+        "Semigraso.",
+        "De agua dulce."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-021",
+      "numero": 21,
+      "pregunta": "Las frutas y verduras contienen.",
+      "opciones": [
+        "HC sencillos.",
+        "HC complejos.",
+        "Grasa insaturada.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-022",
+      "numero": 22,
+      "pregunta": "Indica la respuesta falsa: 3. Los ácidos grasos se pueden formar a partir del Acetil-CoA.",
+      "opciones": [
+        "Los ácidos grasos se pueden formar a partir del acetil-CoA.",
+        "Cuando las reservas de glucógeno del hígado se completan, los azúcares sobrantes se almacenan en forma de triglicéridos.",
+        "La ingesta de alimentos ricos en colesterol aumenta más los niveles de colesterol en sangre que el consumo de grasa saturada.",
+        "En relación con las ingestas recomendadas de lípidos, se recomienda que la relación AGP/AGS sea mayor o igual a 0,5."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-023",
+      "numero": 23,
+      "pregunta": "Los cítricos se caracterizan por elevado contenido en vitamina:",
+      "opciones": [
+        "A.",
+        "E.",
+        "C.",
+        "Todas son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-024",
+      "numero": 24,
+      "pregunta": "¿Qué vitamina antioxidante proporciona a los aceites vegetales estabilidad frente a la oxidación?",
+      "opciones": [
+        "Vitamina A",
+        "Vitamina D.",
+        "Vitamina E.",
+        "Vitamina K."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-026",
+      "numero": 26,
+      "pregunta": "Los pescados grasos son ricos en:",
+      "opciones": [
+        "AG saturados.",
+        "AG insaturados.",
+        "AG trans.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-027",
+      "numero": 27,
+      "pregunta": "¿Cuál de los siguientes lípidos presenta en mayor cantidad el aceite de oliva?",
+      "opciones": [
+        "Ácidos Grasos Monoinsaturados.",
+        "Ácidos Grasos Poliinsaturados.",
+        "Ácidos Grasos Saturados.",
+        "Colesterol."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-028",
+      "numero": 28,
+      "pregunta": "¿Cuánta agua de bebida se recomienda consumir durante el día en condiciones normales?",
+      "opciones": [
+        "4 L.",
+        "2,5 L.",
+        "2 L.",
+        "1,5 L."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-029",
+      "numero": 29,
+      "pregunta": "¿Qué cantidad de fibra se recomienda consumir a diario?",
+      "opciones": [
+        "25 g.",
+        "20 g.",
+        "15 g.",
+        "10 g."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-030",
+      "numero": 30,
+      "pregunta": "¿Qué cantidad de grasas poliinsaturadas se recomienda consumir a diario?",
+      "opciones": [
+        "> 10 %.",
+        "< 10 %.",
+        "15-25 %.",
+        "> 25 %."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-031",
+      "numero": 31,
+      "pregunta": "¿Cuáles son vitaminas liposolubles?",
+      "opciones": [
+        "A y C.",
+        "C y D.",
+        "E y D.",
+        "Todas lo son."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-032",
+      "numero": 32,
+      "pregunta": "¿Cuál de las siguientes vitaminas no se puede obtener de fuentes vegetales?",
+      "opciones": [
+        "A.",
+        "B12.",
+        "B9.",
+        "E."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-033",
+      "numero": 33,
+      "pregunta": "En relación a los Folatos, es cierto que:",
+      "opciones": [
+        "Las reservas del hígado pueden cubrir las necesidades de varios años.",
+        "Se recomienda que las mujeres embarazadas consuman 400 mg de folato de la dieta en la primera mitad del embarazo.",
+        "Se encuentra de forma natural en alimentos como vegetales de hojas verdes.",
+        "b y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-034",
+      "numero": 34,
+      "pregunta": "Interviene en la coagulación:",
+      "opciones": [
+        "Vitamina A.",
+        "Vitamina K.",
+        "Vitamina D.",
+        "Vitamina E."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-035",
+      "numero": 35,
+      "pregunta": "¿Qué provoca el déficit de vitamina C?",
+      "opciones": [
+        "Escorbuto.",
+        "Beri-beri.",
+        "Pelagra.",
+        "Ceguera nocturna."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-036",
+      "numero": 36,
+      "pregunta": "Señala la respuesta correcta en relación al potasio:",
+      "opciones": [
+        "Es un oligoelemento.",
+        "Frutas, verduras y hortalizas tienen un contenido muy bajo.",
+        "Ejerce una acción complementaria al sodio en el funcionamiento celular.",
+        "El cocinado de los alimentos que lo contienen aumenta su concentración."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-037",
+      "numero": 37,
+      "pregunta": "De los siguientes, ¿cuál aumenta la absorción del hierro no Hemo?",
+      "opciones": [
+        "Vitamina C.",
+        "Calcio.",
+        "Cafeína.",
+        "Todas lo hacen."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-038",
+      "numero": 38,
+      "pregunta": "La fibra insoluble:",
+      "opciones": [
+        "Tiene elevada viscosidad.",
+        "Aumenta poco el bolo fecal.",
+        "Tiene efecto antidiarreico.",
+        "Mejora el estreñimiento."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-039",
+      "numero": 39,
+      "pregunta": "¿Cuál de las siguientes recomendaciones es correcta?",
+      "opciones": [
+        "HC: 20 - 40 %; grasas: 20 -40%",
+        "HC: 50 - 55 %; grasas: 30 - 35%",
+        "HC: 30-35 %; grasas: 50-55 %.",
+        "Ninguna lo es."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-040",
+      "numero": 40,
+      "pregunta": "En los cereales, ¿en qué parte del grano se encuentra la mayor parte del almidón?",
+      "opciones": [
+        "Endospermo.",
+        "Aleurona.",
+        "Germen.",
+        "Tegumentos externos (salvado)."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-041",
+      "numero": 41,
+      "pregunta": "Respecto a los índices de calidad, indica la correcta.",
+      "opciones": [
+        "DOI: índice de calidad de la dieta.",
+        "HEI: índice de alimentación saludable.",
+        "MDS: Indicador de dieta saludable.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-043",
+      "numero": 43,
+      "pregunta": "En relación con el modelo bicompartimental:",
+      "opciones": [
+        "Mide grasa y masa libre de grasa.",
+        "Mide agua, proteínas, minerales y grasa.",
+        "Mide agua, proteínas y minerales.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-044",
+      "numero": 44,
+      "pregunta": "Respecto a los requerimientos de energía:",
+      "opciones": [
+        "Disminuyen en infancia y vejez.",
+        "Aumentan en vejez.",
+        "Aumentan en embarazo y lactancia.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-045",
+      "numero": 45,
+      "pregunta": "Se produce absorción de nutrientes en:",
+      "opciones": [
+        "Estómago.",
+        "Páncreas.",
+        "Intestino delgado.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-046",
+      "numero": 46,
+      "pregunta": "En el intestino grueso:",
+      "opciones": [
+        "Comienza el proceso de digestión.",
+        "Se inicia la excreción.",
+        "Comienza la absorción.",
+        "Se forman las heces."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-047",
+      "numero": 47,
+      "pregunta": "La insulina:",
+      "opciones": [
+        "Aumenta la glucemia.",
+        "Disminuye la glucemia.",
+        "Procede del hígado.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-048",
+      "numero": 48,
+      "pregunta": "En relación a la absorción:",
+      "opciones": [
+        "Los HC se absorben en forma de polisacáridos.",
+        "Las proteínas se absorben en forma de aminoácidos.",
+        "La grasa se absorbe en intestino grueso.",
+        "Todas son falsas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-049",
+      "numero": 49,
+      "pregunta": "¿Qué compuestos químicos son los responsables de astringencia de muchas verduras?",
+      "opciones": [
+        "Derivados del ácido araquidónico.",
+        "Cianocobalamina.",
+        "Los ácidos fenólicos, entre ellos los taninos.",
+        "a y b son correctas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-050",
+      "numero": 50,
+      "pregunta": "Respecto a la composición de las heces:",
+      "opciones": [
+        "No contienen agua.",
+        "Principalmente contienen grasas.",
+        "El color depende de los hidratos de carbono consumidos.",
+        "Todas son falsas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-051",
+      "numero": 51,
+      "pregunta": "Respecto a la alimentación vegana:",
+      "opciones": [
+        "Puede ser completa si se suplementa con vitamina B12.",
+        "Puede provocar déficit de vitamina D si no hay suficiente exposición solar.",
+        "Puede aportar proteínas suficientes.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-052",
+      "numero": 52,
+      "pregunta": "En relación al crecimiento:",
+      "opciones": [
+        "La velocidad de crecimiento es regular durante toda la etapa de infancia y adolescencia.",
+        "Durante el crecimiento decrece el número celular, pero aumenta su tamaño.",
+        "Hay tres ciclos; primera infancia (acelerado), etapa escolar (estable) y adolescencia (acelerado).",
+        "Todas son falsas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-053",
+      "numero": 53,
+      "pregunta": "Señala la afirmación falsa:",
+      "opciones": [
+        "El crecimiento y maduración en niñas se da antes que, en niños, pero se detiene antes.",
+        "Los niños aumentan masa magra en la adolescencia.",
+        "Las niñas desarrollan menor masa grasa al final del crecimiento que los niños.",
+        "El crecimiento de las mamas en niñas y de vello corporal son caracteres sexuales secundarios."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-055",
+      "numero": 55,
+      "pregunta": "En las confituras:",
+      "opciones": [
+        "Se conserva toda la vitamina C de las frutas.",
+        "No se afectan las vitaminas B2 y Provitamina A de las frutas.",
+        "El valor calórico es el mismo que el de la fruta de partida.",
+        "Existe una pérdida de alrededor del 25% aproximadamente de Vitamina C."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-056",
+      "numero": 56,
+      "pregunta": "En relación a la dieta saludable para el adulto sano:",
+      "opciones": [
+        "Ha de ser equilibrado el aporte energético con el gasto.",
+        "Ha de contener la mayor variedad de alimentos saludables posible.",
+        "La ingesta óptima se conseguirá gracias a los patrones de alimentación que aparecen en las guías alimentarias.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-057",
+      "numero": 57,
+      "pregunta": "Es característico de la vejez que:",
+      "opciones": [
+        "Aumente la proteína visceral.",
+        "Aumente la masa magra total.",
+        "Aumente la grasa visceral.",
+        "Ninguna opción es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-059",
+      "numero": 59,
+      "pregunta": "Las personas de edad avanzada:",
+      "opciones": [
+        "Tienen un aumento de la incidencia de enfermedades crónicas.",
+        "Disminuyen el gasto energético.",
+        "Las RDA de proteínas se ven ligeramente aumentadas respecte a los adultos jóvenes.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-060",
+      "numero": 60,
+      "pregunta": "De manera general, la alimentación para deportistas debe:",
+      "opciones": [
+        "Facilitar la recuperación del glucógeno.",
+        "Favorecer la hidratación y recuperación electrolítica.",
+        "Facilitar la realización de la actividad.",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-061",
+      "numero": 61,
+      "pregunta": "Sobre la alimentación vegetariana:",
+      "opciones": [
+        "Implica, cuanto menos, evitación relativa de carne enla dieta.",
+        "Hay diferentes tipos.",
+        "La dieta macrobiótica no genera ningún déficit.",
+        "A y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-062",
+      "numero": 62,
+      "pregunta": "Señala la respuesta correcta.",
+      "opciones": [
+        "La OMS recomienda la lactancia materna exclusiva hasta los 6 meses del bebé.",
+        "La OMS recomienda la lactancia materna exclusiva hasta los 4 meses del bebé.",
+        "La OMS recomienda la lactancia materna exclusiva hasta los 12 meses del bebé.",
+        "Son todas falsas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-063",
+      "numero": 63,
+      "pregunta": "Una bebida que presenta 20 g de alcohol/100 ml, ¿a qué graduación alcohólica en % vol. equivale?",
+      "opciones": [
+        "20 %vol.",
+        "25 %vol.",
+        "30 %vol.",
+        "35 %vol."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-064",
+      "numero": 64,
+      "pregunta": "En el tercer trimestre del primer año de vida, el lactante necesita un aporte calórico aproximado de:",
+      "opciones": [
+        "90-100 kcal/kg/día.",
+        "110-120 kcal/kg/día.",
+        "100-110 kcal/kg/día.",
+        "80-90 kcal/kg/día."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-065",
+      "numero": 65,
+      "pregunta": "La leche humana contiene aproximadamente:",
+      "opciones": [
+        "20-25 %de grasa.",
+        "48-54 %de carbohidratos.",
+        "20-25 %de proteínas.",
+        "48-54 % de grasa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-066",
+      "numero": 66,
+      "pregunta": "¿Cuándo celebran los musulmanes el Ramadán?",
+      "opciones": [
+        "Siempre en julio.",
+        "Según si el año es bisiesto.",
+        "El noveno mes del calendario musulmán.",
+        "El décimo mes del calendario musulmán."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-067",
+      "numero": 67,
+      "pregunta": "¿Qué cantidad de ingesta calórica extra está recomendada en la mujer durante la lactancia?",
+      "opciones": [
+        "250 kcal/día.",
+        "300 kcal/día.",
+        "350 kcal/día.",
+        "500 kcal/día."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-068",
+      "numero": 68,
+      "pregunta": "En relación al patrón alimentario, no es cierto que:",
+      "opciones": [
+        "Es el mismo en todas las ciudades europeas.",
+        "Junto con el estilo de vida de una población o de un grupo de personas se utiliza para determinar la incidencia de ciertas enfermedades.",
+        "Varía según el lugar y el grupo de población estudiado.",
+        "Es el conjunto de alimentos, la frecuencia, la cantidad y la proporción con la que son consumidos por un grupo social o de población determinados."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-069",
+      "numero": 69,
+      "pregunta": "Respecto a la restauración colectiva, ¿cuál es la opción correcta?",
+      "opciones": [
+        "Presta sus servicios a un grupo más o menos grande de personas en centros como colegios, hospitales, etc.",
+        "Debe garantizar una dieta adecuada que promueva la salud y prevenga enfermedades relacionadas con la dieta.",
+        "La calidad de los menús no es muy importante.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-070",
+      "numero": 70,
+      "pregunta": "Indica la incorrecta.",
+      "opciones": [
+        "Los buenos hábitos se adquieren en edades tempranas.",
+        "Las personas de edad avanzada aumentan la sensación de sed.",
+        "Durante la edad escolar los requerimientos nutricionales son muy variables entre diferentes niños.",
+        "Los hospitales codifican las posibles dietas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-071",
+      "numero": 71,
+      "pregunta": "Respecto a las cocinas centrales que elaboran comida y la reparten.",
+      "opciones": [
+        "Sólo trabajan en línea caliente.",
+        "Pueden transportarla en cualquier tipo de vehículo.",
+        "Sólo transportan alimentos refrigerados.",
+        "Si transportan en caliente lo harán a > 65 °C en el interior del alimento y si es en frío a < 4 °C."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-vinaroz-2019-072",
+      "numero": 72,
+      "pregunta": "Señala la respuesta incorrecta respecto a las cocinas de restauración colectiva:",
+      "opciones": [
+        "La temperatura no es importante.",
+        "Cada plato debe constar de una ficha técnica con ingredientes y elaboración.",
+        "Los platos deben tener buena presentación.",
+        "La higiene en la elaboración y manipulación es de obligado cumplimiento."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

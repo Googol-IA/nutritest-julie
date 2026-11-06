@@ -1,0 +1,1030 @@
+{
+  "examen": "dt-madrid-2018",
+  "titulo": "Madrid 2018 y 2019",
+  "libro": "dietoterapia",
+  "fuente": "Pruebas libres de Técnico Superior en Dietética",
+  "preguntas": [
+    {
+      "id": "of-dt-madrid-2018-001",
+      "numero": 1,
+      "pregunta": "De los siguientes tipos de dietas, di cuál no tiene fines terapéuticos:",
+      "opciones": [
+        "Dietas profilácticas.",
+        "Dietas diagnósticas.",
+        "Dietas artificiales",
+        "Dietas facilitadoras."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-002",
+      "numero": 2,
+      "pregunta": "Los medicamentos que dificultan la absorción de vit B12 provocan:",
+      "opciones": [
+        "Úlcera péptica.",
+        "Raquitismo.",
+        "Anemia megaloblástica.",
+        "Trastornos digestivos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-003",
+      "numero": 3,
+      "pregunta": "La aspirina disminuye su absorción cuando:",
+      "opciones": [
+        "La tomamos con alimentos que acidifican el pH del estómago.",
+        "La tomamos con alimentos que disminuyen la ionización de la aspirina.",
+        "La tomamos con alimentos que convierten la aspirina en más liposoluble.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-004",
+      "numero": 4,
+      "pregunta": "Las tetraciclinas disminuyen su absorción en presencia de:",
+      "opciones": [
+        "Fósforo.",
+        "Tiramina.",
+        "Calcio.",
+        "Vitamina K."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-005",
+      "numero": 5,
+      "pregunta": "De las siguientes afirmaciones señala la FALSA:",
+      "opciones": [
+        "El alcohol como vasodilatador disminuye la absorción de los fármacos.",
+        "El alcohol al modificar la permeabilidad de membranas, facilita el paso de algunos medicamentos al SNC.",
+        "El alcohol se metaboliza en acetato el 90% y el resto por el sistema MEOS.",
+        "En el alcoholismo crónico se disminuirá la eliminación de algunos fármacos."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-006",
+      "numero": 6,
+      "pregunta": "De los efectos propios del alcohol que pueden provocar interacciones con los efectos de algunos fármacos hay uno que no lo es. Señálalo:",
+      "opciones": [
+        "Efecto hiperglucemiante.",
+        "Efecto sedante.",
+        "Efecto ansiolítico.",
+        "Efecto hemorragizante."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-007",
+      "numero": 7,
+      "pregunta": "El disulfiram:",
+      "opciones": [
+        "Es un fármaco que impide la absorción del alcohol.",
+        "Interfiere en la oxidación del alcohol, acumulándose en el organismo acetaldehído.",
+        "Se utiliza para la deshabituación al alcohol porque no provoca síntomas.",
+        "Su principio activo es el antabús."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-008",
+      "numero": 8,
+      "pregunta": "La mayor o menor sensibilidad toxicológica al alcohol dependerá:",
+      "opciones": [
+        "Del acúmulo de alcohol en el tejido graso del individuo.",
+        "Si el individuo es alérgico o no al alcohol.",
+        "Del contenido acuoso del individuo.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-009",
+      "numero": 9,
+      "pregunta": "En el metabolismo del alcohol, señala la respuesta que NO ES CORRECTA:",
+      "opciones": [
+        "Su metabolismo es totalmente en hígado y se elimina vía renal.",
+        "Su velocidad de metabolización es constante.",
+        "El resultado de la oxidación del alcohol es el acetato.",
+        "El MEOS es un sistema metabólico que además del alcohol comparten algunos fármacos."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-010",
+      "numero": 10,
+      "pregunta": "El sistema metabólico MEOS:",
+      "opciones": [
+        "Interviene en la oxidación del alcohol cuando este se consume en cantidades elevadas.",
+        "Se induce cuando las ingestas del alcohol son crónicas.",
+        "Por esta vía metabólica el alcohol produce calor y no energía.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-011",
+      "numero": 11,
+      "pregunta": "De las siguientes afirmaciones señala la FALSA:",
+      "opciones": [
+        "El alcohol prácticamente no aporta ningún nutriente.",
+        "Su ingesta es igual de dañina si se toma con las comidas o no.",
+        "El valor calórico de 7 kcal/g puede variar en determinadas circunstancias.",
+        "En individuos alcohólicos la sustitución del alcohol por nutrientes les hace bajar de peso."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-012",
+      "numero": 12,
+      "pregunta": "Por efecto directo, el alcohol puede provocar en el organismo:",
+      "opciones": [
+        "Hiperlipemias.",
+        "Esteatosis hepática.",
+        "Alteración de la visión nocturna.",
+        "Todas las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-013",
+      "numero": 13,
+      "pregunta": "La insulina:",
+      "opciones": [
+        "Es una hormona segregada por la hipófisis.",
+        "Se segrega cuando hay hipoglucemia.",
+        "Favorece la degradación de los principios inmediatos.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-014",
+      "numero": 14,
+      "pregunta": "La etiología autoinmune en la diabetes es característica de:",
+      "opciones": [
+        "La diabetes tipo I.",
+        "La diabetes tipo II.",
+        "La diabetes tipo I y II.",
+        "La diabetes gestacional."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-015",
+      "numero": 15,
+      "pregunta": "Dentro de los factores de riesgo de la diabetes tipo II hay uno que no lo es, señálalo:",
+      "opciones": [
+        "La obesidad.",
+        "Antecedentes de diabetes gestacional.",
+        "La raza.",
+        "El periodo infanto-juvenil."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-016",
+      "numero": 16,
+      "pregunta": "Los valores de glucosa plasmática en la diabetes gestacional son:",
+      "opciones": [
+        "Entre 60 a 90 mg/dl.",
+        "Menores de 120mg/dl (a las dos horas) con sobrecarga oral.",
+        "Menores o iguales a 140 mg/dl.",
+        "Menores o iguales a 140 mg/dl (a las dos horas) con sobrecarga oral."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-017",
+      "numero": 17,
+      "pregunta": "En el diagnóstico de diabetes mellitus, la hemoglobina glicosilada:",
+      "opciones": [
+        "Tiene un valor en sangre menor del 5%.",
+        "Mide la glucosa que tenemos en ese momento.",
+        "Tiene un valor mayor de 6,4%.",
+        "Es un valor que no se utiliza en el diagnóstico de la diabetes."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-018",
+      "numero": 18,
+      "pregunta": "El diabético tipo I cuando hace ejercicio:",
+      "opciones": [
+        "Debe evitar la inyección de insulina en la zona sometida al ejercicio.",
+        "Debe hacerse el control de glucemia solo antes del ejercicio.",
+        "Puede realizar cualquier tipo de ejercicio, no siendo ninguno desaconsejable.",
+        "El suplemento de CH después del ejercicio es conveniente que sea de índice glucémico bajo."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-019",
+      "numero": 19,
+      "pregunta": "Las dietas en el individuo diabético tipo II:",
+      "opciones": [
+        "Es esencial que los CH estén distribuidos uniformemente durante el día.",
+        "No es suficiente para controlar la glucemia, tienen que ir acompañadas de fármacos hipoglucemiantes.",
+        "Tendrán una cantidad de CH normal o disminuida dependiendo si el individuo es obeso o no.",
+        "Siempre se hará una modificación cuantitativa de los carbohidratos sea obeso o no."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-020",
+      "numero": 20,
+      "pregunta": "Los antidiabéticos orales:",
+      "opciones": [
+        "Son fármacos que se utilizan en los diabéticos tipo I.",
+        "Son fármacos que siempre acompañan a la dieta en los diabéticos tipo II.",
+        "Son los fármacos de elección en la diabetes gestacional.",
+        "Los tomará el diabético tipo II cuando los necesite siempre que haya secreción de insulina por parte del páncreas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-021",
+      "numero": 21,
+      "pregunta": "La HDL es una lipoproteína cuyo lípido principal:",
+      "opciones": [
+        "Son los triglicéridos exógenos.",
+        "Es el colesterol.",
+        "Son los triglicéridos endógenos.",
+        "Son los ácidos grasos."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-022",
+      "numero": 22,
+      "pregunta": "Una dieta rica en grasas saturadas provocará:",
+      "opciones": [
+        "Un aumento de las HDL.",
+        "Un aumento del colesterol plasmático.",
+        "Una disminución de las LDL.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-023",
+      "numero": 23,
+      "pregunta": "Entre las semejanzas de una dieta para un paciente hipercolesterolémico e hipertrigliceridémico hay una que no comparten ambas patologías. Señálala:",
+      "opciones": [
+        "Se aconseja el aumento del consumo de ácidos grasos poliinsaturados.",
+        "En caso de individuos obesos se les pondrá una dieta hipocalórica.",
+        "Se les disminuirá el consumo de alcohol.",
+        "Se aconsejará consumir aceite de semilla y aceite de oliva."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-024",
+      "numero": 24,
+      "pregunta": "De las siguientes afirmaciones sobre los TCM o ácidos grasos de cadena media hay una que no es cierta:",
+      "opciones": [
+        "Los más importantes son el ácido caprílico y el ácido caproico.",
+        "Se utilizan en nutrición artificial por sonda.",
+        "Utilizan como el resto de los ácidos grasos la vía linfática en su transporte.",
+        "No necesitan ácidos biliares para absorberse."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-025",
+      "numero": 25,
+      "pregunta": "Señala en cuál de las siguientes patologías no se utiliza como tratamiento dietético una dieta de protección biliar:",
+      "opciones": [
+        "Insuficiencia pancreática.",
+        "Pancreatitis aguda.",
+        "Insuficiencia hepática.",
+        "Colelitiasis."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-026",
+      "numero": 26,
+      "pregunta": "En una dieta de protección biliar:",
+      "opciones": [
+        "Las grasas se mantendrán en el porcentaje de una dieta equilibrada, el 30%.",
+        "Las proteínas deben ser de alto valor biológico y digestivas.",
+        "El paciente tomará leche diariamente por su contenido en proteínas, grasa y minerales como el calcio.",
+        "Es importante que desde el principio consuman azúcares complejos y legumbres como lentejas o alubias."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-027",
+      "numero": 27,
+      "pregunta": "La fenilcetonuria:",
+      "opciones": [
+        "Es una enfermedad en la que se acumula cuerpos cetónicos en el organismo.",
+        "Los niños con fenilcetonuria no pueden tomar grasas en su dieta.",
+        "Impide la formación de tirosina.",
+        "Todas las respuestas anteriores son ciertas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-028",
+      "numero": 28,
+      "pregunta": "Una dieta pobre en yodo se utiliza en pacientes:",
+      "opciones": [
+        "Hipotiroideos.",
+        "Que viven en zonas marítimas donde hay mucho yodo.",
+        "Cuya alimentación tiene excesivo contenido en yodo y con el tiempo les provocaría un hipertiroidismo.",
+        "Sometidos a un estudio diagnóstico sobre el tiroides."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-029",
+      "numero": 29,
+      "pregunta": "Una intolerancia alimentaria es:",
+      "opciones": [
+        "Una alergia a un determinado alimento.",
+        "Es una reacción adversa tóxica a un determinado alimento.",
+        "Es una reacción adversa no tóxica a un determinado alimento de causa no alérgica.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-030",
+      "numero": 30,
+      "pregunta": "Las células inmunocompetentes que intervienen en el mecanismo de las alergias son:",
+      "opciones": [
+        "Linfocitos.",
+        "Inmunoglobulinas.",
+        "Mastocitos y basófilos.",
+        "Enterocitos y eosinófilos."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-031",
+      "numero": 31,
+      "pregunta": "La anafilaxia:",
+      "opciones": [
+        "Es una reacción cutánea que aparece en todos los individuos alérgicos.",
+        "Es una reacción alérgica que aparece tras el ejercicio en individuos susceptibles.",
+        "Es una reacción alérgica exagerada y grave que puede afectar a todo el organismo.",
+        "Ninguna de las respuestas anteriores es cierta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-032",
+      "numero": 32,
+      "pregunta": "Para evitar una reacción anafiláctica en las pruebas de reintroducción del alimento problema debemos hacer lo siguiente, excepto:",
+      "opciones": [
+        "No realizarla cuando existan antecedentes graves.",
+        "Disponer de equipo de reanimación.",
+        "Iniciar la prueba con poca cantidad de alimento.",
+        "Tras la prueba, el periodo de observación durará al menos tres días, por si hay reacciones retardadas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-033",
+      "numero": 33,
+      "pregunta": "El Índice de Quetelet:",
+      "opciones": [
+        "Mide el peso ideal del individuo.",
+        "Mide el índice de masa corporal del individuo.",
+        "Mide la razón cintura-cadera del individuo.",
+        "Mide el porcentaje de peso ideal con respecto al real del individuo."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-034",
+      "numero": 34,
+      "pregunta": "La obesidad glúteo-femoral es:",
+      "opciones": [
+        "Ginoide.",
+        "Androide.",
+        "Está asociada al síndrome plurimetabólico.",
+        "a y c son ciertas."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-035",
+      "numero": 35,
+      "pregunta": "En la obesidad, el trastorno de los carbohidratos se caracteriza por:",
+      "opciones": [
+        "Disminución de secreción de insulina y, por tanto, hiperglucemia.",
+        "Intolerancia a la glucosa.",
+        "Hiperinsulinismo.",
+        "b y c son ciertas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-036",
+      "numero": 36,
+      "pregunta": "El ayuno como método de adelgazamiento supone peligro de:",
+      "opciones": [
+        "Pérdida de masa muscular.",
+        "Aparición de cetosis.",
+        "a y b son ciertas.",
+        "No supone ningún peligro para el individuo."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-037",
+      "numero": 37,
+      "pregunta": "La dieta hipocalórica convencional es de:",
+      "opciones": [
+        "De 400 a 800 Kcal/día.",
+        "De 800 a 1000 kcal/día.",
+        "De 1000 a 1200 kcal/día.",
+        "De 1000 a 1800 kcal/día."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-038",
+      "numero": 38,
+      "pregunta": "En las dietas con modificaciones de la energía tenemos que:",
+      "opciones": [
+        "Disminuir los carbohidratos por debajo del 40% si es hipocalórica.",
+        "Disminuir los carbohidratos y nunca por debajo del 40% si es hipocalórica.",
+        "Disminuir los carbohidratos y las proteínas según las calorías que necesite el paciente.",
+        "Nunca las utilizaremos en personas con peso subnormal o delgadez excesiva."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-039",
+      "numero": 39,
+      "pregunta": "En las dietas hipocalóricas:",
+      "opciones": [
+        "Disminuiremos todas las grasas a un total del 20% respecto a las calorías totales.",
+        "Promocionaremos sobre todo el consumo de grasas poliinsaturadas y monoinsaturadas.",
+        "Los carbohidratos no se modificarán con respecto a las dietas normocalóricas.",
+        "El porcentaje de proteínas quedará más bajo que en las dietas normocalóricas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b. Ojo: la propia clave la marca como dudosa.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-040",
+      "numero": 40,
+      "pregunta": "Los suplementos de vitaminas y minerales se aconsejan en dietas hipocalóricas de:",
+      "opciones": [
+        "500 kcal.",
+        "800 kcal.",
+        "1000 kcal.",
+        "En todas las anteriores."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-041",
+      "numero": 41,
+      "pregunta": "El síndrome de vaciamiento rápido aparece:",
+      "opciones": [
+        "En individuos obesos sometidos a tratamiento farmacológico.",
+        "En individuos obesos sometidos a dietas hipocalóricas de muy bajas calorías.",
+        "En individuos obesos sometidos a cirugía de derivación gástrica.",
+        "En todos los individuos obesos durante el proceso de adelgazamiento."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-042",
+      "numero": 42,
+      "pregunta": "Cuando el origen de una diarrea es por un trastorno infeccioso de la mucosa provocará una alteración en el intestino de:",
+      "opciones": [
+        "La absorción.",
+        "La secreción.",
+        "La eliminación.",
+        "La motilidad."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-044",
+      "numero": 44,
+      "pregunta": "En el tratamiento de las diarreas es importante que en la alimentación del paciente:",
+      "opciones": [
+        "Se eviten los lácteos.",
+        "Al principio del cuadro no se consumirán grasas ni fruta ni verdura.",
+        "Se le dará una dieta blanda en la fase de recuperación.",
+        "Todas las respuestas anteriores son ciertas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-045",
+      "numero": 45,
+      "pregunta": "Cuando hay debilidad motora en las paredes del intestino, las heces se acumulan provocando:",
+      "opciones": [
+        "Un estreñimiento atónico.",
+        "Un estreñimiento fisiológico.",
+        "Un estreñimiento rectógeno.",
+        "Un estreñimiento espástico."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-046",
+      "numero": 46,
+      "pregunta": "En el tratamiento dietético de la hernia de hiato, señala qué alimentos aumentan el tono del EEI:",
+      "opciones": [
+        "El café y el chocolate.",
+        "Las grasas.",
+        "Las proteínas.",
+        "El alcohol."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-047",
+      "numero": 47,
+      "pregunta": "¿Qué fármacos no debe consumir un paciente con úlcera péptica?",
+      "opciones": [
+        "Antiinflamatorios no esteroideos.",
+        "Antihistamínicos.",
+        "Antiácidos.",
+        "Ninguno de los anteriores."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-048",
+      "numero": 48,
+      "pregunta": "Entre las siguientes características comunes de la enfermedad de Crohn y colitis ulcerosa hay una que no lo es. Señálala:",
+      "opciones": [
+        "Las diarreas son habitualmente sanguinolentas.",
+        "Cursan con dolor abdominal.",
+        "Son enfermedades inflamatorias del tubo digestivo.",
+        "Aparecen lesiones como fístulas y úlceras en las paredes del intestino."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-050",
+      "numero": 50,
+      "pregunta": "Respecto a la ascitis:",
+      "opciones": [
+        "Es una inflamación del hígado.",
+        "Consiste en un acúmulo de líquido en el hígado.",
+        "Al paciente ascítico se le controlará las ingestas de agua y sodio.",
+        "Todas las respuestas anteriores son ciertas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-051",
+      "numero": 51,
+      "pregunta": "En el periodo agudo de una encefalopatía hepática la dieta deberá ser:",
+      "opciones": [
+        "Hipercalórica e hiperproteica.",
+        "Hipocalórica e hipoproteica.",
+        "Normocalórica y proteínas según aceptación del individuo.",
+        "Hipocalórica e hiperproteica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-052",
+      "numero": 52,
+      "pregunta": "En la fase aguda de la pancreatitis aguda el tratamiento dietético será:",
+      "opciones": [
+        "Dieta absoluta.",
+        "Dieta líquida.",
+        "Dieta blanda.",
+        "Nutrición parenteral desde el principio."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-053",
+      "numero": 53,
+      "pregunta": "La renina:",
+      "opciones": [
+        "Es una hormona que se sintetiza en el riñón.",
+        "Libera otra hormona de las glándulas suprarrenales.",
+        "Regula la tensión arterial.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-054",
+      "numero": 54,
+      "pregunta": "La glomerulonefritis es una causa de insuficiencia renal aguda de tipo:",
+      "opciones": [
+        "Prerrenal.",
+        "Renal intrínseca.",
+        "Postrenal.",
+        "De cualquiera de las tres anteriores."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-055",
+      "numero": 55,
+      "pregunta": "La hiperazoemia o uremia es una alteración metabólica que:",
+      "opciones": [
+        "Aparece exclusivamente en la insuficiencia renal aguda grave.",
+        "Aparece en la insuficiencia renal aguda grave y en la crónica.",
+        "No es una alteración de la insuficiencia renal.",
+        "Aparece como efecto secundario de los pacientes dializados."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-056",
+      "numero": 56,
+      "pregunta": "De las siguientes alteraciones de la insuficiencia renal, señala cuál no se da en la IRA y sí en la IRC:",
+      "opciones": [
+        "Alteraciones endocrinas.",
+        "Alteraciones en la función renal.",
+        "Acúmulo de productos nitrogenados.",
+        "Todas las alteraciones anteriores aparecen en ambas insuficiencias renales, aguda y crónica."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-057",
+      "numero": 57,
+      "pregunta": "La osteodistrofia renal:",
+      "opciones": [
+        "Es una complicación de la IRA.",
+        "Aparece en la IRC por falta de vit D.",
+        "Interviene en su aparición la falta de PTH.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-058",
+      "numero": 58,
+      "pregunta": "Respecto a la diálisis en los enfermos con insuficiencia renal hay una afirmación que es FALSA:",
+      "opciones": [
+        "Es el tratamiento de elección para eliminar los productos de desecho cuando el riñón ha fracasado.",
+        "Hay varios tipos de diálisis según la tolerancia de los enfermos.",
+        "Una diferencia entre diálisis peritoneal y hemodiálisis está en el tipo de membrana semipermeable.",
+        "En los pacientes sometidos a diálisis se les recomendará tomar bastante agua por las pérdidas de la misma entre sesiones."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-060",
+      "numero": 60,
+      "pregunta": "Los síntomas respiratorios en la insuficiencia cardiaca:",
+      "opciones": [
+        "Son síntomas retrógrados por acumulación sanguínea al fracasar el corazón como bomba.",
+        "Son síntomas anterógrados, debido a la falta de riego sanguíneo adecuado.",
+        "Son síntomas que aparecen solo cuando el paciente tiene una enfermedad pulmonar concomitante.",
+        "Son los síntomas característicos de una insuficiencia cardíaca derecha."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-061",
+      "numero": 61,
+      "pregunta": "El tratamiento de la insuficiencia cardiaca:",
+      "opciones": [
+        "Se basa en un tratamiento farmacológico e higiénico-dietético.",
+        "Lo primordial en el tratamiento dietético es la restricción hídrica.",
+        "Debido a los edemas en su dieta el paciente tendrá que restringir la sal.",
+        "a y c son ciertas."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-062",
+      "numero": 62,
+      "pregunta": "De los siguientes factores adquiridos que pueden causar hipertensión arterial, uno no lo es, señálalo:",
+      "opciones": [
+        "Dieta.",
+        "Edad.",
+        "Masa corporal.",
+        "Estrés."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-063",
+      "numero": 63,
+      "pregunta": "En el tratamiento dietético de la hipertensión hay una afirmación falsa, señálala:",
+      "opciones": [
+        "Se tiene que restringir el sodio.",
+        "Se dará una dieta hipocalórica en los casos que el individuo lo requiera.",
+        "Se prohibirá el alcohol.",
+        "Se reducirá el consumo de ácidos grasos saturados."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-064",
+      "numero": 64,
+      "pregunta": "La anemia ferropénica es:",
+      "opciones": [
+        "Una anemia en que la mayoría de los hematíes son grandes.",
+        "Una anemia por pérdida de hematíes.",
+        "Una anemia por eritropoyesis ineficaz.",
+        "Una anemia hipoproliferativa."
+      ],
+      "correcta": 3,
+      "explicacion": "Respuesta de la clave del examen: d.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-065",
+      "numero": 65,
+      "pregunta": "En el diagnóstico de laboratorio de la anemia ferropénica, señala la respuesta VERDADERA:",
+      "opciones": [
+        "Los hematíes son normocíticos e hipercrómicos.",
+        "La capacidad de fijación del hierro está disminuida.",
+        "El índice de saturación de la transferrina está disminuido.",
+        "Es el mismo diagnóstico de laboratorio que en las anemias por enfermedades crónicas."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-066",
+      "numero": 66,
+      "pregunta": "Hablamos de anemia perniciosa:",
+      "opciones": [
+        "Cuando la anemia es megaloblástica por falta de ácido fólico.",
+        "Cuando la causa de la anemia megaloblástica es un trastorno de la absorción por síndrome de mala absorción.",
+        "Cuando la causa de la anemia megaloblástica es un trastorno de la absorción por falta de factor intrínseco.",
+        "La anemia perniciosa no es una anemia megaloblástica."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-067",
+      "numero": 67,
+      "pregunta": "El ácido metilmalónico:",
+      "opciones": [
+        "Es un valor importante en el diagnóstico diferencial entre todas las anemias nutricionales.",
+        "En la anemia megaloblástica por déficit de cobalamina está disminuido en sangre.",
+        "En la anemia megaloblástica por déficit de ácido fólico los niveles en sangre serán normales.",
+        "Procede de diversos aminoácidos que requieren de ácido fólico como enzima."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-068",
+      "numero": 68,
+      "pregunta": "La espina bífida es:",
+      "opciones": [
+        "Una patología que aparece en el feto por falta de cobalamina durante el embarazo.",
+        "Una lesión congénita en que los niños nacen con la lengua dividida en dos partes.",
+        "Una alteración en el cierre del tubo neural del feto.",
+        "Ninguna de las anteriores es cierta."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2018-070",
+      "numero": 70,
+      "pregunta": "Freír a altas temperaturas hace que se liberen carcinógenos químicos como:",
+      "opciones": [
+        "Nitrosaminas.",
+        "Hidrocarburos aromáticos policíclicos.",
+        "Antioxidantes.",
+        "Aminas aromáticas."
+      ],
+      "correcta": 1,
+      "explicacion": "Respuesta de la clave del examen: b.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2019-069",
+      "numero": 69,
+      "referencia": "Madrid 2019, pregunta 69",
+      "pregunta": "En el catabolismo acelerado del paciente oncológico, las células cancerosas consumen gran cantidad de:",
+      "opciones": [
+        "Ácidos grasos.",
+        "Proteínas.",
+        "Glucosa.",
+        "Vitaminas y minerales."
+      ],
+      "correcta": 2,
+      "explicacion": "Respuesta de la clave del examen: c.",
+      "orden_fijo": true,
+      "dificultad": 2
+    },
+    {
+      "id": "of-dt-madrid-2019-070",
+      "numero": 70,
+      "referencia": "Madrid 2019, pregunta 70",
+      "pregunta": "El mejor tipo de nutrición para el paciente oncológico es:",
+      "opciones": [
+        "La nutrición oral.",
+        "La nutrición enteral.",
+        "La nutrición parenteral.",
+        "Cualquiera de ellas, ya que las tres tienen las mismas ventajas para el paciente."
+      ],
+      "correcta": 0,
+      "explicacion": "Respuesta de la clave del examen: a.",
+      "orden_fijo": true,
+      "dificultad": 2
+    }
+  ]
+}

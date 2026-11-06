@@ -1,0 +1,664 @@
+{
+  "libro": "alimentacion-equilibrada",
+  "tema": "t03",
+  "titulo": "Los lípidos (las grasas)",
+  "fuente": "tema 3 AE diapo.pdf",
+  "preguntas": [
+    {
+      "id": "ae-t03-001",
+      "pregunta": "Los lípidos simples están formados por:",
+      "opciones": [
+        "C, H y O.",
+        "C, H, O y N.",
+        "C, H, O y P.",
+        "C, H, O y S."
+      ],
+      "correcta": 0,
+      "explicacion": "Los lípidos simples contienen C, H y O. Los complejos añaden otros grupos (P, N, azúcares, sulfato…).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-002",
+      "pregunta": "Un triglicérido es:",
+      "opciones": [
+        "Un ácido graso libre.",
+        "Una molécula de glicerol unida a tres ácidos grasos.",
+        "Una molécula de esfingosina unida a tres ácidos grasos.",
+        "Una lipoproteína."
+      ],
+      "correcta": 1,
+      "explicacion": "Los acilglicéridos están formados por glicerina más 1, 2 o 3 ácidos grasos (mono-, di- y triglicéridos).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-003",
+      "pregunta": "Respecto a las funciones de los lípidos, señala la opción CORRECTA:",
+      "opciones": [
+        "Tienen función energética de reserva (9 kcal/g).",
+        "Tienen función plástica, al formar parte de las membranas.",
+        "Tienen función reguladora (hormonas, vitaminas, eicosanoides).",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Las tres son ciertas: los lípidos tienen función energética (reserva, 9 kcal/g), plástica (membranas) y reguladora (hormonas, vitaminas, eicosanoides).",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "ae-t03-004",
+      "pregunta": "Las funciones principales de los lípidos según el tema son:",
+      "opciones": [
+        "Digestiva, excretora y respiratoria.",
+        "Energética, catalítica y de transporte de O2.",
+        "Catalítica, defensiva y de transporte de O2.",
+        "Energética, plástica y reguladora."
+      ],
+      "correcta": 3,
+      "explicacion": "Energética (reserva, 9 kcal/g), plástica (membranas) y reguladora (hormonas, vitaminas, eicosanoides).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-005",
+      "pregunta": "Al unir un ácido graso a la esfingosina mediante un enlace amida se forma:",
+      "opciones": [
+        "Una ceramida",
+        "Un triglicérido",
+        "Un fosfolípido",
+        "Una cera"
+      ],
+      "correcta": 0,
+      "explicacion": "El ácido graso se une al grupo amino de la esfingosina (un aminoalcohol) formando una ceramida.",
+      "dificultad": 3
+    },
+    {
+      "id": "ae-t03-006",
+      "pregunta": "Son lípidos saponificables:",
+      "opciones": [
+        "Los que no contienen ácidos grasos.",
+        "Los que contienen ácidos grasos: acilglicéridos, ceras, fosfolípidos y esfingolípidos.",
+        "Los esteroides.",
+        "Los terpenos."
+      ],
+      "correcta": 1,
+      "explicacion": "Saponificables = con ácidos grasos. Insaponificables = sin ácidos grasos (terpenos, esteroides, eicosanoides según el esquema).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-007",
+      "pregunta": "Es un lípido INSAPONIFICABLE:",
+      "opciones": [
+        "Triglicérido",
+        "Cera de abeja",
+        "Colesterol",
+        "Fosfolípido"
+      ],
+      "correcta": 2,
+      "explicacion": "El colesterol es un esteroide (esterol), insaponificable. También lo son los terpenos (carotenoides, vitaminas A, E, K).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-008",
+      "pregunta": "Las vitaminas A, E y K y los carotenoides pertenecen al grupo de:",
+      "opciones": [
+        "Esteroides",
+        "Acilglicéridos",
+        "Ceras",
+        "Isoprenoides (terpenos)"
+      ],
+      "correcta": 3,
+      "explicacion": "Los isoprenoides o terpenos incluyen carotenoides, vitaminas A, E y K, coenzima Q10 y compuestos vegetales.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-009",
+      "pregunta": "El colesterol, las hormonas esteroideas, los ácidos biliares y la vitamina D pertenecen al grupo de:",
+      "opciones": [
+        "Esteroides",
+        "Terpenos",
+        "Ceras",
+        "Esfingolípidos"
+      ],
+      "correcta": 0,
+      "explicacion": "Los esteroides (esteroles y derivados) incluyen colesterol, hormonas esteroideas (cortisol, aldosterona, sexuales), ácidos biliares y vitamina D.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-010",
+      "pregunta": "La función principal de las ceras es:",
+      "opciones": [
+        "Reserva energética",
+        "Protección e impermeabilización",
+        "Formar membranas",
+        "Transportar colesterol"
+      ],
+      "correcta": 1,
+      "explicacion": "Las ceras (cera de abeja, lanolina) tienen función protectora e impermeabilizante.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-011",
+      "pregunta": "Señala la opción FALSA respecto a los lípidos:",
+      "opciones": [
+        "Los fosfolípidos son moléculas anfipáticas que forman las membranas biológicas.",
+        "Las ceras tienen función protectora e impermeabilizante.",
+        "El colesterol es un esteroide insaponificable.",
+        "Las ceras son los principales componentes de las membranas celulares."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: los componentes de las membranas son los fosfolípidos y los esfingolípidos. Las ceras (cera de abeja, lanolina) protegen e impermeabilizan.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-012",
+      "pregunta": "Los eicosanoides son:",
+      "opciones": [
+        "Vitaminas liposolubles.",
+        "Ceras vegetales.",
+        "Hormonas sexuales derivadas del colesterol.",
+        "Derivados de ácidos grasos poliinsaturados: prostaglandinas, tromboxanos y leucotrienos."
+      ],
+      "correcta": 3,
+      "explicacion": "Los eicosanoides derivan de AGPI de 20 C (por ejemplo, del ácido araquidónico) y regulan inflamación, coagulación, etc.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-013",
+      "pregunta": "Se cuestiona que las lipoproteínas sean «lípidos complejos» porque:",
+      "opciones": [
+        "Son complejos macromoleculares de transporte formados por lípidos y proteínas, no lípidos en sí.",
+        "No contienen lípidos.",
+        "Son derivados de azúcares.",
+        "Son insaponificables."
+      ],
+      "correcta": 0,
+      "explicacion": "Las lipoproteínas contienen lípidos y proteínas: son complejos macromoleculares de transporte.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-014",
+      "pregunta": "Un ácido graso de cadena CORTA tiene:",
+      "opciones": [
+        "8-13 C",
+        "3-7 C",
+        "14-20 C",
+        "≥ 21 C"
+      ],
+      "correcta": 1,
+      "explicacion": "Corta: 3-7 C. Media: 8-13 C. Larga: 14-20 C. Muy larga: ≥ 21 C.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-015",
+      "pregunta": "Respecto a la longitud de la cadena de los ácidos grasos, es FALSO que:",
+      "opciones": [
+        "Los de cadena corta tienen 3-7 C.",
+        "Los de cadena media tienen 8-13 C.",
+        "Los de cadena larga tienen 14-20 C.",
+        "Los de cadena muy larga tienen 8-13 C."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: los de cadena muy larga tienen 21 C o más. Corta: 3-7 C; media: 8-13 C; larga: 14-20 C.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-016",
+      "pregunta": "Los ácidos grasos de cadena corta y media se absorben:",
+      "opciones": [
+        "En quilomicrones por vía linfática.",
+        "Directamente a la vena porta.",
+        "En quilomicrones hasta la vena subclavia.",
+        "Unidos a la albúmina por vía linfática."
+      ],
+      "correcta": 1,
+      "explicacion": "Los de cadena corta y media pasan directamente a la vena porta. Los de cadena larga van en quilomicrones por los capilares linfáticos hasta la vena subclavia.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-017",
+      "pregunta": "Respecto a la absorción de los ácidos grasos, señala la opción CORRECTA:",
+      "opciones": [
+        "Los de cadena larga forman quilomicrones que pasan a los capilares linfáticos y llegan a la vena subclavia.",
+        "Los de cadena corta y media pasan directamente a la vena porta.",
+        "Los de cadena larga pasan directamente a la vena porta.",
+        "a y b son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Son ciertas la a y la b: cadena corta y media → vena porta; cadena larga → quilomicrones → vía linfática → vena subclavia.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ae-t03-018",
+      "pregunta": "Un ácido graso saturado:",
+      "opciones": [
+        "Tiene un doble enlace.",
+        "No tiene dobles enlaces.",
+        "Tiene varios dobles enlaces.",
+        "Siempre tiene configuración trans."
+      ],
+      "correcta": 1,
+      "explicacion": "Saturados: sin dobles enlaces. Monoinsaturados: 1 doble enlace. Poliinsaturados: más de uno.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-019",
+      "pregunta": "Es un ácido graso SATURADO:",
+      "opciones": [
+        "Oleico",
+        "Linoleico",
+        "Palmítico",
+        "DHA"
+      ],
+      "correcta": 2,
+      "explicacion": "Saturados: láurico (12:0), mirístico (14:0), palmítico (16:0), esteárico (18:0), araquídico (20:0), lignocérico (24:0).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-020",
+      "pregunta": "El ácido oleico (18:1 ω9) es un ácido graso:",
+      "opciones": [
+        "Saturado",
+        "Poliinsaturado omega-3",
+        "Poliinsaturado omega-6",
+        "Monoinsaturado omega-9"
+      ],
+      "correcta": 3,
+      "explicacion": "El oleico tiene 18 C y 1 doble enlace en posición omega-9; es el principal del aceite de oliva.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-021",
+      "pregunta": "Es un ácido graso monoinsaturado omega-7:",
+      "opciones": [
+        "Palmitoleico (16:1 ω7)",
+        "Oleico",
+        "Esteárico",
+        "Araquidónico"
+      ],
+      "correcta": 0,
+      "explicacion": "El palmitoleico (16:1 ω7) está en la macadamia, el espino amarillo y pescados grasos.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-022",
+      "pregunta": "Son ácidos grasos omega-3:",
+      "opciones": [
+        "Alfalinolénico (ALA, 18:3).",
+        "Linoleico (18:2).",
+        "DHA (22:6).",
+        "a y c son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Omega-3: ALA (18:3), EPA (20:5) y DHA (22:6). El linoleico (18:2) es omega-6, igual que el GLA y el araquidónico.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ae-t03-023",
+      "pregunta": "Es un ácido graso omega-6:",
+      "opciones": [
+        "EPA",
+        "DHA",
+        "Araquidónico (AA, 20:4)",
+        "ALA"
+      ],
+      "correcta": 2,
+      "explicacion": "El araquidónico (20:4 ω6) es omega-6, igual que el linoleico (18:2) y el gammalinolénico (18:3).",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-024",
+      "pregunta": "El DHA (22:6 ω3) tiene:",
+      "opciones": [
+        "22 carbonos y 6 dobles enlaces.",
+        "6 carbonos y 22 dobles enlaces.",
+        "22 carbonos y 3 dobles enlaces.",
+        "20 carbonos y 6 dobles enlaces."
+      ],
+      "correcta": 0,
+      "explicacion": "La notación 22:6 indica 22 carbonos y 6 dobles enlaces; ω3 indica la posición del primer doble enlace.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-025",
+      "pregunta": "Es una fuente principal de ácido láurico:",
+      "opciones": [
+        "Aceite de coco y de palmiste",
+        "Pescado azul",
+        "Aceite de oliva",
+        "Aceite de onagra"
+      ],
+      "correcta": 0,
+      "explicacion": "Láurico: coco, aceite de coco y palmiste y, en menor medida, grasa láctea.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-026",
+      "pregunta": "Respecto a las fuentes de ácidos grasos, es FALSO que:",
+      "opciones": [
+        "El palmítico abunda en el aceite de palma, la carne roja, los lácteos y la yema de huevo.",
+        "El láurico abunda en el aceite de coco y de palmiste.",
+        "El esteárico abunda en la manteca de cacao.",
+        "El gammalinolénico (GLA) abunda en la carne roja y la mantequilla."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: el GLA está en el aceite de onagra, de borraja, la grosella negra y semillas de cáñamo.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-027",
+      "pregunta": "El ácido graso saturado que abunda en la manteca de cacao y el chocolate es:",
+      "opciones": [
+        "Láurico",
+        "Mirístico",
+        "Esteárico",
+        "Lignocérico"
+      ],
+      "correcta": 2,
+      "explicacion": "El esteárico (18:0) está en grasas animales y en la manteca de cacao.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-028",
+      "pregunta": "Es una fuente de ácido gammalinolénico (GLA):",
+      "opciones": [
+        "Aceite de coco",
+        "Carne roja",
+        "Mantequilla",
+        "Aceite de onagra y de borraja"
+      ],
+      "correcta": 3,
+      "explicacion": "El GLA (18:3 ω6) está en el aceite de onagra, de borraja, la grosella negra y semillas de cáñamo.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-029",
+      "pregunta": "El ácido araquidónico procede principalmente de:",
+      "opciones": [
+        "Carnes, vísceras y huevo.",
+        "Aceite de oliva.",
+        "Aceite de coco.",
+        "Cereales integrales."
+      ],
+      "correcta": 0,
+      "explicacion": "El araquidónico (20:4 ω6) está en carnes, vísceras y huevo.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-030",
+      "pregunta": "Un ácido graso se oxida más fácilmente cuanto:",
+      "opciones": [
+        "Menos dobles enlaces tiene.",
+        "Más insaturaciones tiene.",
+        "Más antioxidantes acompañan a la grasa.",
+        "Más saturado es."
+      ],
+      "correcta": 1,
+      "explicacion": "La oxidación depende del tamaño de la cadena, las insaturaciones (más insaturaciones, más oxidación) y la presencia de antioxidantes.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-031",
+      "pregunta": "De los siguientes, el ácido graso que se oxida con MÁS facilidad es:",
+      "opciones": [
+        "Láurico (12:0)",
+        "Oleico (18:1)",
+        "Linoleico (18:2)",
+        "Esteárico (18:0)"
+      ],
+      "correcta": 2,
+      "explicacion": "El linoleico tiene 2 dobles enlaces, más que el oleico (1) y los saturados (0), por lo que se oxida antes.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-032",
+      "pregunta": "Se asocia al exceso o a la mala calidad de las grasas:",
+      "opciones": [
+        "Aterosclerosis.",
+        "Diabetes tipo 2.",
+        "Esteatohepatitis no alcohólica (EHNA).",
+        "Todas son correctas."
+      ],
+      "correcta": 3,
+      "explicacion": "Se citan obesidad, tumores, aterosclerosis, diabetes tipo 2 y problemas hepáticos como la EHNA (que puede evolucionar a fibrosis y cirrosis).",
+      "dificultad": 1,
+      "orden_fijo": true
+    },
+    {
+      "id": "ae-t03-033",
+      "pregunta": "La EHNA (esteatohepatitis no alcohólica) puede evolucionar a:",
+      "opciones": [
+        "A fibrosis y cirrosis",
+        "A diabetes tipo 1",
+        "A celiaquía",
+        "A hipertiroidismo"
+      ],
+      "correcta": 0,
+      "explicacion": "La EHNA puede progresar a fibrosis y cirrosis hepática.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-034",
+      "pregunta": "Según los objetivos nutricionales para la población española, la grasa total debe aportar:",
+      "opciones": [
+        "Menos del 20 % del VCT.",
+        "Menos del 30 % del VCT (hasta el 35 % si abunda el aceite de oliva).",
+        "Menos del 50 % del VCT.",
+        "Entre el 10 y el 15 % del VCT."
+      ],
+      "correcta": 1,
+      "explicacion": "Grasa total < 30 % del VCT, o < 35 % si se consumen aceites monoinsaturados en alta proporción.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-035",
+      "pregunta": "Los ácidos grasos saturados (AGS) deben aportar:",
+      "opciones": [
+        "El 20 % del VCT.",
+        "Entre el 10 y el 15 % del VCT.",
+        "Menos del 7-8 % del VCT.",
+        "El 5 % del VCT."
+      ],
+      "correcta": 2,
+      "explicacion": "Objetivos: AGS < 7-8 % del VCT; AGP 5 %; AGM 20 % (la diferencia).",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-036",
+      "pregunta": "Según los objetivos nutricionales, señala la opción CORRECTA:",
+      "opciones": [
+        "AGS: 20 % del VCT.",
+        "AGP: 5 % del VCT.",
+        "AGM: menos del 7-8 % del VCT.",
+        "Todas son correctas."
+      ],
+      "correcta": 1,
+      "explicacion": "Solo es cierta la b. Objetivos: AGS < 7-8 %; AGP 5 %; AGM alrededor del 20 % del VCT (la diferencia).",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ae-t03-037",
+      "pregunta": "La recomendación de colesterol en la dieta es:",
+      "opciones": [
+        "Menos de 300 mg/día.",
+        "Menos de 1000 mg/día.",
+        "Menos de 50 mg/día.",
+        "Menos de 600 mg/día."
+      ],
+      "correcta": 0,
+      "explicacion": "Colesterol < 300 mg/día (< 100 mg/1000 kcal en dietas de unas 2500 kcal).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-038",
+      "pregunta": "Los ácidos grasos trans deben aportar:",
+      "opciones": [
+        "Menos del 10 % del VCT.",
+        "Menos del 1 % del VCT (menos de 3 g/día).",
+        "Menos del 5 % del VCT.",
+        "Menos del 3 % del VCT (menos de 10 g/día)."
+      ],
+      "correcta": 1,
+      "explicacion": "Los trans deben aportar menos del 1 % del VCT, es decir, menos de 3 g/día.",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-039",
+      "pregunta": "La relación omega-6/omega-3 recomendada es:",
+      "opciones": [
+        "20/1.",
+        "1/10.",
+        "De 4/1 a 5/1.",
+        "De 10/1 a 15/1."
+      ],
+      "correcta": 2,
+      "explicacion": "La relación n-6/n-3 recomendada es de 4/1 a 5/1.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-040",
+      "pregunta": "La ingesta de DHA recomendada es de:",
+      "opciones": [
+        "3 g/día",
+        "30 mg/día",
+        "3000 mg/día",
+        "300 mg/día"
+      ],
+      "correcta": 3,
+      "explicacion": "La recomendación de DHA es de 300 mg/día.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-041",
+      "pregunta": "Respecto a las recomendaciones de ácidos grasos esenciales, es FALSO que:",
+      "opciones": [
+        "El α-linolénico (n-3) debe aportar el 1-2 % del VCT.",
+        "El linoleico (n-6) debe aportar el 3 % del VCT.",
+        "Se recomiendan 300 mg/día de DHA.",
+        "El α-linolénico (n-3) debe aportar el 10 % del VCT."
+      ],
+      "correcta": 3,
+      "explicacion": "Es falso: el α-linolénico (n-3) debe aportar el 1-2 % del VCT. Linoleico (n-6): 3 % del VCT. DHA: 300 mg/día.",
+      "dificultad": 3
+    },
+    {
+      "id": "ae-t03-042",
+      "pregunta": "Para una buena calidad de la grasa se recomienda una relación (AGP + AGM)/AGS:",
+      "opciones": [
+        "≤ 0,5",
+        "≥ 2",
+        "≥ 10",
+        "= 1"
+      ],
+      "correcta": 1,
+      "explicacion": "Calidad de la grasa: AGP/AGS ≥ 0,5 y (AGP + AGM)/AGS ≥ 2.",
+      "dificultad": 3
+    },
+    {
+      "id": "ae-t03-043",
+      "pregunta": "Los tromboxanos intervienen en:",
+      "opciones": [
+        "Respuesta inmunitaria en el asma",
+        "Fiebre y contracción muscular",
+        "Agregación plaquetaria y vasoconstricción",
+        "Absorción de grasas"
+      ],
+      "correcta": 2,
+      "explicacion": "Prostaglandinas: fiebre, coagulación, contracción muscular, presión arterial. Tromboxanos: agregación plaquetaria y vasoconstricción. Leucotrienos: respuesta inmunitaria (asma).",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-044",
+      "pregunta": "Respecto a los eicosanoides, señala la opción CORRECTA:",
+      "opciones": [
+        "Los leucotrienos participan en la respuesta inmunitaria, por ejemplo en el asma.",
+        "Los tromboxanos producen vasodilatación e inhiben la agregación plaquetaria.",
+        "Las prostaglandinas derivan del colesterol.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0,
+      "explicacion": "Es cierta la a. Los tromboxanos producen agregación plaquetaria y vasoconstricción, y los eicosanoides derivan de ácidos grasos poliinsaturados, no del colesterol.",
+      "dificultad": 2,
+      "orden_fijo": true
+    },
+    {
+      "id": "ae-t03-045",
+      "pregunta": "Respecto a los omega-6 y la inflamación, es cierto que:",
+      "opciones": [
+        "Del linoleico pueden derivar prostaglandinas de serie 1 (como la E1), con acción antiinflamatoria.",
+        "Todos los omega-6 son proinflamatorios.",
+        "Del araquidónico derivan resolvinas, protectinas y maresinas.",
+        "Los omega-6 no influyen en la inflamación."
+      ],
+      "correcta": 0,
+      "explicacion": "La vía omega-6 puede dar prostaglandinas de serie 1 (antiinflamatorias); el araquidónico da derivados más proinflamatorios. Resolvinas, protectinas y maresinas derivan de los omega-3.",
+      "dificultad": 3
+    },
+    {
+      "id": "ae-t03-046",
+      "pregunta": "Las resolvinas, protectinas y maresinas, mediadores de la resolución de la inflamación, derivan de:",
+      "opciones": [
+        "El ácido araquidónico.",
+        "Los omega-3 (EPA y DHA).",
+        "El colesterol.",
+        "Los ácidos grasos saturados."
+      ],
+      "correcta": 1,
+      "explicacion": "Los omega-3 (EPA, DHA) originan resolvinas, protectinas y maresinas, que ayudan a resolver la inflamación.",
+      "dificultad": 3
+    },
+    {
+      "id": "ae-t03-047",
+      "pregunta": "Según la configuración espacial de sus dobles enlaces, los ácidos grasos insaturados pueden ser:",
+      "opciones": [
+        "Simples o complejos",
+        "Cortos o largos",
+        "Cis o trans",
+        "Polares o apolares"
+      ],
+      "correcta": 2,
+      "explicacion": "Los insaturados pueden ser cis (forma natural mayoritaria) o trans (origen animal o vegetal/industrial).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-048",
+      "pregunta": "Es una hormona esteroidea:",
+      "opciones": [
+        "Insulina",
+        "Glucagón",
+        "Adrenalina",
+        "Cortisol"
+      ],
+      "correcta": 3,
+      "explicacion": "Las hormonas esteroideas derivan del colesterol: suprarrenales (cortisol, aldosterona) y sexuales (andrógenos, testosterona, estrógenos, progesterona).",
+      "dificultad": 1
+    },
+    {
+      "id": "ae-t03-049",
+      "pregunta": "En un triglicérido, la parte apolar corresponde a:",
+      "opciones": [
+        "Las cadenas de ácidos grasos",
+        "El glicerol",
+        "El grupo fosfato",
+        "El grupo amino"
+      ],
+      "correcta": 0,
+      "explicacion": "Las colas de ácidos grasos son apolares (hidrófobas); la zona del glicerol y los grupos cargados son polares.",
+      "dificultad": 2
+    },
+    {
+      "id": "ae-t03-050",
+      "pregunta": "El caso de Angus Barbieri, que estuvo 382 días sin comer, se usa en el tema para ilustrar:",
+      "opciones": [
+        "La función energética de reserva de las grasas.",
+        "La función plástica de los fosfolípidos.",
+        "La función reguladora de los eicosanoides.",
+        "El efecto térmico de los alimentos."
+      ],
+      "correcta": 0,
+      "explicacion": "Angus Barbieri ayunó 382 días bajo control médico viviendo de sus reservas grasas: pasó de 207 a 82 kg.",
+      "dificultad": 1
+    }
+  ]
+}

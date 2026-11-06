@@ -1,0 +1,197 @@
+{
+  "libros": [
+    {
+      "id": "alimentacion-equilibrada",
+      "numero": 1,
+      "nombre": "Alimentación equilibrada",
+      "corto": "Alim. equilibrada",
+      "prefijo": "ae",
+      "icono": "🥗",
+      "color": "#3a9d4f",
+      "estado": "activo",
+      "temas": [
+        {
+          "id": "t01",
+          "numero": 1,
+          "titulo": "Energía y requerimientos energéticos",
+          "archivo": "tema-01.json",
+          "preguntas": 50
+        },
+        {
+          "id": "t02",
+          "numero": 2,
+          "titulo": "Carbohidratos",
+          "archivo": "tema-02.json",
+          "preguntas": 45
+        },
+        {
+          "id": "t03",
+          "numero": 3,
+          "titulo": "Los lípidos (las grasas)",
+          "archivo": "tema-03.json",
+          "preguntas": 50
+        },
+        {
+          "id": "t04",
+          "numero": 4,
+          "titulo": "Las proteínas",
+          "archivo": "tema-04.json",
+          "preguntas": 47
+        }
+      ]
+    },
+    {
+      "id": "dietoterapia",
+      "numero": 2,
+      "nombre": "Dietoterapia",
+      "corto": "Dietoterapia",
+      "prefijo": "dt",
+      "icono": "🩺",
+      "color": "#d9573a",
+      "estado": "activo",
+      "temas": [
+        {
+          "id": "t01",
+          "numero": 1,
+          "titulo": "Fundamentos de dietoterapia y dietas hospitalarias",
+          "archivo": "tema-01.json",
+          "preguntas": 54
+        },
+        {
+          "id": "t02",
+          "numero": 2,
+          "titulo": "Dieta y salud: enfoque actual",
+          "archivo": "tema-02.json",
+          "preguntas": 32
+        },
+        {
+          "id": "t03",
+          "numero": 3,
+          "titulo": "Interacciones fármacos-nutrientes",
+          "archivo": "tema-03.json",
+          "preguntas": 51
+        },
+        {
+          "id": "t04",
+          "numero": 4,
+          "titulo": "Alergias e intolerancias alimentarias",
+          "archivo": "tema-04.json",
+          "preguntas": 54
+        }
+      ]
+    },
+    {
+      "id": "control-alimentario",
+      "numero": 3,
+      "nombre": "Control alimentario",
+      "corto": "Control alimentario",
+      "prefijo": "ca",
+      "icono": "🔬",
+      "color": "#1f8a9e",
+      "estado": "activo",
+      "temas": [
+        {
+          "id": "t01",
+          "numero": 1,
+          "titulo": "Introducción al control alimentario",
+          "archivo": "tema-01.json",
+          "preguntas": 65
+        },
+        {
+          "id": "t02",
+          "numero": 2,
+          "titulo": "Contaminación abiótica de los alimentos",
+          "archivo": "tema-02.json",
+          "preguntas": 55
+        },
+        {
+          "id": "t03",
+          "numero": 3,
+          "titulo": "Contaminación biótica y microbiana",
+          "archivo": "tema-03.json",
+          "preguntas": 40
+        },
+        {
+          "id": "t04",
+          "numero": 4,
+          "titulo": "Alteraciones físico-químicas de los alimentos",
+          "archivo": "tema-04.json",
+          "preguntas": 56
+        },
+        {
+          "id": "t05",
+          "numero": 5,
+          "titulo": "Conservación e higienización de los alimentos",
+          "archivo": "tema-05.json",
+          "preguntas": 53
+        }
+      ]
+    },
+    {
+      "id": "fol",
+      "numero": 4,
+      "nombre": "Formación y orientación laboral",
+      "corto": "FOL",
+      "prefijo": "fo",
+      "icono": "💼",
+      "color": "#4a7aa8",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "microbiologia-higiene",
+      "numero": 5,
+      "nombre": "Microbiología e higiene alimentaria",
+      "corto": "Microbiología",
+      "prefijo": "mh",
+      "icono": "🦠",
+      "color": "#8a5cc2",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "fisiopatologia",
+      "numero": 6,
+      "nombre": "Fisiopatología aplicada a la dietética",
+      "corto": "Fisiopatología",
+      "prefijo": "fp",
+      "icono": "🫀",
+      "color": "#c2410c",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "organizacion-gestion",
+      "numero": 7,
+      "nombre": "Organización y gestión de la unidad de área",
+      "corto": "Organización",
+      "prefijo": "og",
+      "icono": "📋",
+      "color": "#6b6fd6",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "educacion-sanitaria",
+      "numero": 8,
+      "nombre": "Educación sanitaria",
+      "corto": "Educación sanitaria",
+      "prefijo": "es",
+      "icono": "🍎",
+      "color": "#d94a6a",
+      "estado": "proximamente",
+      "temas": []
+    },
+    {
+      "id": "ret",
+      "numero": 9,
+      "nombre": "Relaciones en el entorno de trabajo (RET)",
+      "corto": "RET",
+      "prefijo": "re",
+      "icono": "🤝",
+      "color": "#b8860b",
+      "estado": "proximamente",
+      "temas": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#2f9e5b"/>
+  <ellipse cx="195" cy="270" rx="85" ry="120" fill="#fff"/>
+  <ellipse cx="317" cy="270" rx="85" ry="120" fill="#fff"/>
+  <ellipse cx="256" cy="330" rx="86" ry="70" fill="#fff"/>
+  <path d="M256 150 L276 95 L316 70 L300 120 Z" fill="#bfe8cd"/>
+  <!-- J de Julie -->
+  <path d="M236 208 H316 M290 208 V288 A38 38 0 0 1 214 288" fill="none" stroke="#2f9e5b" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
